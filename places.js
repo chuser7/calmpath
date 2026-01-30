@@ -1,3 +1,27 @@
+const places = [
+  {
+    name: "Condado Tacos – The Banks",
+    type: "full",
+    whatToExpect: "Casual restaurant with a bar-centric layout and an active, social atmosphere. Tends to feel louder and more crowded during peak meal times and game nights.",
+    environment: {
+      parking: "Street and garage parking nearby; busy during events.",
+      restrooms: {
+        capacity: "Likely limited capacity",
+        waits: "Waits possible during busy times",
+        location: "Not enough information yet"
+      },
+      noise: "Moderate to loud when busy",
+      exits: "Easy to step outside near the entrance"
+    },
+    insights: [
+      "Bar area tends to be louder than dining tables",
+      "Crowds increase significantly on game days"
+    ]
+  },
+
+  // Paste additional places BELOW this line
+];
+
 function normalize(text) {
   return text
     .toLowerCase()
