@@ -20,6 +20,66 @@ const places = [
   },
 
   // Paste additional places BELOW this line
+  {
+  name: "Biscuit Love Cincinnati",
+  type: "full",
+  whatToExpect: "Bright, casual daytime restaurant with a compact dining area. Usually busiest during breakfast and brunch hours, especially on weekends, with lighter traffic later in the day.",
+  environment: {
+    parking: "Limited street parking nearby; nearby garages are available but brunch hours can make parking competitive.",
+    restrooms: {
+      capacity: "Likely limited capacity",
+      waits: "Waits possible during busy times",
+      location: "Not enough information yet"
+    },
+    noise: "Moderate; higher during peak brunch times and calmer during off-hours.",
+    exits: "Easy to step outside; street-level entrance allows for quick exits."
+  },
+  insights: [
+    "Often described as bright and bustling during morning hours.",
+    "Steady flow of guests is common, especially on weekends.",
+    "Timing tends to matter more than length of stay for comfort."
+  ]
+},
+{
+  name: "Jefferson Social",
+  type: "full",
+  whatToExpect: "Large bar with extensive outdoor seating in a downtown riverfront setting. Typically quieter earlier in the day and more energetic and busy in the evenings or around local games and events.",
+  environment: {
+    parking: "Limited street parking nearby; garages are available but fill quickly during games or weekend evenings.",
+    restrooms: {
+      capacity: "Likely multiple stalls",
+      waits: "Waits possible during busy times",
+      location: "Not enough information yet"
+    },
+    noise: "High; background noise can make conversation harder during nights, weekends, and events.",
+    exits: "Easy to step outside; direct access to The Banks and nearby walkways makes stepping out straightforward."
+  },
+  insights: [
+    "Atmosphere is commonly described as lively, especially near games and events.",
+    "Outdoor seating is frequently mentioned as part of the experience."
+  ]
+},
+{
+  name: "Krueger’s Tavern",
+  type: "full",
+  whatToExpect: "Casual tavern with indoor seating and a small outdoor area along Vine Street. Typically calmer during midday and busier with more background energy on weekend evenings or near local events.",
+  environment: {
+    parking: "Limited street parking nearby; nearby garages are available but availability drops quickly on weekends and event nights.",
+    restrooms: {
+      capacity: "Likely limited capacity",
+      waits: "Waits possible during busy times",
+      location: "Not enough information yet"
+    },
+    noise: "Moderate; background noise increases later in the evening or on busier nights.",
+    exits: "Easy to step outside; street-level entrance allows quick access to the sidewalk."
+  },
+  insights: [
+    "Often described as a neighborhood-style tavern with a relaxed feel.",
+    "Background music and energy increase later in the evening.",
+    "Outdoor seating in front is mentioned as an option when weather permits."
+  ]
+}
+
 ];
 
 function normalize(text) {
