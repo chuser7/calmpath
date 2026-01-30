@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CalmPath</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #fafafa;
+      color: #111;
+      margin: 0;
+      padding: 16px;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    h2 { font-size: 1.2rem; margin-top: 24px; }
+    p { line-height: 1.5; }
+    input {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      margin: 16px 0;
+    }
+    .card {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 16px;
+    }
+    .label {
+      font-size: 0.85rem;
+      color: #555;
+      margin-bottom: 8px;
+    }
+    ul { padding-left: 18px; }
+  </style>
+</head>
+<body>
+
+  <h1>CalmPath</h1>
+  <p><strong>Plan with calm. Go with confidence.</strong><br>
+  Know what to expect before you leave the house.</p>
+
+  <input
+    id="search"
+    placeholder="Enter a place name"
+    oninput="searchPlace()"
+  />
+
+  <div id="result"></div>
+
+  <script src="places.js"></script>
+</body>
+</html>
