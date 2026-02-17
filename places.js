@@ -97,7 +97,7 @@ function searchPlace() {
   if (!input) return;
 
   const matches = places.filter(place =>
-    normalize(place.name).startswith(input)
+    normalize(place.name).startsWith(input)
   );
 
   if (matches.length === 0) {
