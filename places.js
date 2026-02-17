@@ -99,7 +99,7 @@ function searchPlace() {
 const matches = places.filter(place => {
   const words = normalize(place.name).split(" ");
   return words.some(word => word.startsWith(input));
-  );
+});
 
   if (matches.length === 0) {
     resultDiv.innerHTML = `
