@@ -96,8 +96,9 @@ function searchPlace() {
 
   if (!input) return;
 
-  const matches = places.filter(place =>
-    normalize(place.name).startsWith(input)
+const matches = places.filter(place => {
+  const words = normalize(place.name).split(" ");
+  return words.some(word => word.startsWith(input));
   );
 
   if (matches.length === 0) {
