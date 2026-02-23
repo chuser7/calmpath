@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CalmPath</title>
+
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -12,34 +13,92 @@
       margin: 0;
       padding: 16px;
     }
-    h1 { font-size: 1.8rem; margin-bottom: 4px; }
-    h2 { font-size: 1.2rem; margin-top: 24px; }
-    p { line-height: 1.5; }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin: 8px 0;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      line-height: 1.4;
+      margin: 6px 0;
+    }
+
     input {
       width: 100%;
       padding: 12px;
       font-size: 1rem;
       margin: 16px 0;
+      border-radius: 8px;
+      border: 1px solid #ddd;
     }
+
     .card {
       background: #fff;
       padding: 16px;
-      border-radius: 8px;
+      border-radius: 12px;
       margin-top: 16px;
     }
+
     .label {
-      font-size: 0.85rem;
-      color: #555;
-      margin-bottom: 8px;
+      font-size: 0.75rem;
+      color: #666;
+      margin-bottom: 6px;
     }
-    ul { padding-left: 18px; }
+
+    /* Snapshot Grid */
+    .snapshot {
+      margin: 12px 0 8px 0;
+    }
+
+    .snapshot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .snapshot-item {
+      background: #f2f2f2;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .snapshot-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 4px;
+    }
+
+    .snapshot-value {
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
   </style>
 </head>
+
 <body>
 
   <h1>CalmPath</h1>
-  <p><strong>Plan with calm. Go with confidence.</strong><br>
-  Know what to expect before you leave the house.</p>
+  <p>
+    <strong>Know what you're walking into before trying somewhere new.</strong><br>
+    See parking, noise, restrooms, and layout before you leave the house.
+  </p>
 
   <input
     id="search"
@@ -50,5 +109,6 @@
   <div id="result"></div>
 
   <script src="places.js"></script>
+
 </body>
 </html>
