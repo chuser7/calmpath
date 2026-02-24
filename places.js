@@ -338,7 +338,7 @@ function searchPlace() {
   if (matches.length === 0) {
     resultDiv.innerHTML = `
       <p style="margin-top:16px;">
-        We don’t have a CalmPath profile for that place yet.
+        We don’t have a CalmPath profile for that place yet. Please let me know what place you'd like to see and I'll get it added.
       </p>
     `;
     return;
