@@ -331,10 +331,9 @@ function searchPlace() {
 
   if (!input) return;
 
-  const matches = places.filter(place => {
-    const words = normalize(place.name).split(" ");
-    return words.some(word => word.startsWith(input));
-  });
+  const matches = places.filter(place =>
+    normalize(place.name).startsWith(input)
+  );
 
   if (matches.length === 0) {
     resultDiv.innerHTML = `
@@ -353,9 +352,7 @@ function searchPlace() {
 
     resultDiv.innerHTML += `
       <div class="card">
-        <div class="label">
-          CalmPath profile
-        </div>
+        <div class="label">CalmPath profile</div>
 
         <h2>${place.name}</h2>
 
@@ -390,7 +387,6 @@ function searchPlace() {
 
         <h3>Observed patterns</h3>
         ${patternsHTML}
-
       </div>
     `;
   });
