@@ -358,27 +358,22 @@ function searchPlace() {
 
         <div class="snapshot">
           <div class="snapshot-grid">
-
             <div class="snapshot-item">
               <div class="snapshot-label">Parking</div>
               <div class="snapshot-value">${place.environment.parking}</div>
             </div>
-
             <div class="snapshot-item">
               <div class="snapshot-label">Noise</div>
               <div class="snapshot-value">${place.environment.noise}</div>
             </div>
-
             <div class="snapshot-item">
               <div class="snapshot-label">Restrooms</div>
               <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
             </div>
-
             <div class="snapshot-item">
               <div class="snapshot-label">Exits</div>
               <div class="snapshot-value">${place.environment.exits}</div>
             </div>
-
           </div>
         </div>
 
@@ -391,3 +386,32 @@ function searchPlace() {
     `;
   });
 }
+
+/* ============================
+   Rotating Placeholder Examples
+   ============================ */
+
+const searchInput = document.getElementById("search");
+
+const examplePlaces = [
+  "Rhinegeist Brewery",
+  "Condado Tacos – The Banks",
+  "Pepp & Dolores",
+  "MadTree Brewing",
+  "Moerlein Lager House",
+  "Yard House"
+];
+
+let exampleIndex = 0;
+
+searchInput.placeholder = `Search a place (ex: ${examplePlaces[0]})`;
+
+const rotatePlaceholder = setInterval(() => {
+  if (searchInput.value.length > 0) {
+    clearInterval(rotatePlaceholder);
+    return;
+  }
+
+  exampleIndex = (exampleIndex + 1) % examplePlaces.length;
+  searchInput.placeholder = `Search a place (ex: ${examplePlaces[exampleIndex]})`;
+}, 3000);
