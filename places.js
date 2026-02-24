@@ -24,24 +24,23 @@ const places = [
     name: "Biscuit Love Cincinnati",
     type: "full",
     whatToExpect:
-      "Bright, casual daytime restaurant with a compact dining area. Usually busiest during breakfast and brunch hours, especially on weekends, with lighter traffic later in the day.",
+      "Bright, casual daytime restaurant with a compact dining area. Usually busiest during breakfast and brunch hours, especially on weekends.",
     environment: {
       parking:
-        "Limited street parking nearby; nearby garages are available but brunch hours can make parking competitive.",
+        "Limited street parking nearby; garages available but competitive during brunch.",
       restrooms: {
         capacity: "Likely limited capacity",
         waits: "Waits possible during busy times",
         location: "Not enough information yet"
       },
       noise:
-        "Moderate; higher during peak brunch times and calmer during off-hours.",
+        "Moderate; louder during peak brunch hours.",
       exits:
-        "Easy to step outside; street-level entrance allows for quick exits."
+        "Street-level entrance allows quick access outside."
     },
     insights: [
-      "Often described as bright and bustling during morning hours.",
-      "Steady flow of guests is common, especially on weekends.",
-      "Timing tends to matter more than length of stay for comfort."
+      "Bright and bustling during morning hours.",
+      "Steady guest flow on weekends."
     ]
   },
 
@@ -49,23 +48,23 @@ const places = [
     name: "Jefferson Social",
     type: "full",
     whatToExpect:
-      "Large bar with extensive outdoor seating in a downtown riverfront setting. Typically quieter earlier in the day and more energetic and busy in the evenings or around local games and events.",
+      "Large bar with extensive outdoor seating in a downtown riverfront setting. Typically quieter earlier in the day and more energetic in the evenings or around local events.",
     environment: {
       parking:
-        "Limited street parking nearby; garages are available but fill quickly during games or weekend evenings.",
+        "Limited street parking; garages fill quickly during games or weekends.",
       restrooms: {
         capacity: "Likely multiple stalls",
         waits: "Waits possible during busy times",
         location: "Not enough information yet"
       },
       noise:
-        "High; background noise can make conversation harder during nights, weekends, and events.",
+        "High during nights, weekends, and events.",
       exits:
-        "Easy to step outside; direct access to The Banks and nearby walkways makes stepping out straightforward."
+        "Direct access to The Banks; stepping outside is straightforward."
     },
     insights: [
-      "Atmosphere is commonly described as lively, especially near games and events.",
-      "Outdoor seating is frequently mentioned as part of the experience."
+      "Atmosphere becomes lively near games and events.",
+      "Outdoor seating is a common draw."
     ]
   },
 
@@ -73,24 +72,23 @@ const places = [
     name: "Krueger’s Tavern",
     type: "full",
     whatToExpect:
-      "Casual tavern with indoor seating and a small outdoor area along Vine Street. Typically calmer during midday and busier with more background energy on weekend evenings or near local events.",
+      "Casual tavern with indoor seating and a small outdoor area. Calmer during midday and busier on weekend evenings.",
     environment: {
       parking:
-        "Limited street parking nearby; nearby garages are available but availability drops quickly on weekends and event nights.",
+        "Limited street parking; nearby garages available but tighter on weekends.",
       restrooms: {
         capacity: "Likely limited capacity",
         waits: "Waits possible during busy times",
         location: "Not enough information yet"
       },
       noise:
-        "Moderate; background noise increases later in the evening or on busier nights.",
+        "Moderate; increases later in the evening.",
       exits:
-        "Easy to step outside; street-level entrance allows quick access to the sidewalk."
+        "Street-level entrance allows quick sidewalk access."
     },
     insights: [
-      "Often described as a neighborhood-style tavern with a relaxed feel.",
-      "Background music and energy increase later in the evening.",
-      "Outdoor seating in front is mentioned as an option when weather permits."
+      "Relaxed neighborhood feel during the day.",
+      "Energy increases later in the evening."
     ]
   }
 ];
@@ -174,14 +172,6 @@ function searchPlace() {
 
         <h3>What to expect</h3>
         <p>${place.whatToExpect}</p>
-
-        <h3>Environment details</h3>
-        <p><strong>Parking:</strong> ${place.environment.parking}</p>
-        <p><strong>Restroom capacity:</strong> ${place.environment.restrooms.capacity}</p>
-        <p><strong>Restroom waits:</strong> ${place.environment.restrooms.waits}</p>
-        <p><strong>Restroom location:</strong> ${place.environment.restrooms.location}</p>
-        <p><strong>Noise:</strong> ${place.environment.noise}</p>
-        <p><strong>Exits:</strong> ${place.environment.exits}</p>
 
         <h3>Observed patterns</h3>
         ${patternsHTML}
