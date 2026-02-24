@@ -124,12 +124,10 @@ function searchPlace() {
   }
 
   matches.forEach(place => {
-    const insightsHTML =
+    const patternsHTML =
       place.insights && place.insights.length
-        ? `<ul>${place.insights
-            .map(i => `<li>${i}</li>`)
-            .join("")}</ul>`
-        : "<p>No community insights yet.</p>";
+        ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+        : "<p>No observed patterns yet.</p>";
 
     resultDiv.innerHTML += `
       <div class="card">
@@ -140,7 +138,6 @@ function searchPlace() {
 
         <h2>${place.name}</h2>
 
-        <!-- QUICK SNAPSHOT GRID -->
         <div class="snapshot">
           <div class="snapshot-grid">
 
@@ -186,15 +183,8 @@ function searchPlace() {
         <p><strong>Noise:</strong> ${place.environment.noise}</p>
         <p><strong>Exits:</strong> ${place.environment.exits}</p>
 
-        <h3>Community insights</h3>
-        ${insightsHTML}
-
-        <h3>Take a moment</h3>
-        <p>
-          Breathe in for 4 seconds.<br>
-          Breathe out for 6 seconds.<br><br>
-          You’re allowed to step outside or leave at any time.
-        </p>
+        <h3>Observed patterns</h3>
+        ${patternsHTML}
 
       </div>
     `;
