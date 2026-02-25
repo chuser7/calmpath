@@ -665,6 +665,226 @@ const places = [
     "Lunch is typically the busiest window.",
     "Activity remains steady rather than event-driven."
   ]
+},
+
+  {
+  name: "Hofbräuhaus Newport",
+  type: "full",
+  whatToExpect:
+    "Large, multi-level beer hall with communal seating and open floor space. Calmer earlier in the day, with significantly more activity during evenings, weekends, and special events.",
+  environment: {
+    parking: "Shared riverfront garages and lots; fills quickly on weekends and event nights.",
+    restrooms: {
+      capacity: "Multiple; accessible",
+      waits: "Possible during peak events",
+      location: "Inside multiple levels"
+    },
+    noise: "High; especially elevated during live music and peak hours.",
+    exits: "Large entrance and patio access."
+  },
+  insights: [
+    "Energy closely tied to live music and group gatherings.",
+    "Communal layout shapes overall experience.",
+    "Weekends bring the strongest increase in volume and activity."
+  ]
+},
+
+{
+  name: "The Baker’s Table",
+  type: "full",
+  whatToExpect:
+    "Small, reservation-focused dining space with a structured table layout. Calm earlier in the evening, with fuller seating during peak dinner hours and weekends.",
+  environment: {
+    parking: "Street parking along Monmouth + nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except during peak dinner",
+      location: "Inside main floor"
+    },
+    noise: "Low to Moderate; typically conversation-friendly.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Reservation-driven pacing shapes the evening.",
+    "Energy remains steady rather than loud, even when full.",
+    "Flow feels structured and timed."
+  ]
+},
+
+{
+  name: "Shiners on the Levee",
+  type: "full",
+  whatToExpect:
+    "Large entertainment-focused bar with indoor and outdoor riverfront areas. Quieter during daytime hours and significantly busier at night, especially on weekends.",
+  environment: {
+    parking: "Riverfront garages and lots; fills during peak nightlife hours.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak late-night hours",
+      location: "Inside main building"
+    },
+    noise: "High; elevated during live music and late-night hours.",
+    exits: "Multiple access points including outdoor space."
+  },
+  insights: [
+    "Nightlife-centered with activity concentrated after dark.",
+    "Clear shift from daytime quiet to late-night energy.",
+    "Weekend evenings bring the highest crowd levels."
+  ]
+},
+
+{
+  name: "Bridgeview Box Park",
+  type: "full",
+  whatToExpect:
+    "Open-air container park with multiple vendors and outdoor seating. Lighter earlier in the day, with more activity during evenings and warm-weather weekends.",
+  environment: {
+    parking: "Shared riverfront parking nearby; availability varies by event.",
+    restrooms: {
+      capacity: "Shared facilities; accessible",
+      waits: "Possible during peak warm-weather evenings",
+      location: "On-site shared restrooms"
+    },
+    noise: "Moderate; varies depending on vendors and events.",
+    exits: "Fully outdoor layout with open access."
+  },
+  insights: [
+    "Weather significantly impacts foot traffic.",
+    "Open layout creates casual flow between vendors.",
+    "Activity builds gradually through the evening."
+  ]
+},
+
+{
+  name: "Jerry’s Jug House",
+  type: "full",
+  whatToExpect:
+    "Small, historic bar with a compact interior and limited seating. Steady earlier in the day and moderately active in the evenings.",
+  environment: {
+    parking: "Street parking nearby; limited during peak hours.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Possible when full",
+      location: "Inside main area"
+    },
+    noise: "Moderate; increases as the space fills due to size.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Tight footprint shapes overall atmosphere.",
+    "Consistent local crowd presence.",
+    "Activity remains steady rather than event-driven."
+  ]
+},
+
+{
+  name: "Press on Monmouth",
+  type: "full",
+  whatToExpect:
+    "Street-level café-style space with indoor seating and visible bar area. Calm earlier in the day, with increased activity during brunch and evening hours.",
+  environment: {
+    parking: "Street parking along Monmouth; limited during peak hours.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak brunch",
+      location: "Inside main area"
+    },
+    noise: "Moderate; higher during brunch and dinner peaks.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Brunch is typically the busiest window.",
+    "Daytime feels bright and open.",
+    "Evenings feel more structured and paced."
+  ]
+},
+
+{
+  name: "Wooden Cask Brewing Company",
+  type: "full",
+  whatToExpect:
+    "Small brewery taproom with bar seating and limited table space. Calm during weekday afternoons and busier in the evenings and on weekends.",
+  environment: {
+    parking: "Street parking nearby; tighter during weekend evenings.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Possible during peak hours",
+      location: "Inside main taproom"
+    },
+    noise: "Moderate; increases as the space fills.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Compact layout fills quickly.",
+    "Locally driven foot traffic.",
+    "Activity builds gradually rather than sharply."
+  ]
+},
+
+{
+  name: "Pompilio’s",
+  type: "full",
+  whatToExpect:
+    "Historic Italian restaurant with multiple dining rooms and a traditional layout. Steady during lunch and busier during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking + nearby public lots; availability varies by time.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner",
+      location: "Inside main building"
+    },
+    noise: "Moderate; increases as dining rooms fill.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Multi-room layout changes the feel depending on placement.",
+    "Consistent foot traffic across lunch and dinner.",
+    "Dinner hours bring the strongest increase in activity."
+  ]
+},
+
+{
+  name: "Crazy Fox Saloon",
+  type: "full",
+  whatToExpect:
+    "Neighborhood bar with a compact layout and bar-forward seating. Quieter earlier in the day and busier during evenings and weekends.",
+  environment: {
+    parking: "Street parking nearby; limited during peak nights.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Possible during peak evening hours",
+      location: "Inside main area"
+    },
+    noise: "Moderate to High; higher during weekend evenings.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Bar-driven activity increases later in the evening.",
+    "Local crowd presence shapes overall pacing.",
+    "Weekends bring the most noticeable shift."
+  ]
+},
+
+{
+  name: "New Riff Distilling",
+  type: "full",
+  whatToExpect:
+    "Modern distillery with tasting room and guided tour spaces across multiple levels. Calm during weekday afternoons and busier during weekend tours and evening events.",
+  environment: {
+    parking: "Dedicated on-site parking lot available.",
+    restrooms: {
+      capacity: "Multiple; accessible",
+      waits: "Uncommon except during peak tours",
+      location: "Inside main building"
+    },
+    noise: "Low to Moderate; varies depending on tour groups and events.",
+    exits: "Multiple entrances and patio access."
+  },
+  insights: [
+    "Activity closely tied to scheduled tastings and tours.",
+    "Tour timing shapes crowd flow more than walk-in traffic.",
+    "Weekends bring stronger group activity."
+  ]
 }
 
 ];
