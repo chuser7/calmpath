@@ -313,7 +313,139 @@ const places = [
       "Energy tracks with downtown events.",
       "Noticeably calmer earlier in the day."
     ]
-  }
+  },
+  
+  {
+  name: "Otto’s",
+  type: "full",
+  whatToExpect:
+    "Compact, street-level restaurant with a traditional dining room layout. Calmer earlier in the evening, with fuller tables and steadier pacing during peak dinner hours and weekends.",
+  environment: {
+    parking: "Street parking along Main Street + nearby public lots; may require a short walk during peak times.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; conversation-friendly earlier, increasing when fully seated.",
+    exits: "Direct Main Street access."
+  },
+  insights: [
+    "Dining flow tends to feel structured and steady.",
+    "Weekend evenings reach full capacity but remain controlled.",
+    "Earlier dinner hours feel less rushed."
+  ]
+},
+
+{
+  name: "Mama’s on Main",
+  type: "full",
+  whatToExpect:
+    "Street-level Italian restaurant with a compact, enclosed dining room. Typically quieter midweek and earlier in the evening, with closer seating and increased activity during weekend dinner hours.",
+  environment: {
+    parking: "Street parking along Main Street + nearby public parking.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible as dining room fills",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; increases during peak dinner service.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Smaller layout fills quickly during peak hours.",
+    "Atmosphere shifts noticeably between early and peak dinner times.",
+    "Seating proximity influences overall feel when full."
+  ]
+},
+
+{
+  name: "Cedar",
+  type: "full",
+  whatToExpect:
+    "Modern restaurant with an open dining layout and bar seating. Generally calm during weekday hours, with a steadier dinner crowd on weekends.",
+  environment: {
+    parking: "Street parking + nearby lots; availability varies by time.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except during peak dinner",
+      location: "Inside main area"
+    },
+    noise: "Moderate; conversation-friendly earlier, increasing slightly during peak dinner.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Layout supports steady, organized dining flow.",
+    "Weekend evenings bring noticeable but controlled activity.",
+    "Pacing remains consistent rather than high-turnover."
+  ]
+},
+
+{
+  name: "Cock & Bull",
+  type: "full",
+  whatToExpect:
+    "Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day, with increased activity during evenings and weekends.",
+  environment: {
+    parking: "Street parking + nearby lots; tighter during peak evening hours.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during busy evenings",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; higher during evening bar activity.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Bar-driven layout influences overall energy.",
+    "Daytime and evening experiences differ noticeably.",
+    "Evening activity centers around bar seating."
+  ]
+},
+
+{
+  name: "Doubt It Bar",
+  type: "full",
+  whatToExpect:
+    "Small bar with a compact interior and close seating. Quieter earlier in the day, with increased activity later at night and on weekends.",
+  environment: {
+    parking: "Street parking nearby; may require walking during busier nights.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Possible during peak late-night hours",
+      location: "Inside main area"
+    },
+    noise: "Moderate to High; increases as the space fills later in the evening.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Compact layout shapes overall energy level.",
+    "Late-night hours drive peak activity.",
+    "Timing influences comfort more than venue size."
+  ]
+},
+
+{
+  name: "Zazou",
+  type: "full",
+  whatToExpect:
+    "Restaurant and bar with contemporary dining and lounge-style seating. Calmer earlier in the evening, with fuller seating and increased activity on weekends.",
+  environment: {
+    parking: "Street parking along Main Street + nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak weekend dinner hours",
+      location: "Inside main level"
+    },
+    noise: "Moderate; higher during weekend dinner and bar activity.",
+    exits: "Direct Main Street access."
+  },
+  insights: [
+    "Layout supports both seated dining and bar-focused visits.",
+    "Weekend evenings shift energy noticeably.",
+    "Earlier hours feel more predictable and paced."
+  ]
+}
 
 ];
 
