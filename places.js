@@ -777,39 +777,47 @@ function searchPlace() {
         : "<p>No observed patterns yet.</p>";
 
     resultDiv.innerHTML += `
-      <div class="card">
-        <div class="label">CalmPath profile</div>
+  <div class="card">
+    <div class="label">CalmPath profile</div>
 
-        <h2>${place.name}</h2>
+    <h2>${place.name}</h2>
+    <div class="location">
+      ${place.city}, ${place.state}
+    </div>
 
-        <div class="snapshot">
-          <div class="snapshot-grid">
-            <div class="snapshot-item">
-              <div class="snapshot-label">Parking</div>
-              <div class="snapshot-value">${place.environment.parking}</div>
-            </div>
-            <div class="snapshot-item">
-              <div class="snapshot-label">Noise</div>
-              <div class="snapshot-value">${place.environment.noise}</div>
-            </div>
-            <div class="snapshot-item">
-              <div class="snapshot-label">Restrooms</div>
-              <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
-            </div>
-            <div class="snapshot-item">
-              <div class="snapshot-label">Exits</div>
-              <div class="snapshot-value">${place.environment.exits}</div>
-            </div>
-          </div>
+    <div class="snapshot">
+      <div class="snapshot-grid">
+
+        <div class="snapshot-item">
+          <div class="snapshot-label">Parking</div>
+          <div class="snapshot-value">${place.environment.parking}</div>
         </div>
 
-        <h3>What to expect</h3>
-        <p>${place.whatToExpect}</p>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Noise</div>
+          <div class="snapshot-value">${place.environment.noise}</div>
+        </div>
 
-        <h3>Observed patterns</h3>
-        ${patternsHTML}
+        <div class="snapshot-item">
+          <div class="snapshot-label">Restrooms</div>
+          <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+        </div>
+
+        <div class="snapshot-item">
+          <div class="snapshot-label">Exits</div>
+          <div class="snapshot-value">${place.environment.exits}</div>
+        </div>
+
       </div>
-    `;
+    </div>
+
+    <h3>What to expect</h3>
+    <p>${place.whatToExpect}</p>
+
+    <h3>Observed patterns</h3>
+    ${patternsHTML}
+  </div>
+`;
   });
 }
 
