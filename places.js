@@ -1,888 +1,742 @@
 const places = [
 
-  {
-    name: "Condado Tacos – The Banks",
-    type: "full",
-    whatToExpect:
-      "Casual restaurant with a bar-centric layout and an active, social atmosphere. Tends to feel louder and more crowded during peak meal times and game nights.",
-    environment: {
-      parking: "Street + garage nearby; tight during events.",
-      restrooms: {
-        capacity: "Limited capacity",
-        waits: "Waits possible during busy times",
-        location: "Inside main area"
-      },
-      noise: "Moderate–Loud when busy.",
-      exits: "Street-level; easy step outside."
-    },
-    insights: [
-      "Bar area tends to be louder than dining tables.",
-      "Crowds increase significantly on game days."
-    ]
-  },
-
-  {
-    name: "Biscuit Love Cincinnati",
-    type: "full",
-    whatToExpect:
-      "Bright, casual daytime restaurant with a compact dining area. Busiest during breakfast and weekend brunch hours.",
-    environment: {
-      parking: "Street + nearby garages; competitive during brunch.",
-      restrooms: {
-        capacity: "Limited capacity",
-        waits: "Waits possible during peak brunch",
-        location: "Inside restaurant"
-      },
-      noise: "Moderate; higher during brunch rush.",
-      exits: "Street-level entrance."
-    },
-    insights: [
-      "Bright and bustling during mornings.",
-      "Steady weekend traffic."
-    ]
-  },
-
-  {
-    name: "Jefferson Social",
-    type: "full",
-    whatToExpect:
-      "Large bar with extensive outdoor seating. Quieter earlier; more energetic evenings and game days.",
-    environment: {
-      parking: "Street + garages; tight during games.",
-      restrooms: {
-        capacity: "Multiple stalls",
-        waits: "Possible during busy nights",
-        location: "Inside main building"
-      },
-      noise: "High evenings/weekends.",
-      exits: "Direct access to The Banks."
-    },
-    insights: [
-      "Energy closely tied to game schedules.",
-      "Outdoor seating is a major draw."
-    ]
-  },
-
-  {
-    name: "Krueger’s Tavern",
-    type: "full",
-    whatToExpect:
-      "Casual tavern with indoor and small outdoor seating. Calmer midday; busier on weekends.",
-    environment: {
-      parking: "Street + nearby garages; tighter on weekends.",
-      restrooms: {
-        capacity: "Limited capacity",
-        waits: "Possible during peak hours",
-        location: "Inside venue"
-      },
-      noise: "Moderate; louder late evenings.",
-      exits: "Street-level entrance."
-    },
-    insights: [
-      "Neighborhood-style relaxed feel.",
-      "Energy increases later in the evening."
-    ]
-  },
-
-  {
-    name: "Bakersfield OTR",
-    type: "full",
-    whatToExpect:
-      "Spacious taco and tequila spot with indoor and outdoor seating. Livelier in evenings and on Taco Tuesdays.",
-    environment: {
-      parking: "Street + garages; tight at peak.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during busy times",
-        location: "Inside main dining area"
-      },
-      noise: "Moderate; louder evenings.",
-      exits: "Street-level on Vine St."
-    },
-    insights: [
-      "Energy builds in the evenings.",
-      "Music contributes to lively atmosphere."
-    ]
-  },
-
-  {
-    name: "MadTree Brewing",
-    type: "full",
-    whatToExpect:
-      "Large brewery with expansive indoor and outdoor seating. Calmer daytime; lively evenings and weekends.",
-    environment: {
-      parking: "On-site lot + street; fills quickly.",
-      restrooms: {
-        capacity: "Multiple; accessible",
-        waits: "Possible on busy nights",
-        location: "Inside main building"
-      },
-      noise: "Low–Moderate daytime; High evenings.",
-      exits: "Large patio and multiple exits."
-    },
-    insights: [
-      "Open, social layout.",
-      "Crowds increase significantly on weekends."
-    ]
-  },
-
-  {
-    name: "Maplewood Kitchen + Bar",
-    type: "full",
-    whatToExpect:
-      "Bright café focused on breakfast and lunch. Busier during brunch and weekday lunch rush.",
-    environment: {
-      parking: "Street + downtown garages.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during brunch peak",
-        location: "Inside restaurant"
-      },
-      noise: "Moderate; higher during brunch.",
-      exits: "Open layout; quick street exit."
-    },
-    insights: [
-      "Bright and airy setting.",
-      "Weekend brunch draws steady crowds."
-    ]
-  },
-
-  {
-    name: "Moerlein Lager House",
-    type: "full",
-    whatToExpect:
-      "Large riverfront restaurant with multi-level seating and patio space. Activity increases around games.",
-    environment: {
-      parking: "Garages + street; limited during events.",
-      restrooms: {
-        capacity: "Multiple; accessible",
-        waits: "Possible during peak events",
-        location: "Inside multiple levels"
-      },
-      noise: "Moderate daytime; High during events.",
-      exits: "Multiple exits + patio access."
-    },
-    insights: [
-      "Crowds track closely with stadium schedules.",
-      "Spacious layout accommodates groups."
-    ]
-  },
-
-  {
-    name: "O’Malley’s in the Alley",
-    type: "full",
-    whatToExpect:
-      "Historic Irish pub below street level. Calmer weekdays; busier before games.",
-    environment: {
-      parking: "Street + garages; tight on game days.",
-      restrooms: {
-        capacity: "Indoor; tighter layout",
-        waits: "Possible pre-game",
-        location: "Inside lower level"
-      },
-      noise: "Moderate; louder during pre-game.",
-      exits: "Alley entrance."
-    },
-    insights: [
-      "Classic old-school pub feel.",
-      "Guests linger during slower hours."
-    ]
-  },
-
-  {
-    name: "Pepp & Dolores",
-    type: "full",
-    whatToExpect:
-      "Modern restaurant with smaller dining room and reservation-driven flow.",
-    environment: {
-      parking: "OTR street + garages; competitive at dinner.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during full dinner service",
-        location: "Inside main floor"
-      },
-      noise: "Moderate; increases at full capacity.",
-      exits: "Street-level entrance."
-    },
-    insights: [
-      "Intimate and structured dining experience.",
-      "Energy shifts as tables fill."
-    ]
-  },
-
-  {
-    name: "Red Leprechaun",
-    type: "full",
-    whatToExpect:
-      "Cozy Irish-style pub with lively bar atmosphere. Busier on weekends and game nights.",
-    environment: {
-      parking: "Street meters + garages; tight on game nights.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during peak evenings",
-        location: "Inside venue"
-      },
-      noise: "Moderate–High evenings.",
-      exits: "Street-level access."
-    },
-    insights: [
-      "Energetic pre-game gathering spot.",
-      "Friendly, social environment."
-    ]
-  },
-
-  {
-    name: "Rhinegeist Brewery",
-    type: "full",
-    whatToExpect:
-      "Large multi-level brewery with rooftop space. Increasingly busy through evenings and weekends.",
-    environment: {
-      parking: "Street + garages; fills at peak times.",
-      restrooms: {
-        capacity: "Multiple; accessible",
-        waits: "Possible during busy nights",
-        location: "Multiple levels"
-      },
-      noise: "Moderate daytime; High evenings.",
-      exits: "Multiple exits including rooftop."
-    },
-    insights: [
-      "Open industrial layout.",
-      "Energy builds gradually throughout the day."
-    ]
-  },
-
-  {
-    name: "Samuel Adams Cincinnati Taproom",
-    type: "full",
-    whatToExpect:
-      "Modern taproom with structured layout and outdoor seating.",
-    environment: {
-      parking: "Street + garages; varies with events.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during peak times",
-        location: "Inside main floor"
-      },
-      noise: "Moderate; higher evenings.",
-      exits: "Outdoor seating; street-level exit."
-    },
-    insights: [
-      "Polished, organized flow.",
-      "Predictable atmosphere even when busy."
-    ]
-  },
-
-  {
-    name: "The Pitch Cincy",
-    type: "full",
-    whatToExpect:
-      "Soccer-focused bar with open layout. Much busier during live matches.",
-    environment: {
-      parking: "Street + garages; limited during matches.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during live games",
-        location: "Inside venue"
-      },
-      noise: "High during matches.",
-      exits: "Direct street access."
-    },
-    insights: [
-      "Energy closely tied to match schedules.",
-      "Communal atmosphere during games."
-    ]
-  },
-
-  {
-    name: "Yard House",
-    type: "full",
-    whatToExpect:
-      "Large bar and restaurant with high energy during evenings and game days.",
-    environment: {
-      parking: "Downtown street + garages; tight at peak.",
-      restrooms: {
-        capacity: "Indoor; accessible",
-        waits: "Possible during busy nights",
-        location: "Inside main level"
-      },
-      noise: "Moderate lunch; High evenings/game nights.",
-      exits: "Large entrance + riverfront access."
-    },
-    insights: [
-      "Energy tracks with downtown events.",
-      "Noticeably calmer earlier in the day."
-    ]
-  },
-  
-  {
-  name: "Otto’s",
-  type: "full",
-  whatToExpect:
-    "Compact, street-level restaurant with a traditional dining room layout. Calmer earlier in the evening, with fuller tables and steadier pacing during peak dinner hours and weekends.",
-  environment: {
-    parking: "Street parking along Main Street + nearby public lots; may require a short walk during peak times.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; conversation-friendly earlier, increasing when fully seated.",
-    exits: "Direct Main Street access."
-  },
-  insights: [
-    "Dining flow tends to feel structured and steady.",
-    "Weekend evenings reach full capacity but remain controlled.",
-    "Earlier dinner hours feel less rushed."
-  ]
-},
+/* =========================
+   CINCINNATI, OH
+========================= */
 
 {
-  name: "Mama’s on Main",
+  name: "Condado Tacos – The Banks",
+  city: "Cincinnati",
+  state: "OH",
   type: "full",
   whatToExpect:
-    "Street-level Italian restaurant with a compact, enclosed dining room. Typically quieter midweek and earlier in the evening, with closer seating and increased activity during weekend dinner hours.",
+    "Casual restaurant with a bar-centric layout and active social atmosphere. Louder and more crowded during peak meal times and game nights.",
   environment: {
-    parking: "Street parking along Main Street + nearby public parking.",
+    parking: "Street + nearby garages; tight during events.",
     restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible as dining room fills",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; increases during peak dinner service.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Smaller layout fills quickly during peak hours.",
-    "Atmosphere shifts noticeably between early and peak dinner times.",
-    "Seating proximity influences overall feel when full."
-  ]
-},
-
-{
-  name: "Cedar",
-  type: "full",
-  whatToExpect:
-    "Modern restaurant with an open dining layout and bar seating. Generally calm during weekday hours, with a steadier dinner crowd on weekends.",
-  environment: {
-    parking: "Street parking + nearby lots; availability varies by time.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except during peak dinner",
+      capacity: "Limited capacity",
+      waits: "Possible during peak times",
       location: "Inside main area"
     },
-    noise: "Moderate; conversation-friendly earlier, increasing slightly during peak dinner.",
+    noise: "Moderate to Loud when busy.",
+    exits: "Street-level; easy step outside."
+  },
+  insights: [
+    "Bar area tends to be louder than dining tables.",
+    "Crowds increase significantly on game days."
+  ]
+},
+
+{
+  name: "Biscuit Love Cincinnati",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Bright daytime restaurant with compact seating. Busiest during breakfast and weekend brunch hours.",
+  environment: {
+    parking: "Street + garages; competitive during brunch.",
+    restrooms: {
+      capacity: "Limited capacity",
+      waits: "Possible during brunch peak",
+      location: "Inside restaurant"
+    },
+    noise: "Moderate; higher during brunch rush.",
     exits: "Street-level entrance."
   },
   insights: [
-    "Layout supports steady, organized dining flow.",
-    "Weekend evenings bring noticeable but controlled activity.",
-    "Pacing remains consistent rather than high-turnover."
+    "Bright and bustling during mornings.",
+    "Weekend brunch drives steady traffic."
   ]
 },
 
 {
-  name: "Cock & Bull",
+  name: "Jefferson Social",
+  city: "Cincinnati",
+  state: "OH",
   type: "full",
   whatToExpect:
-    "Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day, with increased activity during evenings and weekends.",
+    "Large bar with extensive outdoor seating. Quieter earlier; more energetic evenings and game days.",
   environment: {
-    parking: "Street parking + nearby lots; tighter during peak evening hours.",
+    parking: "Street + garages; tight during games.",
     restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during busy evenings",
-      location: "Inside main floor"
+      capacity: "Multiple stalls",
+      waits: "Possible during busy nights",
+      location: "Inside main building"
     },
-    noise: "Moderate; higher during evening bar activity.",
-    exits: "Street-level access."
+    noise: "High evenings and weekends.",
+    exits: "Direct access to The Banks."
   },
   insights: [
-    "Bar-driven layout influences overall energy.",
-    "Daytime and evening experiences differ noticeably.",
-    "Evening activity centers around bar seating."
+    "Energy closely tied to game schedules.",
+    "Outdoor seating is a major draw."
   ]
 },
 
 {
-  name: "Doubt It Bar",
+  name: "Krueger’s Tavern",
+  city: "Cincinnati",
+  state: "OH",
   type: "full",
   whatToExpect:
-    "Small bar with a compact interior and close seating. Quieter earlier in the day, with increased activity later at night and on weekends.",
+    "Casual tavern with indoor and small outdoor seating. Calmer midday; busier on weekends.",
   environment: {
-    parking: "Street parking nearby; may require walking during busier nights.",
+    parking: "Street + garages; tighter on weekends.",
     restrooms: {
-      capacity: "Single restroom",
-      waits: "Possible during peak late-night hours",
-      location: "Inside main area"
-    },
-    noise: "Moderate to High; increases as the space fills later in the evening.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Compact layout shapes overall energy level.",
-    "Late-night hours drive peak activity.",
-    "Timing influences comfort more than venue size."
-  ]
-},
-
-{
-  name: "Zazou",
-  type: "full",
-  whatToExpect:
-    "Restaurant and bar with contemporary dining and lounge-style seating. Calmer earlier in the evening, with fuller seating and increased activity on weekends.",
-  environment: {
-    parking: "Street parking along Main Street + nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak weekend dinner hours",
-      location: "Inside main level"
-    },
-    noise: "Moderate; higher during weekend dinner and bar activity.",
-    exits: "Direct Main Street access."
-  },
-  insights: [
-    "Layout supports both seated dining and bar-focused visits.",
-    "Weekend evenings shift energy noticeably.",
-    "Earlier hours feel more predictable and paced."
-  ]
-},
-
-  {
-  name: "Libby’s Southern Comfort",
-  type: "full",
-  whatToExpect:
-    "Neighborhood restaurant with bar seating and a traditional dining layout. Calmer earlier in the day, with steadier activity during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking + nearby public lots; may require a short walk during peak hours.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; increases during dinner and weekend service.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Activity builds gradually rather than spiking suddenly.",
-    "Weekday afternoons feel noticeably calmer than weekend evenings.",
-    "Dining-focused rather than late-night driven."
-  ]
-},
-
-{
-  name: "Agave & Rye",
-  type: "full",
-  whatToExpect:
-    "Large, open restaurant with a prominent bar area and visually bold interior. Lighter during weekday afternoons, with increased energy in the evenings and on weekends.",
-  environment: {
-    parking: "Street parking + nearby garages; fills faster on weekends.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main area"
-    },
-    noise: "Moderate to High; louder during dinner and bar hours.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Energy shifts noticeably after 6 pm.",
-    "Bar-forward layout influences overall feel at night.",
-    "Weekend evenings bring the highest activity."
-  ]
-},
-
-{
-  name: "Bouquet Restaurant",
-  type: "full",
-  whatToExpect:
-    "Smaller, dining-focused restaurant with a structured table layout. Calm earlier in the evening, with fuller seating during peak dinner hours.",
-  environment: {
-    parking: "Street parking along Main Street + nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except during peak dinner",
-      location: "Inside main floor"
-    },
-    noise: "Low to Moderate; generally conversation-friendly.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Reservations shape the pacing of the evening.",
-    "Energy remains steady rather than loud, even when full.",
-    "Midweek service feels measured and paced."
-  ]
-},
-
-{
-  name: "Eishaus",
-  type: "full",
-  whatToExpect:
-    "Small dessert shop with limited indoor seating and a quick in-and-out layout. Busiest in the evenings and on warm-weather weekends.",
-  environment: {
-    parking: "Street parking nearby; may require walking during peak evenings.",
-    restrooms: {
-      capacity: "No public restroom",
-      waits: "N/A",
-      location: "Counter-service layout"
-    },
-    noise: "Low; brief visits with light background activity.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Visits are typically short rather than lingering.",
-    "Traffic increases after dinner hours.",
-    "Warm evenings draw steady foot traffic."
-  ]
-},
-
-{
-  name: "Wunderbar",
-  type: "full",
-  whatToExpect:
-    "Small, enclosed bar and dining space with closely arranged seating. Quieter earlier in the day, with more activity during evenings and weekends.",
-  environment: {
-    parking: "Street parking nearby; tighter during peak nights.",
-    restrooms: {
-      capacity: "Single restroom",
+      capacity: "Limited capacity",
       waits: "Possible during peak hours",
-      location: "Inside main area"
+      location: "Inside venue"
     },
-    noise: "Moderate; increases as the space fills.",
+    noise: "Moderate; louder late evenings.",
     exits: "Street-level entrance."
   },
   insights: [
-    "Compact layout shapes overall energy level.",
-    "Weekend evenings fill quickly.",
-    "Activity is steady rather than event-driven."
+    "Neighborhood-style relaxed feel.",
+    "Energy increases later in the evening."
   ]
 },
 
 {
-  name: "Molly Malone’s",
+  name: "Bakersfield OTR",
+  city: "Cincinnati",
+  state: "OH",
   type: "full",
   whatToExpect:
-    "Multi-level Irish pub with bar seating and open areas for groups. Calmer during weekday afternoons, with increased activity on weekends and during live events.",
+    "Spacious taco and tequila spot with indoor and outdoor seating. Livelier in evenings and on Taco Tuesdays.",
   environment: {
-    parking: "Street parking + nearby public lots; tighter during events.",
+    parking: "Street + garages; tight at peak.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during busy times",
+      location: "Inside main area"
+    },
+    noise: "Moderate; louder evenings.",
+    exits: "Street-level on Vine St."
+  },
+  insights: [
+    "Energy builds in the evenings.",
+    "Music contributes to lively atmosphere."
+  ]
+},
+
+{
+  name: "MadTree Brewing",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Large brewery with expansive indoor and outdoor seating. Calmer daytime; lively evenings and weekends.",
+  environment: {
+    parking: "On-site lot + street; fills quickly.",
     restrooms: {
       capacity: "Multiple; accessible",
-      waits: "Possible during live events",
-      location: "Inside multiple levels"
+      waits: "Possible on busy nights",
+      location: "Inside main building"
     },
-    noise: "Moderate to High; louder during live music and weekends.",
-    exits: "Street-level entrance."
+    noise: "Low to Moderate daytime; High evenings.",
+    exits: "Large patio and multiple exits."
   },
   insights: [
-    "Event-driven atmosphere, especially during live music.",
-    "Multiple levels change the feel depending on crowd size.",
-    "Weekends bring the strongest shift in activity."
+    "Open, social layout.",
+    "Crowds increase on weekends."
   ]
 },
 
 {
-  name: "The Hannaford",
+  name: "Maplewood Kitchen + Bar",
+  city: "Cincinnati",
+  state: "OH",
   type: "full",
   whatToExpect:
-    "Bar and restaurant space with a structured layout and prominent bar area. Steady earlier in the day, with heavier traffic in the evenings and on weekends.",
+    "Bright café focused on breakfast and lunch. Busier during brunch and weekday lunch rush.",
   environment: {
-    parking: "Street parking nearby; limited during peak times.",
-    restrooms: {
-      capacity: "Indoor restroom",
-      waits: "Possible during peak evenings",
-      location: "Inside main area"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Bar-centered layout influences overall pacing.",
-    "Activity increases after standard dinner hours.",
-    "Weekends feel fuller than weekdays."
-  ]
-},
-
-{
-  name: "The Globe",
-  type: "full",
-  whatToExpect:
-    "Neighborhood bar and restaurant with a compact interior and casual layout. Calmer midweek and busier on weekend evenings.",
-  environment: {
-    parking: "Street parking nearby; limited during peak hours.",
-    restrooms: {
-      capacity: "Indoor restroom",
-      waits: "Possible during busy evenings",
-      location: "Inside main floor"
-    },
-    noise: "Moderate; higher during peak bar hours.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Gradual increase in activity rather than sudden spikes.",
-    "Locally driven foot traffic.",
-    "Weekend evenings bring the highest energy."
-  ]
-},
-
-{
-  name: "Smoke Justis",
-  type: "full",
-  whatToExpect:
-    "Spacious restaurant and bar with indoor and patio seating. Lighter during weekday afternoons and more active during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking + nearby lots; tighter on event nights.",
+    parking: "Street + downtown garages.",
     restrooms: {
       capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main floor"
+      waits: "Possible during brunch peak",
+      location: "Inside restaurant"
     },
-    noise: "Moderate; increases during evening service and live music.",
-    exits: "Street and patio access available."
+    noise: "Moderate; higher during brunch.",
+    exits: "Open layout; quick street exit."
   },
   insights: [
-    "Patio seating changes the feel during warmer months.",
-    "Evenings bring stronger activity than daytime.",
-    "Events create noticeable shifts in pace."
+    "Bright and airy setting.",
+    "Weekend brunch draws steady crowds."
   ]
 },
 
 {
-  name: "La Torta Loca",
+  name: "Moerlein Lager House",
+  city: "Cincinnati",
+  state: "OH",
   type: "full",
   whatToExpect:
-    "Casual, counter-focused restaurant with a straightforward dining layout. Calm during weekday hours, with moderate activity during lunch and early dinner.",
+    "Large riverfront restaurant with multi-level seating and patio space. Activity increases around games.",
   environment: {
-    parking: "Street parking nearby; availability varies by time.",
-    restrooms: {
-      capacity: "Single restroom",
-      waits: "Uncommon except during lunch peak",
-      location: "Inside main area"
-    },
-    noise: "Low to Moderate; generally conversation-friendly.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Shorter visits rather than extended stays.",
-    "Lunch is typically the busiest window.",
-    "Activity remains steady rather than event-driven."
-  ]
-},
-
-  {
-  name: "Hofbräuhaus Newport",
-  type: "full",
-  whatToExpect:
-    "Large, multi-level beer hall with communal seating and open floor space. Calmer earlier in the day, with significantly more activity during evenings, weekends, and special events.",
-  environment: {
-    parking: "Shared riverfront garages and lots; fills quickly on weekends and event nights.",
+    parking: "Garages + street; limited during events.",
     restrooms: {
       capacity: "Multiple; accessible",
       waits: "Possible during peak events",
       location: "Inside multiple levels"
     },
-    noise: "High; especially elevated during live music and peak hours.",
-    exits: "Large entrance and patio access."
+    noise: "Moderate daytime; High during events.",
+    exits: "Multiple exits + patio access."
   },
   insights: [
-    "Energy closely tied to live music and group gatherings.",
-    "Communal layout shapes overall experience.",
-    "Weekends bring the strongest increase in volume and activity."
+    "Crowds track with stadium schedules.",
+    "Spacious layout accommodates groups."
+  ]
+},
+
+{
+  name: "O’Malley’s in the Alley",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Historic Irish pub below street level. Calmer weekdays; busier before games.",
+  environment: {
+    parking: "Street + garages; tight on game days.",
+    restrooms: {
+      capacity: "Indoor; tighter layout",
+      waits: "Possible pre-game",
+      location: "Inside lower level"
+    },
+    noise: "Moderate; louder during pre-game.",
+    exits: "Alley entrance."
+  },
+  insights: [
+    "Classic old-school pub feel.",
+    "Guests linger during slower hours."
+  ]
+},
+
+{
+  name: "Pepp & Dolores",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Modern restaurant with smaller dining room and reservation-driven flow.",
+  environment: {
+    parking: "OTR street + garages; competitive at dinner.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during full dinner service",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; increases at full capacity.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Intimate and structured dining experience.",
+    "Energy shifts as tables fill."
+  ]
+},
+
+{
+  name: "Red Leprechaun",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Cozy Irish-style pub with lively bar atmosphere. Busier on weekends and game nights.",
+  environment: {
+    parking: "Street meters + garages; tight on game nights.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate to High evenings.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Energetic pre-game gathering spot.",
+    "Friendly, social environment."
+  ]
+},
+
+{
+  name: "Rhinegeist Brewery",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Large multi-level brewery with rooftop space. Increasingly busy through evenings and weekends.",
+  environment: {
+    parking: "Street + garages; fills at peak times.",
+    restrooms: {
+      capacity: "Multiple; accessible",
+      waits: "Possible during busy nights",
+      location: "Multiple levels"
+    },
+    noise: "Moderate daytime; High evenings.",
+    exits: "Multiple exits including rooftop."
+  },
+  insights: [
+    "Open industrial layout.",
+    "Energy builds gradually throughout the day."
+  ]
+},
+
+{
+  name: "Samuel Adams Cincinnati Taproom",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Modern taproom with structured layout and outdoor seating.",
+  environment: {
+    parking: "Street + garages; varies with events.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak times",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; higher evenings.",
+    exits: "Outdoor seating; street-level exit."
+  },
+  insights: [
+    "Polished, organized flow.",
+    "Predictable atmosphere even when busy."
+  ]
+},
+
+{
+  name: "The Pitch Cincy",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Soccer-focused bar with open layout. Much busier during live matches.",
+  environment: {
+    parking: "Street + garages; limited during matches.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during live games",
+      location: "Inside venue"
+    },
+    noise: "High during matches.",
+    exits: "Direct street access."
+  },
+  insights: [
+    "Energy closely tied to match schedules.",
+    "Communal atmosphere during games."
+  ]
+},
+
+{
+  name: "Yard House",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Large bar and restaurant with high energy during evenings and game days.",
+  environment: {
+    parking: "Downtown street + garages; tight at peak.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during busy nights",
+      location: "Inside main level"
+    },
+    noise: "Moderate lunch; High evenings/game nights.",
+    exits: "Large entrance + riverfront access."
+  },
+  insights: [
+    "Energy tracks with downtown events.",
+    "Calmer earlier in the day."
+  ]
+},
+  
+  /* =========================
+   COVINGTON, KY
+========================= */
+
+  {
+  name: "Otto’s",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Compact, street-level restaurant with a traditional dining layout. Calmer earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+  environment: {
+    parking: "Street parking along Main + nearby public lots; may require short walk during peak times.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except during peak dinner",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; increases when fully seated.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Cozy and intimate layout.",
+    "Clear shift between early evening and weekend peak.",
+    "Full but controlled on busy nights."
+  ]
+},
+
+{
+  name: "Mama’s on Main",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Street-level Italian restaurant with compact, enclosed dining room. Quieter midweek and earlier evenings; fuller during weekend dinner service.",
+  environment: {
+    parking: "Street parking along Main + nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner",
+      location: "Inside main area"
+    },
+    noise: "Moderate; increases as dining room fills.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Smaller layout fills quickly.",
+    "Energy shifts noticeably during peak hours.",
+    "Intimate feel when fully seated."
+  ]
+},
+
+{
+  name: "Cedar",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Modern restaurant with clean, open dining layout and bar seating. Generally calm during weekdays; busier during weekend dinners.",
+  environment: {
+    parking: "Street parking + nearby lots; varies by time.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except peak dinner",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; conversation-friendly earlier.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Bright, organized layout.",
+    "Steady pacing rather than high turnover.",
+    "Predictable flow during most hours."
+  ]
+},
+
+{
+  name: "Cock & Bull",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day; busier evenings and weekends.",
+  environment: {
+    parking: "Street parking + nearby lots; fills during peak hours.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during busy evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during evening bar activity.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Bar-driven layout influences feel.",
+    "Steady local foot traffic.",
+    "Clear daytime vs evening shift."
+  ]
+},
+
+{
+  name: "Doubt It Bar",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Small bar with compact interior and close seating. Quieter earlier in the day; more active late at night, especially weekends.",
+  environment: {
+    parking: "Street parking nearby; may require short walk.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Possible during peak nights",
+      location: "Inside main area"
+    },
+    noise: "Moderate to High late evenings.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Tight footprint shapes atmosphere.",
+    "Late-night energy most noticeable.",
+    "Timing impacts comfort more than size."
+  ]
+},
+
+{
+  name: "Zazou",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Restaurant and bar with contemporary layout and both dining and lounge seating. Calmer earlier; fuller on weekend evenings.",
+  environment: {
+    parking: "Street parking along Main + nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; higher during weekends.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Stylish, social atmosphere on weekends.",
+    "Clear shift between early and peak hours.",
+    "Layout supports both dining and bar visits."
+  ]
+},
+
+{
+  name: "Libby’s Southern Comfort",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Neighborhood restaurant with bar seating and traditional dining layout. Calmer earlier; steady dinner and weekend activity.",
+  environment: {
+    parking: "Street parking + nearby lots; may require short walk during peak hours.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner",
+      location: "Inside main area"
+    },
+    noise: "Moderate; increases during dinner service.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Activity builds gradually.",
+    "Weekends noticeably busier than weekdays.",
+    "Dining-focused rather than nightlife-driven."
+  ]
+},
+
+{
+  name: "Agave & Rye",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Large, open restaurant with prominent bar area and bold interior. Lighter afternoons; energetic evenings and weekends.",
+  environment: {
+    parking: "Street parking + nearby garages; fills faster weekends.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner",
+      location: "Inside main area"
+    },
+    noise: "Moderate to High evenings.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Energy shifts after 6 pm.",
+    "Bar-forward layout influences atmosphere.",
+    "Weekend evenings most active."
+  ]
+},
+
+{
+  name: "Bouquet Restaurant",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Smaller dining-focused restaurant with structured layout. Calm earlier; fuller during peak dinner hours.",
+  environment: {
+    parking: "Street parking + nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except peak dinner",
+      location: "Inside main floor"
+    },
+    noise: "Low to Moderate; conversation-friendly.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Reservation-driven pacing.",
+    "Steady energy even when full.",
+    "Measured midweek flow."
+  ]
+},
+
+{
+  name: "Eishaus",
+  city: "Covington",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Small dessert shop with limited seating and quick visit layout. Busiest evenings and warm weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "No public restroom",
+      waits: "N/A",
+      location: "Counter-service layout"
+    },
+    noise: "Low; brief visits.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Short stays rather than lingering.",
+    "Warm evenings increase foot traffic.",
+    "Activity builds after dinner hours."
+  ]
+},
+
+/* =========================
+   NEWPORT, KY
+========================= */
+
+{
+  name: "Hofbräuhaus Newport",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Large multi-level beer hall with communal seating. Calmer earlier; significantly busier evenings, weekends, and events.",
+  environment: {
+    parking: "Riverfront garages + lots; fills quickly on weekends.",
+    restrooms: {
+      capacity: "Multiple; accessible",
+      waits: "Possible during peak events",
+      location: "Inside multiple levels"
+    },
+    noise: "High during live music and peak hours.",
+    exits: "Large entrance + patio access."
+  },
+  insights: [
+    "Event-driven energy.",
+    "Communal layout shapes experience.",
+    "Weekends bring highest volume."
   ]
 },
 
 {
   name: "The Baker’s Table",
+  city: "Newport",
+  state: "KY",
   type: "full",
   whatToExpect:
-    "Small, reservation-focused dining space with a structured table layout. Calm earlier in the evening, with fuller seating during peak dinner hours and weekends.",
+    "Small reservation-focused dining space with structured layout. Calm earlier; fuller during peak dinner.",
   environment: {
-    parking: "Street parking along Monmouth + nearby public lots.",
+    parking: "Street parking along Monmouth + nearby lots.",
     restrooms: {
       capacity: "Indoor; accessible",
-      waits: "Uncommon except during peak dinner",
+      waits: "Uncommon except peak dinner",
       location: "Inside main floor"
     },
-    noise: "Low to Moderate; typically conversation-friendly.",
+    noise: "Low to Moderate.",
     exits: "Street-level entrance."
   },
   insights: [
-    "Reservation-driven pacing shapes the evening.",
-    "Energy remains steady rather than loud, even when full.",
-    "Flow feels structured and timed."
+    "Reservation pacing shapes flow.",
+    "Steady energy even when full.",
+    "Intimate layout."
   ]
 },
 
 {
   name: "Shiners on the Levee",
+  city: "Newport",
+  state: "KY",
   type: "full",
   whatToExpect:
-    "Large entertainment-focused bar with indoor and outdoor riverfront areas. Quieter during daytime hours and significantly busier at night, especially on weekends.",
+    "Large entertainment-focused bar near riverfront. Quiet daytime; high-energy late nights.",
   environment: {
-    parking: "Riverfront garages and lots; fills during peak nightlife hours.",
+    parking: "Riverfront garages + lots; tight nightlife hours.",
     restrooms: {
       capacity: "Indoor; accessible",
-      waits: "Possible during peak late-night hours",
+      waits: "Possible late-night peaks",
       location: "Inside main building"
     },
-    noise: "High; elevated during live music and late-night hours.",
-    exits: "Multiple access points including outdoor space."
+    noise: "High during live music and late evenings.",
+    exits: "Multiple access points + outdoor space."
   },
   insights: [
-    "Nightlife-centered with activity concentrated after dark.",
-    "Clear shift from daytime quiet to late-night energy.",
-    "Weekend evenings bring the highest crowd levels."
+    "Nightlife-centered activity.",
+    "Clear shift after dark.",
+    "Weekend evenings busiest."
   ]
 },
 
 {
   name: "Bridgeview Box Park",
+  city: "Newport",
+  state: "KY",
   type: "full",
   whatToExpect:
-    "Open-air container park with multiple vendors and outdoor seating. Lighter earlier in the day, with more activity during evenings and warm-weather weekends.",
+    "Open-air container park with multiple vendors and outdoor seating. Lighter earlier; busier warm-weather evenings.",
   environment: {
-    parking: "Shared riverfront parking nearby; availability varies by event.",
+    parking: "Shared riverfront parking nearby.",
     restrooms: {
       capacity: "Shared facilities; accessible",
-      waits: "Possible during peak warm-weather evenings",
+      waits: "Possible peak evenings",
       location: "On-site shared restrooms"
     },
-    noise: "Moderate; varies depending on vendors and events.",
-    exits: "Fully outdoor layout with open access."
+    noise: "Moderate; varies by event.",
+    exits: "Fully outdoor layout."
   },
   insights: [
-    "Weather significantly impacts foot traffic.",
-    "Open layout creates casual flow between vendors.",
-    "Activity builds gradually through the evening."
+    "Weather-dependent traffic.",
+    "Casual vendor flow.",
+    "Gradual evening build."
   ]
 },
 
 {
   name: "Jerry’s Jug House",
+  city: "Newport",
+  state: "KY",
   type: "full",
   whatToExpect:
-    "Small, historic bar with a compact interior and limited seating. Steady earlier in the day and moderately active in the evenings.",
+    "Small historic bar with compact interior. Steady daytime; moderate evening activity.",
   environment: {
-    parking: "Street parking nearby; limited during peak hours.",
+    parking: "Street parking nearby.",
     restrooms: {
       capacity: "Single restroom",
       waits: "Possible when full",
       location: "Inside main area"
     },
-    noise: "Moderate; increases as the space fills due to size.",
+    noise: "Moderate; increases as space fills.",
     exits: "Street-level entrance."
   },
   insights: [
-    "Tight footprint shapes overall atmosphere.",
-    "Consistent local crowd presence.",
-    "Activity remains steady rather than event-driven."
-  ]
-},
-
-{
-  name: "Press on Monmouth",
-  type: "full",
-  whatToExpect:
-    "Street-level café-style space with indoor seating and visible bar area. Calm earlier in the day, with increased activity during brunch and evening hours.",
-  environment: {
-    parking: "Street parking along Monmouth; limited during peak hours.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak brunch",
-      location: "Inside main area"
-    },
-    noise: "Moderate; higher during brunch and dinner peaks.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Brunch is typically the busiest window.",
-    "Daytime feels bright and open.",
-    "Evenings feel more structured and paced."
-  ]
-},
-
-{
-  name: "Wooden Cask Brewing Company",
-  type: "full",
-  whatToExpect:
-    "Small brewery taproom with bar seating and limited table space. Calm during weekday afternoons and busier in the evenings and on weekends.",
-  environment: {
-    parking: "Street parking nearby; tighter during weekend evenings.",
-    restrooms: {
-      capacity: "Single restroom",
-      waits: "Possible during peak hours",
-      location: "Inside main taproom"
-    },
-    noise: "Moderate; increases as the space fills.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Compact layout fills quickly.",
-    "Locally driven foot traffic.",
-    "Activity builds gradually rather than sharply."
-  ]
-},
-
-{
-  name: "Pompilio’s",
-  type: "full",
-  whatToExpect:
-    "Historic Italian restaurant with multiple dining rooms and a traditional layout. Steady during lunch and busier during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking + nearby public lots; availability varies by time.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner",
-      location: "Inside main building"
-    },
-    noise: "Moderate; increases as dining rooms fill.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Multi-room layout changes the feel depending on placement.",
-    "Consistent foot traffic across lunch and dinner.",
-    "Dinner hours bring the strongest increase in activity."
-  ]
-},
-
-{
-  name: "Crazy Fox Saloon",
-  type: "full",
-  whatToExpect:
-    "Neighborhood bar with a compact layout and bar-forward seating. Quieter earlier in the day and busier during evenings and weekends.",
-  environment: {
-    parking: "Street parking nearby; limited during peak nights.",
-    restrooms: {
-      capacity: "Single restroom",
-      waits: "Possible during peak evening hours",
-      location: "Inside main area"
-    },
-    noise: "Moderate to High; higher during weekend evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Bar-driven activity increases later in the evening.",
-    "Local crowd presence shapes overall pacing.",
-    "Weekends bring the most noticeable shift."
+    "Tight footprint shapes energy.",
+    "Consistent local presence.",
+    "Steady rather than event-driven."
   ]
 },
 
 {
   name: "New Riff Distilling",
+  city: "Newport",
+  state: "KY",
   type: "full",
   whatToExpect:
-    "Modern distillery with tasting room and guided tour spaces across multiple levels. Calm during weekday afternoons and busier during weekend tours and evening events.",
+    "Modern distillery with tasting room and tours across multiple levels. Calm weekdays; busier weekend tours and events.",
   environment: {
     parking: "Dedicated on-site parking lot available.",
     restrooms: {
       capacity: "Multiple; accessible",
-      waits: "Uncommon except during peak tours",
+      waits: "Uncommon except peak tours",
       location: "Inside main building"
     },
-    noise: "Low to Moderate; varies depending on tour groups and events.",
-    exits: "Multiple entrances and patio access."
+    noise: "Low to Moderate depending on tours.",
+    exits: "Multiple entrances + patio access."
   },
   insights: [
-    "Activity closely tied to scheduled tastings and tours.",
-    "Tour timing shapes crowd flow more than walk-in traffic.",
+    "Tour schedule shapes traffic.",
+    "Structured, organized flow.",
     "Weekends bring stronger group activity."
   ]
 }
