@@ -445,6 +445,226 @@ const places = [
     "Weekend evenings shift energy noticeably.",
     "Earlier hours feel more predictable and paced."
   ]
+},
+
+  {
+  name: "Libby’s Southern Comfort",
+  type: "full",
+  whatToExpect:
+    "Neighborhood restaurant with bar seating and a traditional dining layout. Calmer earlier in the day, with steadier activity during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking + nearby public lots; may require a short walk during peak hours.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; increases during dinner and weekend service.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Activity builds gradually rather than spiking suddenly.",
+    "Weekday afternoons feel noticeably calmer than weekend evenings.",
+    "Dining-focused rather than late-night driven."
+  ]
+},
+
+{
+  name: "Agave & Rye",
+  type: "full",
+  whatToExpect:
+    "Large, open restaurant with a prominent bar area and visually bold interior. Lighter during weekday afternoons, with increased energy in the evenings and on weekends.",
+  environment: {
+    parking: "Street parking + nearby garages; fills faster on weekends.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main area"
+    },
+    noise: "Moderate to High; louder during dinner and bar hours.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Energy shifts noticeably after 6 pm.",
+    "Bar-forward layout influences overall feel at night.",
+    "Weekend evenings bring the highest activity."
+  ]
+},
+
+{
+  name: "Bouquet Restaurant",
+  type: "full",
+  whatToExpect:
+    "Smaller, dining-focused restaurant with a structured table layout. Calm earlier in the evening, with fuller seating during peak dinner hours.",
+  environment: {
+    parking: "Street parking along Main Street + nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except during peak dinner",
+      location: "Inside main floor"
+    },
+    noise: "Low to Moderate; generally conversation-friendly.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Reservations shape the pacing of the evening.",
+    "Energy remains steady rather than loud, even when full.",
+    "Midweek service feels measured and paced."
+  ]
+},
+
+{
+  name: "Eishaus",
+  type: "full",
+  whatToExpect:
+    "Small dessert shop with limited indoor seating and a quick in-and-out layout. Busiest in the evenings and on warm-weather weekends.",
+  environment: {
+    parking: "Street parking nearby; may require walking during peak evenings.",
+    restrooms: {
+      capacity: "No public restroom",
+      waits: "N/A",
+      location: "Counter-service layout"
+    },
+    noise: "Low; brief visits with light background activity.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Visits are typically short rather than lingering.",
+    "Traffic increases after dinner hours.",
+    "Warm evenings draw steady foot traffic."
+  ]
+},
+
+{
+  name: "Wunderbar",
+  type: "full",
+  whatToExpect:
+    "Small, enclosed bar and dining space with closely arranged seating. Quieter earlier in the day, with more activity during evenings and weekends.",
+  environment: {
+    parking: "Street parking nearby; tighter during peak nights.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Possible during peak hours",
+      location: "Inside main area"
+    },
+    noise: "Moderate; increases as the space fills.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Compact layout shapes overall energy level.",
+    "Weekend evenings fill quickly.",
+    "Activity is steady rather than event-driven."
+  ]
+},
+
+{
+  name: "Molly Malone’s",
+  type: "full",
+  whatToExpect:
+    "Multi-level Irish pub with bar seating and open areas for groups. Calmer during weekday afternoons, with increased activity on weekends and during live events.",
+  environment: {
+    parking: "Street parking + nearby public lots; tighter during events.",
+    restrooms: {
+      capacity: "Multiple; accessible",
+      waits: "Possible during live events",
+      location: "Inside multiple levels"
+    },
+    noise: "Moderate to High; louder during live music and weekends.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Event-driven atmosphere, especially during live music.",
+    "Multiple levels change the feel depending on crowd size.",
+    "Weekends bring the strongest shift in activity."
+  ]
+},
+
+{
+  name: "The Hannaford",
+  type: "full",
+  whatToExpect:
+    "Bar and restaurant space with a structured layout and prominent bar area. Steady earlier in the day, with heavier traffic in the evenings and on weekends.",
+  environment: {
+    parking: "Street parking nearby; limited during peak times.",
+    restrooms: {
+      capacity: "Indoor restroom",
+      waits: "Possible during peak evenings",
+      location: "Inside main area"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Bar-centered layout influences overall pacing.",
+    "Activity increases after standard dinner hours.",
+    "Weekends feel fuller than weekdays."
+  ]
+},
+
+{
+  name: "The Globe",
+  type: "full",
+  whatToExpect:
+    "Neighborhood bar and restaurant with a compact interior and casual layout. Calmer midweek and busier on weekend evenings.",
+  environment: {
+    parking: "Street parking nearby; limited during peak hours.",
+    restrooms: {
+      capacity: "Indoor restroom",
+      waits: "Possible during busy evenings",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; higher during peak bar hours.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Gradual increase in activity rather than sudden spikes.",
+    "Locally driven foot traffic.",
+    "Weekend evenings bring the highest energy."
+  ]
+},
+
+{
+  name: "Smoke Justis",
+  type: "full",
+  whatToExpect:
+    "Spacious restaurant and bar with indoor and patio seating. Lighter during weekday afternoons and more active during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking + nearby lots; tighter on event nights.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main floor"
+    },
+    noise: "Moderate; increases during evening service and live music.",
+    exits: "Street and patio access available."
+  },
+  insights: [
+    "Patio seating changes the feel during warmer months.",
+    "Evenings bring stronger activity than daytime.",
+    "Events create noticeable shifts in pace."
+  ]
+},
+
+{
+  name: "La Torta Loca",
+  type: "full",
+  whatToExpect:
+    "Casual, counter-focused restaurant with a straightforward dining layout. Calm during weekday hours, with moderate activity during lunch and early dinner.",
+  environment: {
+    parking: "Street parking nearby; availability varies by time.",
+    restrooms: {
+      capacity: "Single restroom",
+      waits: "Uncommon except during lunch peak",
+      location: "Inside main area"
+    },
+    noise: "Low to Moderate; generally conversation-friendly.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Shorter visits rather than extended stays.",
+    "Lunch is typically the busiest window.",
+    "Activity remains steady rather than event-driven."
+  ]
 }
 
 ];
