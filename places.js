@@ -827,16 +827,30 @@ function searchPlace() {
 
 const searchInput = document.getElementById("search");
 
-const examplePlaces = [
-  "Rhinegeist Brewery",
-  "Condado Tacos – The Banks",
-  "Smoke Justis",
-  "Agave & Rye",
-  "The Baker’s Table",
-  "Pepp & Dolores",
-  "MadTree Brewing",
-  "Moerlein Lager House",
-  "Yard House"
+// Pull place names directly from your dataset
+const examplePlaces = places.map(place => place.name);
+
+// Shuffle function
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
+// Shuffle once on load
+const shuffledPlaces = shuffleArray([...examplePlaces]);
+
+let exampleIndex = 0;
+
+function rotatePlaceholder() {
+  if (!searchInput) return;
+
+  searchInput.placeholder = `Try "${shuffledPlaces[exampleIndex]}"`;
+
+  exampleIndex = (exampleIndex + 1) % shuffledPlaces.length;
+}
+
+// Start rotation
+rotatePlaceholder();
+setInterval(rotatePlaceholder, 2500);
 ];
 
 let exampleIndex = 0;
