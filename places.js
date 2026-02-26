@@ -830,6 +830,9 @@ const searchInput = document.getElementById("search");
 const examplePlaces = [
   "Rhinegeist Brewery",
   "Condado Tacos – The Banks",
+   "Smoke Justis",
+   "Agave and Rye",
+   "The Baker's Table",
   "Pepp & Dolores",
   "MadTree Brewing",
   "Moerlein Lager House",
