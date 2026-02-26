@@ -821,48 +821,119 @@ function searchPlace() {
   });
 }
 
-/* ============================
-   Rotating Placeholder Examples
-   ============================ */
+/* =========================
+   ROTATING PLACEHOLDER
+========================= */
 
-const searchInput = document.getElementById("search");
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("search");
 
-// Pull place names directly from your dataset
-const examplePlaces = places.map(place => place.name);
+  if (!searchInput || !places || places.length === 0) return;
 
-// Shuffle function
-function shuffleArray(array) {
-  return array.sort(() => Math.random() - 0.5);
+  // Pull names automatically
+  const examplePlaces = places.map(place => place.name);
+
+  // Shuffle properly
+  function shuffleArray(array) {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+  }
+
+  const shuffledPlaces = shuffleArray(examplePlaces);
+  let exampleIndex = 0;
+
+  function rotatePlaceholder() {
+    searchInput.placeholder = `Try "${shuffledPlaces[exampleIndex]}"`;
+    exampleIndex = (exampleIndex + 1) % shuffledPlaces.length;
+  }
+
+  rotatePlaceholder();
+  setInterval(rotatePlaceholder, 2500);
+});
+
+
+/* =========================
+   SEARCH LOGIC
+========================= */
+
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "")
+    .trim();
 }
 
-// Shuffle once on load
-const shuffledPlaces = shuffleArray([...examplePlaces]);
+function searchPlace() {
+  const input = normalize(document.getElementById("search").value);
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
 
-let exampleIndex = 0;
+  if (!input) return;
 
-function rotatePlaceholder() {
-  if (!searchInput) return;
+  const matches = places.filter(place =>
+    normalize(place.name).startsWith(input)
+  );
 
-  searchInput.placeholder = `Try "${shuffledPlaces[exampleIndex]}"`;
-
-  exampleIndex = (exampleIndex + 1) % shuffledPlaces.length;
-}
-
-// Start rotation
-rotatePlaceholder();
-setInterval(rotatePlaceholder, 2500);
-];
-
-let exampleIndex = 0;
-
-searchInput.placeholder = `Search a place (ex: ${examplePlaces[0]})`;
-
-const rotatePlaceholder = setInterval(() => {
-  if (searchInput.value.length > 0) {
-    clearInterval(rotatePlaceholder);
+  if (matches.length === 0) {
+    resultDiv.innerHTML = `
+      <p style="margin-top:16px;">
+        We don’t have a CalmPath profile for that place yet.
+      </p>
+    `;
     return;
   }
 
-  exampleIndex = (exampleIndex + 1) % examplePlaces.length;
-  searchInput.placeholder = `Search a place (ex: ${examplePlaces[exampleIndex]})`;
-}, 3000);
+  matches.forEach(place => {
+    const patternsHTML =
+      place.insights && place.insights.length
+        ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+        : "<p>No observed patterns yet.</p>";
+
+    resultDiv.innerHTML += `
+      <div class="card">
+        <div class="label">CalmPath profile</div>
+
+        <h2>${place.name}</h2>
+        <div class="location">
+          ${place.city}, ${place.state}
+        </div>
+
+        <div class="snapshot">
+          <div class="snapshot-grid">
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Parking</div>
+              <div class="snapshot-value">${place.environment.parking}</div>
+            </div>
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Noise</div>
+              <div class="snapshot-value">${place.environment.noise}</div>
+            </div>
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Restrooms</div>
+              <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+            </div>
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Exits</div>
+              <div class="snapshot-value">${place.environment.exits}</div>
+            </div>
+
+          </div>
+        </div>
+
+        <h3>What to expect</h3>
+        <p>${place.whatToExpect}</p>
+
+        <h3>Observed patterns</h3>
+        ${patternsHTML}
+      </div>
+    `;
+  });
+}
