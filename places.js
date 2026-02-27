@@ -872,7 +872,14 @@ function searchPlace() {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  if (!input) return;
+if (input.length === 1) {
+  resultDiv.innerHTML = `
+    <p style="margin-top:16px; color:#666;">
+      Keep typing to search.
+    </p>
+  `;
+  return;
+}
 
   const matches = places.filter(place =>
     normalize(place.name).startsWith(input)
