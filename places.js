@@ -120,7 +120,7 @@ const places = [
 },
 
 {
-  name: "MadTree Brewing",
+  name: "MadTree Brewing - Oakley",
   city: "Cincinnati",
   state: "OH",
   type: "full",
