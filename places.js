@@ -872,6 +872,11 @@ function searchPlace() {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
+if (input.length === 0) {
+  resultDiv.innerHTML = "";
+  return;
+}
+
 if (input.length === 1) {
   resultDiv.innerHTML = `
     <p style="margin-top:16px; color:#666;">
