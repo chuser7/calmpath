@@ -751,11 +751,24 @@ function normalize(text) {
 }
 
 function searchPlace() {
-  const input = normalize(document.getElementById("search").value);
+  const inputRaw = document.getElementById("search").value;
+  const input = normalize(inputRaw);
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  if (!input) return;
+  if (input.length === 0) {
+    resultDiv.innerHTML = "";
+    return;
+  }
+
+  if (input.length === 1) {
+    resultDiv.innerHTML = `
+      <p style="margin-top:16px; color:#666;">
+        Keep typing to search.
+      </p>
+    `;
+    return;
+  }
 
   const matches = places.filter(place =>
     normalize(place.name).startsWith(input)
@@ -764,60 +777,86 @@ function searchPlace() {
   if (matches.length === 0) {
     resultDiv.innerHTML = `
       <p style="margin-top:16px;">
-        We don’t have a CalmPath profile for that place yet. Please let me know what place you'd like to see and I'll get it added.
+        We don’t have a CalmPath profile for that place yet.
       </p>
     `;
+
+    // Track unsuccessful search
+    if (typeof gtag !== "undefined") {
+      gtag('event', 'search_performed', {
+        search_term: inputRaw,
+        results_count: 0
+      });
+    }
+
     return;
   }
 
+  // Track successful search
+  if (typeof gtag !== "undefined") {
+    gtag('event', 'search_performed', {
+      search_term: inputRaw,
+      results_count: matches.length
+    });
+  }
+
   matches.forEach(place => {
+
+    // Track venue viewed
+    if (typeof gtag !== "undefined") {
+      gtag('event', 'venue_viewed', {
+        venue_name: place.name,
+        city: place.city
+      });
+    }
+
     const patternsHTML =
       place.insights && place.insights.length
         ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
         : "<p>No observed patterns yet.</p>";
 
     resultDiv.innerHTML += `
-  <div class="card">
-    <div class="label">CalmPath profile</div>
+      <div class="card">
+        <div class="label">CalmPath profile</div>
 
-    <h2>${place.name}</h2>
-    <div class="location">
-      ${place.city}, ${place.state}
-    </div>
-
-    <div class="snapshot">
-      <div class="snapshot-grid">
-
-        <div class="snapshot-item">
-          <div class="snapshot-label">Parking</div>
-          <div class="snapshot-value">${place.environment.parking}</div>
+        <h2>${place.name}</h2>
+        <div class="location">
+          ${place.city}, ${place.state}
         </div>
 
-        <div class="snapshot-item">
-          <div class="snapshot-label">Noise</div>
-          <div class="snapshot-value">${place.environment.noise}</div>
+        <div class="snapshot">
+          <div class="snapshot-grid">
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Parking</div>
+              <div class="snapshot-value">${place.environment.parking}</div>
+            </div>
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Noise</div>
+              <div class="snapshot-value">${place.environment.noise}</div>
+            </div>
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Restrooms</div>
+              <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+            </div>
+
+            <div class="snapshot-item">
+              <div class="snapshot-label">Exits</div>
+              <div class="snapshot-value">${place.environment.exits}</div>
+            </div>
+
+          </div>
         </div>
 
-        <div class="snapshot-item">
-          <div class="snapshot-label">Restrooms</div>
-          <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
-        </div>
+        <h3>What to expect</h3>
+        <p>${place.whatToExpect}</p>
 
-        <div class="snapshot-item">
-          <div class="snapshot-label">Exits</div>
-          <div class="snapshot-value">${place.environment.exits}</div>
-        </div>
-
+        <h3>Observed patterns</h3>
+        ${patternsHTML}
       </div>
-    </div>
-
-    <h3>What to expect</h3>
-    <p>${place.whatToExpect}</p>
-
-    <h3>Observed patterns</h3>
-    ${patternsHTML}
-  </div>
-`;
+    `;
   });
 }
 
