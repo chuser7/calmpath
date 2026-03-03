@@ -26,7 +26,199 @@ const places = [
     "Crowds increase significantly on game days."
   ]
 },
+   
+{
+  name: "Court Street Kitchen",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Street-level restaurant with a compact dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking and nearby downtown garages.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; increases as tables fill.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Neighborhood-oriented and steady in pace.",
+    "Activity builds gradually into the evening.",
+    "Weekends bring fuller seating compared to midweek."
+  ]
+},
 
+{
+  name: "Alcove by MadTree Brewing",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Modern restaurant with indoor seating and patio space in a mixed-use development. Generally calm earlier in the day and busier during dinner service and weekends.",
+  environment: {
+    parking: "Dedicated lot and shared development parking available.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main building"
+    },
+    noise: "Moderate; higher during peak dinner service.",
+    exits: "Patio and street-level access available."
+  },
+  insights: [
+    "Open, contemporary layout.",
+    "Evenings bring a noticeable increase in traffic.",
+    "Structured atmosphere rather than nightlife-driven."
+  ]
+},
+
+{
+  name: "The Eagle OTR",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Two-level restaurant with bar seating and closely arranged dining tables. Typically lighter during weekday afternoons and noticeably busier during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking and nearby OTR garages.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Common during peak dinner hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate to High; increases during peak dinner service.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "High traffic during dinner hours.",
+    "Weekend wait times are common.",
+    "Activity increases steadily after 5 pm."
+  ]
+},
+
+{
+  name: "Ruth’s Chris Steak House",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Upscale, structured dining room with traditional table seating. Generally calm during weekday evenings and busier during weekend dinner hours.",
+  environment: {
+    parking: "Valet and nearby downtown garages.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon",
+      location: "Inside main dining area"
+    },
+    noise: "Low to Moderate; conversation-friendly.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Reservation-driven and paced environment.",
+    "Consistent, controlled atmosphere.",
+    "Weekend evenings bring fuller dining rooms."
+  ]
+},
+
+{
+  name: "The Precinct",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Multi-room steakhouse set in a historic building with structured table layouts. Generally calm earlier in the evening, with busier dinner hours and weekends.",
+  environment: {
+    parking: "On-site parking lot available.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon",
+      location: "Inside building"
+    },
+    noise: "Low to Moderate; conversation-friendly throughout most hours.",
+    exits: "Multiple building exits."
+  },
+  insights: [
+    "Steady and organized even when full.",
+    "Multi-room layout changes the feel depending on seating.",
+    "Dinner hours shape most of the activity."
+  ]
+},
+
+{
+  name: "Jeff Ruby’s Steakhouse",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Large, multi-level dining space with a formal layout and prominent bar area. Generally calmer midweek and busier during weekend dinner hours.",
+  environment: {
+    parking: "Valet and nearby downtown garages.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main levels"
+    },
+    noise: "Moderate; higher during peak dinner service.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Structured and reservation-shaped flow.",
+    "Evenings bring the most noticeable increase in activity.",
+    "Weekends feel fuller but remain organized."
+  ]
+},
+
+{
+  name: "Red Roost Tavern",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Neighborhood bar with a compact interior and bar-focused seating. Typically calmer during the day and busier during evening hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Locally driven and consistent atmosphere.",
+    "Compact layout fills quickly.",
+    "Activity remains steady rather than event-driven."
+  ]
+},
+
+{
+  name: "The 1931",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Restaurant and bar located within a larger venue space with structured seating. Generally lighter earlier in the day and busier during dinner hours and special events.",
+  environment: {
+    parking: "Street parking and nearby garages.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during events",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during events and weekend evenings.",
+    exits: "Street-level access available."
+  },
+  insights: [
+    "Event-influenced activity tied to nearby attractions.",
+    "Noticeable shift during weekend evenings.",
+    "Weekday hours feel more controlled and steady."
+  ]
+},
+   
 {
   name: "Biscuit Love Cincinnati",
   city: "Cincinnati",
