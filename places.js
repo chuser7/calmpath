@@ -644,7 +644,199 @@ const places = [
     "Weekends bring fuller dining rooms but remain organized."
   ]
 },
+   
+{
+  name: "Pepper Pod",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Casual diner-style restaurant with a straightforward counter and table layout. Typically steady during breakfast and lunch hours, with lighter traffic later in the day.",
+  environment: {
+    parking: "Street parking nearby; may require short walk.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Uncommon except during peak breakfast hours",
+      location: "Inside main dining area"
+    },
+    noise: "Low to Moderate; generally conversation-friendly.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Routine-driven, especially during morning hours.",
+    "Breakfast brings the most consistent activity.",
+    "Pace remains steady rather than event-driven."
+  ]
+},
 
+{
+  name: "Mi Cozumel",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Traditional sit-down restaurant with a full dining room and bar seating. Generally calmer midweek and earlier in the day, with busier dinner hours and weekends.",
+  environment: {
+    parking: "Street parking and nearby public lots.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner service",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; increases during peak dinner service.",
+    exits: "Street-level access."
+  },
+  insights: [
+    "Family-oriented earlier in the evening.",
+    "Activity builds gradually after 5 pm.",
+    "Weekend nights bring fuller dining rooms."
+  ]
+},
+
+{
+  name: "Par 3 Newport",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Golf-themed bar with open interior space and entertainment-focused seating. Typically lighter during weekday afternoons and busier in the evenings and on weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak evening hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate to High; higher during peak evenings.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Activity centers around entertainment areas.",
+    "Evenings bring the most noticeable increase in crowd energy.",
+    "Weeknights tend to be calmer than weekends."
+  ]
+},
+
+{
+  name: "Mansion Hill Tavern",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Small neighborhood bar with close seating and a traditional pub layout. Generally steady during the day and busier in the evenings, especially on weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak evening hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate; increases as the space fills.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Compact and locally driven atmosphere.",
+    "Smaller footprint shapes the overall feel.",
+    "Evenings bring the most noticeable change in activity."
+  ]
+},
+
+{
+  name: "Cov Yard",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Outdoor bar and seating area with an open-air layout. Typically lighter earlier in the day and busier in the evenings, particularly during warm weather.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "On-site restroom facilities",
+      waits: "Possible during peak evenings",
+      location: "On-site outdoor facilities"
+    },
+    noise: "Moderate; varies based on crowd size and events.",
+    exits: "Fully open outdoor layout."
+  },
+  insights: [
+    "Weather-dependent traffic patterns.",
+    "Open layout creates a different feel than enclosed bars.",
+    "Weekend evenings bring the most consistent activity."
+  ]
+},
+
+{
+  name: "Doner House",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Small counter-service restaurant with limited indoor seating. Typically busiest during lunch hours, with lighter traffic mid-afternoon and later evening.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Uncommon",
+      location: "Inside venue"
+    },
+    noise: "Low; generally quick visits with light background activity.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Quick-stop oriented with shorter visit times.",
+    "Lunch brings the most consistent flow.",
+    "Activity remains steady rather than event-driven."
+  ]
+},
+
+{
+  name: "Purple Poulet",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Small restaurant with a casual, enclosed dining layout. Generally calmer during weekday hours and busier during dinner and weekend periods.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; increases during peak dinner hours.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Intimate due to smaller footprint.",
+    "Activity builds gradually through the evening.",
+    "Weekends bring fuller seating compared to weekdays."
+  ]
+},
+
+{
+  name: "McCollum’s on York",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Neighborhood bar with bar-focused seating and a compact interior. Typically steady earlier in the day and busier during evening hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during weekend evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Locally driven with consistent regular patrons.",
+    "Space fills quickly due to compact layout.",
+    "Activity remains steady rather than event-driven."
+  ]
+},
+   
 {
   name: "Sake Bomb Sushi & Korean BBQ",
   city: "Newport",
