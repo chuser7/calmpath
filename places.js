@@ -620,7 +620,55 @@ const places = [
     "Weekends bring highest volume."
   ]
 },
+   
+{
+  name: "Brio Italian Grille",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Large, traditional dining restaurant with multiple seating areas inside Newport on the Levee. Generally calmer during weekday afternoons and busier during dinner hours and weekends.",
+  environment: {
+    parking: "Levee garage parking directly adjacent; easy access.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate; higher during peak dinner service.",
+    exits: "Direct access to Levee walkways and exterior exits."
+  },
+  insights: [
+    "Structured and reservation-driven, especially at dinner.",
+    "Activity increases steadily after 5–6 pm.",
+    "Weekends bring fuller dining rooms but remain organized."
+  ]
+},
 
+{
+  name: "Sake Bomb Sushi & Korean BBQ",
+  city: "Newport",
+  state: "KY",
+  type: "full",
+  whatToExpect:
+    "Large dining space with a mix of table seating and grill tables inside Newport on the Levee. Typically lighter earlier in the day and noticeably busier during dinner hours and weekends.",
+  environment: {
+    parking: "Levee garage parking available on-site; easy access.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak dinner hours",
+      location: "Inside main dining area"
+    },
+    noise: "Moderate to High; increases during peak dinner hours due to table activity.",
+    exits: "Located within the Levee with clear access to exterior walkways."
+  },
+  insights: [
+    "Group-oriented layout centered around shared tables.",
+    "Noticeable increase in movement and conversation during dinner hours.",
+    "Weekends bring the most significant crowd levels."
+  ]
+},
+   
 {
   name: "The Baker’s Table",
   city: "Newport",
