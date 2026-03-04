@@ -29,6 +29,456 @@ const places = [
 },
    
    {
+name: "Hummus Republic",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Counter-service restaurant with a straightforward ordering line and casual seating. Typically busiest during lunch hours and early evening periods.",
+environment: {
+parking: "Street parking along nearby Clifton streets.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-stop oriented with short visits.",
+"Lunch hours bring the most consistent activity.",
+"Evening traffic increases slightly but remains steady."
+]
+},
+
+{
+name: "Good Plates Eatery",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small restaurant with a casual dining layout and counter ordering. Typically calmer mid-afternoon and busier during lunch and early dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during midday hours.",
+"First-time visitors note traffic builds around lunch.",
+"Activity tapers slightly later in the evening."
+]
+},
+
+{
+name: "Hangry Joe's Hot Chicken & Wings",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-service with short visit times.",
+"Lunch and late-night hours bring the most traffic.",
+"Activity tends to be consistent rather than event-driven."
+]
+},
+
+{
+name: "Avalanche Crepes & Waffles",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Compact café-style space with counter ordering and small seating areas. Typically busiest during dessert hours and late evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dessert-focused with short visits.",
+"First-timers notice increased activity after dinner hours.",
+"Weekend evenings bring the most foot traffic."
+]
+},
+
+{
+name: "Clifton Indian Restaurant & Bar",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Dining-focused restaurant with table seating and a bar area. Typically calmer during weekday afternoons and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Occasional waits during dinner rush",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-oriented.",
+"First-timers note traffic increases steadily after 5 pm.",
+"Weekends bring fuller dining rooms."
+]
+},
+
+{
+name: "Martino’s on Vine",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Street-level restaurant with a traditional dining layout. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking along Vine Street.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady throughout the day.",
+"First-timers note activity increases during evening service.",
+"Weekends bring slightly higher table occupancy."
+]
+},
+
+{
+name: "HangOverEasy",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual restaurant with bar seating and a compact dining room. Typically busiest during breakfast, brunch, and weekend mornings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible during brunch rush",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with high brunch traffic.",
+"First-timers notice weekend mornings bring the most activity.",
+"Afternoons are generally calmer."
+]
+},
+
+{
+name: "Alabama Que",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small counter-service restaurant with limited seating. Typically busiest during lunch and early evening hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-stop oriented.",
+"Lunch hours bring the most consistent traffic.",
+"Activity remains steady throughout the afternoon."
+]
+},
+
+{
+name: "Cincy Steak and Lemonade",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and late evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-service with shorter visits.",
+"Lunch and late-night hours bring the most traffic.",
+"Activity remains consistent throughout the day."
+]
+},
+
+{
+name: "Izen’s Drunken Bento",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a mix of counter ordering and dining tables. Typically calmer mid-afternoon and busier during lunch and dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as lunch and dinner focused.",
+"First-timers note activity increases around midday.",
+"Evening hours bring moderate traffic."
+]
+},
+
+{
+name: "Baladi Restaurant & Bakery",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual restaurant and bakery with counter ordering and dining tables. Typically steady during lunch hours and early evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as consistent throughout the day.",
+"First-timers note lunch brings the most activity.",
+"Evening hours remain steady but less crowded."
+]
+},
+
+{
+name: "Keystone’s Mac Shack",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with bar seating and a compact dining area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady traffic.",
+"First-timers note evenings bring fuller tables.",
+"Weekend nights show the highest activity."
+]
+},
+
+{
+name: "Sichuan Palace",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Dining-focused restaurant with a traditional table layout. Typically calm during weekday afternoons and busier during dinner service.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during lunch and dinner hours.",
+"First-timers note dinner brings the most activity.",
+"Weekends show slightly higher traffic."
+]
+},
+
+{
+name: "Mz Jade’s Soul Station",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small restaurant with counter service and limited seating. Typically busiest during lunch and early evening hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as lunch-driven with quick visits.",
+"First-timers notice midday traffic peaks.",
+"Activity remains steady during the afternoon."
+]
+},
+
+{
+name: "Drunken Tacos",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with casual seating and counter service. Typically calmer earlier in the day and busier during evening hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible during evening rush",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as bar-forward during evening hours.",
+"First-timers notice activity increases after dinner time.",
+"Weekends bring the most consistent traffic."
+]
+},
+
+{
+name: "El Taco Veloz",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Counter-service restaurant with limited seating. Typically busiest during lunch hours and late evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-service with short visits.",
+"Lunch hours bring the most consistent activity.",
+"Late-night traffic increases slightly."
+]
+},
+
+{
+name: "Adriatico’s",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large pizza restaurant with dining tables and bar seating. Typically steady during lunch hours and busier during evenings and weekends.",
+environment: {
+parking: "Street parking and nearby lots.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible during dinner rush",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as high-traffic during evenings.",
+"First-timers note activity increases around dinner time.",
+"Weekend nights bring fuller seating."
+]
+},
+
+{
+name: "Mio’s Pizzeria Pub",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady neighborhood traffic.",
+"First-timers note evenings bring fuller tables.",
+"Weekend activity is slightly higher than weekdays."
+]
+},
+   
+   {
   name: "Montgomery Inn – The Boathouse",
   city: "Cincinnati",
       neighborhood: "Mt. Adams",
