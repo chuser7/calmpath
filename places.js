@@ -1676,7 +1676,7 @@ function showRandomPlace() {
   resultDiv.innerHTML = `
     <div class="card">
 
-      <div class="label">Example CalmPath profile</div>
+      <div class="label">Featured CalmPath Profile</div>
 
       <h2>${randomPlace.name}</h2>
       <div style="font-size:0.9rem;color:#666;margin-bottom:12px;">
