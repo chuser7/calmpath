@@ -27,6 +27,342 @@ const places = [
   ]
 },
    
+   {
+  name: "Montgomery Inn – The Boathouse",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Large riverfront restaurant with multiple dining rooms and patio seating. Generally calmer earlier in the day, with increased activity during dinner hours, weekends, and nearby events.",
+  environment: {
+    parking: "Large on-site parking lot available.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Uncommon except during peak dinner hours",
+      location: "Inside main building"
+    },
+    noise: "Moderate; higher when dining rooms are full.",
+    exits: "Multiple exits and patio access."
+  },
+  insights: [
+    "Spacious layout with steady dining traffic.",
+    "Activity increases around dinner hours.",
+    "Weekend evenings bring the fullest seating."
+  ]
+},
+
+{
+  name: "Bow Tie Cafe",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Small café with counter service and limited seating. Typically busiest during morning and early afternoon hours.",
+  environment: {
+    parking: "Street parking in Mt. Adams.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Uncommon",
+      location: "Inside venue"
+    },
+    noise: "Low to Moderate; generally quiet outside peak coffee hours.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Morning-focused traffic pattern.",
+    "Breakfast hours bring the most activity.",
+    "Traffic decreases steadily through the afternoon."
+  ]
+},
+
+{
+  name: "Luca Bistro",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Compact restaurant with a structured dining room and bar seating. Generally calm earlier in the evening and busier during peak dinner hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak dinner hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate; increases as the dining room fills.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Intimate atmosphere due to smaller size.",
+    "Dinner hours gradually increase activity.",
+    "Weekends bring fuller seating."
+  ]
+},
+
+{
+  name: "Al'Lupo Ristorante",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Small dining-focused restaurant with closely arranged tables. Typically quieter midweek and busier during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak dinner hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher when dining room is full.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Compact dining layout.",
+    "Reservations shape the evening pace.",
+    "Weekend dinners bring the highest occupancy."
+  ]
+},
+
+{
+  name: "El Barril",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Street-level restaurant with bar seating and dining tables. Generally lighter during weekday hours and busier during evening service and weekends.",
+  environment: {
+    parking: "Street parking in Mt. Adams.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak evening hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during peak dinner and bar hours.",
+    exits: "Direct sidewalk access."
+  },
+  insights: [
+    "Bar-forward layout influences traffic patterns.",
+    "Activity increases noticeably after dinner hours.",
+    "Weekend evenings bring the most consistent traffic."
+  ]
+},
+
+{
+  name: "Mt. Adams Bar & Grill",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Neighborhood bar and restaurant with indoor seating and patio space. Typically steady during the day and busier during evening hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during peak evening hours",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Patio and street access available."
+  },
+  insights: [
+    "Locally driven neighborhood spot.",
+    "Activity builds gradually through the evening.",
+    "Weekend nights bring the most noticeable crowd levels."
+  ]
+},
+
+{
+  name: "City View Tavern",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Small bar and restaurant with indoor seating and a patio overlooking the city. Typically calmer earlier in the day and busier during evening hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during busy evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Patio access available."
+  },
+  insights: [
+    "Patio and city views drive visitor traffic.",
+    "Outdoor seating draws many first-time visitors.",
+    "Evening hours bring the most activity."
+  ]
+},
+
+{
+  name: "The Hilltop",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Bar with indoor seating and a rooftop patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during weekend nights",
+      location: "Inside venue"
+    },
+    noise: "Moderate to High; increases late at night.",
+    exits: "Street and rooftop access available."
+  },
+  insights: [
+    "Nightlife-oriented traffic pattern.",
+    "Activity increases after dinner hours.",
+    "Weekend nights bring the highest crowd levels."
+  ]
+},
+
+{
+  name: "Your Mom’s Pizzeria",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Small counter-service pizza spot with limited seating. Typically busiest during late-night hours and weekend evenings.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Uncommon",
+      location: "Inside venue"
+    },
+    noise: "Moderate; varies depending on crowd size.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Quick-stop oriented layout.",
+    "Late-night hours bring the most activity.",
+    "Traffic remains steady rather than event-driven."
+  ]
+},
+
+{
+  name: "The Blind Lemon",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Small bar with indoor seating and a secluded outdoor patio. Typically calm earlier in the evening and busier during live music nights and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during busy nights",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during live music.",
+    exits: "Patio and street access available."
+  },
+  insights: [
+    "Patio-centered layout shapes the experience.",
+    "Live music strongly influences activity.",
+    "Weekend evenings bring the most visitors."
+  ]
+},
+
+{
+  name: "Crowley’s Highland House Cafe",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Neighborhood bar with a compact interior and traditional bar layout. Generally steady during the day and busier during evening hours.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during busy evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Locally driven with consistent traffic.",
+    "Activity builds gradually through the evening.",
+    "Weekends bring the fullest seating."
+  ]
+},
+
+{
+  name: "Monk’s Cove",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Bar with a small interior and close seating arrangement. Typically quieter earlier in the evening and busier later at night.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during weekend nights",
+      location: "Inside venue"
+    },
+    noise: "Moderate to High; higher during weekend nights.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Night-focused bar traffic.",
+    "Activity increases later in the evening.",
+    "Weekend nights bring the highest crowd levels."
+  ]
+},
+
+{
+  name: "The View at Mt. Adams",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Restaurant and bar with large windows and outdoor seating overlooking the city. Typically lighter earlier in the day and busier during dinner hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; accessible",
+      waits: "Possible during peak evenings",
+      location: "Inside venue"
+    },
+    noise: "Moderate; higher during weekend evenings.",
+    exits: "Patio and street access available."
+  },
+  insights: [
+    "View-driven destination spot.",
+    "Window and patio seating attract most visitors.",
+    "Evenings bring the most consistent traffic."
+  ]
+},
+
+{
+  name: "Hi-Fi Cincy",
+  city: "Cincinnati",
+  state: "OH",
+  type: "full",
+  whatToExpect:
+    "Bar with indoor seating and an entertainment-focused layout. Typically quiet during the day and busier during evening hours and weekends.",
+  environment: {
+    parking: "Street parking nearby.",
+    restrooms: {
+      capacity: "Indoor; limited capacity",
+      waits: "Possible during busy nights",
+      location: "Inside venue"
+    },
+    noise: "High; especially during late-night hours.",
+    exits: "Street-level entrance."
+  },
+  insights: [
+    "Music and nightlife oriented environment.",
+    "Activity increases significantly after dinner hours.",
+    "Weekend nights bring the highest crowd levels."
+  ]
+}
+   
 {
   name: "Court Street Kitchen",
   city: "Cincinnati",
