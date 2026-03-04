@@ -1371,6 +1371,7 @@ insights: [
   {
   name: "Otto’s",
   city: "Covington",
+     neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1395,6 +1396,7 @@ insights: [
 {
   name: "The Gruff",
   city: "Covington",
+    neighborhood: "Roebling/Riverfront",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1419,6 +1421,7 @@ insights: [
 {
   name: "Blinkers Tavern",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1443,6 +1446,7 @@ insights: [
 {
   name: "Carmelo’s Restaurant",
   city: "Covington",
+   neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1467,6 +1471,7 @@ insights: [
 {
   name: "Coppin’s Restaurant & Bar",
   city: "Covington",
+   neighborhood: "Roebling/Riverfront",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1491,6 +1496,7 @@ insights: [
 {
   name: "Anchor Grill",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1515,6 +1521,7 @@ insights: [
 {
   name: "Wiseguy Lounge – Mainstrasse",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1539,6 +1546,7 @@ insights: [
 {
   name: "Mama’s on Main",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1563,6 +1571,7 @@ insights: [
 {
   name: "Cedar",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1587,6 +1596,7 @@ insights: [
 {
   name: "Cock & Bull",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1611,6 +1621,7 @@ insights: [
 {
   name: "Doubt It Bar",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1635,6 +1646,7 @@ insights: [
 {
   name: "Zazou",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1659,6 +1671,7 @@ insights: [
 {
   name: "Libby’s Southern Comfort",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1683,6 +1696,7 @@ insights: [
 {
   name: "Agave & Rye",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1707,6 +1721,7 @@ insights: [
 {
   name: "Bouquet Restaurant",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1731,6 +1746,7 @@ insights: [
 {
   name: "Eishaus",
   city: "Covington",
+    neighborhood: "MainStrasse",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1759,6 +1775,7 @@ insights: [
 {
   name: "Hofbräuhaus Newport",
   city: "Newport",
+    neighborhood: "The Levee",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1783,6 +1800,7 @@ insights: [
 {
   name: "Brio Italian Grille",
   city: "Newport",
+   neighborhood: "The Levee",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1831,6 +1849,7 @@ insights: [
 {
   name: "Mi Cozumel",
   city: "Newport",
+   neighborhood: "The Levee",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1855,6 +1874,7 @@ insights: [
 {
   name: "Par 3 Newport",
   city: "Newport",
+   neighborhood: "The Levee",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1902,7 +1922,8 @@ insights: [
 
 {
   name: "Cov Yard",
-  city: "Newport",
+  city: "Covington",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2167,7 +2188,7 @@ function showRandomPlace() {
 
       <h2>${randomPlace.name}</h2>
       <div style="font-size:0.9rem;color:#666;margin-bottom:12px;">
-        ${randomPlace.city}, ${randomPlace.state}
+        <p>${randomPlace.neighborhood ? randomPlace.neighborhood + " • " : ""}${randomPlace.city}, ${randomPlace.state}</p>
       </div>
 
       <div class="snapshot">
