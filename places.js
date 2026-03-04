@@ -29,6 +29,281 @@ const places = [
 },
    
    {
+name: "Incline Public House",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a large dining room and outdoor patio overlooking the city. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Dedicated lot next to the restaurant and additional street parking nearby.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during busy dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Patio and street-level access available."
+},
+insights: [
+"Often described as view-driven, with many visitors drawn to the patio.",
+"First-timers notice traffic increases around sunset and dinner hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "El Trancazo Restaurant",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual restaurant with table seating and counter ordering. Typically busiest during lunch hours and early evening periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during midday hours.",
+"First-timers note lunch brings the most activity.",
+"Evening traffic remains consistent but moderate."
+]
+},
+
+{
+name: "Primavista",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Dining-focused restaurant with large windows overlooking the city and a structured dining room layout. Typically calm earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Private parking lot available for guests.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner service",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as view-oriented with steady dinner traffic.",
+"First-timers notice reservations shape the evening pace.",
+"Weekend evenings bring fuller dining rooms."
+]
+},
+
+{
+name: "Veracruz Mexican Grill",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a casual dining layout and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during lunch and dinner hours.",
+"First-timers notice activity increases during evening service.",
+"Weekends bring slightly higher traffic."
+]
+},
+
+{
+name: "Restaurante y Taqueria Valle Verde",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and early evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as lunch-driven with steady foot traffic.",
+"First-timers note midday hours bring the most activity.",
+"Evening traffic remains consistent."
+]
+},
+
+{
+name: "Sabor San Marcos",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and counter ordering. Typically steady during lunch and early dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as consistent throughout the day.",
+"First-timers notice lunch brings the most traffic.",
+"Weekends show slightly higher activity."
+]
+},
+
+{
+name: "221 Restaurant",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a structured dining layout and bar seating. Typically calmer earlier in the day and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused.",
+"First-timers notice traffic increases around dinner hours.",
+"Weekends bring fuller seating."
+]
+},
+
+{
+name: "Taqueria Doña Maria",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small restaurant with counter ordering and dining tables. Typically busiest during lunch hours and early evening periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-service oriented with shorter visits.",
+"First-timers note lunch hours bring the most traffic.",
+"Activity remains steady throughout the afternoon."
+]
+},
+
+{
+name: "Hook Fish & Chicken",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-stop oriented.",
+"First-timers note traffic peaks during lunch.",
+"Late evening visits increase slightly."
+]
+},
+
+{
+name: "52 Bar",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Neighborhood bar with bar seating and a compact interior layout. Typically calmer during the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as locally driven with steady evening traffic.",
+"First-timers notice activity increases after dinner hours.",
+"Weekend nights bring the highest crowd levels."
+]
+},
+
+{
+name: "Urbana Cafe – East Price Hill",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with shorter visits.",
+"First-timers notice breakfast hours bring the most activity.",
+"Traffic decreases through the afternoon."
+]
+},
+   
+   {
 name: "Delwood",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
