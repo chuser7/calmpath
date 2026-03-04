@@ -29,6 +29,281 @@ const places = [
 },
    
    {
+name: "Delwood",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Neighborhood restaurant with a structured dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around Mt. Lookout Square.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Occasional waits during busy dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady evening traffic.",
+"First-timers note activity builds after typical work hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "Zip's Cafe",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Classic neighborhood restaurant with bar seating and table service. Typically steady during lunch hours and busier during dinner periods and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak meal times",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as consistently busy during lunch and dinner.",
+"First-timers note activity increases around midday.",
+"Weekend evenings bring steady dining traffic."
+]
+},
+
+{
+name: "Sago",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and a compact dining layout. Typically calmer earlier in the day and busier during dinner service and weekends.",
+environment: {
+parking: "Street parking around Mt. Lookout Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Occasional waits during dinner rush",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-oriented.",
+"First-timers notice activity increases after 5 pm.",
+"Weekends bring fuller dining rooms."
+]
+},
+
+{
+name: "Mt. Lookout Tavern",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large bar with multiple floors and outdoor patio seating. Typically lighter earlier in the day and significantly busier during evening hours and weekends.",
+environment: {
+parking: "Street parking around Mt. Lookout Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "High.",
+exits: "Patio and street-level access available."
+},
+insights: [
+"Often described as nightlife-oriented, especially on weekends.",
+"First-timers note activity increases significantly later in the evening.",
+"Weekend nights bring the highest crowd levels."
+]
+},
+
+{
+name: "The Vault Mt. Lookout",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a modern interior and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekend evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as bar-forward during evening hours.",
+"First-timers notice activity builds steadily through dinner service.",
+"Weekends bring the most consistent traffic."
+]
+},
+
+{
+name: "Vinology",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and wine bar with indoor seating and patio space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around Mt. Lookout Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Patio and street-level access available."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers note patio seating draws visitors during warm weather.",
+"Weekends bring fuller dining rooms."
+]
+},
+
+{
+name: "Ichiban",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a traditional dining layout and sushi bar seating. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during lunch and dinner.",
+"First-timers note activity increases during evening service.",
+"Weekend evenings bring slightly higher traffic."
+]
+},
+
+{
+name: "Ramundo's Pizzeria",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-service with steady dining traffic.",
+"First-timers notice lunch and dinner bring the most activity.",
+"Weekend evenings bring slightly higher traffic."
+]
+},
+
+{
+name: "Guardia",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around Mt. Lookout Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady evening traffic.",
+"First-timers notice activity builds after typical work hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "Cloud 9 Sushi",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during dinner service.",
+"First-timers note evenings bring the most activity.",
+"Weekends bring fuller seating."
+]
+},
+
+{
+name: "Lookout Joe",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small café with counter ordering and limited seating. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking around Mt. Lookout Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with short visits.",
+"First-timers note breakfast hours bring the most activity.",
+"Traffic decreases later in the afternoon."
+]
+},
+   
+   {
 name: "Hummus Republic",
 city: "Cincinnati",
 neighborhood: "Clifton",
