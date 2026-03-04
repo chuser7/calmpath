@@ -1354,7 +1354,7 @@ function searchPlace() {
   }
 
   const matches = places.filter(place =>
-    normalize(place.name).startsWith(input)
+    normalize(place.name).includes(input)
   );
 
   if (matches.length === 0) {
