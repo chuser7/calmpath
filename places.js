@@ -361,7 +361,7 @@ const places = [
     "Activity increases significantly after dinner hours.",
     "Weekend nights bring the highest crowd levels."
   ]
-}
+},
    
 {
   name: "Court Street Kitchen",
