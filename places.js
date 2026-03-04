@@ -1825,6 +1825,7 @@ insights: [
 {
   name: "Pepper Pod",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1899,6 +1900,7 @@ insights: [
 {
   name: "Mansion Hill Tavern",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1948,6 +1950,7 @@ insights: [
 {
   name: "Doner House",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1972,6 +1975,7 @@ insights: [
 {
   name: "Purple Poulet",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -1996,6 +2000,7 @@ insights: [
 {
   name: "McCollum’s on York",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2020,6 +2025,7 @@ insights: [
 {
   name: "Sake Bomb Sushi & Korean BBQ",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2044,6 +2050,7 @@ insights: [
 {
   name: "The Baker’s Table",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2068,6 +2075,7 @@ insights: [
 {
   name: "Shiners on the Levee",
   city: "Newport",
+   neighborhood: "The Levee",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2092,6 +2100,7 @@ insights: [
 {
   name: "Bridgeview Box Park",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2116,6 +2125,7 @@ insights: [
 {
   name: "Jerry’s Jug House",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
@@ -2140,6 +2150,7 @@ insights: [
 {
   name: "New Riff Distilling",
   city: "Newport",
+   neighborhood: "",
   state: "KY",
   type: "full",
   whatToExpect:
