@@ -1661,6 +1661,63 @@ function normalize(text) {
     .replace(/[^a-z0-9\s]/g, "")
     .trim();
 }
+function showRandomPlace() {
+
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "";
+
+  const randomPlace = places[Math.floor(Math.random() * places.length)];
+
+  const patternsHTML =
+    randomPlace.insights && randomPlace.insights.length
+      ? `<ul>${randomPlace.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+      : "<p>No observed patterns yet.</p>";
+
+  resultDiv.innerHTML = `
+    <div class="card">
+
+      <div class="label">Example CalmPath profile</div>
+
+      <h2>${randomPlace.name}</h2>
+      <div style="font-size:0.9rem;color:#666;margin-bottom:12px;">
+        ${randomPlace.city}, ${randomPlace.state}
+      </div>
+
+      <div class="snapshot">
+        <div class="snapshot-grid">
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Parking</div>
+            <div class="snapshot-value">${randomPlace.environment.parking}</div>
+          </div>
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Noise</div>
+            <div class="snapshot-value">${randomPlace.environment.noise}</div>
+          </div>
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Restrooms</div>
+            <div class="snapshot-value">${randomPlace.environment.restrooms.capacity}</div>
+          </div>
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Exits</div>
+            <div class="snapshot-value">${randomPlace.environment.exits}</div>
+          </div>
+
+        </div>
+      </div>
+
+      <h3>What to expect</h3>
+      <p>${randomPlace.whatToExpect}</p>
+
+      <h3>Observed patterns</h3>
+      ${patternsHTML}
+
+    </div>
+  `;
+}
 
 function searchPlace() {
   const inputRaw = document.getElementById("search").value;
@@ -1676,7 +1733,7 @@ function searchPlace() {
   resultDiv.innerHTML = "";
 
   if (input.length === 0) {
-    resultDiv.innerHTML = "";
+    showRandomPlace();
     return;
   }
 
@@ -1813,4 +1870,4 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(rotatePlaceholder, 2500);
 });
 
-
+showRandomPlace();
