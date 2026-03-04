@@ -487,7 +487,7 @@ insights: [
   whatToExpect:
     "Large riverfront restaurant with multiple dining rooms and patio seating. Generally calmer earlier in the day, with increased activity during dinner hours, weekends, and nearby events.",
   environment: {
-    parking: "Large on-site parking lot available.",
+    parking: "Valet only.",
     restrooms: {
       capacity: "Indoor; accessible",
       waits: "Uncommon except during peak dinner hours",
@@ -937,7 +937,7 @@ insights: [
   whatToExpect:
     "Multi-room steakhouse set in a historic building with structured table layouts. Generally calm earlier in the evening, with busier dinner hours and weekends.",
   environment: {
-    parking: "On-site parking lot available.",
+    parking: "Valet. On-site parking lot available.",
     restrooms: {
       capacity: "Indoor; accessible",
       waits: "Uncommon",
