@@ -1328,6 +1328,13 @@ function normalize(text) {
 
 function searchPlace() {
   const inputRaw = document.getElementById("search").value;
+
+    if (typeof gtag !== "undefined") {
+    gtag('event', 'search', {
+      search_term: inputRaw
+    });
+  }
+   
   const input = normalize(inputRaw);
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
