@@ -2720,7 +2720,161 @@ insights: [
     "Structured, organized flow.",
     "Weekends bring stronger group activity."
   ]
-}
+},
+   
+   /* =========================
+   LUDLOW, KY
+========================= */
+   
+   {
+name: "Buffalo Bar",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking along Elm Street and nearby residential streets.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as locally driven with consistent evening traffic.",
+"First-timers notice activity increases after typical dinner hours.",
+"Weekend nights bring the most consistent crowds."
+]
+},
+
+{
+name: "Ludlow Tavern",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with dining tables and bar seating in a street-level space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady throughout dinner hours.",
+"First-timers note activity increases after work hours.",
+"Weekends bring fuller dining rooms."
+]
+},
+
+{
+name: "Second Sight Spirits",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Distillery tasting room with bar seating and small table areas. Typically calmer earlier in the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as tour and tasting-driven, especially during evenings.",
+"First-timers notice activity increases during event nights.",
+"Weekend evenings bring the most visitors."
+]
+},
+
+{
+name: "Ludlow Coffee",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with shorter visits.",
+"First-timers note breakfast hours bring the most activity.",
+"Traffic decreases steadily through the afternoon."
+]
+},
+
+{
+name: "Lagoon Saloon",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Patio and street-level access available."
+},
+insights: [
+"Often described as bar-focused with evening activity.",
+"First-timers notice traffic increases later in the evening.",
+"Weekend nights bring the highest crowd levels."
+]
+},
+
+{
+name: "Ludlow-Bromley Yacht Club",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Riverfront club and bar with indoor seating and outdoor areas overlooking the water. Typically lighter earlier in the day and busier during evenings, weekends, and seasonal events.",
+environment: {
+parking: "Dedicated parking lot available near the club.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Outdoor deck and riverfront access available."
+},
+insights: [
+"Often described as riverfront-focused with seasonal activity.",
+"First-timers notice traffic increases during warm weather.",
+"Weekend evenings bring the most consistent crowds."
+]
+},
 
 ];
 
