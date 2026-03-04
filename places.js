@@ -2284,7 +2284,7 @@ function searchPlace() {
 
         <h2>${place.name}</h2>
         <div class="location">
-          <p>${place.neighborhood} • ${place.city}, ${place.state}</p>
+          <p>${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}</p>
         </div>
 
         <div class="snapshot">
