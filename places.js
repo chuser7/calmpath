@@ -7,6 +7,7 @@ const places = [
 {
   name: "Condado Tacos – The Banks",
   city: "Cincinnati",
+   neighborhood: "The Banks",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -30,6 +31,7 @@ const places = [
    {
   name: "Montgomery Inn – The Boathouse",
   city: "Cincinnati",
+      neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -54,6 +56,7 @@ const places = [
 {
   name: "Bow Tie Cafe",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -78,6 +81,7 @@ const places = [
 {
   name: "Luca Bistro",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -102,6 +106,7 @@ const places = [
 {
   name: "Al'Lupo Ristorante",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -126,6 +131,7 @@ const places = [
 {
   name: "El Barril",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -150,6 +156,7 @@ const places = [
 {
   name: "Mt. Adams Bar & Grill",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -174,6 +181,7 @@ const places = [
 {
   name: "City View Tavern",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -198,6 +206,7 @@ const places = [
 {
   name: "The Hilltop",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -222,6 +231,7 @@ const places = [
 {
   name: "Your Mom’s Pizzeria",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -246,6 +256,7 @@ const places = [
 {
   name: "The Blind Lemon",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -270,6 +281,7 @@ const places = [
 {
   name: "Crowley’s Highland House Cafe",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -294,6 +306,7 @@ const places = [
 {
   name: "Monk’s Cove",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -318,6 +331,7 @@ const places = [
 {
   name: "The View at Mt. Adams",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -342,6 +356,7 @@ const places = [
 {
   name: "Hi-Fi Cincy",
   city: "Cincinnati",
+   neighborhood: "Mt. Adams",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -366,6 +381,7 @@ const places = [
 {
   name: "Court Street Kitchen",
   city: "Cincinnati",
+   neighborhood: "Downtown",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -390,6 +406,7 @@ const places = [
 {
   name: "Alcove by MadTree Brewing",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -414,6 +431,7 @@ const places = [
 {
   name: "The Eagle OTR",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -438,6 +456,7 @@ const places = [
 {
   name: "Ruth’s Chris Steak House",
   city: "Cincinnati",
+   neighborhood: "The Banks",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -462,6 +481,7 @@ const places = [
 {
   name: "The Precinct",
   city: "Cincinnati",
+   neighborhood: "Columbia Tusculum",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -486,6 +506,7 @@ const places = [
 {
   name: "Jeff Ruby’s Steakhouse",
   city: "Cincinnati",
+   neighborhood: "Downtown",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -510,6 +531,7 @@ const places = [
 {
   name: "Red Roost Tavern",
   city: "Cincinnati",
+   neighborhood: "Downtown",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -534,6 +556,7 @@ const places = [
 {
   name: "The 1931",
   city: "Cincinnati",
+   neighborhood: "Downtown",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -558,6 +581,7 @@ const places = [
 {
   name: "Biscuit Love Cincinnati",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -581,6 +605,7 @@ const places = [
 {
   name: "Jefferson Social",
   city: "Cincinnati",
+   neighborhood: "The Banks",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -604,6 +629,7 @@ const places = [
 {
   name: "Krueger’s Tavern",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -627,6 +653,7 @@ const places = [
 {
   name: "Bakersfield OTR",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -650,6 +677,7 @@ const places = [
 {
   name: "MadTree Brewing - Oakley",
   city: "Cincinnati",
+   neighborhood: "Oakley",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -673,6 +701,7 @@ const places = [
 {
   name: "Maplewood Kitchen + Bar",
   city: "Cincinnati",
+   neighborhood: "Downtown",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -696,6 +725,7 @@ const places = [
 {
   name: "Moerlein Lager House",
   city: "Cincinnati",
+   neighborhood: "The Banks",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -719,6 +749,7 @@ const places = [
 {
   name: "O’Malley’s in the Alley",
   city: "Cincinnati",
+   neighborhood: "Downtown",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -742,6 +773,7 @@ const places = [
 {
   name: "Pepp & Dolores",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -765,6 +797,7 @@ const places = [
 {
   name: "Red Leprechaun",
   city: "Cincinnati",
+   neighborhood: "The Banks",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -788,6 +821,7 @@ const places = [
 {
   name: "Rhinegeist Brewery",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -811,6 +845,7 @@ const places = [
 {
   name: "Samuel Adams Cincinnati Taproom",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -834,6 +869,7 @@ const places = [
 {
   name: "The Pitch Cincy",
   city: "Cincinnati",
+   neighborhood: "OTR",
   state: "OH",
   type: "full",
   whatToExpect:
@@ -857,6 +893,7 @@ const places = [
 {
   name: "Yard House",
   city: "Cincinnati",
+   neighborhood: "The Banks",
   state: "OH",
   type: "full",
   whatToExpect:
