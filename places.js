@@ -29,6 +29,256 @@ const places = [
 },
    
    {
+name: "Loving Hut",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small restaurant with counter ordering and table seating in a casual dining space. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking along Montgomery Road.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during lunch and early dinner hours.",
+"First-timers note midday brings the most activity.",
+"Evening traffic remains moderate."
+]
+},
+
+{
+name: "Fine Wine O'Clock",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Wine bar with indoor seating and a relaxed lounge-style layout. Typically calmer earlier in the evening and busier during weekend nights.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady bar activity.",
+"First-timers notice activity increases later in the evening.",
+"Weekend nights bring the most consistent traffic."
+]
+},
+
+{
+name: "Cafe Alma",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and counter ordering in a small dining room. Typically busiest during brunch hours and early afternoons.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during brunch",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as brunch-focused with strong midday traffic.",
+"First-timers note weekends bring the highest activity.",
+"Afternoon hours are generally calmer."
+]
+},
+
+{
+name: "The Gas Light Cafe",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking along Montgomery Road.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with shorter visits.",
+"First-timers notice breakfast hours bring the most traffic.",
+"Activity decreases steadily later in the afternoon."
+]
+},
+
+{
+name: "Hello Honey",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Small dessert shop with counter ordering and limited seating. Typically busiest during afternoon and evening dessert hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dessert-focused with short visits.",
+"First-timers notice increased activity after dinner hours.",
+"Weekend evenings bring the most traffic."
+]
+},
+
+{
+name: "Nine Giant Brewing",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Brewery and restaurant with bar seating and dining tables in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking and small nearby lots.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady bar traffic.",
+"First-timers notice activity increases after typical work hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "The Overlook Lodge",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Bar with themed interior seating and lounge-style areas. Typically quieter earlier in the evening and busier later at night.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as nightlife-oriented with themed bar atmosphere.",
+"First-timers notice activity increases later in the evening.",
+"Weekend nights bring the most consistent crowds."
+]
+},
+
+{
+name: "The Lonely Pine Steakhouse",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady evening traffic.",
+"First-timers notice reservations shape the pace of dinner hours.",
+"Weekend evenings bring fuller dining rooms."
+]
+},
+
+{
+name: "Coffee Exchange",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Coffee shop with counter ordering and indoor seating areas. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with steady coffee traffic.",
+"First-timers notice breakfast hours bring the most activity.",
+"Afternoon hours tend to be calmer."
+]
+},
+
+{
+name: "Wiseguy Lounge – Pleasant Ridge",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Bar with lounge seating and a compact interior layout. Typically quieter earlier in the evening and busier later at night.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as nightlife-oriented with late evening activity.",
+"First-timers notice crowds increase later in the night.",
+"Weekend nights bring the highest traffic."
+]
+},
+   
+   {
 name: "Incline Public House",
 city: "Cincinnati",
 neighborhood: "Price Hill",
