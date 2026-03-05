@@ -2883,7 +2883,7 @@ insights: [
  {
 name: "Cork N Crust",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -2908,7 +2908,7 @@ insights: [
 {
 name: "Avenue Brew",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -2933,7 +2933,7 @@ insights: [
 {
 name: "Cancun Mexican Bar and Grill",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -2958,7 +2958,7 @@ insights: [
 {
 name: "Tulum",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -2983,7 +2983,7 @@ insights: [
 {
 name: "MRBL",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3008,7 +3008,7 @@ insights: [
 {
 name: "Bellevue Bistro",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3033,7 +3033,7 @@ insights: [
 {
 name: "Pompilio's",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3058,7 +3058,7 @@ insights: [
 {
 name: "Wayfarer Tavern",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3083,7 +3083,7 @@ insights: [
 {
 name: "Buckhead Mountain Grill",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3108,7 +3108,7 @@ insights: [
 {
 name: "Chart House",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3133,7 +3133,7 @@ insights: [
 {
 name: "The Pretzel Place",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3158,7 +3158,7 @@ insights: [
 {
 name: "Fessler's Legendary Pizza & Hoagies",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3183,7 +3183,7 @@ insights: [
 {
 name: "Three Spirits Tavern",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3208,7 +3208,7 @@ insights: [
 {
 name: "Prost Bellevue Tavern",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3233,7 +3233,7 @@ insights: [
 {
 name: "Rose Room",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
@@ -3258,7 +3258,7 @@ insights: [
 {
 name: "Galactic Fried Chicken",
 city: "Bellevue",
-neighborhood: "Bellevue",
+neighborhood: "",
 state: "KY",
 type: "full",
 whatToExpect:
