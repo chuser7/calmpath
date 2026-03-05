@@ -3016,7 +3016,7 @@ function searchPlace() {
 
     resultDiv.innerHTML += `
       <div class="card">
-        <div class="label">CalmPath profile</div>
+        <div class="label">CalmPath Profile</div>
 
         <h2>${place.name}</h2>
         <div class="location">
