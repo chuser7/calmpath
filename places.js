@@ -3280,6 +3280,285 @@ insights: [
 ]
 },
    
+   /* =========================
+   Fort Thomas, KY
+========================= */
+   
+   {
+name: "The Overlook at Fort Thomas",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with indoor dining rooms and outdoor patio seating overlooking the river valley. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Dedicated parking lot available next to the restaurant.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Patio and overlook access available."
+},
+insights: [
+"Often described as view-driven, especially during sunset hours.",
+"First-timers notice dinner hours bring the most activity.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "Tickle Pickle Restaurant",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Casual restaurant with counter ordering and table seating in a small dining space. Typically busiest during lunch hours and early evening periods.",
+environment: {
+parking: "Street parking along North Fort Thomas Avenue.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during lunch rush",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as lunch-focused with steady midday traffic.",
+"First-timers note activity increases around noon.",
+"Evening traffic remains steady but smaller than lunch."
+]
+},
+
+{
+name: "Padrino",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and bar area in a neighborhood dining setting. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers notice activity increases after typical work hours.",
+"Weekend evenings bring fuller dining rooms."
+]
+},
+
+{
+name: "The Post Taphouse – Pours and Rations",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with table seating and bar seating in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as bar-forward during evening hours.",
+"First-timers notice activity increases during dinner service.",
+"Weekend evenings bring the most consistent traffic."
+]
+},
+
+{
+name: "Grassroots & Vine",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and wine bar with table seating and a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady table service.",
+"First-timers notice evenings bring the most activity.",
+"Weekend dinners bring fuller seating."
+]
+},
+
+{
+name: "Fort Thomas Pizza & Tavern",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with dining tables and bar seating in a casual neighborhood setting. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady throughout lunch and dinner hours.",
+"First-timers notice evenings bring the most activity.",
+"Weekend evenings show slightly higher traffic."
+]
+},
+
+{
+name: "Midway Cafe",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as locally driven with steady bar traffic.",
+"First-timers notice activity increases later in the evening.",
+"Weekend nights bring the highest crowd levels."
+]
+},
+
+{
+name: "Olde Fort Pub",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood pub with bar seating and dining tables in a casual interior layout. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers notice activity increases after work hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "New Garden",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant with table seating in a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during lunch and dinner hours.",
+"First-timers notice dinner brings the most activity.",
+"Weekend evenings bring slightly higher traffic."
+]
+},
+
+{
+name: "Fort Thomas Coffee",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with shorter visits.",
+"First-timers notice breakfast hours bring the most traffic.",
+"Activity decreases through the afternoon."
+]
+},
+
+{
+name: "The Green Line Kitchen & Cocktails",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with table seating and bar seating in a neighborhood dining space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers notice activity increases after work hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+   
 ];
 
 function normalize(text) {
