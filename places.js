@@ -2876,6 +2876,410 @@ insights: [
 ]
 },
 
+   /* =========================
+   Bellevue, KY
+========================= */
+
+ {
+name: "Cork N Crust",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and wine bar with a dining room, bar seating, and patio areas. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking along Fairfield Avenue.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Front sidewalk seating and rear patio available."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers note weekends bring the most activity.",
+"Earlier weekday dinners tend to be calmer."
+]
+},
+
+{
+name: "Avenue Brew",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as morning-focused with shorter visits.",
+"First-timers note breakfast hours bring the most traffic.",
+"Activity decreases through the afternoon."
+]
+},
+
+{
+name: "Cancun Mexican Bar and Grill",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and a bar area in a street-level dining space. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused.",
+"First-timers notice traffic increases after typical work hours.",
+"Weekends bring fuller dining rooms."
+]
+},
+
+{
+name: "Tulum",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant with dining tables and bar seating in the Bellevue entertainment district. Typically calmer earlier in the day and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-oriented with steady dinner traffic.",
+"First-timers notice activity increases after 5 pm.",
+"Weekend evenings bring higher activity."
+]
+},
+
+{
+name: "MRBL",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a modern interior and table seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around Fairfield Avenue.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady evening activity.",
+"First-timers notice traffic increases after work hours.",
+"Weekend nights bring the most visitors."
+]
+},
+
+{
+name: "Bellevue Bistro",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Compact restaurant with a traditional dining room layout. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during dinner service",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady table service.",
+"First-timers note activity increases during dinner hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "Pompilio's",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Large restaurant with multiple dining rooms and a traditional table layout. Typically steady during lunch hours and busier during dinner periods and weekends.",
+environment: {
+parking: "Street parking and nearby public lots.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady throughout lunch and dinner hours.",
+"First-timers note evenings bring fuller dining rooms.",
+"Weekend evenings show the highest traffic."
+]
+},
+
+{
+name: "Wayfarer Tavern",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Restaurant and bar with indoor seating and patio space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Patio seating available."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers note weekends bring the most activity.",
+"Earlier dinners tend to be calmer."
+]
+},
+
+{
+name: "Buckhead Mountain Grill",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Large riverside restaurant with indoor dining rooms and outdoor deck seating overlooking the Ohio River. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Private lot available next to the restaurant.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner service",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Deck and riverfront access available."
+},
+insights: [
+"Often described as view-driven, especially during sunset hours.",
+"First-timers notice dinner hours bring the most activity.",
+"Weekend evenings bring fuller dining rooms."
+]
+},
+
+{
+name: "Chart House",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Large riverfront restaurant with multiple dining areas and panoramic windows overlooking the river. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Dedicated parking lot available.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Riverfront patio access available."
+},
+insights: [
+"Often described as view-oriented with steady dinner traffic.",
+"First-timers notice sunset hours bring the most activity.",
+"Weekend evenings bring higher occupancy."
+]
+},
+
+{
+name: "The Pretzel Place",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Small counter-service shop with limited seating. Typically busiest during midday hours and early evenings.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "No public restroom",
+waits: "N/A",
+location: "Not available"
+},
+noise: "Low.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-stop oriented with short visits.",
+"First-timers notice lunch hours bring the most traffic.",
+"Activity remains steady through the afternoon."
+]
+},
+
+{
+name: "Fessler's Legendary Pizza & Hoagies",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady during lunch and dinner hours.",
+"First-timers note evenings bring the most activity.",
+"Weekend nights bring slightly higher traffic."
+]
+},
+
+{
+name: "Three Spirits Tavern",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with a compact interior and bar seating. Typically quieter during the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-oriented with bar traffic.",
+"First-timers notice activity increases after dinner hours.",
+"Weekend nights bring the highest traffic."
+]
+},
+
+{
+name: "Prost Bellevue Tavern",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with indoor seating and a backyard patio area. Typically quieter earlier in the day and busier during evening hours and weekends.",
+environment: {
+parking: "Street parking along Fairfield Avenue.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Back patio access available."
+},
+insights: [
+"Often described as evening-focused with bar activity.",
+"First-timers note later evening hours bring the most traffic.",
+"Weekends show the highest crowd levels."
+]
+},
+
+{
+name: "Rose Room",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Bar with lounge-style seating and a compact interior layout. Typically calmer earlier in the evening and busier later at night.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as nightlife-oriented.",
+"First-timers notice activity increases later in the evening.",
+"Weekend nights bring the highest crowds."
+]
+},
+
+{
+name: "Galactic Fried Chicken",
+city: "Bellevue",
+neighborhood: "Bellevue",
+state: "KY",
+type: "full",
+whatToExpect:
+"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and evening takeout periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as quick-service with shorter visits.",
+"First-timers notice lunch brings the most traffic.",
+"Evening takeout activity increases slightly."
+]
+},
+   
 ];
 
 function normalize(text) {
