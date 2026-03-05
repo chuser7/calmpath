@@ -29,6 +29,456 @@ const places = [
 },
    
    {
+name: "Agave & Rye – Rookwood",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a large dining room and bar seating inside the Rookwood Commons area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+environment: {
+parking: "Large shared parking lots throughout Rookwood Commons.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Direct exterior access to Rookwood Commons."
+},
+insights: [
+"Often described as high-energy during dinner hours.",
+"First-timers notice activity increases after typical work hours.",
+"Weekend evenings bring the most traffic."
+]
+},
+
+{
+name: "Ford's Garage – Norwood",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a large dining room and bar seating in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Large shared Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Direct exterior access to the shopping area."
+},
+insights: [
+"Often described as family-focused during early dinner hours.",
+"First-timers notice evenings bring the most activity.",
+"Weekend dinners bring fuller seating."
+]
+},
+
+{
+name: "The Establishment",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with table seating and bar seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around Hyde Park Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during busy dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers notice activity increases after work hours.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "Parkside – Hyde Park Square",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with a dining room and patio seating overlooking Hyde Park Square. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around the square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Patio access overlooking Hyde Park Square."
+},
+insights: [
+"Often described as square-view focused during warm weather.",
+"First-timers notice dinner hours bring the most activity.",
+"Weekend evenings bring the highest traffic."
+]
+},
+
+{
+name: "The Echo",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Classic diner with counter seating and table seating in a compact layout. Typically busiest during breakfast and lunch hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during weekend mornings",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as breakfast-focused with strong morning traffic.",
+"First-timers notice weekend mornings bring the most activity.",
+"Afternoon hours are calmer."
+]
+},
+
+{
+name: "Neko Sushi & Korean and Japanese Restaurant",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady evening traffic.",
+"First-timers notice activity increases after 5 pm.",
+"Weekend dinners bring fuller seating."
+]
+},
+
+{
+name: "Seasons 52",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large restaurant with dining rooms and bar seating inside Rookwood Pavilion. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Large shared Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Exterior access to Rookwood Pavilion."
+},
+insights: [
+"Often described as steady during lunch and dinner hours.",
+"First-timers notice evenings bring fuller seating.",
+"Weekend dinners show the highest activity."
+]
+},
+
+{
+name: "Taste of Belgium – Rookwood",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with dining tables and bar seating in the Rookwood development. Typically busiest during brunch hours and early afternoons.",
+environment: {
+parking: "Shared Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during weekend brunch",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Exterior access to the shopping area."
+},
+insights: [
+"Often described as brunch-focused with strong weekend traffic.",
+"First-timers notice mornings bring the most activity.",
+"Afternoon hours tend to be calmer."
+]
+},
+
+{
+name: "Bronte Bistro",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant inside the Joseph-Beth bookstore with table seating and a quiet dining layout. Typically calmer during weekday hours and busier during lunch periods.",
+environment: {
+parking: "Rookwood Commons parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Rarely long waits",
+location: "Inside bookstore"
+},
+noise: "Low.",
+exits: "Access through bookstore entrance."
+},
+insights: [
+"Often described as calmer than nearby restaurants.",
+"First-timers notice lunch hours bring the most activity.",
+"Afternoon visits are generally quiet."
+]
+},
+   
+   {
+name: "Buca di Beppo Italian Restaurant",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large restaurant with multiple dining rooms in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Large Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Direct exterior access to Rookwood development."
+},
+insights: [
+"Often described as group-oriented with busy dinner periods.",
+"First-timers notice evenings bring the most activity.",
+"Weekend dinners show higher traffic."
+]
+},
+
+{
+name: "E+O Kitchen – Hyde Park",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with indoor seating and patio seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+environment: {
+parking: "Street parking around Hyde Park Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Patio access available."
+},
+insights: [
+"Often described as evening-focused with steady dinner traffic.",
+"First-timers notice activity increases after 5 pm.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "Rusty Bucket Restaurant and Tavern",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with table seating and bar seating in a casual layout. Typically steady during lunch hours and busier during dinner periods.",
+environment: {
+parking: "Street parking around Hyde Park Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady throughout lunch and dinner hours.",
+"First-timers notice evenings bring the most activity.",
+"Weekend evenings show slightly higher traffic."
+]
+},
+
+{
+name: "Arthur's",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a compact dining room and bar seating in Hyde Park Square. Typically busiest during lunch hours and dinner periods.",
+environment: {
+parking: "Street parking around Hyde Park Square.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during busy periods",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as steady throughout lunch and dinner hours.",
+"First-timers notice evenings bring fuller seating.",
+"Weekend dinners show higher traffic."
+]
+},
+
+{
+name: "Alfio's Buon Cibo",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant with table seating and bar seating in a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Street-level entrance."
+},
+insights: [
+"Often described as dinner-focused with steady table service.",
+"First-timers notice evenings bring the most activity.",
+"Weekend dinners bring fuller seating."
+]
+},
+
+{
+name: "The Pub – Rookwood",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a large dining room in the Rookwood Pavilion area. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Shared Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Direct exterior access to Rookwood Pavilion."
+},
+insights: [
+"Often described as bar-forward during evening hours.",
+"First-timers notice dinner hours bring the most traffic.",
+"Weekend evenings bring fuller crowds."
+]
+},
+
+{
+name: "J. Alexander's Restaurant",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large restaurant with dining rooms and bar seating in the Rookwood development. Typically calmer earlier in the evening and busier during dinner hours.",
+environment: {
+parking: "Large Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate.",
+exits: "Direct exterior access to the development."
+},
+insights: [
+"Often described as steady during dinner service.",
+"First-timers notice evenings bring fuller seating.",
+"Weekend dinners show higher traffic."
+]
+},
+
+{
+name: "BJ's Restaurant & Brewhouse",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large restaurant and brewery with multiple dining areas and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+environment: {
+parking: "Large Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during busy dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate to High.",
+exits: "Direct exterior access to Rookwood development."
+},
+insights: [
+"Often described as family-focused earlier and bar-focused later.",
+"First-timers notice dinner hours bring the most activity.",
+"Weekend evenings bring fuller seating."
+]
+},
+
+{
+name: "The Capital Grille",
+city: "Cincinnati",
+neighborhood: "Hyde Park",
+state: "OH",
+type: "full",
+whatToExpect:
+"Upscale restaurant with structured dining rooms and bar seating in the Rookwood area. Typically calmer earlier in the evening and busier during dinner hours.",
+environment: {
+parking: "Shared Rookwood parking lot.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Possible waits during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Low to Moderate.",
+exits: "Direct exterior access to Rookwood development."
+},
+insights: [
+"Often described as reservation-driven during dinner service.",
+"First-timers notice evenings bring the most activity.",
+"Weekend dinners bring fuller seating."
+]
+},
+   
+   {
 name: "Loving Hut",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
