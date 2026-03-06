@@ -4483,5 +4483,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 showRandomPlace();
-
-// redeploy trigger
