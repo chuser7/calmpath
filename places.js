@@ -2993,31 +2993,6 @@ insights: [
   ]
 },
 
-{
-  name: "Eishaus",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small dessert shop with limited seating and quick visit layout. Busiest evenings and warm weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "No public restroom",
-      waits: "N/A",
-      location: "Counter-service layout"
-    },
-    noise: "Low; brief visits.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Short stays rather than lingering.",
-    "Warm evenings increase foot traffic.",
-    "Activity builds after dinner hours."
-  ]
-},
-
 /* =========================
    NEWPORT, KY
 ========================= */
