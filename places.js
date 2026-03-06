@@ -4299,6 +4299,14 @@ function showRandomPlace() {
     </div>
   `;
 }
+   function selectPlace(placeName) {
+
+  const place = places.find(p => p.name === placeName);
+
+  document.getElementById("suggestions").innerHTML = "";
+
+  renderPlace(place);
+   } 
 
 function searchPlace() {
   const inputRaw = document.getElementById("search").value;
@@ -4307,16 +4315,6 @@ function searchPlace() {
     gtag('event', 'search', {
       search_term: inputRaw
     });
-       
-  }
-   function selectPlace(placeName) {
-
-  const place = places.find(p => p.name === placeName);
-
-  document.getElementById("suggestions").innerHTML = "";
-
-  renderPlace(place);
-
 }
    
   const input = normalize(inputRaw);
@@ -4384,7 +4382,8 @@ if (matches.length > 0) {
   }
 
   matches.forEach(place => {
-
+ });
+   
     // Track venue viewed
     if (typeof gtag !== "undefined") {
       gtag('event', 'venue_viewed', {
@@ -4482,3 +4481,5 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(rotatePlaceholder, 2500);
 
 showRandomPlace();
+
+});
