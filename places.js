@@ -4446,7 +4446,6 @@ function renderPlace(place) {
         ${patternsHTML}
       </div>
     `;
-  });
 }
 
 /* =========================
