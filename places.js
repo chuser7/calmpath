@@ -4480,6 +4480,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
   rotatePlaceholder();
   setInterval(rotatePlaceholder, 2500);
-});
 
 showRandomPlace();
