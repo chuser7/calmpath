@@ -4348,7 +4348,7 @@ const matches = places
    const suggestionsDiv = document.getElementById("suggestions");
 
 suggestionsDiv.innerHTML = matches.map(place => `
-  <div class="suggestion-item" onclick="selectPlace('${place.name}')">
+  <div class="suggestion-item" onclick="selectPlace(\`${place.name}\`)">
     ${place.name} — ${place.city}${place.neighborhood ? " • " + place.neighborhood : ""}
   </div>
 `).join("");
