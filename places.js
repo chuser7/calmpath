@@ -4306,27 +4306,33 @@ function showRandomPlace() {
   document.getElementById("suggestions").innerHTML = "";
 
   renderPlace(place);
-   } 
+
+}
 
 function searchPlace() {
+
   const inputRaw = document.getElementById("search").value;
 
-    if (typeof gtag !== "undefined") {
+  if (typeof gtag !== "undefined") {
     gtag('event', 'search', {
       search_term: inputRaw
     });
-}
-   
+  }
+
   const input = normalize(inputRaw);
   const resultDiv = document.getElementById("result");
+  const suggestionsDiv = document.getElementById("suggestions");
+
   resultDiv.innerHTML = "";
 
   if (input.length === 0) {
+    suggestionsDiv.innerHTML = "";
     showRandomPlace();
     return;
   }
 
   if (input.length === 1) {
+    suggestionsDiv.innerHTML = "";
     resultDiv.innerHTML = `
       <p style="margin-top:16px; color:#666;">
         Keep typing to search.
@@ -4335,34 +4341,28 @@ function searchPlace() {
     return;
   }
 
-const matches = places
-  .filter(place =>
-    normalize(place.name).includes(input) ||
-    normalize(place.city).includes(input) ||
-    (place.neighborhood && normalize(place.neighborhood).includes(input))
-  )
-  .slice(0, 8);
-   
-   const suggestionsDiv = document.getElementById("suggestions");
+  const matches = places
+    .filter(place =>
+      normalize(place.name).includes(input) ||
+      normalize(place.city).includes(input) ||
+      (place.neighborhood && normalize(place.neighborhood).includes(input))
+    )
+    .slice(0, 8);
 
-suggestionsDiv.innerHTML = matches.map(place => `
-  <div class="suggestion-item" onclick="selectPlace(\`${place.name}\`)">
-    ${place.name} — ${place.city}${place.neighborhood ? " • " + place.neighborhood : ""}
-  </div>
-`).join("");
-
-if (matches.length > 0) {
-  return;
-}
+  suggestionsDiv.innerHTML = matches.map(place => `
+    <div class="suggestion-item" onclick="selectPlace(\`${place.name}\`)">
+      ${place.name} — ${place.city}${place.neighborhood ? " • " + place.neighborhood : ""}
+    </div>
+  `).join("");
 
   if (matches.length === 0) {
+
     resultDiv.innerHTML = `
       <p style="margin-top:16px;">
         We don’t have a CalmPath profile for that place yet.
       </p>
     `;
 
-    // Track unsuccessful search
     if (typeof gtag !== "undefined") {
       gtag('event', 'search_performed', {
         search_term: inputRaw,
@@ -4373,7 +4373,6 @@ if (matches.length > 0) {
     return;
   }
 
-  // Track successful search
   if (typeof gtag !== "undefined") {
     gtag('event', 'search_performed', {
       search_term: inputRaw,
@@ -4381,70 +4380,65 @@ if (matches.length > 0) {
     });
   }
 
-  matches.forEach(place => {
- });
-   
-    // Track venue viewed
-    if (typeof gtag !== "undefined") {
-      gtag('event', 'venue_viewed', {
-        venue_name: place.name,
-        city: place.city
-      });
-    }
-     
+}
+
 function renderPlace(place) {
 
   const resultDiv = document.getElementById("result");
 
   resultDiv.innerHTML = "";
-   
-    const patternsHTML =
-      place.insights && place.insights.length
-        ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
-        : "<p>No observed patterns yet.</p>";
 
-    resultDiv.innerHTML += `
-      <div class="card">
-        <div class="label">CalmPath Profile</div>
+  const patternsHTML =
+    place.insights && place.insights.length
+      ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+      : "<p>No observed patterns yet.</p>";
 
-        <h2>${place.name}</h2>
-        <div class="location">
-          <p>${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}</p>
-        </div>
+  resultDiv.innerHTML = `
+    <div class="card">
 
-        <div class="snapshot">
-          <div class="snapshot-grid">
+      <div class="label">CalmPath Profile</div>
 
-            <div class="snapshot-item">
-              <div class="snapshot-label">Parking</div>
-              <div class="snapshot-value">${place.environment.parking}</div>
-            </div>
+      <h2>${place.name}</h2>
 
-            <div class="snapshot-item">
-              <div class="snapshot-label">Noise</div>
-              <div class="snapshot-value">${place.environment.noise}</div>
-            </div>
-
-            <div class="snapshot-item">
-              <div class="snapshot-label">Restrooms</div>
-              <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
-            </div>
-
-            <div class="snapshot-item">
-              <div class="snapshot-label">Exits</div>
-              <div class="snapshot-value">${place.environment.exits}</div>
-            </div>
-
-          </div>
-        </div>
-
-        <h3>What to expect</h3>
-        <p>${place.whatToExpect}</p>
-
-        <h3>Observed patterns</h3>
-        ${patternsHTML}
+      <div class="location">
+        <p>${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}</p>
       </div>
-    `;
+
+      <div class="snapshot">
+        <div class="snapshot-grid">
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Parking</div>
+            <div class="snapshot-value">${place.environment.parking}</div>
+          </div>
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Noise</div>
+            <div class="snapshot-value">${place.environment.noise}</div>
+          </div>
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Restrooms</div>
+            <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+          </div>
+
+          <div class="snapshot-item">
+            <div class="snapshot-label">Exits</div>
+            <div class="snapshot-value">${place.environment.exits}</div>
+          </div>
+
+        </div>
+      </div>
+
+      <h3>What to expect</h3>
+      <p>${place.whatToExpect}</p>
+
+      <h3>Observed patterns</h3>
+      ${patternsHTML}
+
+    </div>
+  `;
+
 }
 
 /* =========================
@@ -4452,14 +4446,13 @@ function renderPlace(place) {
 ========================= */
 
 document.addEventListener("DOMContentLoaded", function () {
+
   const searchInput = document.getElementById("search");
 
   if (!searchInput || !places || places.length === 0) return;
 
-  // Pull names automatically
   const examplePlaces = places.map(place => place.name);
 
-  // Shuffle properly
   function shuffleArray(array) {
     const newArray = [...array];
     for (let i = newArray.length - 1; i > 0; i--) {
@@ -4480,6 +4473,6 @@ document.addEventListener("DOMContentLoaded", function () {
   rotatePlaceholder();
   setInterval(rotatePlaceholder, 2500);
 
-showRandomPlace();
+  showRandomPlace();
 
 });
