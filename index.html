@@ -115,23 +115,29 @@
       padding-left: 18px;
     }
     
-    #suggestions {
+#suggestions {
+  position: absolute;
+  width: 100%;
   border: 1px solid #ddd;
-  border-radius: 6px;
-  max-height: 250px;
+  border-radius: 8px;
+  max-height: 260px;
   overflow-y: auto;
   background: white;
   margin-top: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  z-index: 1000;
 }
 
 .suggestion-item {
-  padding: 10px;
+  padding: 12px 14px;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .suggestion-item:hover {
-  background: #f5f5f5;
-}
+  background: #f7f7f7;
+} 
+    
   </style>
 </head>
 
