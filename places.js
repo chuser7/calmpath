@@ -4356,7 +4356,6 @@ suggestionsDiv.innerHTML = matches.map(place => `
 if (matches.length > 0) {
   return;
 }
-  );
 
   if (matches.length === 0) {
     resultDiv.innerHTML = `
