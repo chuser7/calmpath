@@ -4307,7 +4307,17 @@ function searchPlace() {
     gtag('event', 'search', {
       search_term: inputRaw
     });
+       
   }
+   function selectPlace(placeName) {
+
+  const place = places.find(p => p.name === placeName);
+
+  document.getElementById("suggestions").innerHTML = "";
+
+  renderPlace(place);
+
+}
    
   const input = normalize(inputRaw);
   const resultDiv = document.getElementById("result");
@@ -4327,8 +4337,25 @@ function searchPlace() {
     return;
   }
 
-  const matches = places.filter(place =>
-    normalize(place.name).includes(input)
+const matches = places
+  .filter(place =>
+    normalize(place.name).includes(input) ||
+    normalize(place.city).includes(input) ||
+    (place.neighborhood && normalize(place.neighborhood).includes(input))
+  )
+  .slice(0, 8);
+   
+   const suggestionsDiv = document.getElementById("suggestions");
+
+suggestionsDiv.innerHTML = matches.map(place => `
+  <div class="suggestion-item" onclick="selectPlace('${place.name}')">
+    ${place.name} — ${place.city}${place.neighborhood ? " • " + place.neighborhood : ""}
+  </div>
+`).join("");
+
+if (matches.length > 0) {
+  return;
+}
   );
 
   if (matches.length === 0) {
@@ -4366,7 +4393,13 @@ function searchPlace() {
         city: place.city
       });
     }
+     
+function renderPlace(place) {
 
+  const resultDiv = document.getElementById("result");
+
+  resultDiv.innerHTML = "";
+   
     const patternsHTML =
       place.insights && place.insights.length
         ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
