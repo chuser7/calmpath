@@ -4241,7 +4241,7 @@ insights: [
    {
 name: "PeeWee's Place",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4269,7 +4269,7 @@ insights: [
 {
 name: "Grandview Tavern",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4297,7 +4297,7 @@ insights: [
 {
 name: "Behle Street by Sheli",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4325,7 +4325,7 @@ insights: [
 {
 name: "Osaka Ramen House KY",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4353,7 +4353,7 @@ insights: [
 {
 name: "La Torta Loca",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4381,7 +4381,7 @@ insights: [
 {
 name: "Oriental Wok",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4409,7 +4409,7 @@ insights: [
 {
 name: "Cancun Mexican Bar & Grill",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4437,7 +4437,7 @@ insights: [
 {
 name: "Asian Place Chinese Restaurant",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4465,7 +4465,7 @@ insights: [
 {
 name: "Soco's Mexican Restaurant & Bar",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4493,7 +4493,7 @@ insights: [
 {
 name: "BRU Burger Bar",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4521,7 +4521,7 @@ insights: [
    {
 name: "Cincy Seafood",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4549,7 +4549,7 @@ insights: [
 {
 name: "Sandwich Block Deli",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4577,7 +4577,7 @@ insights: [
 {
 name: "Bonefish Grill",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4605,7 +4605,7 @@ insights: [
 {
 name: "Sweet Basil Thai & Sushi",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4633,7 +4633,7 @@ insights: [
 {
 name: "Miyako Steakhouse & Sushi",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4661,7 +4661,7 @@ insights: [
 {
 name: "Guru India Restaurant",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4689,7 +4689,7 @@ insights: [
 {
 name: "KJ's",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4717,7 +4717,7 @@ insights: [
 {
 name: "Antonio's Pizza Pub",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4745,7 +4745,7 @@ insights: [
 {
 name: "Empire Buffet",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4773,7 +4773,7 @@ insights: [
 {
 name: "Bleachers Sports Bar",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -4801,7 +4801,7 @@ insights: [
 {
 name: "Poseidons Pizza",
 city: "Crescent Springs",
-neighborhood: "Crescent Springs",
+neighborhood: "",
 state: "KY",
 type: "full",
 
