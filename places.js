@@ -1849,6 +1849,174 @@ insights: [
 },
    
    {
+name: "Price Hill Chili",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Glenway Avenue. Typically steady throughout the day with consistent lunch and late-night traffic.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours bring consistent neighborhood traffic.",
+"Evenings attract families and small groups.",
+"Late-night visits are common after local events."
+]
+},
+
+{
+name: "Golden City Restaurant",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Chinese restaurant with table seating and a casual dining room near the Glenway corridor. Typically steady during lunch and dinner hours with many takeout orders.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Takeout orders are common during dinner hours.",
+"Weekend evenings bring steady traffic."
+]
+},
+
+{
+name: "The Bold Faced Dairy Bar",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Small dessert and soft-serve shop with counter service near the Incline District. Typically quieter earlier in the day with increased activity during warm evenings.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Most visits are quick walk-up orders.",
+"Warm weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Somm Wine Bar",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Wine bar with indoor seating and a patio located along Price Avenue in East Price Hill. Typically calmer earlier in the evening with steady wine bar traffic later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Small groups gather for drinks later in the night.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Taqueria Mercado",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mexican restaurant with counter ordering and table seating along the Warsaw Avenue corridor. Typically steady during lunch hours with busier dinner periods.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours attract families and neighborhood groups.",
+"Weekend evenings bring steady traffic."
+]
+},
+
+{
+name: "Tortilleria Garcia – Price Hill",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mexican restaurant and tortilla shop with counter ordering and table seating along the Warsaw Avenue corridor. Typically busiest during lunch hours with steady dinner traffic.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often bring the most activity.",
+"Takeout orders are common throughout the day.",
+"Weekend afternoons attract steady neighborhood traffic."
+]
+},
+   
+   {
 name: "Incline Public House",
 city: "Cincinnati",
 neighborhood: "Price Hill",
