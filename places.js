@@ -10,7 +10,7 @@ const places = [
    neighborhood: "The Banks",
   state: "OH",
   type: "full",
-  whatToExpect:
+  whatToExpect":
     "Casual restaurant with a bar-centric layout and active social atmosphere. Louder and more crowded during peak meal times and game nights.",
   environment: {
     parking: "Street + nearby garages; tight during events.",
