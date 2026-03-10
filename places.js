@@ -6407,7 +6407,147 @@ insights: [
 "Earlier weekday dinners tend to be calmer."
 ]
 },
+   
+{
+name: "Catch & Cut",
+city: "Bellevue",
+neighborhood: "",
+state: "KY",
+type: "full",
 
+whatToExpect:
+"Seafood restaurant with table seating and a bar area along the Fairfield Avenue corridor. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early dinner hours often feel calmer.",
+"Evenings bring couples and small groups.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Enson Harbor",
+city: "Bellevue",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Seafood and sushi restaurant with table seating and a bar area along Fairfield Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring small groups and families.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Nomad",
+city: "Bellevue",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood restaurant and bar with table seating and a relaxed dining atmosphere along Fairfield Avenue. Typically calmer earlier in the evening with steady dinner traffic later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Dinner hours attract couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Virgil’s Cafe",
+city: "Bellevue",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Locally owned cafe with table seating and a casual neighborhood atmosphere along Fairfield Avenue. Typically busiest during breakfast and lunch hours with quieter evenings.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the cafe"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours often bring steady breakfast traffic.",
+"Lunch visits move quickly with neighborhood diners.",
+"Afternoons usually feel quieter."
+]
+},
+
+{
+name: "Schneider’s Sweet Shop",
+city: "Bellevue",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Historic candy and ice cream shop with counter service and limited seating along Fairfield Avenue. Typically steady during afternoon hours with increased activity during evenings and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Most visits involve quick counter-service stops.",
+"Weekend evenings usually bring the most activity."
+]
+},
+   
 {
 name: "Avenue Brew",
 city: "Bellevue",
