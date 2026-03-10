@@ -5173,7 +5173,7 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-whatToExpect":
+whatToExpect:
 "Small café with table seating and a relaxed neighborhood feel. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
 
 environment: {
