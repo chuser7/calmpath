@@ -4233,6 +4233,598 @@ insights: [
 "Weekend evenings bring fuller seating."
 ]
 },
+
+      /* =========================
+   Crescent Springs, KY
+========================= */
+   
+   {
+name: "PeeWee's Place",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual neighborhood restaurant with booth seating and a relaxed bar area. Typically calmer during weekday afternoons, with more activity during dinner hours and weekend meals.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoon hours tend to feel quieter than dinner periods.",
+"Regular local customers are common throughout the week.",
+"Weekend dinners usually bring the most consistent crowds."
+]
+},
+
+{
+name: "Grandview Tavern",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood tavern with a central bar area and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evening dining hours and weekends.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday lunch periods often feel calmer than evening hours.",
+"The bar area tends to stay active during dinner service.",
+"Weekend evenings are typically the busiest."
+]
+},
+
+{
+name: "Behle Street by Sheli",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Upscale neighborhood restaurant with a bar area and multiple dining sections. Typically quieter during weekday lunches, with busier dinner service and weekend reservations.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday lunch service often feels more relaxed.",
+"Evening reservations are common during dinner hours.",
+"Weekend dinners usually bring the highest traffic."
+]
+},
+
+{
+name: "Osaka Ramen House KY",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Small ramen restaurant with a compact dining room and counter seating. Typically quieter earlier in the day, with moderate dinner activity and steady takeout traffic.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often move quickly with smaller groups.",
+"Takeout orders are common throughout the evening.",
+"Dinner hours usually bring the most consistent dine-in traffic."
+]
+},
+
+{
+name: "La Torta Loca",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual Mexican restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier lunch and dinner periods.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often see steady but short visits.",
+"Takeout orders are common throughout the day.",
+"Evening dinner periods tend to bring the most activity."
+]
+},
+
+{
+name: "Oriental Wok",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Large Chinese restaurant with multiple dining rooms and a bar area. Typically calm earlier in the day, with busier dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday lunches often feel quieter than dinner service.",
+"Families and larger tables are common during evenings.",
+"Weekend dinner hours tend to be the busiest."
+]
+},
+
+{
+name: "Cancun Mexican Bar & Grill",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual Mexican restaurant with booth seating and a bar area. Typically relaxed earlier in the day, with more energy during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often move quickly with smaller groups.",
+"Evenings tend to bring more social bar activity.",
+"Weekend dinners are usually the busiest periods."
+]
+},
+
+{
+name: "Asian Place Chinese Restaurant",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Small Chinese restaurant with a simple dining room and counter service area. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often involve quick dine-in visits.",
+"Takeout orders are common throughout the evening.",
+"Weekend dinners usually bring the most activity."
+]
+},
+
+{
+name: "Soco's Mexican Restaurant & Bar",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday lunch periods tend to feel calmer.",
+"Evenings often bring groups and social dining.",
+"Weekend dinners typically have the highest traffic."
+]
+},
+
+{
+name: "BRU Burger Bar",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Modern burger restaurant with bar seating and multiple dining areas. Typically relaxed earlier in the day, with busier dinner hours and weekends.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday afternoons often feel quieter than dinner hours.",
+"Bar seating tends to stay active in the evenings.",
+"Weekend dinners usually bring the most consistent crowds."
+]
+},
+   
+   {
+name: "Cincy Seafood",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual seafood restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier activity during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly with smaller groups.",
+"Takeout orders are common throughout the evening.",
+"Weekend dinners usually bring the most activity."
+]
+},
+
+{
+name: "Sandwich Block Deli",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Local deli with a compact dining room and counter ordering. Typically busiest during lunch hours, with quieter periods during mid-afternoon and early evening.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours usually bring the most consistent foot traffic.",
+"Many visits are quick dine-in or takeout orders.",
+"Mid-afternoon periods tend to feel quieter."
+]
+},
+
+{
+name: "Bonefish Grill",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Chain seafood restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day, with busier dinner hours and weekend evenings.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday afternoons often feel quieter than dinner hours.",
+"Evening service tends to bring larger tables and reservations.",
+"Weekend dinners are typically the busiest periods."
+]
+},
+
+{
+name: "Sweet Basil Thai & Sushi",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Thai and sushi restaurant with a compact dining room and relaxed seating layout. Typically quieter during weekday afternoons, with steady dinner traffic and weekend activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoon hours usually feel calmer than dinner periods.",
+"Takeout orders are common during evening hours.",
+"Weekend dinners often bring the highest activity."
+]
+},
+
+{
+name: "Miyako Steakhouse & Sushi",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Hibachi and sushi restaurant with grill tables and traditional dining seating. Typically relaxed earlier in the day, with more activity during dinner hours and weekends.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Hibachi tables often fill during dinner hours.",
+"Lunch service usually feels calmer than evenings.",
+"Weekend dinners tend to bring the busiest crowds."
+]
+},
+
+{
+name: "Guru India Restaurant",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Indian restaurant with a small dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and weekend visits.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often involve shorter dine-in stays.",
+"Takeout orders are common during evening hours.",
+"Weekend dinners usually bring the most activity."
+]
+},
+
+{
+name: "KJ's",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evening hours and weekends.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter compared to evenings.",
+"The bar area tends to stay active later in the day.",
+"Weekend nights usually bring the most consistent crowds."
+]
+},
+
+{
+name: "Antonio's Pizza Pub",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual pizza restaurant with bar seating and a relaxed dining area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits tend to be shorter and steady.",
+"Evening hours often bring families and small groups.",
+"Weekend dinners typically see the highest traffic."
+]
+},
+
+{
+name: "Empire Buffet",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meal periods.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours usually move quickly with steady traffic.",
+"Evening periods often bring families and larger groups.",
+"Weekend dinners tend to be the busiest."
+]
+},
+
+{
+name: "Bleachers Sports Bar",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Sports bar with a central bar area, TVs throughout the space, and casual seating. Typically quieter earlier in the day, with more activity during evening hours and televised games.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons usually feel calmer than evening periods.",
+"Game nights often increase activity and noise levels.",
+"Weekend evenings typically bring the largest crowds."
+]
+},
+
+{
+name: "Poseidons Pizza",
+city: "Crescent Springs",
+neighborhood: "Crescent Springs",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual pizza restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits are often quick dine-in or takeout orders.",
+"Evening hours bring the most consistent dine-in traffic.",
+"Weekend dinners usually see the highest activity."
+]
+},
    
 ];
 
