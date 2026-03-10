@@ -5289,34 +5289,6 @@ insights: [
 "Weekend nights tend to bring the most visitors."
 ]
 },
-
-{
-name: "Thompson House Tavern",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-whatToExpect:
-"Bar and live music venue located within the Thompson House entertainment space. Typically quieter earlier in the evening with increased activity during concerts and weekend nights.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Non-event evenings often feel calmer.",
-"Concert nights bring larger crowds.",
-"Weekend events typically create the most activity."
-]
-},
    
 {
   name: "Brio Italian Grille",
