@@ -1599,6 +1599,174 @@ insights: [
 },
    
    {
+name: "Pleasant Ridge Chili",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Montgomery Road. Typically steady throughout the day with consistent lunch and late-evening traffic.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring consistent neighborhood traffic.",
+"Most visits involve quick dine-in meals or carryout.",
+"Evening hours stay steady with local regulars."
+]
+},
+
+{
+name: "Goodfellas Pizzeria - Pleasant Ridge",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Pizza restaurant with counter ordering and table seating along the Pleasant Ridge business district. Typically steady during dinner hours with increased activity later in the evening.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Dinner hours bring steady dine-in traffic.",
+"Late evenings often attract small groups.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "J&W Bar-B-Que",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Casual barbecue restaurant with counter service and table seating along Montgomery Road. Typically steady during lunch hours with continued activity through dinner.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Takeout orders are common during dinner hours.",
+"Weekend evenings tend to bring steady traffic."
+]
+},
+
+{
+name: "Hooligans Pub & Eatery",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with bar seating and casual dining tables along Montgomery Road. Typically quieter earlier in the day with increased activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "Grand Buffet",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Buffet-style restaurant with multiple dining sections and table seating along Montgomery Road. Typically steady during lunch hours with busier dinner periods.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often bring consistent traffic.",
+"Families and groups are common during dinner hours.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Emanu Restaurant",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Casual restaurant with table seating and a relaxed dining atmosphere in the Pleasant Ridge business district. Typically quieter earlier in the day with steady dinner traffic.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring small groups and couples.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+   
+   {
 name: "Loving Hut",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
