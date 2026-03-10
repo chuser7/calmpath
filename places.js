@@ -27,6 +27,229 @@ const places = [
     "Crowds increase significantly on game days."
   ]
 },
+   {
+name: "Abigail Street",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mediterranean restaurant with table seating and a bar area along Vine Street in OTR. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening reservations often feel calmer.",
+"Couples and small groups are common during dinner.",
+"Weekend evenings usually bring the highest activity."
+]
+},
+
+{
+name: "Sacred Beast Diner",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Modern diner-style restaurant with table seating and a bar area on Vine Street in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Late morning brunch periods tend to fill quickly.",
+"Afternoons usually feel calmer after brunch.",
+"Weekend brunch often brings the most consistent crowds."
+]
+},
+
+{
+name: "Quan Hapa",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Asian street food restaurant with table seating and counter ordering in OTR. Typically steady during dinner hours with weekend evenings bringing more activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring steady dine-in traffic.",
+"Weekend evenings usually see the most activity."
+]
+},
+
+{
+name: "Ché OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Argentine restaurant with table seating and a casual bar area in the OTR dining district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often involve shorter stays.",
+"Dinner service tends to bring small groups and couples.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Losanti",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Steakhouse with multiple dining rooms and a bar area near Washington Park in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend traffic.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening reservations often feel calmer.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Teak OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Thai and sushi restaurant with table seating and a bar area along Vine Street. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch hours often feel calmer than evenings.",
+"Takeout orders are common during dinner service.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "LouVino OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Wine-focused restaurant with table seating and a bar area along Main Street in OTR. Typically relaxed earlier in the evening with busier dinner service and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Happy hour periods often bring steady traffic.",
+"Dinner hours attract small groups and couples.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Goodfellas Pizzeria OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Pizza restaurant with counter ordering and bar seating in the OTR nightlife district. Typically steady during dinner hours with increased activity late at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Dinner hours bring steady dine-in visits.",
+"Late evening hours tend to attract nightlife crowds.",
+"Weekend nights usually see the most activity."
+]
+},
    
    {
 name: "Agave & Rye – Rookwood",
