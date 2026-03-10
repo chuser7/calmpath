@@ -27,6 +27,399 @@ const places = [
     "Crowds increase significantly on game days."
   ]
 },
+   
+   {
+name: "Five Kitchen + Bar",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and bar with table seating and a casual dining layout near the Vine Street corridor in OTR. Typically quieter earlier in the evening with steady dinner service and weekend activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel calmer.",
+"Dinner hours bring steady groups and couples.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Northern Row Brewery & Distillery",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Brewery and distillery with table seating, bar service, and a large indoor taproom space. Typically relaxed earlier in the day with increased activity during evenings and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel calmer than evenings.",
+"Groups frequently gather for drinks in the evening.",
+"Weekend nights usually bring the largest crowds."
+]
+},
+
+{
+name: "MOTR Pub",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and live music venue with bar seating and a performance space. Typically quieter earlier in the day with more activity during evening shows and weekend nights.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Live music events increase noise and activity.",
+"Weekend nights tend to bring the most visitors."
+]
+},
+
+{
+name: "Somerset Bar",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Bar with a large outdoor courtyard and indoor seating areas in the OTR district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel relaxed in the outdoor space.",
+"Evenings bring steady social groups.",
+"Weekend nights typically bring the most activity."
+]
+},
+
+{
+name: "Bar Saeso",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Bar and restaurant with table seating and a bar area along the Vine Street corridor in OTR. Typically calmer earlier in the evening with steady dinner and bar activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel calmer.",
+"Dinner hours bring steady table seating.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "1215 Wine Bar",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Wine bar with indoor seating and an outdoor patio along Vine Street in OTR. Typically relaxed earlier in the evening with steady wine bar activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evenings tend to feel quieter.",
+"Small groups often gather for drinks later in the night.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Mellotone Beer Project",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Brewery taproom with bar seating and tables throughout the space in OTR. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"Groups frequently gather for drinks after work.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Pho Lang Thang",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Vietnamese restaurant with table seating located near Findlay Market in OTR. Typically steady during lunch hours with continued traffic during dinner service.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch hours often bring consistent market traffic.",
+"Dinner service attracts small groups and families.",
+"Weekend afternoons around the market tend to be busiest."
+]
+},
+
+{
+name: "Nada",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Modern Mexican restaurant with bar seating and multiple dining areas in the downtown dining district. Typically calmer earlier in the day with busier dinner service and weekend activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch hours often move quickly with downtown workers.",
+"Dinner service brings steady group dining.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Sotto",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian restaurant with a basement dining room and bar seating near the downtown dining corridor. Typically quieter earlier in the evening with steady dinner reservations later in the night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Downstairs"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening reservations often feel calmer.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "Via Vite",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian restaurant with indoor dining and patio seating near Fountain Square. Typically calmer earlier in the evening with steady dinner service and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early dinner hours often feel calmer.",
+"Evenings bring couples and small groups.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Tokyo Kitty",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Karaoke bar with themed rooms and a central bar area in the downtown entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening hours often feel calmer.",
+"Private karaoke rooms fill as the night progresses.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Hard Rock Cafe Cincinnati",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and bar with table seating and a music-themed dining environment in the downtown entertainment district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often move quickly with downtown traffic.",
+"Dinner hours bring families and groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Taste of Belgium OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Belgian-inspired restaurant with table seating and a bar area near Findlay Market in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel calmer after brunch.",
+"Weekend brunch hours tend to bring the most activity."
+]
+},
+   
    {
 name: "Abigail Street",
 city: "Cincinnati",
