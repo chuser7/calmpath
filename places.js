@@ -4674,6 +4674,286 @@ insights: [
   ]
 },
    
+   {
+name: "Chart House",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Waterfront restaurant with multiple dining rooms and views of the Ohio River and Cincinnati skyline. Typically quieter earlier in the evening with steady dinner reservations and weekend dining.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early dinner reservations often feel calmer.",
+"Evenings bring couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "La Mexicana Restaurant",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual Mexican restaurant with booth seating and table dining along Monmouth Street. Typically steady during lunch hours with busier dinner service and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often bring consistent traffic.",
+"Dinner hours bring families and small groups.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "York Street Cafe",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Restaurant with eclectic decor and table seating along the York Street corridor. Typically quieter earlier in the evening with steady dinner reservations and weekend activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Upstairs"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel calmer.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "JerZee’s Pub",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evenings and sports events.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"Sports events increase activity in the bar area.",
+"Weekend nights usually bring the largest crowds."
+]
+},
+
+{
+name: "Brothers Bar & Grill – Newport",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Large sports bar and restaurant with bar seating and multiple dining areas at Newport on the Levee. Typically calmer earlier in the day with busier evenings and weekend nightlife.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel calmer before evening crowds.",
+"Groups gather for drinks and sports viewing.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "The Buzz Social",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Bar and social venue with games, bar seating, and lounge areas near the Newport nightlife district. Typically quieter earlier in the evening with increased activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening hours often feel calmer.",
+"Groups gather for games and drinks later at night.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "Twelve Mile House",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar with bar seating and a casual local atmosphere along the Newport corridor. Typically quieter earlier in the day with increased activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel relaxed.",
+"Evenings bring steady neighborhood bar traffic.",
+"Weekend nights tend to bring the most activity."
+]
+},
+
+{
+name: "Coach House Bar & Grill",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with bar seating and table dining along the Newport corridor. Typically quieter earlier in the day with more activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Evenings bring steady bar and dining traffic.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "The Local Post",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar with a casual atmosphere and bar seating in the Newport nightlife area. Typically calmer earlier in the day with increased activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights tend to bring the most visitors."
+]
+},
+
+{
+name: "Thompson House Tavern",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Bar and live music venue located within the Thompson House entertainment space. Typically quieter earlier in the evening with increased activity during concerts and weekend nights.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Non-event evenings often feel calmer.",
+"Concert nights bring larger crowds.",
+"Weekend events typically create the most activity."
+]
+},
+   
 {
   name: "Brio Italian Grille",
   city: "Newport",
