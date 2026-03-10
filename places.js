@@ -29,6 +29,286 @@ const places = [
 },
    
    {
+name: "Senate",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and bar known for specialty hot dogs with table seating and a bar area along Vine Street. Typically calmer earlier in the day with busier dinner hours and weekend evenings.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often move quickly with nearby workers.",
+"Dinner hours bring steady small groups and couples.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Goose & Elder",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"American restaurant with a diner-inspired layout and table seating near Findlay Market. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning and brunch periods tend to fill quickly.",
+"Afternoons usually feel calmer.",
+"Weekend brunch often brings the largest crowds."
+]
+},
+
+{
+name: "Salazar",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant with table seating and a small bar area on Republic Street in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early dinner reservations often feel calmer.",
+"Couples and small groups are common during dinner hours.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Kiki",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Japanese restaurant with bar seating and table dining in the OTR district. Typically relaxed earlier in the day with steady dinner traffic and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often move quickly.",
+"Dinner service attracts couples and small groups.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "The Pony OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Bar and grill with a large bar area and casual seating near Washington Park. Typically calmer earlier in the day with increased activity during evenings and sports events.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"Sports events increase activity in the bar area.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "Queen City Radio",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Outdoor bar with a large courtyard and multiple seating areas in OTR. Typically relaxed earlier in the day with increased activity during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel calmer in the outdoor space.",
+"Evenings bring steady social groups.",
+"Weekend nights usually bring the largest crowds."
+]
+},
+
+{
+name: "Holiday Spirits",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar with a casual atmosphere and bar seating along the Vine Street corridor. Typically quieter earlier in the day with more activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel relaxed.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually see the most activity."
+]
+},
+
+{
+name: "Liberty's Bar & Bottle",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Wine and bottle shop with bar seating and small table areas in OTR. Typically calmer earlier in the evening with steady social visits later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Small groups commonly gather for drinks later at night.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Pins Mechanical Co.",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Large entertainment venue with bars, games, and open social spaces near the OTR nightlife district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Waits possible during peak hours",
+location: "Inside near the back"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter before nightlife hours.",
+"Groups frequently gather for games and drinks.",
+"Weekend nights usually bring the largest crowds."
+]
+},
+
+{
+name: "16-Bit Bar + Arcade",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Arcade bar with vintage video games and bar seating in the OTR entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evenings tend to feel calmer.",
+"Groups gather for arcade games and drinks later in the night.",
+"Weekend nights usually bring the most visitors."
+]
+},
+   
+   {
 name: "Five Kitchen + Bar",
 city: "Cincinnati",
 neighborhood: "OTR",
