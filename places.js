@@ -29,6 +29,230 @@ const places = [
 },
    
    {
+name: "Ambar India Restaurant",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Indian restaurant with table seating and a casual dining room along Ludlow Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring small groups and couples.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "Krishna Indian Restaurant",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Indian restaurant with buffet and table seating along the Ludlow corridor. Typically calmer earlier in the day with steady dinner traffic.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch buffet periods often bring steady traffic.",
+"Evenings attract small groups and families.",
+"Weekend dinners tend to bring the most activity."
+]
+},
+
+{
+name: "Taste of Belgium – Clifton",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Belgian-inspired restaurant with table seating and a bar area along Ludlow Avenue. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Late morning brunch periods often fill quickly.",
+"Afternoons tend to feel calmer after brunch.",
+"Weekend brunch hours usually bring the most activity."
+]
+},
+
+{
+name: "Sitwell’s Coffeehouse & Act II",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Coffeehouse with indoor seating and a relaxed neighborhood atmosphere along Ludlow Avenue. Typically busiest during morning and afternoon hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the cafe"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours bring steady coffee traffic.",
+"Afternoons often attract students and remote workers.",
+"Evenings usually feel quieter."
+]
+},
+
+{
+name: "Fortune Noodle House",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Asian restaurant with table seating and counter service along the Clifton dining corridor. Typically steady during lunch and dinner hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often bring quick visits.",
+"Dinner hours attract small groups and students.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Chicago Gyros & Dogs",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Casual fast-casual restaurant with counter ordering and limited seating along the Clifton dining corridor. Typically steady during lunch and late evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Late-night traffic increases due to nearby campus activity.",
+"Weekend evenings bring steady crowds."
+]
+},
+
+{
+name: "Gaslight Bar & Grill",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with bar seating and casual dining tables along Ludlow Avenue. Typically quieter earlier in the day with increased activity during evenings.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights tend to bring the most activity."
+]
+},
+
+{
+name: "Ladder 19",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically calmer earlier in the day with increased activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Sports events increase bar activity.",
+"Weekend nights usually bring the most visitors."
+]
+},
+   
+   {
 name: "Senate",
 city: "Cincinnati",
 neighborhood: "OTR",
