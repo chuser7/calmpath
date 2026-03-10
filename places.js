@@ -5865,6 +5865,509 @@ insights: [
 "Weekend evenings usually bring the most activity."
 ]
 },
+   {
+name: "Smokin' This and That BBQ",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual barbecue restaurant with table seating and a relaxed dining room. Typically steady during lunch hours, with busier dinner periods and weekend traffic.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring consistent traffic.",
+"Takeout orders are common during dinner periods.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "Mai Thai Restaurant",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Thai restaurant with a sushi bar and table seating throughout the dining room. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often feel calmer than dinner hours.",
+"Evening visits often involve small groups and couples.",
+"Weekend dinners typically bring the most activity."
+]
+},
+
+{
+name: "3 Ladies Thai Cuisine",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Thai restaurant with a compact dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Takeout orders are common during dinner hours.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Mad Mike's Burgers & Fries",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual burger restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours with steady traffic throughout the day.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring consistent crowds.",
+"Takeout orders are common throughout the day.",
+"Weekend afternoons usually stay busy."
+]
+},
+
+{
+name: "Kabobske's Gyros & Grill",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Mediterranean restaurant with counter ordering and a small dining area. Typically quieter earlier in the day with steady lunch and dinner visits.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring the most consistent traffic.",
+"Many visits are quick dine-in or takeout orders.",
+"Evenings tend to remain steady but not crowded."
+]
+},
+
+{
+name: "Bourbon House Pizza",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual pizza restaurant with table seating and a relaxed neighborhood atmosphere. Typically quieter earlier in the day with busier dinner periods and weekend visits.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel calmer than evenings.",
+"Families and small groups commonly visit during dinner.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "Buffalo Bob's Family Restaurant",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Family-style restaurant with booth seating and casual table dining. Typically busiest during lunch and dinner hours with steady local traffic.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often bring steady crowds.",
+"Regular local customers are common.",
+"Weekend dinners tend to be the busiest."
+]
+},
+   
+   {
+name: "Lita's Tacos",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual Mexican restaurant with counter ordering and a small dining area. Typically steady during lunch hours with continued traffic during dinner and weekend evenings.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often bring quick dine-in visits.",
+"Takeout orders are common throughout the day.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Olive Tree Mediterranean Grill",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Mediterranean restaurant with counter service and table seating throughout the dining room. Typically quieter earlier in the day with steady lunch and dinner traffic.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring consistent foot traffic.",
+"Many visits involve quick dine-in or takeout orders.",
+"Evenings remain steady but typically not crowded."
+]
+},
+
+{
+name: "Rafferty's Restaurant & Bar",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual restaurant with booth seating, table dining, and a bar area. Typically calmer earlier in the day with busier dinner periods and weekend family dining.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday lunches often feel calmer than evenings.",
+"Families and groups are common during dinner hours.",
+"Weekend dinners usually bring the most activity."
+]
+},
+
+{
+name: "First Watch",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Breakfast and brunch restaurant with table seating and a bright open dining room. Typically busiest during morning and brunch hours with quieter afternoons.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours tend to bring the most consistent crowds.",
+"Late morning brunch periods can fill quickly.",
+"Afternoons are usually quieter."
+]
+},
+
+{
+name: "Smokey Bones",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Barbecue restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day with increased activity during dinner hours and weekends.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often feel calmer than evenings.",
+"The bar area tends to stay active during dinner service.",
+"Weekend evenings usually bring the largest crowds."
+]
+},
+
+{
+name: "Texas Roadhouse",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Large steakhouse with multiple dining sections and a bar area. Typically quieter earlier in the day with busy dinner periods and weekend family gatherings.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Waits possible during peak hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Weekday lunches often feel calmer than evenings.",
+"Families and large groups are common during dinner hours.",
+"Weekend evenings usually bring the longest waits."
+]
+},
+
+{
+name: "LongHorn Steakhouse",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Steakhouse with booth seating, table dining, and a bar area. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel calmer than evenings.",
+"Dinner service tends to bring families and small groups.",
+"Weekend evenings usually see the most activity."
+]
+},
+
+{
+name: "Outback Steakhouse",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Steakhouse with booth seating and a bar area near the entrance. Typically quieter earlier in the day with busier dinner hours and weekend dining.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often feel calmer than evenings.",
+"Groups and families are common during dinner service.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "The Turf Club",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Bar and dining venue connected to the Turfway Park racing facility with table seating and bar areas. Typically quieter outside racing events with increased activity during race days and weekend evenings.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Waits possible during peak hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Non-event days often feel calmer.",
+"Race events bring larger crowds and increased activity.",
+"Weekend evenings typically see the most visitors."
+]
+},
+
+{
+name: "Boone Bar & Kitchen",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual bar and grill with a central bar area and surrounding tables. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoon hours often feel quieter.",
+"The bar area becomes more active later in the evening.",
+"Weekend nights usually bring the largest crowds."
+]
+},
+
+{
+name: "Woody's Bar & Grille",
+city: "Florence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"The bar area stays active later in the day.",
+"Weekend nights tend to bring the most traffic."
+]
+},
    
 ];
 
