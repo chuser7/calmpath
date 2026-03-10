@@ -3736,6 +3736,314 @@ insights: [
 },
    
    {
+name: "Del Gardo’s Cannoli",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Italian dessert shop with counter service and limited indoor seating in the MainStrasse area. Typically steady during afternoon and evening hours with quick visits for dessert or takeaway.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Most visits are quick counter-service stops.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Lisse Steakhuis",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Steakhouse with table seating and a bar area located in the Covington dining district. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early dinner reservations often feel calmer.",
+"Couples and small groups are common during dinner service.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Eighteen at the Radisson",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Restaurant and lounge located on the top floor of the Radisson hotel with panoramic views and table seating. Typically relaxed earlier in the evening with steady dinner reservations and weekend visitors.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside"
+},
+
+insights: [
+"Early evening visits often feel quieter.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings usually see the most visitors."
+]
+},
+
+{
+name: "Bard’s Burgers & Chili",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual burger restaurant with counter ordering and table seating along the Madison Avenue corridor. Typically steady during lunch hours with continued traffic during dinner periods.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often bring consistent traffic.",
+"Most visits involve quick dine-in meals or takeout.",
+"Weekend afternoons tend to be the busiest."
+]
+},
+
+{
+name: "Knowledge Bar & Social Room",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Craft cocktail bar with lounge seating and a relaxed social atmosphere along the Covington nightlife corridor. Typically calmer earlier in the evening with more activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Small groups gather for cocktails later in the night.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "The Well",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Bar and social venue with a casual layout and bar seating in the Covington entertainment district. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"Evenings bring steady social groups.",
+"Weekend nights usually bring the largest crowds."
+]
+},
+
+{
+name: "Gypsy’s Smokehouse",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Barbecue restaurant with table seating and a casual dining atmosphere along the Madison Avenue corridor. Typically steady during dinner hours with busier weekend activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner service brings small groups and families.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Second Story Bar",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Bar located above street level with lounge seating and a relaxed nightlife atmosphere. Typically calmer earlier in the evening with increased activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evenings tend to feel quieter.",
+"Groups often gather for drinks later at night.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Juniper’s Gin Bar",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Gin-focused cocktail bar with lounge seating and a relaxed bar atmosphere in the Covington nightlife district. Typically calmer earlier in the evening with steady cocktail traffic later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Small groups gather for cocktails later at night.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Pike Street Lounge",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar with bar seating and a casual lounge atmosphere along Pike Street. Typically quieter earlier in the day with more activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "The Madison Event Space Bar",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Event venue with bar service and seating areas used for social gatherings and hosted events. Typically quieter outside scheduled events with increased activity during event nights.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside"
+},
+
+insights: [
+"Non-event days tend to feel quiet.",
+"Event nights bring larger crowds.",
+"Weekend events usually create the most activity."
+]
+},
+   
+   {
 name: "Frida 602",
 city: "Covington",
 neighborhood: "Mainstrasse",
