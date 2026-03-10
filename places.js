@@ -1004,6 +1004,202 @@ insights: [
 },
    
    {
+name: "HangOverEasy - Mt. Lookout",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Breakfast and brunch restaurant with table seating and a casual dining layout near Mt. Lookout Square. Typically busiest during morning and late brunch hours, with quieter periods in the afternoon.",
+
+environment: {
+parking: "Limited street parking.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours tend to bring steady breakfast traffic.",
+"Late morning brunch periods can fill quickly.",
+"Afternoons are usually calmer after the brunch rush."
+]
+},
+
+{
+name: "Taglio Pizza - Mt. Lookout",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Pizza restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with increased activity during dinner and weekend evenings.",
+
+environment: {
+parking: "Limited street parking.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods often bring quick dine-in visits.",
+"Takeout orders are common during dinner hours.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Millions Cafe",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Local café with table seating and a relaxed neighborhood atmosphere near Mt. Lookout Square. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
+
+environment: {
+parking: "Limited street parking.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning visits often involve coffee and breakfast stops.",
+"Lunch periods tend to bring steady neighborhood traffic.",
+"Mid-afternoons usually feel quieter."
+]
+},
+
+{
+name: "Aladdin's Eatery - Mt. Lookout",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mediterranean restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with busier dinner periods and weekend activity.",
+
+environment: {
+parking: "Limited street parking.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch hours often bring consistent foot traffic.",
+"Many visits involve quick dine-in meals or takeout orders.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "VV The Italian Experience",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian café and market with table seating and counter service near Mt. Lookout Square. Typically steady during lunch hours, with quieter periods in the afternoon and early evening.",
+
+environment: {
+parking: "Limited street parking.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch periods tend to bring steady neighborhood visits.",
+"Many guests stop in for quick meals or specialty items.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Mt. Lookout Creamy Whip",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Walk-up ice cream stand with outdoor ordering and limited seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
+
+environment: {
+parking: "Limited street parking.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the building"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Evenings tend to attract families and groups.",
+"Warm weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Stanley's Pub",
+city: "Cincinnati",
+neighborhood: "Mt. Lookout",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with a large bar area and casual seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the restaurant"
+},
+noise: "High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"The bar area becomes more active later in the night.",
+"Weekend nights tend to bring the largest crowds."
+]
+},
+   
+   {
 name: "Delwood",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
