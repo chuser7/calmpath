@@ -9594,6 +9594,230 @@ insights: [
 },
 
 {
+name: "Catch-a-Fire Pizza - Blue Ash",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Pizza restaurant with table seating and counter ordering in the Blue Ash dining district. Typically steady during dinner hours with increased activity on weekends.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Brown Dog Café",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant with table seating and a casual dining atmosphere near Summit Park in Blue Ash. Typically calmer earlier in the evening with steady dinner reservations later.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early dinner hours often feel calmer.",
+"Dinner service attracts couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Caruso's Ristorante & Bar",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian restaurant with table seating and a bar area along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening activity.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and small groups.",
+"Weekend evenings tend to bring steady activity."
+]
+},
+
+{
+name: "Kanpai Japanese Steakhouse & Sushi",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Japanese steakhouse with hibachi tables and sushi bar seating in the Blue Ash dining district. Typically steady during dinner hours with increased weekend activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the entrance"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Dinner hours often bring groups and families.",
+"Hibachi seating can increase overall noise levels.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Shooters Sports Grill - Blue Ash",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Sports bar with bar seating, TVs throughout the space, and casual dining tables along the Blue Ash restaurant corridor. Typically quieter earlier in the day with increased activity during evening games.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Sports events increase activity in the bar area.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "Rhino's Frozen Yogurt & Soft Serve",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Dessert shop with counter service and limited seating in the Blue Ash retail corridor. Typically steady during afternoons with increased activity during evenings.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Most visits involve quick counter-service stops.",
+"Warm weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Pasta Bravo",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian restaurant with table seating and casual dining along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening traffic.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and couples.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Senate - Blue Ash",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and bar with table seating and a casual dining layout near Summit Park. Typically steady during dinner hours with increased evening activity.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the entrance"
+},
+noise: "Moderate",
+exits: "Easy step outside to park area"
+},
+
+insights: [
+"Dinner hours bring steady dine-in traffic.",
+"Groups often gather for drinks later in the evening.",
+"Weekend evenings usually bring the most activity."
+]
+},
+   
+{
 name: "Sleepy Bee Cafe - Blue Ash",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
@@ -9818,6 +10042,174 @@ insights: [
 "Early dinner reservations often feel calmer.",
 "Dinner hours attract couples and groups.",
 "Weekend evenings usually bring the most activity."
+]
+},
+
+   {
+name: "Ferrari's Little Italy",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian restaurant with table seating and a traditional dining room in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early dinner visits often feel relaxed.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "S.W. Clyborne Co. Provision & Spirits",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and bar with multiple dining rooms and a social dining atmosphere in downtown Montgomery. Typically steady during dinner hours with increased evening activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early evenings often feel calmer.",
+"Dinner hours attract groups and couples.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "El Rancho Grande - Montgomery",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mexican restaurant with booth seating and table dining along Montgomery Road. Typically steady during lunch and dinner hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and small groups.",
+"Weekend evenings usually bring steady traffic."
+]
+},
+
+{
+name: "The Original Pancake House - Montgomery",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Breakfast restaurant with table seating and a busy brunch atmosphere along Montgomery Road. Typically busiest during morning and late morning hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the entrance"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours bring steady breakfast traffic.",
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel quieter."
+]
+},
+
+{
+name: "Dingle House Irish Pub",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Irish pub with bar seating and table dining in the Montgomery dining district. Typically quieter earlier in the day with increased evening activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the pub"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Servatii Pastry Shop - Montgomery",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Bakery and cafe with counter service and limited table seating along Montgomery Road. Typically busiest during morning and lunch hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the bakery"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning visits often bring steady bakery traffic.",
+"Lunch visits move quickly.",
+"Afternoons usually feel calmer."
 ]
 },
 
