@@ -9561,6 +9561,462 @@ insights: [
 ]
 },
    
+   /* =========================
+   BLUE ASH, OH
+========================= */
+
+   {
+name: "Blue Ash Chili",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Local chili parlor with booth seating and a casual diner-style layout along Kenwood Road. Typically steady throughout the day with consistent lunch and late evening visits.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring consistent neighborhood traffic.",
+"Most visits involve quick dine-in meals or carryout.",
+"Evenings stay steady with families and regulars."
+]
+},
+
+{
+name: "Sleepy Bee Cafe - Blue Ash",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Breakfast and brunch restaurant with table seating and a bright dining room in the Blue Ash business district. Typically busiest during morning and late morning hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours bring steady breakfast traffic.",
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Sammy's Gourmet Burgers & Beers",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Burger restaurant with bar seating and casual dining tables in the Blue Ash restaurant corridor. Typically steady during dinner hours with increased evening activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours attract families and groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Slatt's Pub",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood pub with bar seating and table dining in the Blue Ash business district. Typically quieter earlier in the day with increased activity during evening hours.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Ando Japanese Restaurant",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Japanese restaurant with table seating and sushi bar service along Kenwood Road. Typically steady during dinner hours with quieter periods earlier in the day.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Firehouse Grill",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"American grill with table seating and bar service in the Blue Ash dining district. Typically steady during dinner hours with moderate evening activity.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and groups.",
+"Weekend evenings tend to bring steady activity."
+]
+},
+
+{
+name: "The Park Pour",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Bar and social venue with bar seating and outdoor gathering space near Summit Park. Typically calmer earlier in the evening with increased activity later at night.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to park area"
+},
+
+insights: [
+"Early evenings often feel relaxed.",
+"Groups gather for drinks after nearby events.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Tahona Kitchen + Bar",
+city: "Blue Ash",
+neighborhood: "Blue Ash",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mexican restaurant with bar seating and table dining in the Blue Ash restaurant district. Typically steady during dinner hours with increased weekend activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often move quickly.",
+"Dinner hours bring small groups and families.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+      /* =========================
+   MONTGOMERY, OH
+========================= */
+
+{
+name: "Stone Creek Dining Company",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Upscale restaurant with multiple dining rooms and bar seating in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early dinner reservations often feel calmer.",
+"Dinner hours attract couples and groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Montgomery Inn",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Barbecue restaurant with table seating and multiple dining rooms along Montgomery Road. Typically steady throughout the day with consistent dinner traffic.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and groups.",
+"Weekend evenings tend to bring steady activity."
+]
+},
+
+{
+name: "Bones' Burgers",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Burger restaurant with casual table seating in the Montgomery restaurant corridor. Typically steady during lunch and dinner hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often bring consistent traffic.",
+"Dinner hours attract families and small groups.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "Toast & Berry",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Breakfast and brunch restaurant with table seating and a bright dining room near downtown Montgomery. Typically busiest during morning and brunch hours.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours bring steady breakfast traffic.",
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Livery - Montgomery",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Latin-inspired restaurant with bar seating and multiple dining spaces in the Montgomery dining district. Typically steady during dinner hours with increased weekend activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early evenings often feel relaxed.",
+"Dinner hours bring couples and groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Kitchen Social - Montgomery",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant with table seating and a social dining atmosphere along Montgomery Road. Typically steady during dinner hours with increased evening activity.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours attract groups and families.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "BRU Burger Bar - Montgomery",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Burger restaurant with bar seating and table dining in the Montgomery dining corridor. Typically steady during dinner hours with moderate evening activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring small groups and families.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Artemis Mediterranean Bistro",
+city: "Montgomery",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mediterranean restaurant with table seating and a relaxed dining room along Montgomery Road. Typically calmer earlier in the evening with steady dinner traffic.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early dinner visits often feel relaxed.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+   
 ];
 
 function normalize(text) {
