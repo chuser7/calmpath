@@ -6951,7 +6951,91 @@ insights: [
 "Weekend evenings bring fuller seating."
 ]
 },
+   
+{
+name: "Highland Square Deli",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
 
+whatToExpect:
+"Neighborhood deli with counter service and table seating along Fort Thomas Avenue. Typically busiest during breakfast and lunch hours with quieter periods later in the afternoon.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the deli"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours often bring steady breakfast traffic.",
+"Lunch visits move quickly with neighborhood diners.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Kampuchea Kitchen",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Casual Cambodian restaurant with table seating along the Fort Thomas Avenue dining corridor. Typically steady during dinner hours with quieter periods earlier in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring small groups and couples.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Graeter’s Ice Cream - Fort Thomas",
+city: "Fort Thomas",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+whatToExpect:
+"Ice cream shop with counter service and limited indoor seating along Fort Thomas Avenue. Typically steady during afternoons with increased activity during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Most visits involve quick counter-service stops.",
+"Warm weekend evenings usually bring the most activity."
+]
+},
+   
 {
 name: "Tickle Pickle Restaurant",
 city: "Fort Thomas",
