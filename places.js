@@ -1287,6 +1287,342 @@ insights: [
 "Weekend nights usually see the most activity."
 ]
 },
+
+{
+name: "Sleepy Bee Cafe - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Breakfast and brunch restaurant with table seating and counter ordering along Madison Road. Typically busiest during morning and late morning hours with quieter afternoons.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours often bring steady breakfast traffic.",
+"Late morning brunch periods fill quickly.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Mazunte Taqueria - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Mexican restaurant with counter ordering and table seating along Madison Road. Typically steady during lunch hours with busier dinner periods.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring small groups and families.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Oakley Pub & Grill",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Neighborhood bar and grill with bar seating and casual dining tables near Oakley Square. Typically quieter earlier in the day with increased activity during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Nation Kitchen & Bar - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and bar with table seating and a casual dining atmosphere along Madison Road. Typically steady during dinner hours with increased weekend activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring groups and families.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Catch-a-Fire Pizza - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Pizza restaurant with table seating and counter ordering along Madison Road. Typically steady during dinner hours with moderate evening activity.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and groups.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Aglamesis Brothers Ice Cream & Chocolates - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Ice cream and chocolate shop with counter service and limited seating near Oakley Square. Typically steady during afternoons with increased evening visits.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often bring steady dessert traffic.",
+"Most visits involve quick counter-service stops.",
+"Warm weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Deeper Roots Coffee - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Coffee shop with indoor seating and a relaxed cafe atmosphere along Madison Road. Typically busiest during morning and midday hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the cafe"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours bring steady coffee traffic.",
+"Afternoons attract remote workers and students.",
+"Evenings tend to feel quieter."
+]
+},
+
+{
+name: "Red Feather Kitchen",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant with table seating and a modern dining room near Oakley Square. Typically calmer earlier in the evening with steady dinner reservations.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early dinner hours often feel calmer.",
+"Dinner service attracts couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+   {
+name: "Kitchen Social - Rookwood",
+city: "Cincinnati",
+neighborhood: "Rookwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant with table seating and a social dining atmosphere in the Rookwood Commons development. Typically steady during dinner hours with moderate evening activity.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours attract groups and families.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Condado Tacos - Rookwood",
+city: "Cincinnati",
+neighborhood: "Rookwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Taco restaurant with bar seating and table dining in the Rookwood retail district. Typically steady during dinner hours with increased evening activity.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring groups and families.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "First Watch - Rookwood",
+city: "Cincinnati",
+neighborhood: "Rookwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Breakfast and brunch restaurant with table seating in the Rookwood Commons development. Typically busiest during morning and late morning hours.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the entrance"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours bring steady breakfast traffic.",
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Northstar Cafe - Rookwood",
+city: "Cincinnati",
+neighborhood: "Rookwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Casual restaurant with counter ordering and table seating in the Rookwood dining district. Typically steady during lunch hours with moderate dinner traffic.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch periods often bring consistent traffic.",
+"Afternoons tend to feel calmer.",
+"Weekend brunch hours usually bring the most activity."
+]
+},
    
    {
 name: "Agave & Rye – Rookwood",
