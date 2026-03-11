@@ -29,6 +29,146 @@ const places = [
 },
    
    {
+name: "Trio",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant with table seating and a bar area located near Kenwood Towne Centre. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early dinner reservations often feel calmer.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Maggiano's Little Italy",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Italian restaurant with multiple dining rooms located next to Kenwood Towne Centre. Typically busy during dinner hours with steady weekend traffic.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and groups.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Cooper's Hawk Winery & Restaurant",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Restaurant and wine bar with table seating and a tasting room near the Kenwood retail district. Typically calmer earlier in the evening with steady dinner reservations.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Dinner hours attract couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Northstar Cafe",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Casual restaurant with counter ordering and table seating near Kenwood Towne Centre. Typically steady throughout the day with busy lunch periods.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch hours often bring consistent traffic.",
+"Afternoons tend to feel calmer.",
+"Weekend brunch periods usually bring the most activity."
+]
+},
+
+{
+name: "Pies & Pints - Kenwood",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+
+whatToExpect:
+"Pizza restaurant and bar with table seating in the Kenwood dining corridor. Typically steady during dinner hours with increased activity later in the evening.",
+
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Dinner hours bring steady dine-in traffic.",
+"Groups often gather for drinks later in the evening.",
+"Weekend nights usually bring the most activity."
+]
+},
+   
+   {
 name: "Ambar India Restaurant",
 city: "Cincinnati",
 neighborhood: "Clifton",
