@@ -5632,37 +5632,6 @@ insights: [
 },
 
 {
-name: "La Mexicana Restaurant",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual Mexican restaurant with booth seating and table dining along Monmouth Street. Typically steady during lunch hours with busier dinner periods and weekend visits.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods often bring consistent traffic.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings tend to be the busiest."
-]
-},
-
-{
 name: "Brothers Bar & Grill – Newport",
 city: "Newport",
 neighborhood: "",
