@@ -315,11 +315,11 @@ if(!featuredContainer) return;
 const randomPlace = places[Math.floor(Math.random() * places.length)];
 
 featuredContainer.innerHTML = `
-<div class="featured-card" id="featured-card">
+<div class="featured-card">
 
 <strong>Featured Place</strong><br><br>
 
-<div class="suggestion-item">
+<div class="suggestion-item featured-item">
 
 <strong>${randomPlace.name}</strong><br>
 
@@ -332,7 +332,7 @@ ${randomPlace.neighborhood ? randomPlace.neighborhood : randomPlace.city}
 </div>
 `;
 
-document.getElementById("featured-card").onclick = () => renderPlace(randomPlace);
+document.querySelector(".featured-item").onclick = () => renderPlace(randomPlace);
 
 }
 
