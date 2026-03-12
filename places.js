@@ -2055,8 +2055,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
 whatToExpect:
 "Restaurant inside the Joseph-Beth bookstore with table seating and a quiet dining layout. Typically calmer during weekday hours and busier during lunch periods.",
+
 environment: {
 parking: "Rookwood Commons parking lot.",
 restrooms: {
@@ -2067,21 +2072,27 @@ location: "Inside bookstore"
 noise: "Low.",
 exits: "Access through bookstore entrance."
 },
+
 insights: [
 "Often described as calmer than nearby restaurants.",
 "First-timers notice lunch hours bring the most activity.",
 "Afternoon visits are generally quiet."
 ]
 },
-   
-   {
+
+{
 name: "Buca di Beppo Italian Restaurant",
 city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Large restaurant with multiple dining rooms in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Large Rookwood parking lot.",
 restrooms: {
@@ -2092,6 +2103,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Direct exterior access to Rookwood development."
 },
+
 insights: [
 "Often described as group-oriented with busy dinner periods.",
 "First-timers notice evenings bring the most activity.",
@@ -2105,8 +2117,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with indoor seating and patio seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around Hyde Park Square.",
 restrooms: {
@@ -2117,6 +2134,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Patio access available."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers notice activity increases after 5 pm.",
@@ -2130,8 +2148,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with table seating and bar seating in a casual layout. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking around Hyde Park Square.",
 restrooms: {
@@ -2142,6 +2165,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady throughout lunch and dinner hours.",
 "First-timers notice evenings bring the most activity.",
@@ -2155,8 +2179,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with a compact dining room and bar seating in Hyde Park Square. Typically busiest during lunch hours and dinner periods.",
+
 environment: {
 parking: "Street parking around Hyde Park Square.",
 restrooms: {
@@ -2167,6 +2196,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady throughout lunch and dinner hours.",
 "First-timers notice evenings bring fuller seating.",
@@ -2180,8 +2210,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and bar seating in a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2192,6 +2227,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady table service.",
 "First-timers notice evenings bring the most activity.",
@@ -2205,8 +2241,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Restaurant and bar with a large dining room in the Rookwood Pavilion area. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Shared Rookwood parking lot.",
 restrooms: {
@@ -2217,6 +2258,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Direct exterior access to Rookwood Pavilion."
 },
+
 insights: [
 "Often described as bar-forward during evening hours.",
 "First-timers notice dinner hours bring the most traffic.",
@@ -2230,8 +2272,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large restaurant with dining rooms and bar seating in the Rookwood development. Typically calmer earlier in the evening and busier during dinner hours.",
+
 environment: {
 parking: "Large Rookwood parking lot.",
 restrooms: {
@@ -2242,6 +2289,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Direct exterior access to the development."
 },
+
 insights: [
 "Often described as steady during dinner service.",
 "First-timers notice evenings bring fuller seating.",
@@ -2255,8 +2303,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Large restaurant and brewery with multiple dining areas and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Large Rookwood parking lot.",
 restrooms: {
@@ -2267,6 +2320,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Direct exterior access to Rookwood development."
 },
+
 insights: [
 "Often described as family-focused earlier and bar-focused later.",
 "First-timers notice dinner hours bring the most activity.",
@@ -2280,8 +2334,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
 whatToExpect:
 "Upscale restaurant with structured dining rooms and bar seating in the Rookwood area. Typically calmer earlier in the evening and busier during dinner hours.",
+
 environment: {
 parking: "Shared Rookwood parking lot.",
 restrooms: {
@@ -2292,6 +2351,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Direct exterior access to Rookwood development."
 },
+
 insights: [
 "Often described as reservation-driven during dinner service.",
 "First-timers notice evenings bring the most activity.",
@@ -2305,6 +2365,9 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Montgomery Road. Typically steady throughout the day with consistent lunch and late-evening traffic.",
@@ -2334,6 +2397,9 @@ neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Pizza restaurant with counter ordering and table seating along the Pleasant Ridge business district. Typically steady during dinner hours with increased activity later in the evening.",
 
@@ -2361,6 +2427,9 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual barbecue restaurant with counter service and table seating along Montgomery Road. Typically steady during lunch hours with continued activity through dinner.",
@@ -2390,6 +2459,9 @@ neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar and grill with bar seating and casual dining tables along Montgomery Road. Typically quieter earlier in the day with increased activity during evening hours.",
 
@@ -2417,6 +2489,9 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Buffet-style restaurant with multiple dining sections and table seating along Montgomery Road. Typically steady during lunch hours with busier dinner periods.",
@@ -2446,6 +2521,9 @@ neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with table seating and a relaxed dining atmosphere in the Pleasant Ridge business district. Typically quieter earlier in the day with steady dinner traffic.",
 
@@ -2466,15 +2544,20 @@ insights: [
 "Weekend evenings tend to bring the most activity."
 ]
 },
-   
-   {
+
+{
 name: "Loving Hut",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small restaurant with counter ordering and table seating in a casual dining space. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking along Montgomery Road.",
 restrooms: {
@@ -2485,6 +2568,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during lunch and early dinner hours.",
 "First-timers note midday brings the most activity.",
@@ -2498,8 +2582,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Wine bar with indoor seating and a relaxed lounge-style layout. Typically calmer earlier in the evening and busier during weekend nights.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2510,6 +2599,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady bar activity.",
 "First-timers notice activity increases later in the evening.",
@@ -2523,8 +2613,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and counter ordering in a small dining room. Typically busiest during brunch hours and early afternoons.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2535,6 +2630,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as brunch-focused with strong midday traffic.",
 "First-timers note weekends bring the highest activity.",
@@ -2548,8 +2644,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking along Montgomery Road.",
 restrooms: {
@@ -2560,6 +2661,7 @@ location: "Inside venue"
 noise: "Low.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with shorter visits.",
 "First-timers notice breakfast hours bring the most traffic.",
@@ -2573,8 +2675,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small dessert shop with counter ordering and limited seating. Typically busiest during afternoon and evening dessert hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2585,6 +2692,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dessert-focused with short visits.",
 "First-timers notice increased activity after dinner hours.",
@@ -2598,8 +2706,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Brewery and restaurant with bar seating and dining tables in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking and small nearby lots.",
 restrooms: {
@@ -2610,6 +2723,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady bar traffic.",
 "First-timers notice activity increases after typical work hours.",
@@ -2623,8 +2737,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar with themed interior seating and lounge-style areas. Typically quieter earlier in the evening and busier later at night.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2635,6 +2754,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as nightlife-oriented with themed bar atmosphere.",
 "First-timers notice activity increases later in the evening.",
@@ -2648,8 +2768,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2660,6 +2785,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady evening traffic.",
 "First-timers notice reservations shape the pace of dinner hours.",
@@ -2673,8 +2799,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Coffee shop with counter ordering and indoor seating areas. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2685,6 +2816,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with steady coffee traffic.",
 "First-timers notice breakfast hours bring the most activity.",
