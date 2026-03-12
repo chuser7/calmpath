@@ -249,6 +249,12 @@ neighborhood: null
 };
 
 const filterButtons = document.querySelectorAll(".filter-btn");
+const resultsCount = document.getElementById("results-count");
+const resultsList = document.getElementById("results-list");
+const clearBtn = document.getElementById("clearFilters");
+
+
+/* ---------------- FILTER BUTTONS ---------------- */
 
 filterButtons.forEach(button => {
 
@@ -279,6 +285,8 @@ applyFilters();
 });
 
 
+/* ---------------- APPLY FILTERS ---------------- */
+
 function applyFilters(){
 
 let filtered = places.filter(place => {
@@ -288,11 +296,11 @@ let noiseMatch = true;
 let neighborhoodMatch = true;
 
 if(activeFilters.parking){
-parkingMatch = place.parking.includes(activeFilters.parking);
+parkingMatch = place.parking?.includes(activeFilters.parking);
 }
 
 if(activeFilters.noise){
-noiseMatch = place.noise.includes(activeFilters.noise);
+noiseMatch = place.noise?.includes(activeFilters.noise);
 }
 
 if(activeFilters.neighborhood){
@@ -303,45 +311,95 @@ return parkingMatch && noiseMatch && neighborhoodMatch;
 
 });
 
-renderFilteredPlaces(filtered);
+renderResults(filtered);
 
 }
 
 
+/* ---------------- RENDER RESULTS ---------------- */
 
-function renderFilteredPlaces(list){
+function renderResults(list){
 
-const countDiv = document.getElementById("results-count");
-const resultsDiv = document.getElementById("results-list");
+resultsList.innerHTML = "";
 
 if(list.length === 0){
-
-countDiv.innerHTML = "No places found";
-resultsDiv.innerHTML = "";
+resultsCount.innerHTML = "No places found";
 return;
-
 }
 
-countDiv.innerHTML = "<strong>" + list.length + " places found</strong>";
-
-resultsDiv.innerHTML = "";
+resultsCount.innerHTML = "<strong>" + list.length + " places found</strong>";
 
 list.forEach(place => {
 
 const item = document.createElement("div");
 
-item.className = "result-item";
+item.className = "suggestion-item";
 
 item.innerHTML = `
-<div class="result-name">${place.name}</div>
-<div class="result-location">${place.neighborhood}</div>
+<strong>${place.name}</strong><br>
+<span style="font-size:13px;color:#666">${place.neighborhood}</span>
 `;
 
-item.addEventListener("click", () => {
-showPlace(place);
+item.onclick = () => showPlace(place);
+
+resultsList.appendChild(item);
+
 });
 
-resultsDiv.appendChild(item);
+}
+
+
+/* ---------------- CLEAR FILTERS ---------------- */
+
+clearBtn.addEventListener("click", () => {
+
+activeFilters = {
+parking: null,
+noise: null,
+neighborhood: null
+};
+
+filterButtons.forEach(btn => btn.classList.remove("active"));
+
+resultsList.innerHTML = "";
+resultsCount.innerHTML = "";
+
+});
+
+
+/* ---------------- SEARCH ---------------- */
+
+function searchPlace(){
+
+const input = document.getElementById("search").value.toLowerCase();
+const suggestions = document.getElementById("suggestions");
+
+suggestions.innerHTML = "";
+
+if(input.length === 0){
+return;
+}
+
+const matches = places.filter(place =>
+place.name.toLowerCase().includes(input)
+).slice(0,8);
+
+matches.forEach(place => {
+
+const div = document.createElement("div");
+div.className = "suggestion-item";
+div.textContent = place.name;
+
+div.onclick = () => {
+
+showPlace(place);
+
+document.getElementById("search").value = place.name;
+suggestions.innerHTML = "";
+
+};
+
+suggestions.appendChild(div);
 
 });
 
