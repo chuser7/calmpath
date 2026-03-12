@@ -5694,37 +5694,6 @@ insights: [
 },
 
 {
-name: "Coach House Bar & Grill",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar and grill with bar seating and table dining along the Newport corridor. Typically quieter earlier in the day with more activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Evenings bring steady bar and dining traffic.",
-"Weekend nights usually bring the most activity."
-]
-},
-
-{
 name: "The Local Post",
 city: "Newport",
 neighborhood: "",
