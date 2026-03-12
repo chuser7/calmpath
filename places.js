@@ -7272,62 +7272,6 @@ insights: [
 },
 
 {
-name: "Brothers Bar & Grill – Newport",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-whatToExpect:
-"Large sports bar and restaurant with bar seating and multiple dining areas at Newport on the Levee. Typically calmer earlier in the day with busier evenings and weekend nightlife.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel calmer before evening crowds.",
-"Groups gather for drinks and sports viewing.",
-"Weekend nights usually bring the most activity."
-]
-},
-
-{
-name: "The Buzz Social",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-whatToExpect:
-"Bar and social venue with games, bar seating, and lounge areas near the Newport nightlife district. Typically quieter earlier in the evening with increased activity later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening hours often feel calmer.",
-"Groups gather for games and drinks later at night.",
-"Weekend nights usually bring the most visitors."
-]
-},
-
-{
 name: "Twelve Mile House",
 city: "Newport",
 neighborhood: "",
