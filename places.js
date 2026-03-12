@@ -7219,6 +7219,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evenings and sports events.",
 
@@ -7246,6 +7249,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Neighborhood bar with bar seating and a casual local atmosphere along the Newport corridor. Typically quieter earlier in the day with increased activity during evening hours.",
@@ -7275,6 +7281,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood bar and grill with bar seating and table dining along the Newport corridor. Typically quieter earlier in the day with more activity during evening hours.",
 
@@ -7303,6 +7312,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood bar with a casual atmosphere and bar seating in the Newport nightlife area. Typically calmer earlier in the day with increased activity during evening hours.",
 
@@ -7323,394 +7335,485 @@ insights: [
 "Weekend nights tend to bring the most visitors."
 ]
 },
-   
+
 {
-  name: "Brio Italian Grille",
-  city: "Newport",
-   neighborhood: "The Levee",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Large, traditional dining restaurant with multiple seating areas inside Newport on the Levee. Generally calmer during weekday afternoons and busier during dinner hours and weekends.",
-  environment: {
-    parking: "Levee garage parking directly adjacent; easy access.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; higher during peak dinner service.",
-    exits: "Direct access to Levee walkways and exterior exits."
-  },
-  insights: [
-    "Structured and reservation-driven, especially at dinner.",
-    "Activity increases steadily after 5–6 pm.",
-    "Weekends bring fuller dining rooms but remain organized."
-  ]
+name: "Brio Italian Grille",
+city: "Newport",
+neighborhood: "The Levee",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Large, traditional dining restaurant with multiple seating areas inside Newport on the Levee. Generally calmer during weekday afternoons and busier during dinner hours and weekends.",
+
+environment: {
+parking: "Levee garage parking directly adjacent; easy access.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner hours",
+location: "Inside main dining area"
 },
-   
-{
-  name: "Pepper Pod",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Casual diner-style restaurant with a straightforward counter and table layout. Typically steady during breakfast and lunch hours, with lighter traffic later in the day.",
-  environment: {
-    parking: "Street parking nearby; may require short walk.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Uncommon except during peak breakfast hours",
-      location: "Inside main dining area"
-    },
-    noise: "Low to Moderate; generally conversation-friendly.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Routine-driven, especially during morning hours.",
-    "Breakfast brings the most consistent activity.",
-    "Pace remains steady rather than event-driven."
-  ]
+noise: "Moderate; higher during peak dinner service.",
+exits: "Direct access to Levee walkways and exterior exits."
+},
+
+insights: [
+"Structured and reservation-driven, especially at dinner.",
+"Activity increases steadily after 5–6 pm.",
+"Weekends bring fuller dining rooms but remain organized."
+]
 },
 
 {
-  name: "Mi Cozumel",
-  city: "Newport",
-   neighborhood: "The Levee",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Traditional sit-down restaurant with a full dining room and bar seating. Generally calmer midweek and earlier in the day, with busier dinner hours and weekends.",
-  environment: {
-    parking: "Street parking and nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner service",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; increases during peak dinner service.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Family-oriented earlier in the evening.",
-    "Activity builds gradually after 5 pm.",
-    "Weekend nights bring fuller dining rooms."
-  ]
+name: "Pepper Pod",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Casual diner-style restaurant with a straightforward counter and table layout. Typically steady during breakfast and lunch hours, with lighter traffic later in the day.",
+
+environment: {
+parking: "Street parking nearby; may require short walk.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Uncommon except during peak breakfast hours",
+location: "Inside main dining area"
+},
+noise: "Low to Moderate; generally conversation-friendly.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Routine-driven, especially during morning hours.",
+"Breakfast brings the most consistent activity.",
+"Pace remains steady rather than event-driven."
+]
 },
 
 {
-  name: "Par 3 Newport",
-  city: "Newport",
-   neighborhood: "The Levee",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Golf-themed bar with open interior space and entertainment-focused seating. Typically lighter during weekday afternoons and busier in the evenings and on weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak evening hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate to High; higher during peak evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Activity centers around entertainment areas.",
-    "Evenings bring the most noticeable increase in crowd energy.",
-    "Weeknights tend to be calmer than weekends."
-  ]
+name: "Mi Cozumel",
+city: "Newport",
+neighborhood: "The Levee",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Traditional sit-down restaurant with a full dining room and bar seating. Generally calmer midweek and earlier in the day, with busier dinner hours and weekends.",
+
+environment: {
+parking: "Street parking and nearby public lots.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner service",
+location: "Inside main dining area"
+},
+noise: "Moderate; increases during peak dinner service.",
+exits: "Street-level access."
+},
+
+insights: [
+"Family-oriented earlier in the evening.",
+"Activity builds gradually after 5 pm.",
+"Weekend nights bring fuller dining rooms."
+]
 },
 
 {
-  name: "Mansion Hill Tavern",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small neighborhood bar with close seating and a traditional pub layout. Generally steady during the day and busier in the evenings, especially on weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak evening hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; increases as the space fills.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Compact and locally driven atmosphere.",
-    "Smaller footprint shapes the overall feel.",
-    "Evenings bring the most noticeable change in activity."
-  ]
+name: "Par 3 Newport",
+city: "Newport",
+neighborhood: "The Levee",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
+whatToExpect:
+"Golf-themed bar with open interior space and entertainment-focused seating. Typically lighter during weekday afternoons and busier in the evenings and on weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak evening hours",
+location: "Inside venue"
+},
+noise: "Moderate to High; higher during peak evenings.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Activity centers around entertainment areas.",
+"Evenings bring the most noticeable increase in crowd energy.",
+"Weeknights tend to be calmer than weekends."
+]
 },
 
 {
-  name: "Cov Yard",
-  city: "Covington",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Outdoor bar and seating area with an open-air layout. Typically lighter earlier in the day and busier in the evenings, particularly during warm weather.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "On-site restroom facilities",
-      waits: "Possible during peak evenings",
-      location: "On-site outdoor facilities"
-    },
-    noise: "Moderate; varies based on crowd size and events.",
-    exits: "Fully open outdoor layout."
-  },
-  insights: [
-    "Weather-dependent traffic patterns.",
-    "Open layout creates a different feel than enclosed bars.",
-    "Weekend evenings bring the most consistent activity."
-  ]
+name: "Mansion Hill Tavern",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small neighborhood bar with close seating and a traditional pub layout. Generally steady during the day and busier in the evenings, especially on weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak evening hours",
+location: "Inside venue"
+},
+noise: "Moderate; increases as the space fills.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Compact and locally driven atmosphere.",
+"Smaller footprint shapes the overall feel.",
+"Evenings bring the most noticeable change in activity."
+]
 },
 
 {
-  name: "Doner House",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small counter-service restaurant with limited indoor seating. Typically busiest during lunch hours, with lighter traffic mid-afternoon and later evening.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Uncommon",
-      location: "Inside venue"
-    },
-    noise: "Low; generally quick visits with light background activity.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Quick-stop oriented with shorter visit times.",
-    "Lunch brings the most consistent flow.",
-    "Activity remains steady rather than event-driven."
-  ]
+name: "Cov Yard",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Outdoor bar and seating area with an open-air layout. Typically lighter earlier in the day and busier in the evenings, particularly during warm weather.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "On-site restroom facilities",
+waits: "Possible during peak evenings",
+location: "On-site outdoor facilities"
+},
+noise: "Moderate; varies based on crowd size and events.",
+exits: "Fully open outdoor layout."
+},
+
+insights: [
+"Weather-dependent traffic patterns.",
+"Open layout creates a different feel than enclosed bars.",
+"Weekend evenings bring the most consistent activity."
+]
 },
 
 {
-  name: "Purple Poulet",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small restaurant with a casual, enclosed dining layout. Generally calmer during weekday hours and busier during dinner and weekend periods.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; increases during peak dinner hours.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Intimate due to smaller footprint.",
-    "Activity builds gradually through the evening.",
-    "Weekends bring fuller seating compared to weekdays."
-  ]
+name: "Doner House",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Small counter-service restaurant with limited indoor seating. Typically busiest during lunch hours, with lighter traffic mid-afternoon and later evening.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Uncommon",
+location: "Inside venue"
+},
+noise: "Low; generally quick visits with light background activity.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Quick-stop oriented with shorter visit times.",
+"Lunch brings the most consistent flow.",
+"Activity remains steady rather than event-driven."
+]
 },
 
 {
-  name: "McCollum’s on York",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Neighborhood bar with bar-focused seating and a compact interior. Typically steady earlier in the day and busier during evening hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during weekend evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Locally driven with consistent regular patrons.",
-    "Space fills quickly due to compact layout.",
-    "Activity remains steady rather than event-driven."
-  ]
+name: "Purple Poulet",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small restaurant with a casual, enclosed dining layout. Generally calmer during weekday hours and busier during dinner and weekend periods.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak dinner hours",
+location: "Inside main dining area"
 },
-   
-{
-  name: "Sake Bomb Sushi & Korean BBQ",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Large dining space with a mix of table seating and grill tables inside Newport on the Levee. Typically lighter earlier in the day and noticeably busier during dinner hours and weekends.",
-  environment: {
-    parking: "Levee garage parking available on-site; easy access.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate to High; increases during peak dinner hours due to table activity.",
-    exits: "Located within the Levee with clear access to exterior walkways."
-  },
-  insights: [
-    "Group-oriented layout centered around shared tables.",
-    "Noticeable increase in movement and conversation during dinner hours.",
-    "Weekends bring the most significant crowd levels."
-  ]
+noise: "Moderate; increases during peak dinner hours.",
+exits: "Street-level entrance."
 },
-   
-{
-  name: "The Baker’s Table",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small reservation-focused dining space with structured layout. Calm earlier; fuller during peak dinner.",
-  environment: {
-    parking: "Street parking along Monmouth + nearby lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except peak dinner",
-      location: "Inside main floor"
-    },
-    noise: "Low to Moderate.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Reservation pacing shapes flow.",
-    "Steady energy even when full.",
-    "Intimate layout."
-  ]
+
+insights: [
+"Intimate due to smaller footprint.",
+"Activity builds gradually through the evening.",
+"Weekends bring fuller seating compared to weekdays."
+]
 },
 
 {
-  name: "Shiners on the Levee",
-  city: "Newport",
-   neighborhood: "The Levee",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Large entertainment-focused bar near riverfront. Quiet daytime; high-energy late nights.",
-  environment: {
-    parking: "Riverfront garages + lots; tight nightlife hours.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible late-night peaks",
-      location: "Inside main building"
-    },
-    noise: "High during live music and late evenings.",
-    exits: "Multiple access points + outdoor space."
-  },
-  insights: [
-    "Nightlife-centered activity.",
-    "Clear shift after dark.",
-    "Weekend evenings busiest."
-  ]
+name: "McCollum’s on York",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood bar with bar-focused seating and a compact interior. Typically steady earlier in the day and busier during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during weekend evenings",
+location: "Inside venue"
+},
+noise: "Moderate; higher during weekend evenings.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Locally driven with consistent regular patrons.",
+"Space fills quickly due to compact layout.",
+"Activity remains steady rather than event-driven."
+]
 },
 
 {
-  name: "Bridgeview Box Park",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Open-air container park with multiple vendors and outdoor seating. Lighter earlier; busier warm-weather evenings.",
-  environment: {
-    parking: "Shared riverfront parking nearby.",
-    restrooms: {
-      capacity: "Shared facilities; accessible",
-      waits: "Possible peak evenings",
-      location: "On-site shared restrooms"
-    },
-    noise: "Moderate; varies by event.",
-    exits: "Fully outdoor layout."
-  },
-  insights: [
-    "Weather-dependent traffic.",
-    "Casual vendor flow.",
-    "Gradual evening build."
-  ]
+name: "Sake Bomb Sushi & Korean BBQ",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
+whatToExpect:
+"Large dining space with a mix of table seating and grill tables inside Newport on the Levee. Typically lighter earlier in the day and noticeably busier during dinner hours and weekends.",
+
+environment: {
+parking: "Levee garage parking available on-site; easy access.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner hours",
+location: "Inside main dining area"
+},
+noise: "Moderate to High; increases during peak dinner hours due to table activity.",
+exits: "Located within the Levee with clear access to exterior walkways."
+},
+
+insights: [
+"Group-oriented layout centered around shared tables.",
+"Noticeable increase in movement and conversation during dinner hours.",
+"Weekends bring the most significant crowd levels."
+]
 },
 
 {
-  name: "Jerry’s Jug House",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small historic bar with compact interior. Steady daytime; moderate evening activity.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Single restroom",
-      waits: "Possible when full",
-      location: "Inside main area"
-    },
-    noise: "Moderate; increases as space fills.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Tight footprint shapes energy.",
-    "Consistent local presence.",
-    "Steady rather than event-driven."
-  ]
+name: "The Baker’s Table",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Small reservation-focused dining space with structured layout. Calm earlier; fuller during peak dinner.",
+
+environment: {
+parking: "Street parking along Monmouth + nearby lots.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon except peak dinner",
+location: "Inside main floor"
+},
+noise: "Low to Moderate.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Reservation pacing shapes flow.",
+"Steady energy even when full.",
+"Intimate layout."
+]
 },
 
 {
-  name: "New Riff Distilling",
-  city: "Newport",
-   neighborhood: "",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Modern distillery with tasting room and tours across multiple levels. Calm weekdays; busier weekend tours and events.",
-  environment: {
-    parking: "Dedicated on-site parking lot available.",
-    restrooms: {
-      capacity: "Multiple; accessible",
-      waits: "Uncommon except peak tours",
-      location: "Inside main building"
-    },
-    noise: "Low to Moderate depending on tours.",
-    exits: "Multiple entrances + patio access."
-  },
-  insights: [
-    "Tour schedule shapes traffic.",
-    "Structured, organized flow.",
-    "Weekends bring stronger group activity."
-  ]
+name: "Shiners on the Levee",
+city: "Newport",
+neighborhood: "The Levee",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
+whatToExpect:
+"Large entertainment-focused bar near riverfront. Quiet daytime; high-energy late nights.",
+
+environment: {
+parking: "Riverfront garages + lots; tight nightlife hours.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible late-night peaks",
+location: "Inside main building"
 },
-   
-   /* =========================
-   LUDLOW, KY
-========================= */
-   
-   {
+noise: "High during live music and late evenings.",
+exits: "Multiple access points + outdoor space."
+},
+
+insights: [
+"Nightlife-centered activity.",
+"Clear shift after dark.",
+"Weekend evenings busiest."
+]
+},
+
+{
+name: "Bridgeview Box Park",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Open-air container park with multiple vendors and outdoor seating. Lighter earlier; busier warm-weather evenings.",
+
+environment: {
+parking: "Shared riverfront parking nearby.",
+restrooms: {
+capacity: "Shared facilities; accessible",
+waits: "Possible peak evenings",
+location: "On-site shared restrooms"
+},
+noise: "Moderate; varies by event.",
+exits: "Fully outdoor layout."
+},
+
+insights: [
+"Weather-dependent traffic.",
+"Casual vendor flow.",
+"Gradual evening build."
+]
+},
+
+{
+name: "Jerry’s Jug House",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small historic bar with compact interior. Steady daytime; moderate evening activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Possible when full",
+location: "Inside main area"
+},
+noise: "Moderate; increases as space fills.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Tight footprint shapes energy.",
+"Consistent local presence.",
+"Steady rather than event-driven."
+]
+},
+
+{
+name: "New Riff Distilling",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
+whatToExpect:
+"Modern distillery with tasting room and tours across multiple levels. Calm weekdays; busier weekend tours and events.",
+
+environment: {
+parking: "Dedicated on-site parking lot available.",
+restrooms: {
+capacity: "Multiple; accessible",
+waits: "Uncommon except peak tours",
+location: "Inside main building"
+},
+noise: "Low to Moderate depending on tours.",
+exits: "Multiple entrances + patio access."
+},
+
+insights: [
+"Tour schedule shapes traffic.",
+"Structured, organized flow.",
+"Weekends bring stronger group activity."
+]
+},
+
+{
 name: "Buffalo Bar",
 city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking along Elm Street and nearby residential streets.",
 restrooms: {
@@ -7721,13 +7824,14 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as locally driven with consistent evening traffic.",
 "First-timers notice activity increases after typical dinner hours.",
 "Weekend nights bring the most consistent crowds."
 ]
 },
-
+   
 {
 name: "Ludlow Tavern",
 city: "Ludlow",
