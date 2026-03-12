@@ -1281,6 +1281,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Argentine restaurant with table seating and a casual bar area in the OTR dining district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
 
@@ -1308,6 +1311,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Steakhouse with multiple dining rooms and a bar area near Washington Park in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend traffic.",
@@ -1337,6 +1343,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Thai and sushi restaurant with table seating and a bar area along Vine Street. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
 
@@ -1364,6 +1373,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Wine-focused restaurant with table seating and a bar area along Main Street in OTR. Typically relaxed earlier in the evening with busier dinner service and weekend visits.",
@@ -1393,6 +1405,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Pizza restaurant with counter ordering and bar seating in the OTR nightlife district. Typically steady during dinner hours with increased activity late at night.",
 
@@ -1420,6 +1435,9 @@ city: "Cincinnati",
 neighborhood: "Oakley",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Breakfast and brunch restaurant with table seating and counter ordering along Madison Road. Typically busiest during morning and late morning hours with quieter afternoons.",
@@ -1449,6 +1467,9 @@ neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Mexican restaurant with counter ordering and table seating along Madison Road. Typically steady during lunch hours with busier dinner periods.",
 
@@ -1476,6 +1497,9 @@ city: "Cincinnati",
 neighborhood: "Oakley",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Neighborhood bar and grill with bar seating and casual dining tables near Oakley Square. Typically quieter earlier in the day with increased activity during evening hours.",
@@ -1505,6 +1529,9 @@ neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with table seating and a casual dining atmosphere along Madison Road. Typically steady during dinner hours with increased weekend activity.",
 
@@ -1532,6 +1559,9 @@ city: "Cincinnati",
 neighborhood: "Oakley",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Pizza restaurant with table seating and counter ordering along Madison Road. Typically steady during dinner hours with moderate evening activity.",
@@ -1561,6 +1591,9 @@ neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Ice cream and chocolate shop with counter service and limited seating near Oakley Square. Typically steady during afternoons with increased evening visits.",
 
@@ -1588,6 +1621,9 @@ city: "Cincinnati",
 neighborhood: "Oakley",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Coffee shop with indoor seating and a relaxed cafe atmosphere along Madison Road. Typically busiest during morning and midday hours.",
@@ -1617,6 +1653,9 @@ neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and a modern dining room near Oakley Square. Typically calmer earlier in the evening with steady dinner reservations.",
 
@@ -1638,12 +1677,15 @@ insights: [
 ]
 },
 
-   {
+{
 name: "Kitchen Social - Rookwood",
 city: "Cincinnati",
 neighborhood: "Rookwood",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant with table seating and a social dining atmosphere in the Rookwood Commons development. Typically steady during dinner hours with moderate evening activity.",
@@ -1673,6 +1715,9 @@ neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Taco restaurant with bar seating and table dining in the Rookwood retail district. Typically steady during dinner hours with increased evening activity.",
 
@@ -1700,6 +1745,9 @@ city: "Cincinnati",
 neighborhood: "Rookwood",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Breakfast and brunch restaurant with table seating in the Rookwood Commons development. Typically busiest during morning and late morning hours.",
@@ -1729,6 +1777,9 @@ neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with counter ordering and table seating in the Rookwood dining district. Typically steady during lunch hours with moderate dinner traffic.",
 
@@ -1749,15 +1800,20 @@ insights: [
 "Weekend brunch hours usually bring the most activity."
 ]
 },
-   
-   {
+
+{
 name: "Agave & Rye – Rookwood",
 city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Restaurant and bar with a large dining room and bar seating inside the Rookwood Commons area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Large shared parking lots throughout Rookwood Commons.",
 restrooms: {
@@ -1768,6 +1824,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Direct exterior access to Rookwood Commons."
 },
+
 insights: [
 "Often described as high-energy during dinner hours.",
 "First-timers notice activity increases after typical work hours.",
@@ -1781,8 +1838,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with a large dining room and bar seating in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Large shared Rookwood parking lot.",
 restrooms: {
@@ -1793,6 +1855,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Direct exterior access to the shopping area."
 },
+
 insights: [
 "Often described as family-focused during early dinner hours.",
 "First-timers notice evenings bring the most activity.",
@@ -1806,8 +1869,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with table seating and bar seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around Hyde Park Square.",
 restrooms: {
@@ -1818,6 +1886,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers notice activity increases after work hours.",
@@ -1831,8 +1900,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a dining room and patio seating overlooking Hyde Park Square. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around the square.",
 restrooms: {
@@ -1843,6 +1917,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Patio access overlooking Hyde Park Square."
 },
+
 insights: [
 "Often described as square-view focused during warm weather.",
 "First-timers notice dinner hours bring the most activity.",
@@ -1856,8 +1931,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Classic diner with counter seating and table seating in a compact layout. Typically busiest during breakfast and lunch hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -1868,6 +1948,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as breakfast-focused with strong morning traffic.",
 "First-timers notice weekend mornings bring the most activity.",
@@ -1881,8 +1962,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Restaurant with table seating and a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -1893,6 +1979,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady evening traffic.",
 "First-timers notice activity increases after 5 pm.",
@@ -1906,8 +1993,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large restaurant with dining rooms and bar seating inside Rookwood Pavilion. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Large shared Rookwood parking lot.",
 restrooms: {
@@ -1918,6 +2010,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Exterior access to Rookwood Pavilion."
 },
+
 insights: [
 "Often described as steady during lunch and dinner hours.",
 "First-timers notice evenings bring fuller seating.",
@@ -1931,8 +2024,13 @@ city: "Cincinnati",
 neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with dining tables and bar seating in the Rookwood development. Typically busiest during brunch hours and early afternoons.",
+
 environment: {
 parking: "Shared Rookwood parking lot.",
 restrooms: {
@@ -1943,6 +2041,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Exterior access to the shopping area."
 },
+
 insights: [
 "Often described as brunch-focused with strong weekend traffic.",
 "First-timers notice mornings bring the most activity.",
