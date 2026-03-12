@@ -5088,451 +5088,558 @@ insights: [
 },
 
 {
-  name: "Jeff Ruby’s Steakhouse",
-  city: "Cincinnati",
-   neighborhood: "Downtown",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large, multi-level dining space with a formal layout and prominent bar area. Generally calmer midweek and busier during weekend dinner hours.",
-  environment: {
-    parking: "Valet and nearby downtown garages.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main levels"
-    },
-    noise: "Moderate; higher during peak dinner service.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Structured and reservation-shaped flow.",
-    "Evenings bring the most noticeable increase in activity.",
-    "Weekends feel fuller but remain organized."
-  ]
+name: "Jeff Ruby’s Steakhouse",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Large, multi-level dining space with a formal layout and prominent bar area. Generally calmer midweek and busier during weekend dinner hours.",
+
+environment: {
+parking: "Valet and nearby downtown garages.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner hours",
+location: "Inside main levels"
+},
+noise: "Moderate; higher during peak dinner service.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Structured and reservation-shaped flow.",
+"Evenings bring the most noticeable increase in activity.",
+"Weekends feel fuller but remain organized."
+]
 },
 
 {
-  name: "Red Roost Tavern",
-  city: "Cincinnati",
-   neighborhood: "Downtown",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Neighborhood bar with a compact interior and bar-focused seating. Typically calmer during the day and busier during evening hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Locally driven and consistent atmosphere.",
-    "Compact layout fills quickly.",
-    "Activity remains steady rather than event-driven."
-  ]
+name: "Red Roost Tavern",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood bar with a compact interior and bar-focused seating. Typically calmer during the day and busier during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak evenings",
+location: "Inside venue"
+},
+noise: "Moderate; higher during weekend evenings.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Locally driven and consistent atmosphere.",
+"Compact layout fills quickly.",
+"Activity remains steady rather than event-driven."
+]
 },
 
 {
-  name: "The 1931",
-  city: "Cincinnati",
-   neighborhood: "Downtown",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Restaurant and bar located within a larger venue space with structured seating. Generally lighter earlier in the day and busier during dinner hours and special events.",
-  environment: {
-    parking: "Street parking and nearby garages.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during events",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during events and weekend evenings.",
-    exits: "Street-level access available."
-  },
-  insights: [
-    "Event-influenced activity tied to nearby attractions.",
-    "Noticeable shift during weekend evenings.",
-    "Weekday hours feel more controlled and steady."
-  ]
+name: "The 1931",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Restaurant and bar located within a larger venue space with structured seating. Generally lighter earlier in the day and busier during dinner hours and special events.",
+
+environment: {
+parking: "Street parking and nearby garages.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during events",
+location: "Inside venue"
+},
+noise: "Moderate; higher during events and weekend evenings.",
+exits: "Street-level access available."
+},
+
+insights: [
+"Event-influenced activity tied to nearby attractions.",
+"Noticeable shift during weekend evenings.",
+"Weekday hours feel more controlled and steady."
+]
+},
+
+{
+name: "Biscuit Love Cincinnati",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Bright daytime restaurant with compact seating. Busiest during breakfast and weekend brunch hours.",
+
+environment: {
+parking: "Street + garages; competitive during brunch.",
+restrooms: {
+capacity: "Limited capacity",
+waits: "Possible during brunch peak",
+location: "Inside restaurant"
+},
+noise: "Moderate; higher during brunch rush.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Bright and bustling during mornings.",
+"Weekend brunch drives steady traffic."
+]
+},
+
+{
+name: "Jefferson Social",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Large bar with extensive outdoor seating. Quieter earlier; more energetic evenings and game days.",
+
+environment: {
+parking: "Street + garages; tight during games.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Possible during busy nights",
+location: "Inside main building"
+},
+noise: "High evenings and weekends.",
+exits: "Direct access to The Banks."
+},
+
+insights: [
+"Energy closely tied to game schedules.",
+"Outdoor seating is a major draw."
+]
+},
+
+{
+name: "Krueger’s Tavern",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Casual tavern with indoor and small outdoor seating. Calmer midday; busier on weekends.",
+
+environment: {
+parking: "Street + garages; tighter on weekends.",
+restrooms: {
+capacity: "Limited capacity",
+waits: "Possible during peak hours",
+location: "Inside venue"
+},
+noise: "Moderate; louder late evenings.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Neighborhood-style relaxed feel.",
+"Energy increases later in the evening."
+]
+},
+
+{
+name: "Bakersfield OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Spacious taco and tequila spot with indoor and outdoor seating. Livelier in evenings and on Taco Tuesdays.",
+
+environment: {
+parking: "Street + garages; tight at peak.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during busy times",
+location: "Inside main area"
+},
+noise: "Moderate; louder evenings.",
+exits: "Street-level on Vine St."
+},
+
+insights: [
+"Energy builds in the evenings.",
+"Music contributes to lively atmosphere."
+]
+},
+
+{
+name: "MadTree Brewing - Oakley",
+city: "Cincinnati",
+neighborhood: "Oakley",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
+whatToExpect:
+"Large brewery with expansive indoor and outdoor seating. Calmer daytime; lively evenings and weekends.",
+
+environment: {
+parking: "On-site lot + street; fills quickly.",
+restrooms: {
+capacity: "Multiple; accessible",
+waits: "Possible on busy nights",
+location: "Inside main building"
+},
+noise: "Low to Moderate daytime; High evenings.",
+exits: "Large patio and multiple exits."
+},
+
+insights: [
+"Open, social layout.",
+"Crowds increase on weekends."
+]
+},
+
+{
+name: "Maplewood Kitchen + Bar",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Bright café focused on breakfast and lunch. Busier during brunch and weekday lunch rush.",
+
+environment: {
+parking: "Street + downtown garages.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during brunch peak",
+location: "Inside restaurant"
+},
+noise: "Moderate; higher during brunch.",
+exits: "Open layout; quick street exit."
+},
+
+insights: [
+"Bright and airy setting.",
+"Weekend brunch draws steady crowds."
+]
+},
+
+{
+name: "Moerlein Lager House",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Large riverfront restaurant with multi-level seating and patio space. Activity increases around games.",
+
+environment: {
+parking: "Garages + street; limited during events.",
+restrooms: {
+capacity: "Multiple; accessible",
+waits: "Possible during peak events",
+location: "Inside multiple levels"
+},
+noise: "Moderate daytime; High during events.",
+exits: "Multiple exits + patio access."
+},
+
+insights: [
+"Crowds track with stadium schedules.",
+"Spacious layout accommodates groups."
+]
 },
    
 {
-  name: "Biscuit Love Cincinnati",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Bright daytime restaurant with compact seating. Busiest during breakfast and weekend brunch hours.",
-  environment: {
-    parking: "Street + garages; competitive during brunch.",
-    restrooms: {
-      capacity: "Limited capacity",
-      waits: "Possible during brunch peak",
-      location: "Inside restaurant"
-    },
-    noise: "Moderate; higher during brunch rush.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Bright and bustling during mornings.",
-    "Weekend brunch drives steady traffic."
-  ]
+name: "O’Malley’s in the Alley",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Historic Irish pub below street level. Calmer weekdays; busier before games.",
+
+environment: {
+parking: "Street + garages; tight on game days.",
+restrooms: {
+capacity: "Indoor; tighter layout",
+waits: "Possible pre-game",
+location: "Inside lower level"
+},
+noise: "Moderate; louder during pre-game.",
+exits: "Alley entrance."
+},
+
+insights: [
+"Classic old-school pub feel.",
+"Guests linger during slower hours."
+]
 },
 
 {
-  name: "Jefferson Social",
-  city: "Cincinnati",
-   neighborhood: "The Banks",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large bar with extensive outdoor seating. Quieter earlier; more energetic evenings and game days.",
-  environment: {
-    parking: "Street + garages; tight during games.",
-    restrooms: {
-      capacity: "Multiple stalls",
-      waits: "Possible during busy nights",
-      location: "Inside main building"
-    },
-    noise: "High evenings and weekends.",
-    exits: "Direct access to The Banks."
-  },
-  insights: [
-    "Energy closely tied to game schedules.",
-    "Outdoor seating is a major draw."
-  ]
+name: "Pepp & Dolores",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Modern restaurant with smaller dining room and reservation-driven flow.",
+
+environment: {
+parking: "OTR street + garages; competitive at dinner.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during full dinner service",
+location: "Inside main floor"
+},
+noise: "Moderate; increases at full capacity.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Intimate and structured dining experience.",
+"Energy shifts as tables fill."
+]
 },
 
 {
-  name: "Krueger’s Tavern",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Casual tavern with indoor and small outdoor seating. Calmer midday; busier on weekends.",
-  environment: {
-    parking: "Street + garages; tighter on weekends.",
-    restrooms: {
-      capacity: "Limited capacity",
-      waits: "Possible during peak hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; louder late evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Neighborhood-style relaxed feel.",
-    "Energy increases later in the evening."
-  ]
+name: "Red Leprechaun",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Cozy Irish-style pub with lively bar atmosphere. Busier on weekends and game nights.",
+
+environment: {
+parking: "Street meters + garages; tight on game nights.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak evenings",
+location: "Inside venue"
+},
+noise: "Moderate to High evenings.",
+exits: "Street-level access."
+},
+
+insights: [
+"Energetic pre-game gathering spot.",
+"Friendly, social environment."
+]
 },
 
 {
-  name: "Bakersfield OTR",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Spacious taco and tequila spot with indoor and outdoor seating. Livelier in evenings and on Taco Tuesdays.",
-  environment: {
-    parking: "Street + garages; tight at peak.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during busy times",
-      location: "Inside main area"
-    },
-    noise: "Moderate; louder evenings.",
-    exits: "Street-level on Vine St."
-  },
-  insights: [
-    "Energy builds in the evenings.",
-    "Music contributes to lively atmosphere."
-  ]
+name: "Rhinegeist Brewery",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Large multi-level brewery with rooftop space. Increasingly busy through evenings and weekends.",
+
+environment: {
+parking: "Street + garages; fills at peak times.",
+restrooms: {
+capacity: "Multiple; accessible",
+waits: "Possible during busy nights",
+location: "Multiple levels"
+},
+noise: "Moderate daytime; High evenings.",
+exits: "Multiple exits including rooftop."
+},
+
+insights: [
+"Open industrial layout.",
+"Energy builds gradually throughout the day."
+]
 },
 
 {
-  name: "MadTree Brewing - Oakley",
-  city: "Cincinnati",
-   neighborhood: "Oakley",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large brewery with expansive indoor and outdoor seating. Calmer daytime; lively evenings and weekends.",
-  environment: {
-    parking: "On-site lot + street; fills quickly.",
-    restrooms: {
-      capacity: "Multiple; accessible",
-      waits: "Possible on busy nights",
-      location: "Inside main building"
-    },
-    noise: "Low to Moderate daytime; High evenings.",
-    exits: "Large patio and multiple exits."
-  },
-  insights: [
-    "Open, social layout.",
-    "Crowds increase on weekends."
-  ]
+name: "Samuel Adams Cincinnati Taproom",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Modern taproom with structured layout and outdoor seating.",
+
+environment: {
+parking: "Street + garages; varies with events.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak times",
+location: "Inside main floor"
+},
+noise: "Moderate; higher evenings.",
+exits: "Outdoor seating; street-level exit."
+},
+
+insights: [
+"Polished, organized flow.",
+"Predictable atmosphere even when busy."
+]
 },
 
 {
-  name: "Maplewood Kitchen + Bar",
-  city: "Cincinnati",
-   neighborhood: "Downtown",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Bright café focused on breakfast and lunch. Busier during brunch and weekday lunch rush.",
-  environment: {
-    parking: "Street + downtown garages.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during brunch peak",
-      location: "Inside restaurant"
-    },
-    noise: "Moderate; higher during brunch.",
-    exits: "Open layout; quick street exit."
-  },
-  insights: [
-    "Bright and airy setting.",
-    "Weekend brunch draws steady crowds."
-  ]
+name: "The Pitch Cincy",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Soccer-focused bar with open layout. Much busier during live matches.",
+
+environment: {
+parking: "Street + garages; limited during matches.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during live games",
+location: "Inside venue"
+},
+noise: "High during matches.",
+exits: "Direct street access."
+},
+
+insights: [
+"Energy closely tied to match schedules.",
+"Communal atmosphere during games."
+]
 },
 
 {
-  name: "Moerlein Lager House",
-  city: "Cincinnati",
-   neighborhood: "The Banks",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large riverfront restaurant with multi-level seating and patio space. Activity increases around games.",
-  environment: {
-    parking: "Garages + street; limited during events.",
-    restrooms: {
-      capacity: "Multiple; accessible",
-      waits: "Possible during peak events",
-      location: "Inside multiple levels"
-    },
-    noise: "Moderate daytime; High during events.",
-    exits: "Multiple exits + patio access."
-  },
-  insights: [
-    "Crowds track with stadium schedules.",
-    "Spacious layout accommodates groups."
-  ]
+name: "Yard House",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Large bar and restaurant with high energy during evenings and game days.",
+
+environment: {
+parking: "Downtown street + garages; tight at peak.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during busy nights",
+location: "Inside main level"
+},
+noise: "Moderate lunch; High evenings/game nights.",
+exits: "Large entrance + riverfront access."
+},
+
+insights: [
+"Energy tracks with downtown events.",
+"Calmer earlier in the day."
+]
 },
 
 {
-  name: "O’Malley’s in the Alley",
-  city: "Cincinnati",
-   neighborhood: "Downtown",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Historic Irish pub below street level. Calmer weekdays; busier before games.",
-  environment: {
-    parking: "Street + garages; tight on game days.",
-    restrooms: {
-      capacity: "Indoor; tighter layout",
-      waits: "Possible pre-game",
-      location: "Inside lower level"
-    },
-    noise: "Moderate; louder during pre-game.",
-    exits: "Alley entrance."
-  },
-  insights: [
-    "Classic old-school pub feel.",
-    "Guests linger during slower hours."
-  ]
+name: "Otto’s",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Compact, street-level restaurant with a traditional dining layout. Calmer earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+
+environment: {
+parking: "Street parking along Main + nearby public lots; may require short walk during peak times.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon except during peak dinner",
+location: "Inside main dining area"
+},
+noise: "Moderate; increases when fully seated.",
+exits: "Street-level entrance."
 },
 
-{
-  name: "Pepp & Dolores",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Modern restaurant with smaller dining room and reservation-driven flow.",
-  environment: {
-    parking: "OTR street + garages; competitive at dinner.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during full dinner service",
-      location: "Inside main floor"
-    },
-    noise: "Moderate; increases at full capacity.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Intimate and structured dining experience.",
-    "Energy shifts as tables fill."
-  ]
-},
-
-{
-  name: "Red Leprechaun",
-  city: "Cincinnati",
-   neighborhood: "The Banks",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Cozy Irish-style pub with lively bar atmosphere. Busier on weekends and game nights.",
-  environment: {
-    parking: "Street meters + garages; tight on game nights.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate to High evenings.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Energetic pre-game gathering spot.",
-    "Friendly, social environment."
-  ]
-},
-
-{
-  name: "Rhinegeist Brewery",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large multi-level brewery with rooftop space. Increasingly busy through evenings and weekends.",
-  environment: {
-    parking: "Street + garages; fills at peak times.",
-    restrooms: {
-      capacity: "Multiple; accessible",
-      waits: "Possible during busy nights",
-      location: "Multiple levels"
-    },
-    noise: "Moderate daytime; High evenings.",
-    exits: "Multiple exits including rooftop."
-  },
-  insights: [
-    "Open industrial layout.",
-    "Energy builds gradually throughout the day."
-  ]
-},
-
-{
-  name: "Samuel Adams Cincinnati Taproom",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Modern taproom with structured layout and outdoor seating.",
-  environment: {
-    parking: "Street + garages; varies with events.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak times",
-      location: "Inside main floor"
-    },
-    noise: "Moderate; higher evenings.",
-    exits: "Outdoor seating; street-level exit."
-  },
-  insights: [
-    "Polished, organized flow.",
-    "Predictable atmosphere even when busy."
-  ]
-},
-
-{
-  name: "The Pitch Cincy",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Soccer-focused bar with open layout. Much busier during live matches.",
-  environment: {
-    parking: "Street + garages; limited during matches.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during live games",
-      location: "Inside venue"
-    },
-    noise: "High during matches.",
-    exits: "Direct street access."
-  },
-  insights: [
-    "Energy closely tied to match schedules.",
-    "Communal atmosphere during games."
-  ]
-},
-
-{
-  name: "Yard House",
-  city: "Cincinnati",
-   neighborhood: "The Banks",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large bar and restaurant with high energy during evenings and game days.",
-  environment: {
-    parking: "Downtown street + garages; tight at peak.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during busy nights",
-      location: "Inside main level"
-    },
-    noise: "Moderate lunch; High evenings/game nights.",
-    exits: "Large entrance + riverfront access."
-  },
-  insights: [
-    "Energy tracks with downtown events.",
-    "Calmer earlier in the day."
-  ]
-},
-  
-  /* =========================
-   COVINGTON, KY
-========================= */
-
-  {
-  name: "Otto’s",
-  city: "Covington",
-     neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Compact, street-level restaurant with a traditional dining layout. Calmer earlier in the evening, with fuller tables during peak dinner hours and weekends.",
-  environment: {
-    parking: "Street parking along Main + nearby public lots; may require short walk during peak times.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except during peak dinner",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; increases when fully seated.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Cozy and intimate layout.",
-    "Clear shift between early evening and weekend peak.",
-    "Full but controlled on busy nights."
-  ]
+insights: [
+"Cozy and intimate layout.",
+"Clear shift between early evening and weekend peak.",
+"Full but controlled on busy nights."
+]
 },
    
-   {
+{
 name: "Chart House",
 city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Waterfront restaurant with multiple dining rooms overlooking the Ohio River and Cincinnati skyline. Typically quieter earlier in the evening with steady dinner reservations and weekend dining.",
@@ -5562,6 +5669,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual Mexican restaurant with booth seating and table dining along Monmouth Street. Typically steady during lunch hours with busier dinner periods and weekend visits.",
 
@@ -5590,6 +5700,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with eclectic decor and table seating along the York Street corridor. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
 
@@ -5617,6 +5730,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Large sports bar and restaurant with bar seating and multiple dining areas at Newport on the Levee. Typically calmer earlier in the day with busier evenings and weekend nightlife.",
