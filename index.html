@@ -235,7 +235,8 @@ oninput="searchPlace()"
 
 </div>
 
-<div id="result"></div>
+<div id="results-count"></div>
+<div id="results-list"></div>
 
 <script src="places.js"></script>
 
@@ -304,7 +305,33 @@ renderPlaces(filtered);
 
 }
 
-</script>
+function renderPlaces(list){
 
-</body>
-</html>
+const countDiv = document.getElementById("results-count");
+const resultsDiv = document.getElementById("results-list");
+
+countDiv.innerHTML = `<strong>${list.length} places found</strong>`;
+
+resultsDiv.innerHTML = "";
+
+list.forEach(place => {
+
+const item = document.createElement("div");
+item.className = "result-item";
+
+item.innerHTML = `
+<div class="result-name">${place.name}</div>
+<div class="result-location">${place.neighborhood}</div>
+`;
+
+item.addEventListener("click", () => {
+openPlace(place);
+});
+
+resultsDiv.appendChild(item);
+
+});
+
+}
+
+</script>
