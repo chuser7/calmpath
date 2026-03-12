@@ -2830,8 +2830,13 @@ city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar with lounge seating and a compact interior layout. Typically quieter earlier in the evening and busier later at night.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -2842,19 +2847,23 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as nightlife-oriented with late evening activity.",
 "First-timers notice crowds increase later in the night.",
 "Weekend nights bring the highest traffic."
 ]
 },
-   
-   {
+
+{
 name: "Price Hill Chili",
 city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Glenway Avenue. Typically steady throughout the day with consistent lunch and late-night traffic.",
@@ -2884,6 +2893,9 @@ neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Chinese restaurant with table seating and a casual dining room near the Glenway corridor. Typically steady during lunch and dinner hours with many takeout orders.",
 
@@ -2911,6 +2923,9 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Small dessert and soft-serve shop with counter service near the Incline District. Typically quieter earlier in the day with increased activity during warm evenings.",
@@ -2940,6 +2955,9 @@ neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Wine bar with indoor seating and a patio located along Price Avenue in East Price Hill. Typically calmer earlier in the evening with steady wine bar traffic later at night.",
 
@@ -2967,6 +2985,9 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Mexican restaurant with counter ordering and table seating along the Warsaw Avenue corridor. Typically steady during lunch hours with busier dinner periods.",
@@ -2996,6 +3017,9 @@ neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Mexican restaurant and tortilla shop with counter ordering and table seating along the Warsaw Avenue corridor. Typically busiest during lunch hours with steady dinner traffic.",
 
@@ -3016,15 +3040,20 @@ insights: [
 "Weekend afternoons attract steady neighborhood traffic."
 ]
 },
-   
-   {
+
+{
 name: "Incline Public House",
 city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a large dining room and outdoor patio overlooking the city. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Dedicated lot next to the restaurant and additional street parking nearby.",
 restrooms: {
@@ -3035,6 +3064,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Patio and street-level access available."
 },
+
 insights: [
 "Often described as view-driven, with many visitors drawn to the patio.",
 "First-timers notice traffic increases around sunset and dinner hours.",
@@ -3048,8 +3078,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with table seating and counter ordering. Typically busiest during lunch hours and early evening periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3060,6 +3095,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during midday hours.",
 "First-timers note lunch brings the most activity.",
@@ -3073,8 +3109,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
 whatToExpect:
 "Dining-focused restaurant with large windows overlooking the city and a structured dining room layout. Typically calm earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Private parking lot available for guests.",
 restrooms: {
@@ -3085,6 +3126,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as view-oriented with steady dinner traffic.",
 "First-timers notice reservations shape the evening pace.",
@@ -3098,8 +3140,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a casual dining layout and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3110,6 +3157,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during lunch and dinner hours.",
 "First-timers notice activity increases during evening service.",
@@ -3123,8 +3171,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and early evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3135,6 +3188,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as lunch-driven with steady foot traffic.",
 "First-timers note midday hours bring the most activity.",
@@ -3148,8 +3202,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and counter ordering. Typically steady during lunch and early dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3160,6 +3219,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as consistent throughout the day.",
 "First-timers notice lunch brings the most traffic.",
@@ -3173,8 +3233,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a structured dining layout and bar seating. Typically calmer earlier in the day and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3185,6 +3250,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused.",
 "First-timers notice traffic increases around dinner hours.",
@@ -3198,8 +3264,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small restaurant with counter ordering and dining tables. Typically busiest during lunch hours and early evening periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3210,6 +3281,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-service oriented with shorter visits.",
 "First-timers note lunch hours bring the most traffic.",
@@ -3223,8 +3295,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3235,6 +3312,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-stop oriented.",
 "First-timers note traffic peaks during lunch.",
@@ -3248,8 +3326,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar with bar seating and a compact interior layout. Typically calmer during the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3260,6 +3343,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as locally driven with steady evening traffic.",
 "First-timers notice activity increases after dinner hours.",
@@ -3273,8 +3357,13 @@ city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3285,19 +3374,23 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with shorter visits.",
 "First-timers notice breakfast hours bring the most activity.",
 "Traffic decreases through the afternoon."
 ]
 },
-   
-   {
+
+{
 name: "HangOverEasy - Mt. Lookout",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Limited",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Breakfast and brunch restaurant with table seating and a casual dining layout near Mt. Lookout Square. Typically busiest during morning and late brunch hours, with quieter periods in the afternoon.",
@@ -3326,6 +3419,9 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Limited",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Pizza restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with increased activity during dinner and weekend evenings.",
