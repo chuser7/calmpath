@@ -277,6 +277,7 @@ const resultsCount = document.getElementById("results-count");
 const resultsList = document.getElementById("results-list");
 const suggestions = document.getElementById("suggestions");
 const searchInput = document.getElementById("search");
+const neighborhoodDropdown = document.getElementById("neighborhoodFilter");
 
 
 /* ---------------- SEARCH ---------------- */
@@ -319,99 +320,87 @@ suggestions.appendChild(div);
 
 /* ---------------- FILTER BUTTONS ---------------- */
 
-const filterButtons = document.querySelectorAll("[data-filter]");
-
-let activeFilters = {
-  parking: null,
-  noise: null,
-  neighborhood: null
-};
-
 filterButtons.forEach(button => {
 
-  button.addEventListener("click", () => {
+button.addEventListener("click", () => {
 
-    const type = button.dataset.filter;
-    const value = button.dataset.value;
+const type = button.dataset.filter;
+const value = button.dataset.value;
 
-    /* TOGGLE OFF IF CLICKED AGAIN */
+if(activeFilters[type] === value){
 
-    if (activeFilters[type] === value) {
+activeFilters[type] = null;
+button.classList.remove("active");
 
-      activeFilters[type] = null;
-      button.classList.remove("active");
+}else{
 
-    } else {
+document
+.querySelectorAll(`[data-filter="${type}"]`)
+.forEach(btn => btn.classList.remove("active"));
 
-      /* REMOVE ACTIVE FROM OTHER BUTTONS OF SAME TYPE */
+activeFilters[type] = value;
+button.classList.add("active");
 
-      document
-        .querySelectorAll(`[data-filter="${type}"]`)
-        .forEach(btn => btn.classList.remove("active"));
+}
 
-      activeFilters[type] = value;
-      button.classList.add("active");
+applyFilters();
 
-    }
-
-    applyFilters();
-
-  });
+});
 
 });
 
 
 /* ---------------- NEIGHBORHOOD DROPDOWN ---------------- */
 
-const neighborhoodDropdown = document.getElementById("neighborhood");
+if(neighborhoodDropdown){
 
-if (neighborhoodDropdown) {
+neighborhoodDropdown.addEventListener("change", () => {
 
-  neighborhoodDropdown.addEventListener("change", () => {
+const value = neighborhoodDropdown.value;
 
-    const value = neighborhoodDropdown.value;
+activeFilters.neighborhood = value === "" ? null : value;
 
-    activeFilters.neighborhood = value === "" ? null : value;
+applyFilters();
 
-    applyFilters();
-
-  });
+});
 
 }
 
+
 /* ---------------- APPLY FILTERS ---------------- */
 
-function applyFilters() {
+function applyFilters(){
 
-  const filtered = places.filter(place => {
+const filtered = places.filter(place => {
 
-    let parkingMatch = true;
-    let noiseMatch = true;
-    let neighborhoodMatch = true;
+let parkingMatch = true;
+let noiseMatch = true;
+let neighborhoodMatch = true;
 
-    /* PARKING FILTER */
+/* PARKING FILTER */
 
-    if (activeFilters.parking) {
-      parkingMatch = place.parkingLevel === activeFilters.parking;
-    }
+if(activeFilters.parking){
+parkingMatch = place.parkingLevel === activeFilters.parking;
+}
 
-    /* NOISE FILTER */
+/* NOISE FILTER */
 
-    if (activeFilters.noise) {
-      noiseMatch = place.noiseLevel === activeFilters.noise;
-    }
+if(activeFilters.noise){
+noiseMatch = place.noiseLevel === activeFilters.noise;
+}
 
-    /* NEIGHBORHOOD FILTER */
+/* NEIGHBORHOOD FILTER */
 
-    if (activeFilters.neighborhood) {
-      neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
-    }
+if(activeFilters.neighborhood){
+neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
+}
 
-    return parkingMatch && noiseMatch && neighborhoodMatch;
+return parkingMatch && noiseMatch && neighborhoodMatch;
 
-  });
+});
 
-  renderPlaces(filtered);
+renderResults(filtered);
+
 }
 
 
@@ -464,8 +453,6 @@ neighborhood: null
 
 filterButtons.forEach(btn => btn.classList.remove("active"));
 
-const neighborhoodDropdown = document.getElementById("neighborhoodFilter");
-
 if(neighborhoodDropdown){
 neighborhoodDropdown.value = "";
 }
@@ -474,5 +461,10 @@ resultsCount.innerHTML = "";
 resultsList.innerHTML = "";
 
 }
+
+
+/* ---------------- INITIAL LOAD ---------------- */
+
+applyFilters();
 
 </script>
