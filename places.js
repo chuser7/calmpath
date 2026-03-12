@@ -5630,37 +5630,6 @@ insights: [
 "Full but controlled on busy nights."
 ]
 },
-   
-{
-name: "Chart House",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Waterfront restaurant with multiple dining rooms overlooking the Ohio River and Cincinnati skyline. Typically quieter earlier in the evening with steady dinner reservations and weekend dining.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Early dinner reservations often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
 
 {
 name: "La Mexicana Restaurant",
