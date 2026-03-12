@@ -5725,37 +5725,6 @@ insights: [
 },
 
 {
-name: "Twelve Mile House",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with bar seating and a casual local atmosphere along Monmouth Street. Typically quieter earlier in the day with increased activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel relaxed.",
-"Evenings bring steady neighborhood bar traffic.",
-"Weekend nights tend to bring the most activity."
-]
-},
-
-{
 name: "Coach House Bar & Grill",
 city: "Newport",
 neighborhood: "",
