@@ -5762,6 +5762,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar and social venue with games, lounge seating, and bar service near the Newport nightlife district. Typically quieter earlier in the evening with increased activity later at night.",
 
@@ -5789,6 +5792,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Neighborhood bar with bar seating and a casual local atmosphere along Monmouth Street. Typically quieter earlier in the day with increased activity during evening hours.",
@@ -5818,6 +5824,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood bar and grill with bar seating and table dining along the Newport corridor. Typically quieter earlier in the day with more activity during evening hours.",
 
@@ -5845,6 +5854,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Neighborhood bar with a casual atmosphere and bar seating in the Newport nightlife area. Typically calmer earlier in the day with increased activity during evening hours.",
@@ -5874,6 +5886,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Historic music venue with multiple performance rooms and bar service throughout the building. Typically quieter earlier in the evening with increased activity during concerts and weekend events.",
 
@@ -5901,6 +5916,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Coffee shop and cafe with table seating and a relaxed neighborhood atmosphere along Monmouth Street. Typically busiest during morning and lunch hours with quieter evenings.",
@@ -5930,6 +5948,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Pizza restaurant with counter ordering and table seating near the Levee district. Typically steady during lunch hours with increased activity during dinner and weekend evenings.",
 
@@ -5957,6 +5978,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
 "Ice cream shop with counter service and limited seating near the Levee district. Typically steady during afternoon hours with busier evenings and weekend visits.",
@@ -5986,6 +6010,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
 whatToExpect:
 "Frozen yogurt shop with self-serve stations and limited indoor seating near the Levee area. Typically steady during afternoons with increased activity during evening hours.",
 
@@ -6006,13 +6033,16 @@ insights: [
 "Weekend evenings tend to be busiest."
 ]
 },
-   
-   {
+
+{
 name: "Del Gardo’s Cannoli",
 city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Italian dessert shop with counter service and limited indoor seating in the MainStrasse area. Typically steady during afternoon and evening hours with quick visits for dessert or takeaway.",
@@ -6042,6 +6072,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Steakhouse with table seating and a bar area located in the Covington dining district. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
 
@@ -6069,6 +6102,9 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
 "Restaurant and lounge located on the top floor of the Radisson hotel with panoramic views and table seating. Typically relaxed earlier in the evening with steady dinner reservations and weekend visitors.",
@@ -6098,6 +6134,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual burger restaurant with counter ordering and table seating along the Madison Avenue corridor. Typically steady during lunch hours with continued traffic during dinner periods.",
 
@@ -6125,6 +6164,9 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Craft cocktail bar with lounge seating and a relaxed social atmosphere along the Covington nightlife corridor. Typically calmer earlier in the evening with more activity later at night.",
@@ -6154,6 +6196,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar and social venue with a casual layout and bar seating in the Covington entertainment district. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
 
@@ -6181,6 +6226,9 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Barbecue restaurant with table seating and a casual dining atmosphere along the Madison Avenue corridor. Typically steady during dinner hours with busier weekend activity.",
@@ -6210,6 +6258,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Bar located above street level with lounge seating and a relaxed nightlife atmosphere. Typically calmer earlier in the evening with increased activity later at night.",
 
@@ -6237,6 +6288,9 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Gin-focused cocktail bar with lounge seating and a relaxed bar atmosphere in the Covington nightlife district. Typically calmer earlier in the evening with steady cocktail traffic later at night.",
@@ -6266,6 +6320,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood bar with bar seating and a casual lounge atmosphere along Pike Street. Typically quieter earlier in the day with more activity during evening hours.",
 
@@ -6293,6 +6350,9 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Event venue with bar service and seating areas used for social gatherings and hosted events. Typically quieter outside scheduled events with increased activity during event nights.",
@@ -6322,6 +6382,9 @@ neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Mexican restaurant with table seating and a bar area along the MainStrasse corridor. Typically calmer earlier in the day with busier dinner service and weekend evenings.",
 
@@ -6349,6 +6412,9 @@ city: "Covington",
 neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Neighborhood diner with booth seating and a casual counter service atmosphere. Typically busiest during breakfast and lunch hours with quieter evenings.",
@@ -6378,6 +6444,9 @@ neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar located in a converted garage with indoor dining and patio seating. Typically calmer earlier in the evening with busier dinner service and weekend activity.",
 
@@ -6405,6 +6474,9 @@ city: "Covington",
 neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Brewery taproom with large open seating areas and bar service near the Covington entertainment district. Typically calmer earlier in the day with increased activity during evenings and weekends.",
@@ -6434,6 +6506,9 @@ neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Asian restaurant and craft beer bar with table seating and a casual dining layout. Typically steady during dinner hours with increased activity during weekends.",
 
@@ -6461,6 +6536,9 @@ city: "Covington",
 neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Pizza restaurant with counter ordering and bar seating in the MainStrasse nightlife district. Typically steady during dinner hours with increased activity late at night.",
@@ -6490,6 +6568,9 @@ neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood pizza pub with a bar area and casual table seating. Typically calmer earlier in the day with increased activity during evening hours and sports events.",
 
@@ -6517,6 +6598,9 @@ city: "Covington",
 neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual Mexican restaurant with booth seating and a relaxed dining room atmosphere. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
@@ -6546,6 +6630,9 @@ neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with table seating and a relaxed dining layout in the Covington dining district. Typically calmer earlier in the evening with steady dinner reservations.",
 
@@ -6566,392 +6653,512 @@ insights: [
 "Weekend evenings tend to be the busiest."
 ]
 },
+
+{
+name: "The Gruff",
+city: "Covington",
+neighborhood: "Roebling/Riverfront",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Multi-level restaurant and bar with indoor seating and a rooftop patio. Typically lighter earlier in the day and busier during dinner hours and weekends, especially in warmer weather.",
+
+environment: {
+parking: "Street parking and nearby public lots; may require short walk during peak times.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner hours",
+location: "Inside main level"
+},
+noise: "Moderate; higher on rooftop and weekend evenings.",
+exits: "Street-level entrance and rooftop access."
+},
+
+insights: [
+"Seating level changes the overall experience.",
+"Rooftop traffic increases seasonally.",
+"Activity builds steadily into the evening."
+]
+},
+
+{
+name: "Blinkers Tavern",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Traditional dining restaurant with a structured table layout and bar area. Generally calm earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+
+environment: {
+parking: "Street parking along Pike Street and nearby public lots.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon except during peak dinner hours",
+location: "Inside main dining area"
+},
+noise: "Low to Moderate; conversation-friendly even when busy.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Reservation-shaped dinner flow.",
+"Consistent pace rather than sharp crowd spikes.",
+"Weekends bring fuller seating but remain controlled."
+]
+},
+
+{
+name: "Carmelo’s Restaurant",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Intimate, street-level dining space with closely arranged tables. Typically quieter midweek and earlier in the evening, with busier dinner service on weekends.",
+
+environment: {
+parking: "Street parking and nearby public lots.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate; increases as the dining room fills.",
+exits: "Direct sidewalk access."
+},
+
+insights: [
+"Compact and dining-focused layout.",
+"Smaller footprint fills quickly.",
+"Activity builds gradually through dinner hours."
+]
+},
+
+{
+name: "Coppin’s Restaurant & Bar",
+city: "Covington",
+neighborhood: "Roebling/Riverfront",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Hotel-based restaurant and bar with a structured, open dining room. Generally calm during weekday hours and busier during dinner and weekend periods.",
+
+environment: {
+parking: "Hotel parking garage available on-site; easy access.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon",
+location: "Inside hotel main level"
+},
+noise: "Moderate; typically steady rather than loud.",
+exits: "Lobby and street-level access available."
+},
+
+insights: [
+"Influenced by hotel traffic patterns.",
+"Predictable flow throughout the day.",
+"Weekends bring moderate increases in activity."
+]
+},
+
+{
+name: "Anchor Grill",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Small, traditional diner with counter seating and a straightforward layout. Generally steady throughout the day, with more activity during breakfast and late-night hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Uncommon",
+location: "Inside venue"
+},
+noise: "Low to Moderate; conversation-friendly due to smaller footprint.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Routine-driven, especially during breakfast.",
+"Activity spreads across the day rather than peaking sharply.",
+"Late-night hours maintain steady traffic."
+]
+},
+
+{
+name: "Wiseguy Lounge – Mainstrasse",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Compact lounge-style bar with a dark, enclosed interior and close seating. Typically quieter earlier in the evening and busier during weekend nights.",
+
+environment: {
+parking: "Street parking in Mainstrasse Village; fills on weekends.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during weekend evenings",
+location: "Inside venue"
+},
+noise: "Moderate to High; higher during weekend nightlife hours.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Intimate and nightlife-oriented atmosphere.",
+"Activity increases noticeably after dinner hours.",
+"Weekend evenings bring the highest crowd levels."
+]
+},
+
+{
+name: "Mama’s on Main",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Street-level Italian restaurant with compact, enclosed dining room. Quieter midweek and earlier evenings; fuller during weekend dinner service.",
+
+environment: {
+parking: "Street parking along Main + nearby public lots.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner",
+location: "Inside main area"
+},
+noise: "Moderate; increases as dining room fills.",
+exits: "Direct sidewalk access."
+},
+
+insights: [
+"Smaller layout fills quickly.",
+"Energy shifts noticeably during peak hours.",
+"Intimate feel when fully seated."
+]
+},
+
+{
+name: "Cedar",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Modern restaurant with clean, open dining layout and bar seating. Generally calm during weekdays; busier during weekend dinners.",
+
+environment: {
+parking: "Street parking + nearby lots; varies by time.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon except peak dinner",
+location: "Inside main floor"
+},
+noise: "Moderate; conversation-friendly earlier.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Bright, organized layout.",
+"Steady pacing rather than high turnover.",
+"Predictable flow during most hours."
+]
+},
+
+{
+name: "Cock & Bull",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day; busier evenings and weekends.",
+
+environment: {
+parking: "Street parking + nearby lots; fills during peak hours.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during busy evenings",
+location: "Inside venue"
+},
+noise: "Moderate; higher during evening bar activity.",
+exits: "Street-level access."
+},
+
+insights: [
+"Bar-driven layout influences feel.",
+"Steady local foot traffic.",
+"Clear daytime vs evening shift."
+]
+},
+
+{
+name: "Doubt It Bar",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Small bar with compact interior and close seating. Quieter earlier in the day; more active late at night, especially weekends.",
+
+environment: {
+parking: "Street parking nearby; may require short walk.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Possible during peak nights",
+location: "Inside main area"
+},
+noise: "Moderate to High late evenings.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Tight footprint shapes atmosphere.",
+"Late-night energy most noticeable.",
+"Timing impacts comfort more than size."
+]
+},
+
+{
+name: "Zazou",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Restaurant and bar with contemporary layout and both dining and lounge seating. Calmer earlier; fuller on weekend evenings.",
+
+environment: {
+parking: "Street parking along Main + nearby public lots.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner",
+location: "Inside main floor"
+},
+noise: "Moderate; higher during weekends.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Stylish, social atmosphere on weekends.",
+"Clear shift between early and peak hours.",
+"Layout supports both dining and bar visits."
+]
+},
    
 {
-  name: "The Gruff",
-  city: "Covington",
-    neighborhood: "Roebling/Riverfront",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Multi-level restaurant and bar with indoor seating and a rooftop patio. Typically lighter earlier in the day and busier during dinner hours and weekends, especially in warmer weather.",
-  environment: {
-    parking: "Street parking and nearby public lots; may require short walk during peak times.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main level"
-    },
-    noise: "Moderate; higher on rooftop and weekend evenings.",
-    exits: "Street-level entrance and rooftop access."
-  },
-  insights: [
-    "Seating level changes the overall experience.",
-    "Rooftop traffic increases seasonally.",
-    "Activity builds steadily into the evening."
-  ]
+name: "Libby’s Southern Comfort",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood restaurant with bar seating and traditional dining layout. Calmer earlier; steady dinner and weekend activity.",
+
+environment: {
+parking: "Street parking + nearby lots; may require short walk during peak hours.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner",
+location: "Inside main area"
+},
+noise: "Moderate; increases during dinner service.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Activity builds gradually.",
+"Weekends noticeably busier than weekdays.",
+"Dining-focused rather than nightlife-driven."
+]
 },
 
 {
-  name: "Blinkers Tavern",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Traditional dining restaurant with a structured table layout and bar area. Generally calm earlier in the evening, with fuller tables during peak dinner hours and weekends.",
-  environment: {
-    parking: "Street parking along Pike Street and nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Low to Moderate; conversation-friendly even when busy.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Reservation-shaped dinner flow.",
-    "Consistent pace rather than sharp crowd spikes.",
-    "Weekends bring fuller seating but remain controlled."
-  ]
+name: "Agave & Rye",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Large, open restaurant with prominent bar area and bold interior. Lighter afternoons; energetic evenings and weekends.",
+
+environment: {
+parking: "Street parking + nearby garages; fills faster weekends.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner",
+location: "Inside main area"
+},
+noise: "Moderate to High evenings.",
+exits: "Street-level access."
+},
+
+insights: [
+"Energy shifts after 6 pm.",
+"Bar-forward layout influences atmosphere.",
+"Weekend evenings most active."
+]
 },
 
 {
-  name: "Carmelo’s Restaurant",
-  city: "Covington",
-   neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Intimate, street-level dining space with closely arranged tables. Typically quieter midweek and earlier in the evening, with busier dinner service on weekends.",
-  environment: {
-    parking: "Street parking and nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak dinner hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; increases as the dining room fills.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Compact and dining-focused layout.",
-    "Smaller footprint fills quickly.",
-    "Activity builds gradually through dinner hours."
-  ]
+name: "Bouquet Restaurant",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Smaller dining-focused restaurant with structured layout. Calm earlier; fuller during peak dinner hours.",
+
+environment: {
+parking: "Street parking + nearby public lots.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon except peak dinner",
+location: "Inside main floor"
+},
+noise: "Low to Moderate; conversation-friendly.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Reservation-driven pacing.",
+"Steady energy even when full.",
+"Measured midweek flow."
+]
 },
 
 {
-  name: "Coppin’s Restaurant & Bar",
-  city: "Covington",
-   neighborhood: "Roebling/Riverfront",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Hotel-based restaurant and bar with a structured, open dining room. Generally calm during weekday hours and busier during dinner and weekend periods.",
-  environment: {
-    parking: "Hotel parking garage available on-site; easy access.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon",
-      location: "Inside hotel main level"
-    },
-    noise: "Moderate; typically steady rather than loud.",
-    exits: "Lobby and street-level access available."
-  },
-  insights: [
-    "Influenced by hotel traffic patterns.",
-    "Predictable flow throughout the day.",
-    "Weekends bring moderate increases in activity."
-  ]
+name: "Hofbräuhaus Newport",
+city: "Newport",
+neighborhood: "The Levee",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
+whatToExpect:
+"Large multi-level beer hall with communal seating. Calmer earlier; significantly busier evenings, weekends, and events.",
+
+environment: {
+parking: "Riverfront garages + lots; fills quickly on weekends.",
+restrooms: {
+capacity: "Multiple; accessible",
+waits: "Possible during peak events",
+location: "Inside multiple levels"
+},
+noise: "High during live music and peak hours.",
+exits: "Large entrance + patio access."
+},
+
+insights: [
+"Event-driven energy.",
+"Communal layout shapes experience.",
+"Weekends bring highest volume."
+]
 },
 
 {
-  name: "Anchor Grill",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small, traditional diner with counter seating and a straightforward layout. Generally steady throughout the day, with more activity during breakfast and late-night hours.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Uncommon",
-      location: "Inside venue"
-    },
-    noise: "Low to Moderate; conversation-friendly due to smaller footprint.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Routine-driven, especially during breakfast.",
-    "Activity spreads across the day rather than peaking sharply.",
-    "Late-night hours maintain steady traffic."
-  ]
+name: "JerZee’s Pub",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evenings and sports events.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Afternoons often feel quieter than evenings.",
+"Sports events increase activity in the bar area.",
+"Weekend nights usually bring the largest crowds."
+]
 },
 
 {
-  name: "Wiseguy Lounge – Mainstrasse",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Compact lounge-style bar with a dark, enclosed interior and close seating. Typically quieter earlier in the evening and busier during weekend nights.",
-  environment: {
-    parking: "Street parking in Mainstrasse Village; fills on weekends.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during weekend evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate to High; higher during weekend nightlife hours.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Intimate and nightlife-oriented atmosphere.",
-    "Activity increases noticeably after dinner hours.",
-    "Weekend evenings bring the highest crowd levels."
-  ]
-},
-   
-{
-  name: "Mama’s on Main",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Street-level Italian restaurant with compact, enclosed dining room. Quieter midweek and earlier evenings; fuller during weekend dinner service.",
-  environment: {
-    parking: "Street parking along Main + nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner",
-      location: "Inside main area"
-    },
-    noise: "Moderate; increases as dining room fills.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Smaller layout fills quickly.",
-    "Energy shifts noticeably during peak hours.",
-    "Intimate feel when fully seated."
-  ]
-},
-
-{
-  name: "Cedar",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Modern restaurant with clean, open dining layout and bar seating. Generally calm during weekdays; busier during weekend dinners.",
-  environment: {
-    parking: "Street parking + nearby lots; varies by time.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except peak dinner",
-      location: "Inside main floor"
-    },
-    noise: "Moderate; conversation-friendly earlier.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Bright, organized layout.",
-    "Steady pacing rather than high turnover.",
-    "Predictable flow during most hours."
-  ]
-},
-
-{
-  name: "Cock & Bull",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day; busier evenings and weekends.",
-  environment: {
-    parking: "Street parking + nearby lots; fills during peak hours.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during busy evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during evening bar activity.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Bar-driven layout influences feel.",
-    "Steady local foot traffic.",
-    "Clear daytime vs evening shift."
-  ]
-},
-
-{
-  name: "Doubt It Bar",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Small bar with compact interior and close seating. Quieter earlier in the day; more active late at night, especially weekends.",
-  environment: {
-    parking: "Street parking nearby; may require short walk.",
-    restrooms: {
-      capacity: "Single restroom",
-      waits: "Possible during peak nights",
-      location: "Inside main area"
-    },
-    noise: "Moderate to High late evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Tight footprint shapes atmosphere.",
-    "Late-night energy most noticeable.",
-    "Timing impacts comfort more than size."
-  ]
-},
-
-{
-  name: "Zazou",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Restaurant and bar with contemporary layout and both dining and lounge seating. Calmer earlier; fuller on weekend evenings.",
-  environment: {
-    parking: "Street parking along Main + nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner",
-      location: "Inside main floor"
-    },
-    noise: "Moderate; higher during weekends.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Stylish, social atmosphere on weekends.",
-    "Clear shift between early and peak hours.",
-    "Layout supports both dining and bar visits."
-  ]
-},
-
-{
-  name: "Libby’s Southern Comfort",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Neighborhood restaurant with bar seating and traditional dining layout. Calmer earlier; steady dinner and weekend activity.",
-  environment: {
-    parking: "Street parking + nearby lots; may require short walk during peak hours.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner",
-      location: "Inside main area"
-    },
-    noise: "Moderate; increases during dinner service.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Activity builds gradually.",
-    "Weekends noticeably busier than weekdays.",
-    "Dining-focused rather than nightlife-driven."
-  ]
-},
-
-{
-  name: "Agave & Rye",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Large, open restaurant with prominent bar area and bold interior. Lighter afternoons; energetic evenings and weekends.",
-  environment: {
-    parking: "Street parking + nearby garages; fills faster weekends.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner",
-      location: "Inside main area"
-    },
-    noise: "Moderate to High evenings.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Energy shifts after 6 pm.",
-    "Bar-forward layout influences atmosphere.",
-    "Weekend evenings most active."
-  ]
-},
-
-{
-  name: "Bouquet Restaurant",
-  city: "Covington",
-    neighborhood: "MainStrasse",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Smaller dining-focused restaurant with structured layout. Calm earlier; fuller during peak dinner hours.",
-  environment: {
-    parking: "Street parking + nearby public lots.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except peak dinner",
-      location: "Inside main floor"
-    },
-    noise: "Low to Moderate; conversation-friendly.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Reservation-driven pacing.",
-    "Steady energy even when full.",
-    "Measured midweek flow."
-  ]
-},
-
-/* =========================
-   NEWPORT, KY
-========================= */
-
-{
-  name: "Hofbräuhaus Newport",
-  city: "Newport",
-    neighborhood: "The Levee",
-  state: "KY",
-  type: "full",
-  whatToExpect:
-    "Large multi-level beer hall with communal seating. Calmer earlier; significantly busier evenings, weekends, and events.",
-  environment: {
-    parking: "Riverfront garages + lots; fills quickly on weekends.",
-    restrooms: {
-      capacity: "Multiple; accessible",
-      waits: "Possible during peak events",
-      location: "Inside multiple levels"
-    },
-    noise: "High during live music and peak hours.",
-    exits: "Large entrance + patio access."
-  },
-  insights: [
-    "Event-driven energy.",
-    "Communal layout shapes experience.",
-    "Weekends bring highest volume."
-  ]
-},
-   
-   {
 name: "Chart House",
 city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Waterfront restaurant with multiple dining rooms and views of the Ohio River and Cincinnati skyline. Typically quieter earlier in the evening with steady dinner reservations and weekend dining.",
@@ -6981,6 +7188,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual Mexican restaurant with booth seating and table dining along Monmouth Street. Typically steady during lunch hours with busier dinner service and weekend visits.",
 
@@ -7008,6 +7218,9 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant with eclectic decor and table seating along the York Street corridor. Typically quieter earlier in the evening with steady dinner reservations and weekend activity.",
