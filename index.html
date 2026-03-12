@@ -329,7 +329,7 @@ featuredContainer.innerHTML = `
 
 <strong>Featured Place</strong><br><br>
 
-<div class="suggestion-item" onclick="renderPlaceByName('${randomPlace.name}')">
+<div class="suggestion-item featured-item">
 
 <strong>${randomPlace.name}</strong><br>
 
@@ -341,6 +341,14 @@ ${randomPlace.neighborhood ? randomPlace.neighborhood : randomPlace.city}
 
 </div>
 `;
+
+/* attach click safely */
+
+const featuredItem = featuredContainer.querySelector(".featured-item");
+
+if(featuredItem){
+featuredItem.addEventListener("click", () => renderPlace(randomPlace));
+}
 
 }
 
@@ -364,17 +372,20 @@ const matches = places
 matches.forEach(place => {
 
 const div = document.createElement("div");
-div.className = "suggestion-item";
-div.textContent = place.name;
 
-div.onclick = () => {
+div.className = "suggestion-item";
+
+div.innerHTML = place.name;
+
+div.addEventListener("click", () => {
 
 searchInput.value = place.name;
+
 suggestions.innerHTML = "";
 
 renderPlace(place);
 
-};
+});
 
 suggestions.appendChild(div);
 
