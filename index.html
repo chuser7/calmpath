@@ -371,25 +371,36 @@ applyFilters();
 
 function applyFilters(){
 
+/* CHECK IF ANY FILTER IS ACTIVE */
+
+const filtersActive =
+activeFilters.parking ||
+activeFilters.noise ||
+activeFilters.neighborhood;
+
+/* IF NOTHING SELECTED, CLEAR RESULTS */
+
+if(!filtersActive){
+
+resultsCount.innerHTML = "";
+resultsList.innerHTML = "";
+return;
+
+}
+
 const filtered = places.filter(place => {
 
 let parkingMatch = true;
 let noiseMatch = true;
 let neighborhoodMatch = true;
 
-/* PARKING FILTER */
-
 if(activeFilters.parking){
 parkingMatch = place.parkingLevel === activeFilters.parking;
 }
 
-/* NOISE FILTER */
-
 if(activeFilters.noise){
 noiseMatch = place.noiseLevel === activeFilters.noise;
 }
-
-/* NEIGHBORHOOD FILTER */
 
 if(activeFilters.neighborhood){
 neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
@@ -402,7 +413,6 @@ return parkingMatch && noiseMatch && neighborhoodMatch;
 renderResults(filtered);
 
 }
-
 
 /* ---------------- RENDER RESULTS ---------------- */
 
