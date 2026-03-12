@@ -351,56 +351,37 @@ applyFilters();
 
 /* ---------------- APPLY FILTERS ---------------- */
 
-function applyFilters(){
+function applyFilters() {
 
-const filtered = places.filter(place => {
+  const filtered = places.filter(place => {
 
-let parkingMatch = true;
-let noiseMatch = true;
-let neighborhoodMatch = true;
+    let parkingMatch = true;
+    let noiseMatch = true;
+    let neighborhoodMatch = true;
 
+    /* PARKING FILTER */
 
-/* PARKING FILTER */
+    if (activeFilters.parking) {
+      parkingMatch = place.parkingLevel === activeFilters.parking;
+    }
 
-if(activeFilters.parking){
+    /* NOISE FILTER */
 
-parkingMatch =
-(place.parkingLevel || "")
-.toLowerCase()
-.trim() === activeFilters.parking.toLowerCase().trim();
+    if (activeFilters.noise) {
+      noiseMatch = place.noiseLevel === activeFilters.noise;
+    }
 
-}
+    /* NEIGHBORHOOD FILTER */
 
+    if (activeFilters.neighborhood) {
+      neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
+    }
 
-/* NOISE FILTER */
+    return parkingMatch && noiseMatch && neighborhoodMatch;
 
-if(activeFilters.noise){
+  });
 
-noiseMatch =
-(place.noiseLevel || "")
-.toLowerCase()
-.trim() === activeFilters.noise.toLowerCase().trim();
-
-}
-
-
-/* NEIGHBORHOOD FILTER */
-
-if(activeFilters.neighborhood){
-
-neighborhoodMatch =
-(place.neighborhood || "")
-.toLowerCase()
-.trim() === activeFilters.neighborhood.toLowerCase().trim();
-
-}
-
-return parkingMatch && noiseMatch && neighborhoodMatch;
-
-});
-
-renderResults(filtered);
-
+  renderPlaces(filtered);
 }
 
 
