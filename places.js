@@ -6996,37 +6996,6 @@ insights: [
 },
 
 {
-name: "JerZee’s Pub",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evenings and sports events.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the largest crowds."
-]
-},
-
-{
 name: "Chart House",
 city: "Newport",
 neighborhood: "",
