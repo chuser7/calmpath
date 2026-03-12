@@ -289,6 +289,16 @@ oninput="searchPlace()"
 
 <script>
 
+function renderPlaceByName(name){
+
+const place = places.find(p => p.name === name);
+
+if(place){
+renderPlace(place);
+}
+
+} 
+  
 /* ---------------- VARIABLES ---------------- */
 
 let activeFilters = {
