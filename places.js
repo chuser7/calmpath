@@ -7838,8 +7838,13 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with dining tables and bar seating in a street-level space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -7850,6 +7855,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady throughout dinner hours.",
 "First-timers note activity increases after work hours.",
@@ -7863,8 +7869,13 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Distillery tasting room with bar seating and small table areas. Typically calmer earlier in the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -7875,6 +7886,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as tour and tasting-driven, especially during evenings.",
 "First-timers notice activity increases during event nights.",
@@ -7888,8 +7900,13 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -7900,6 +7917,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with shorter visits.",
 "First-timers note breakfast hours bring the most activity.",
@@ -7913,8 +7931,13 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -7925,6 +7948,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Patio and street-level access available."
 },
+
 insights: [
 "Often described as bar-focused with evening activity.",
 "First-timers notice traffic increases later in the evening.",
@@ -7938,8 +7962,13 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Riverfront club and bar with indoor seating and outdoor areas overlooking the water. Typically lighter earlier in the day and busier during evenings, weekends, and seasonal events.",
+
 environment: {
 parking: "Dedicated parking lot available near the club.",
 restrooms: {
@@ -7950,6 +7979,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Outdoor deck and riverfront access available."
 },
+
 insights: [
 "Often described as riverfront-focused with seasonal activity.",
 "First-timers notice traffic increases during warm weather.",
@@ -7957,18 +7987,19 @@ insights: [
 ]
 },
 
-   /* =========================
-   Bellevue, KY
-========================= */
-
- {
+{
 name: "Cork N Crust",
 city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and wine bar with a dining room, bar seating, and patio areas. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking along Fairfield Avenue.",
 restrooms: {
@@ -7979,19 +8010,23 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Front sidewalk seating and rear patio available."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers note weekends bring the most activity.",
 "Earlier weekday dinners tend to be calmer."
 ]
 },
-   
+
 {
 name: "Catch & Cut",
 city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Seafood restaurant with table seating and a bar area along the Fairfield Avenue corridor. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
@@ -8021,6 +8056,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Seafood and sushi restaurant with table seating and a bar area along Fairfield Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
 
@@ -8048,6 +8086,9 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Neighborhood restaurant and bar with table seating and a relaxed dining atmosphere along Fairfield Avenue. Typically calmer earlier in the evening with steady dinner traffic later at night.",
@@ -8077,6 +8118,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Locally owned cafe with table seating and a casual neighborhood atmosphere along Fairfield Avenue. Typically busiest during breakfast and lunch hours with quieter evenings.",
 
@@ -8105,6 +8149,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Historic candy and ice cream shop with counter service and limited seating along Fairfield Avenue. Typically steady during afternoon hours with increased activity during evenings and weekends.",
 
@@ -8125,15 +8172,20 @@ insights: [
 "Weekend evenings usually bring the most activity."
 ]
 },
-   
+
 {
 name: "Avenue Brew",
 city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8144,6 +8196,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with shorter visits.",
 "First-timers note breakfast hours bring the most traffic.",
@@ -8157,8 +8210,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and a bar area in a street-level dining space. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8169,6 +8227,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused.",
 "First-timers notice traffic increases after typical work hours.",
@@ -8182,8 +8241,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with dining tables and bar seating in the Bellevue entertainment district. Typically calmer earlier in the day and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8194,6 +8258,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-oriented with steady dinner traffic.",
 "First-timers notice activity increases after 5 pm.",
@@ -8207,8 +8272,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with a modern interior and table seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around Fairfield Avenue.",
 restrooms: {
@@ -8219,6 +8289,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady evening activity.",
 "First-timers notice traffic increases after work hours.",
@@ -8232,8 +8303,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Compact restaurant with a traditional dining room layout. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8244,6 +8320,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady table service.",
 "First-timers note activity increases during dinner hours.",
@@ -8257,8 +8334,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large restaurant with multiple dining rooms and a traditional table layout. Typically steady during lunch hours and busier during dinner periods and weekends.",
+
 environment: {
 parking: "Street parking and nearby public lots.",
 restrooms: {
@@ -8269,6 +8351,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady throughout lunch and dinner hours.",
 "First-timers note evenings bring fuller dining rooms.",
@@ -8282,8 +8365,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with indoor seating and patio space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8294,6 +8382,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Patio seating available."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers note weekends bring the most activity.",
@@ -8307,8 +8396,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large riverside restaurant with indoor dining rooms and outdoor deck seating overlooking the Ohio River. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Private lot available next to the restaurant.",
 restrooms: {
@@ -8319,6 +8413,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Deck and riverfront access available."
 },
+
 insights: [
 "Often described as view-driven, especially during sunset hours.",
 "First-timers notice dinner hours bring the most activity.",
@@ -8332,8 +8427,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large riverfront restaurant with multiple dining areas and panoramic windows overlooking the river. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Dedicated parking lot available.",
 restrooms: {
@@ -8344,6 +8444,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Riverfront patio access available."
 },
+
 insights: [
 "Often described as view-oriented with steady dinner traffic.",
 "First-timers notice sunset hours bring the most activity.",
@@ -8357,8 +8458,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small counter-service shop with limited seating. Typically busiest during midday hours and early evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8369,6 +8475,7 @@ location: "Not available"
 noise: "Low.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-stop oriented with short visits.",
 "First-timers notice lunch hours bring the most traffic.",
@@ -8382,8 +8489,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8394,6 +8506,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during lunch and dinner hours.",
 "First-timers note evenings bring the most activity.",
@@ -8407,8 +8520,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar with a compact interior and bar seating. Typically quieter during the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8419,6 +8537,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-oriented with bar traffic.",
 "First-timers notice activity increases after dinner hours.",
@@ -8432,8 +8551,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar with indoor seating and a backyard patio area. Typically quieter earlier in the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking along Fairfield Avenue.",
 restrooms: {
@@ -8444,6 +8568,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Back patio access available."
 },
+
 insights: [
 "Often described as evening-focused with bar activity.",
 "First-timers note later evening hours bring the most traffic.",
@@ -8457,8 +8582,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar with lounge-style seating and a compact interior layout. Typically calmer earlier in the evening and busier later at night.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8469,6 +8599,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as nightlife-oriented.",
 "First-timers notice activity increases later in the evening.",
@@ -8482,8 +8613,13 @@ city: "Bellevue",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and evening takeout periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8494,25 +8630,27 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-service with shorter visits.",
 "First-timers notice lunch brings the most traffic.",
 "Evening takeout activity increases slightly."
 ]
 },
-   
-   /* =========================
-   Fort Thomas, KY
-========================= */
-   
-   {
+
+{
 name: "The Overlook at Fort Thomas",
 city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with indoor dining rooms and outdoor patio seating overlooking the river valley. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Dedicated parking lot available next to the restaurant.",
 restrooms: {
@@ -8523,19 +8661,23 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Patio and overlook access available."
 },
+
 insights: [
 "Often described as view-driven, especially during sunset hours.",
 "First-timers notice dinner hours bring the most activity.",
 "Weekend evenings bring fuller seating."
 ]
 },
-   
+
 {
 name: "Highland Square Deli",
 city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Neighborhood deli with counter service and table seating along Fort Thomas Avenue. Typically busiest during breakfast and lunch hours with quieter periods later in the afternoon.",
@@ -8565,6 +8707,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Casual Cambodian restaurant with table seating along the Fort Thomas Avenue dining corridor. Typically steady during dinner hours with quieter periods earlier in the day.",
 
@@ -8593,6 +8738,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Ice cream shop with counter service and limited indoor seating along Fort Thomas Avenue. Typically steady during afternoons with increased activity during evening hours and weekends.",
 
@@ -8620,8 +8768,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with counter ordering and table seating in a small dining space. Typically busiest during lunch hours and early evening periods.",
+
 environment: {
 parking: "Street parking along North Fort Thomas Avenue.",
 restrooms: {
@@ -8632,6 +8785,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as lunch-focused with steady midday traffic.",
 "First-timers note activity increases around noon.",
@@ -8645,8 +8799,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and bar area in a neighborhood dining setting. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8657,6 +8816,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers notice activity increases after typical work hours.",
@@ -8670,8 +8830,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Restaurant and bar with table seating and bar seating in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8682,6 +8847,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as bar-forward during evening hours.",
 "First-timers notice activity increases during dinner service.",
@@ -8695,8 +8861,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Restaurant and wine bar with table seating and a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8707,6 +8878,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady table service.",
 "First-timers notice evenings bring the most activity.",
@@ -8720,8 +8892,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with dining tables and bar seating in a casual neighborhood setting. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8732,6 +8909,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady throughout lunch and dinner hours.",
 "First-timers notice evenings bring the most activity.",
@@ -8745,8 +8923,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8757,6 +8940,7 @@ location: "Inside venue"
 noise: "Moderate to High.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as locally driven with steady bar traffic.",
 "First-timers notice activity increases later in the evening.",
@@ -8770,8 +8954,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood pub with bar seating and dining tables in a casual interior layout. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8782,6 +8971,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers notice activity increases after work hours.",
@@ -8795,8 +8985,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Restaurant with table seating in a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8807,6 +9002,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during lunch and dinner hours.",
 "First-timers notice dinner brings the most activity.",
@@ -8820,8 +9016,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8832,6 +9033,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with shorter visits.",
 "First-timers notice breakfast hours bring the most traffic.",
@@ -8845,8 +9047,13 @@ city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with table seating and bar seating in a neighborhood dining space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -8857,23 +9064,23 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers notice activity increases after work hours.",
 "Weekend evenings bring fuller seating."
 ]
 },
-
-      /* =========================
-   Crescent Springs, KY
-========================= */
    
-   {
+{
 name: "PeeWee's Place",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual neighborhood restaurant with booth seating and a relaxed bar area. Typically calmer during weekday afternoons, with more activity during dinner hours and weekend meals.",
@@ -8903,6 +9110,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood tavern with a central bar area and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evening dining hours and weekends.",
 
@@ -8930,6 +9140,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Upscale neighborhood restaurant with a bar area and multiple dining sections. Typically quieter during weekday lunches, with busier dinner service and weekend reservations.",
@@ -8959,6 +9172,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Small ramen restaurant with a compact dining room and counter seating. Typically quieter earlier in the day, with moderate dinner activity and steady takeout traffic.",
 
@@ -8986,6 +9202,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual Mexican restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier lunch and dinner periods.",
@@ -9015,6 +9234,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large Chinese restaurant with multiple dining rooms and a bar area. Typically calm earlier in the day, with busier dinner hours and weekend evenings.",
 
@@ -9042,6 +9264,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Casual Mexican restaurant with booth seating and a bar area. Typically relaxed earlier in the day, with more energy during dinner hours and weekend evenings.",
@@ -9071,6 +9296,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small Chinese restaurant with a simple dining room and counter service area. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
 
@@ -9098,6 +9326,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
@@ -9127,6 +9358,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Modern burger restaurant with bar seating and multiple dining areas. Typically relaxed earlier in the day, with busier dinner hours and weekends.",
 
@@ -9154,6 +9388,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual seafood restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier activity during dinner hours and weekend evenings.",
@@ -9183,6 +9420,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
 whatToExpect:
 "Local deli with a compact dining room and counter ordering. Typically busiest during lunch hours, with quieter periods during mid-afternoon and early evening.",
 
@@ -9210,6 +9450,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Chain seafood restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day, with busier dinner hours and weekend evenings.",
@@ -9239,6 +9482,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Thai and sushi restaurant with a compact dining room and relaxed seating layout. Typically quieter during weekday afternoons, with steady dinner traffic and weekend activity.",
 
@@ -9266,6 +9512,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Hibachi and sushi restaurant with grill tables and traditional dining seating. Typically relaxed earlier in the day, with more activity during dinner hours and weekends.",
@@ -9295,6 +9544,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Indian restaurant with a small dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and weekend visits.",
 
@@ -9322,6 +9574,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evening hours and weekends.",
@@ -9351,6 +9606,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual pizza restaurant with bar seating and a relaxed dining area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
 
@@ -9378,6 +9636,9 @@ city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meal periods.",
@@ -9407,6 +9668,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Sports bar with a central bar area, TVs throughout the space, and casual seating. Typically quieter earlier in the day, with more activity during evening hours and televised games.",
 
@@ -9435,6 +9699,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Casual pizza restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
 
@@ -9456,16 +9723,19 @@ insights: [
 ]
 },
 
-         /* =========================
-    Florence , KY
+/* =========================
+Florence , KY
 ========================= */
-   
-   {
+
+{
 name: "Drake's - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Large casual restaurant with a central bar, patio seating, and multiple dining sections. Typically calmer earlier in the day, with increased activity during dinner hours, sports events, and weekend evenings.",
@@ -9495,6 +9765,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Automotive-themed restaurant with a bar area and multiple dining sections. Typically relaxed earlier in the day, with busier dinner hours and steady weekend traffic.",
 
@@ -9522,6 +9795,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Sports bar with a large bar area, TVs throughout the space, and multiple seating sections. Typically quieter earlier in the day, with increased activity during evening hours and televised games.",
@@ -9551,6 +9827,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small Thai restaurant with a compact dining room and relaxed seating layout. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
 
@@ -9578,6 +9857,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Neighborhood bar and grill with a bar-focused layout and casual table seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
@@ -9607,6 +9889,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual breakfast and lunch restaurant with counter ordering and table seating. Typically busiest during morning and brunch hours, with quieter afternoons.",
 
@@ -9634,6 +9919,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Interactive Korean BBQ and hot pot restaurant with grill tables throughout the dining room. Typically calmer earlier in the day, with busy dinner service and weekend gatherings.",
@@ -9663,6 +9951,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar and grill with a large bar area and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evenings and weekend nights.",
 
@@ -9691,6 +9982,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Sports bar with a central bar, TVs throughout the space, and multiple dining sections. Typically calmer earlier in the day, with more activity during evening hours and sports events.",
 
@@ -9711,13 +10005,16 @@ insights: [
 "Weekend nights tend to be the busiest."
 ]
 },
-
+   
 {
 name: "Symphony Mediterranean Grill",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Mediterranean restaurant with a small dining room and counter service area. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
@@ -9740,12 +10037,15 @@ insights: [
 ]
 },
 
-   {
+{
 name: "Chin Fusion Restaurant & Sushi",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Asian fusion restaurant with sushi bar seating and multiple dining tables. Typically quieter earlier in the day, with steady dinner traffic and weekend activity.",
@@ -9775,6 +10075,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend gatherings.",
 
@@ -9803,6 +10106,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with table seating and a relaxed neighborhood feel. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
 
@@ -9824,12 +10130,15 @@ insights: [
 ]
 },
 
-   {
+{
 name: "Kopan",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Korean restaurant with table seating and grill-style dining options. Typically quieter earlier in the day, with more activity during dinner hours and weekend evenings.",
@@ -9859,6 +10168,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large casual chain restaurant with multiple dining rooms and a bar area. Typically calmer earlier in the day, with busier dinner periods and weekend family dining.",
 
@@ -9886,6 +10198,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Casual bar and grill with a bar-focused layout and surrounding tables. Typically quieter earlier in the day, with increased activity during evening hours and weekend nights.",
@@ -9915,6 +10230,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large restaurant and brewery with multiple dining sections and a bar area. Typically calmer earlier in the day, with busier dinner hours and weekend dining.",
 
@@ -9942,6 +10260,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner periods and weekend gatherings.",
@@ -9971,6 +10292,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Hibachi-style Japanese restaurant with grill tables and traditional seating. Typically calmer earlier in the day, with busier dinner service and weekend gatherings.",
 
@@ -9991,13 +10315,16 @@ insights: [
 "Weekend dinners often bring the largest crowds."
 ]
 },
-
+   
 {
 name: "Acapulco Mexican & Grill",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual Mexican restaurant with booth seating and a relaxed dining layout. Typically quieter earlier in the day, with busier dinner hours and weekend visits.",
@@ -10027,6 +10354,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small Japanese restaurant with counter ordering and limited seating. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
 
@@ -10054,6 +10384,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Japanese restaurant with sushi bar seating and table dining. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
@@ -10083,6 +10416,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar and grill with a bar-centered layout and casual dining tables. Typically calmer earlier in the day, with more activity during evening hours and weekend nights.",
 
@@ -10110,6 +10446,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Large Tex-Mex restaurant with colorful dining rooms and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend dining.",
@@ -10139,6 +10478,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Fast-casual barbecue restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours, with quieter mid-afternoons.",
 
@@ -10166,6 +10508,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
 "Sandwich shop with counter ordering and a small dining area. Typically busiest during lunch hours, with quieter afternoons.",
@@ -10195,6 +10540,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual pizza restaurant with a relaxed dining room and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
 
@@ -10222,6 +10570,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Neighborhood sports bar with pool tables, TVs, and casual seating. Typically calmer earlier in the day, with more activity during evenings and weekend nights.",
@@ -10251,6 +10602,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Local bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with increased activity during evening hours and weekend nights.",
 
@@ -10271,13 +10625,16 @@ insights: [
 "Weekend nights tend to bring the most traffic."
 ]
 },
-
+   
 {
 name: "Dave & Buster's - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Large entertainment venue with arcade games, a sports bar, and restaurant seating areas. Typically calmer earlier in the day, with increased activity during evenings and weekends.",
@@ -10307,6 +10664,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Family-friendly burger restaurant with booth seating and a bar area. Typically calmer earlier in the day, with busier dinner hours and weekend family dining.",
 
@@ -10334,6 +10694,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Small deli and retail shop with counter ordering and limited seating. Typically busiest during lunch hours and holiday seasons, with quieter afternoons.",
@@ -10363,6 +10726,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Sports bar and restaurant with a central bar area and table seating throughout the dining room. Typically quieter earlier in the day, with increased activity during evening hours and televised games.",
 
@@ -10390,6 +10756,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
 "Walk-up ice cream and dessert stand with outdoor seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
@@ -10419,6 +10788,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evenings and weekend nights.",
 
@@ -10446,6 +10818,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Bar and grill with a bourbon-focused bar and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evening hours and weekend nights.",
@@ -10475,6 +10850,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meals.",
 
@@ -10495,12 +10873,16 @@ insights: [
 "Weekend evenings usually bring the most activity."
 ]
 },
-   {
+
+{
 name: "Smokin' This and That BBQ",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual barbecue restaurant with table seating and a relaxed dining room. Typically steady during lunch hours, with busier dinner periods and weekend traffic.",
@@ -10530,6 +10912,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Thai restaurant with a sushi bar and table seating throughout the dining room. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
 
@@ -10550,13 +10935,16 @@ insights: [
 "Weekend dinners typically bring the most activity."
 ]
 },
-
+   
 {
 name: "3 Ladies Thai Cuisine",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Thai restaurant with a compact dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
@@ -10586,6 +10974,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual burger restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours with steady traffic throughout the day.",
 
@@ -10613,6 +11004,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Mediterranean restaurant with counter ordering and a small dining area. Typically quieter earlier in the day with steady lunch and dinner visits.",
@@ -10642,6 +11036,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual pizza restaurant with table seating and a relaxed neighborhood atmosphere. Typically quieter earlier in the day with busier dinner periods and weekend visits.",
 
@@ -10670,6 +11067,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Family-style restaurant with booth seating and casual table dining. Typically busiest during lunch and dinner hours with steady local traffic.",
 
@@ -10690,13 +11090,16 @@ insights: [
 "Weekend dinners tend to be the busiest."
 ]
 },
-   
-   {
+
+{
 name: "Lita's Tacos",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual Mexican restaurant with counter ordering and a small dining area. Typically steady during lunch hours with continued traffic during dinner and weekend evenings.",
@@ -10726,6 +11129,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Mediterranean restaurant with counter service and table seating throughout the dining room. Typically quieter earlier in the day with steady lunch and dinner traffic.",
 
@@ -10753,6 +11159,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual restaurant with booth seating, table dining, and a bar area. Typically calmer earlier in the day with busier dinner periods and weekend family dining.",
@@ -10782,6 +11191,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Breakfast and brunch restaurant with table seating and a bright open dining room. Typically busiest during morning and brunch hours with quieter afternoons.",
 
@@ -10810,6 +11222,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Barbecue restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day with increased activity during dinner hours and weekends.",
 
@@ -10830,13 +11245,16 @@ insights: [
 "Weekend evenings usually bring the largest crowds."
 ]
 },
-
+   
 {
 name: "Texas Roadhouse",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Large steakhouse with multiple dining sections and a bar area. Typically quieter earlier in the day with busy dinner periods and weekend family gatherings.",
@@ -10866,6 +11284,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Steakhouse with booth seating, table dining, and a bar area. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
 
@@ -10893,6 +11314,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Steakhouse with booth seating and a bar area near the entrance. Typically quieter earlier in the day with busier dinner hours and weekend dining.",
@@ -10922,6 +11346,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar and dining venue connected to the Turfway Park racing facility with table seating and bar areas. Typically quieter outside racing events with increased activity during race days and weekend evenings.",
 
@@ -10949,6 +11376,9 @@ city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Casual bar and grill with a central bar area and surrounding tables. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
@@ -10978,6 +11408,9 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
 
@@ -10998,17 +11431,20 @@ insights: [
 "Weekend nights tend to bring the most traffic."
 ]
 },
-   
-   /* =========================
-   BLUE ASH, OH
+
+/* =========================
+BLUE ASH, OH
 ========================= */
 
-   {
+{
 name: "Blue Ash Chili",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Local chili parlor with booth seating and a casual diner-style layout along Kenwood Road. Typically steady throughout the day with consistent lunch and late evening visits.",
@@ -11038,6 +11474,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Pizza restaurant with table seating and counter ordering in the Blue Ash dining district. Typically steady during dinner hours with increased activity on weekends.",
 
@@ -11065,6 +11504,9 @@ city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant with table seating and a casual dining atmosphere near Summit Park in Blue Ash. Typically calmer earlier in the evening with steady dinner reservations later.",
@@ -11094,6 +11536,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Italian restaurant with table seating and a bar area along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening activity.",
 
@@ -11114,13 +11559,16 @@ insights: [
 "Weekend evenings tend to bring steady activity."
 ]
 },
-
+   
 {
 name: "Kanpai Japanese Steakhouse & Sushi",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Japanese steakhouse with hibachi tables and sushi bar seating in the Blue Ash dining district. Typically steady during dinner hours with increased weekend activity.",
@@ -11150,6 +11598,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Sports bar with bar seating, TVs throughout the space, and casual dining tables along the Blue Ash restaurant corridor. Typically quieter earlier in the day with increased activity during evening games.",
 
@@ -11177,6 +11628,9 @@ city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Dessert shop with counter service and limited seating in the Blue Ash retail corridor. Typically steady during afternoons with increased activity during evenings.",
@@ -11206,6 +11660,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Italian restaurant with table seating and casual dining along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening traffic.",
 
@@ -11234,6 +11691,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with table seating and a casual dining layout near Summit Park. Typically steady during dinner hours with increased evening activity.",
 
@@ -11254,13 +11714,16 @@ insights: [
 "Weekend evenings usually bring the most activity."
 ]
 },
-   
+
 {
 name: "Sleepy Bee Cafe - Blue Ash",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Breakfast and brunch restaurant with table seating and a bright dining room in the Blue Ash business district. Typically busiest during morning and late morning hours.",
@@ -11290,6 +11753,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Burger restaurant with bar seating and casual dining tables in the Blue Ash restaurant corridor. Typically steady during dinner hours with increased evening activity.",
 
@@ -11317,6 +11783,9 @@ city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Neighborhood pub with bar seating and table dining in the Blue Ash business district. Typically quieter earlier in the day with increased activity during evening hours.",
@@ -11346,6 +11815,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Japanese restaurant with table seating and sushi bar service along Kenwood Road. Typically steady during dinner hours with quieter periods earlier in the day.",
 
@@ -11374,6 +11846,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "American grill with table seating and bar service in the Blue Ash dining district. Typically steady during dinner hours with moderate evening activity.",
 
@@ -11394,13 +11869,16 @@ insights: [
 "Weekend evenings tend to bring steady activity."
 ]
 },
-
+   
 {
 name: "The Park Pour",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
 "Bar and social venue with bar seating and outdoor gathering space near Summit Park. Typically calmer earlier in the evening with increased activity later at night.",
@@ -11430,6 +11908,9 @@ neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Mexican restaurant with bar seating and table dining in the Blue Ash restaurant district. Typically steady during dinner hours with increased weekend activity.",
 
@@ -11451,8 +11932,8 @@ insights: [
 ]
 },
 
-      /* =========================
-   MONTGOMERY, OH
+/* =========================
+MONTGOMERY, OH
 ========================= */
 
 {
@@ -11461,6 +11942,9 @@ city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Upscale restaurant with multiple dining rooms and bar seating in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
@@ -11483,12 +11967,15 @@ insights: [
 ]
 },
 
-   {
+{
 name: "Ferrari's Little Italy",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Italian restaurant with table seating and a traditional dining room in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
@@ -11518,6 +12005,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Restaurant and bar with multiple dining rooms and a social dining atmosphere in downtown Montgomery. Typically steady during dinner hours with increased evening activity.",
 
@@ -11545,6 +12035,9 @@ city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Mexican restaurant with booth seating and table dining along Montgomery Road. Typically steady during lunch and dinner hours.",
@@ -11574,6 +12067,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Breakfast restaurant with table seating and a busy brunch atmosphere along Montgomery Road. Typically busiest during morning and late morning hours.",
 
@@ -11601,6 +12097,9 @@ city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Irish pub with bar seating and table dining in the Montgomery dining district. Typically quieter earlier in the day with increased evening activity.",
@@ -11630,6 +12129,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Bakery and cafe with counter service and limited table seating along Montgomery Road. Typically busiest during morning and lunch hours.",
 
@@ -11658,6 +12160,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Barbecue restaurant with table seating and multiple dining rooms along Montgomery Road. Typically steady throughout the day with consistent dinner traffic.",
 
@@ -11678,13 +12183,16 @@ insights: [
 "Weekend evenings tend to bring steady activity."
 ]
 },
-
+   
 {
 name: "Bones' Burgers",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Burger restaurant with casual table seating in the Montgomery restaurant corridor. Typically steady during lunch and dinner hours.",
@@ -11714,6 +12222,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Breakfast and brunch restaurant with table seating and a bright dining room near downtown Montgomery. Typically busiest during morning and brunch hours.",
 
@@ -11741,6 +12252,9 @@ city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Latin-inspired restaurant with bar seating and multiple dining spaces in the Montgomery dining district. Typically steady during dinner hours with increased weekend activity.",
@@ -11770,6 +12284,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and a social dining atmosphere along Montgomery Road. Typically steady during dinner hours with increased evening activity.",
 
@@ -11798,6 +12315,9 @@ neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Burger restaurant with bar seating and table dining in the Montgomery dining corridor. Typically steady during dinner hours with moderate evening activity.",
 
@@ -11825,6 +12345,9 @@ city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Mediterranean restaurant with table seating and a relaxed dining room along Montgomery Road. Typically calmer earlier in the evening with steady dinner traffic.",
