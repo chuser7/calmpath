@@ -278,6 +278,38 @@ const resultsList = document.getElementById("results-list");
 const suggestions = document.getElementById("suggestions");
 const searchInput = document.getElementById("search");
 const neighborhoodDropdown = document.getElementById("neighborhoodFilter");
+const featuredContainer = document.getElementById("featured-place");
+
+
+/* ---------------- FEATURED PLACE ---------------- */
+
+function showFeaturedPlace(){
+
+if(!featuredContainer) return;
+
+const randomPlace = places[Math.floor(Math.random() * places.length)];
+
+featuredContainer.innerHTML = `
+<div class="featured-card">
+
+<strong>Featured Place</strong><br><br>
+
+<div class="suggestion-item">
+
+<strong>${randomPlace.name}</strong><br>
+
+<span style="font-size:13px;color:#666">
+${randomPlace.neighborhood ? randomPlace.neighborhood : randomPlace.city}
+</span>
+
+</div>
+
+</div>
+`;
+
+featuredContainer.onclick = () => renderPlace(randomPlace);
+
+}
 
 
 /* ---------------- SEARCH ---------------- */
@@ -373,19 +405,28 @@ function applyFilters(){
 
 const searchQuery = searchInput ? searchInput.value.trim() : "";
 
-/* CHECK IF FILTERS OR SEARCH ARE ACTIVE */
-
 const filtersActive =
 activeFilters.parking ||
 activeFilters.noise ||
 activeFilters.neighborhood;
 
+/* SHOW FEATURED IF NOTHING SELECTED */
+
 if(!filtersActive && searchQuery === ""){
 
 resultsCount.innerHTML = "";
 resultsList.innerHTML = "";
+
+showFeaturedPlace();
+
 return;
 
+}
+
+/* HIDE FEATURED WHEN FILTERS USED */
+
+if(featuredContainer){
+featuredContainer.innerHTML = "";
 }
 
 const filtered = places.filter(place => {
@@ -395,25 +436,17 @@ let noiseMatch = true;
 let neighborhoodMatch = true;
 let searchMatch = true;
 
-/* SEARCH MATCH */
-
 if(searchQuery){
 searchMatch = place.name.toLowerCase().includes(searchQuery.toLowerCase());
 }
-
-/* PARKING FILTER */
 
 if(activeFilters.parking){
 parkingMatch = place.parkingLevel === activeFilters.parking;
 }
 
-/* NOISE FILTER */
-
 if(activeFilters.noise){
 noiseMatch = place.noiseLevel === activeFilters.noise;
 }
-
-/* NEIGHBORHOOD FILTER */
 
 if(activeFilters.neighborhood){
 neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
@@ -426,6 +459,7 @@ return parkingMatch && noiseMatch && neighborhoodMatch && searchMatch;
 renderResults(filtered);
 
 }
+
 
 /* ---------------- RENDER RESULTS ---------------- */
 
@@ -483,10 +517,13 @@ neighborhoodDropdown.value = "";
 resultsCount.innerHTML = "";
 resultsList.innerHTML = "";
 
+showFeaturedPlace();
+
 }
 
 
 /* ---------------- INITIAL LOAD ---------------- */
 
+showFeaturedPlace();
 
 </script>
