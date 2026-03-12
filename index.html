@@ -1,184 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CalmPath</title>
-  
-<!-- Google tag (gtag.js) -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CalmPath</title>
+
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2E1R2DVVXQ"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2E1R2DVVXQ');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2E1R2DVVXQ');
 </script>
-  <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #f6f7f9;
-      color: #111;
-      margin: 0;
-      padding: 16px;
-    }
 
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 4px;
-    }
+<style>
 
-    h2 {
-      font-size: 1.3rem;
-      margin: 8px 0;
-    }
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+background: #f6f7f9;
+color: #111;
+margin: 0;
+padding: 16px;
+}
 
-    h3 {
-      font-size: 1rem;
-      margin-top: 20px;
-      margin-bottom: 8px;
-    }
+h1 {
+font-size: 1.8rem;
+margin-bottom: 4px;
+}
 
-    p {
-      line-height: 1.4;
-      margin: 6px 0;
-    }
-    
+h2 {
+font-size: 1.3rem;
+margin: 8px 0;
+}
+
+h3 {
+font-size: 1rem;
+margin-top: 20px;
+margin-bottom: 8px;
+}
+
+p {
+line-height: 1.4;
+margin: 6px 0;
+}
+
 .location {
-  font-size: 0.9rem;
-  color: #666;
-  margin-top: -4px;
-  margin-bottom: 12px;
+font-size: 0.9rem;
+color: #666;
+margin-top: -4px;
+margin-bottom: 12px;
 }
-    input {
-      width: 100%;
-      padding: 12px;
-      font-size: 1rem;
-      margin: 16px 0;
-      border-radius: 8px;
-      border: 1px solid #ddd;
-    }
 
-    .card {
-  background: #f6f7f9;
-  border-radius: 12px;
-  padding: 20px;
-  margin-top: 20px;
-  border: 1px solid #e3e6eb;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-    }
+input {
+width: 100%;
+padding: 12px;
+font-size: 1rem;
+margin: 16px 0;
+border-radius: 8px;
+border: 1px solid #ddd;
+}
 
-    .label {
-      font-size: 0.75rem;
-      color: #666;
-      margin-bottom: 6px;
-    }
+.card {
+background: #f6f7f9;
+border-radius: 12px;
+padding: 20px;
+margin-top: 20px;
+border: 1px solid #e3e6eb;
+box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
 
-    /* Snapshot Grid */
-    .snapshot {
-      margin: 12px 0 8px 0;
-    }
+.label {
+font-size: 0.75rem;
+color: #666;
+margin-bottom: 6px;
+}
 
-    .snapshot-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-top: 12px;
-    }
+/* Snapshot Grid */
 
-    .snapshot-item {
-  background: white;
-  border-radius: 10px;
-  padding: 14px;
-  border: 1px solid #e6e6e6;
-      transition: transform 0.1s ease, box-shadow 0.1s ease;
-    }
-    
+.snapshot {
+margin: 12px 0 8px 0;
+}
+
+.snapshot-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 12px;
+margin-top: 12px;
+}
+
+.snapshot-item {
+background: white;
+border-radius: 10px;
+padding: 14px;
+border: 1px solid #e6e6e6;
+transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
 .snapshot-item:active {
-  transform: scale(0.98);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+transform: scale(0.98);
+box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
-    
-    .snapshot-label {
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #555;
-      margin-bottom: 4px;
-    }
 
-    .snapshot-value {
-      font-size: 0.85rem;
-      font-weight: 500;
-    }
-
-    ul {
-      padding-left: 18px;
-    }
-    
-    .search-container {
-  position: relative;
+.snapshot-label {
+font-size: 0.7rem;
+font-weight: 600;
+color: #555;
+margin-bottom: 4px;
 }
-    
+
+.snapshot-value {
+font-size: 0.85rem;
+font-weight: 500;
+}
+
+ul {
+padding-left: 18px;
+}
+
+.search-container {
+position: relative;
+}
+
 #suggestions {
-  position: absolute;
-  width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-height: 260px;
-  overflow-y: auto;
-  background: white;
-  margin-top: 4px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  z-index: 1000;
+position: absolute;
+width: 100%;
+border: 1px solid #ddd;
+border-radius: 8px;
+max-height: 260px;
+overflow-y: auto;
+background: white;
+margin-top: 4px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+z-index: 1000;
 }
 
 .suggestion-item {
-  padding: 12px 14px;
-  cursor: pointer;
-  font-size: 15px;
+padding: 12px 14px;
+cursor: pointer;
+font-size: 15px;
 }
 
 .suggestion-item:hover {
-  background: #f7f7f7;
-} 
+background: #f7f7f7;
+}
 
 .coverage {
-  font-size: 13px;
-  color: #777;
-  margin-top: 6px;
-  margin-bottom: 14px;
+font-size: 13px;
+color: #777;
+margin-top: 6px;
+margin-bottom: 14px;
 }
-    
-  </style>
+
+/* QUICK FILTERS */
+
+.quick-filters {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.filter-group {
+margin-bottom: 8px;
+}
+
+.filter-btn {
+padding: 6px 12px;
+margin: 4px;
+border-radius: 20px;
+border: 1px solid #ccc;
+background: white;
+cursor: pointer;
+font-size: 13px;
+}
+
+.filter-btn.active {
+background: #111;
+color: white;
+border-color: #111;
+}
+
+</style>
 </head>
 
 <body>
 
-  <h1>CalmPath</h1>
-  <p>
-    <strong>Know what you're walking into before trying somewhere new.</strong><br>
-    See parking, noise, restrooms, and layout before you go.
-  </p>
+<h1>CalmPath</h1>
 
-  <p class="coverage">
+<p>
+<strong>Know what you're walking into before trying somewhere new.</strong><br>
+See parking, noise, restrooms, and layout before you go.
+</p>
+
+<p class="coverage">
 430+ places across Cincinnati, OH and Northern Kentucky
 </p>
 
 <div class="search-container">
 
-  <input
-    id="search"
-    placeholder="Search a place (ex: Rhinegeist Brewery)"
-    oninput="searchPlace()"
-  />
+<input
+id="search"
+placeholder="Search a place (ex: Rhinegeist Brewery)"
+oninput="searchPlace()"
+/>
 
-  <div id="suggestions"></div>
+<div id="suggestions"></div>
+
+</div>
+
+<!-- QUICK FILTERS -->
+
+<div class="quick-filters">
+
+<div class="filter-group">
+<strong>Parking</strong><br>
+<button class="filter-btn" data-filter="parking" data-value="Easy">Easy</button>
+<button class="filter-btn" data-filter="parking" data-value="Moderate">Moderate</button>
+<button class="filter-btn" data-filter="parking" data-value="Limited">Limited</button>
+</div>
+
+<div class="filter-group">
+<strong>Noise</strong><br>
+<button class="filter-btn" data-filter="noise" data-value="Low">Low</button>
+<button class="filter-btn" data-filter="noise" data-value="Moderate">Moderate</button>
+<button class="filter-btn" data-filter="noise" data-value="High">High</button>
+</div>
+
+<div class="filter-group">
+<strong>Neighborhood</strong><br>
+<button class="filter-btn" data-filter="neighborhood" data-value="Over-the-Rhine">OTR</button>
+<button class="filter-btn" data-filter="neighborhood" data-value="Hyde Park">Hyde Park</button>
+<button class="filter-btn" data-filter="neighborhood" data-value="Covington">Covington</button>
+<button class="filter-btn" data-filter="neighborhood" data-value="Newport">Newport</button>
+</div>
 
 </div>
 
 <div id="result"></div>
 
-  <script src="places.js"></script>
+<script src="places.js"></script>
+
+<script>
+
+let activeFilters = {
+parking: null,
+noise: null,
+neighborhood: null
+};
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+filterButtons.forEach(button => {
+
+button.addEventListener("click", () => {
+
+const type = button.dataset.filter;
+const value = button.dataset.value;
+
+if(activeFilters[type] === value){
+activeFilters[type] = null;
+button.classList.remove("active");
+}
+else{
+
+document.querySelectorAll(`[data-filter="${type}"]`)
+.forEach(btn => btn.classList.remove("active"));
+
+activeFilters[type] = value;
+button.classList.add("active");
+
+}
+
+applyFilters();
+
+});
+
+});
+
+function applyFilters(){
+
+let filtered = places.filter(place => {
+
+let parkingMatch = true;
+let noiseMatch = true;
+let neighborhoodMatch = true;
+
+if(activeFilters.parking){
+parkingMatch = place.parking.includes(activeFilters.parking);
+}
+
+if(activeFilters.noise){
+noiseMatch = place.noise.includes(activeFilters.noise);
+}
+
+if(activeFilters.neighborhood){
+neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
+}
+
+return parkingMatch && noiseMatch && neighborhoodMatch;
+
+});
+
+renderPlaces(filtered);
+
+}
+
+</script>
 
 </body>
 </html>
