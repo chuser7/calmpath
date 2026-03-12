@@ -363,21 +363,36 @@ let neighborhoodMatch = true;
 /* PARKING FILTER */
 
 if(activeFilters.parking){
-parkingMatch = place.parkingLevel === activeFilters.parking;
+
+parkingMatch =
+(place.parkingLevel || "")
+.toLowerCase()
+.trim() === activeFilters.parking.toLowerCase().trim();
+
 }
 
 
 /* NOISE FILTER */
 
 if(activeFilters.noise){
-noiseMatch = place.noiseLevel === activeFilters.noise;
+
+noiseMatch =
+(place.noiseLevel || "")
+.toLowerCase()
+.trim() === activeFilters.noise.toLowerCase().trim();
+
 }
 
 
 /* NEIGHBORHOOD FILTER */
 
 if(activeFilters.neighborhood){
-neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
+
+neighborhoodMatch =
+(place.neighborhood || "")
+.toLowerCase()
+.trim() === activeFilters.neighborhood.toLowerCase().trim();
+
 }
 
 return parkingMatch && noiseMatch && neighborhoodMatch;
@@ -412,7 +427,9 @@ div.className = "suggestion-item";
 
 div.innerHTML = `
 <strong>${place.name}</strong><br>
-<span style="font-size:13px;color:#666">${place.city}</span>
+<span style="font-size:13px;color:#666">
+${place.neighborhood ? place.neighborhood : place.city}
+</span>
 `;
 
 div.onclick = () => renderPlace(place);
@@ -435,6 +452,12 @@ neighborhood: null
 };
 
 filterButtons.forEach(btn => btn.classList.remove("active"));
+
+const neighborhoodDropdown = document.getElementById("neighborhoodFilter");
+
+if(neighborhoodDropdown){
+neighborhoodDropdown.value = "";
+}
 
 resultsCount.innerHTML = "";
 resultsList.innerHTML = "";
