@@ -258,6 +258,9 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Belgian-inspired restaurant with table seating and a bar area along Ludlow Avenue. Typically busiest during brunch hours with steady dinner traffic later in the day.",
 
@@ -285,6 +288,9 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Coffeehouse with indoor seating and a relaxed neighborhood atmosphere along Ludlow Avenue. Typically busiest during morning and afternoon hours.",
@@ -314,6 +320,9 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Asian restaurant with table seating and counter service along the Clifton dining corridor. Typically steady during lunch and dinner hours.",
 
@@ -341,6 +350,9 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Casual fast-casual restaurant with counter ordering and limited seating along the Clifton dining corridor. Typically steady during lunch and late evening hours.",
@@ -370,6 +382,9 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar and grill with bar seating and casual dining tables along Ludlow Avenue. Typically quieter earlier in the day with increased activity during evenings.",
 
@@ -398,6 +413,9 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically calmer earlier in the day with increased activity during evening hours.",
 
@@ -418,13 +436,16 @@ insights: [
 "Weekend nights usually bring the most visitors."
 ]
 },
-   
-   {
+
+{
 name: "Senate",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant and bar known for specialty hot dogs with table seating and a bar area along Vine Street. Typically calmer earlier in the day with busier dinner hours and weekend evenings.",
@@ -453,6 +474,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "American restaurant with a diner-inspired layout and table seating near Findlay Market. Typically busiest during brunch hours with steady dinner traffic later in the day.",
