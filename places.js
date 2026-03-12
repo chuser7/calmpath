@@ -5,35 +5,44 @@ const places = [
 ========================= */
 
 {
-  name: "Condado Tacos – The Banks",
-  city: "Cincinnati",
-   neighborhood: "The Banks",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Casual restaurant with a bar-centric layout and active social atmosphere. Louder and more crowded during peak meal times and game nights.",
-  environment: {
-    parking: "Street + nearby garages; tight during events.",
-    restrooms: {
-      capacity: "Limited capacity",
-      waits: "Possible during peak times",
-      location: "Inside main area"
-    },
-    noise: "Moderate to Loud when busy.",
-    exits: "Street-level; easy step outside."
-  },
-  insights: [
-    "Bar area tends to be louder than dining tables.",
-    "Crowds increase significantly on game days."
-  ]
+name: "Condado Tacos – The Banks",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Casual restaurant with a bar-centric layout and active social atmosphere. Louder and more crowded during peak meal times and game nights.",
+
+environment: {
+parking: "Street + nearby garages; tight during events.",
+restrooms: {
+capacity: "Limited capacity",
+waits: "Possible during peak times",
+location: "Inside main area"
 },
-   
-   {
+noise: "Moderate to Loud when busy.",
+exits: "Street-level; easy step outside."
+},
+
+insights: [
+"Bar area tends to be louder than dining tables.",
+"Crowds increase significantly on game days."
+]
+},
+
+{
 name: "Trio",
 city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant with table seating and a bar area located near Kenwood Towne Centre. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
@@ -63,6 +72,9 @@ neighborhood: "Kenwood",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "High",
+
 whatToExpect:
 "Italian restaurant with multiple dining rooms located next to Kenwood Towne Centre. Typically busy during dinner hours with steady weekend traffic.",
 
@@ -90,6 +102,9 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant and wine bar with table seating and a tasting room near the Kenwood retail district. Typically calmer earlier in the evening with steady dinner reservations.",
@@ -119,6 +134,9 @@ neighborhood: "Kenwood",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with counter ordering and table seating near Kenwood Towne Centre. Typically steady throughout the day with busy lunch periods.",
 
@@ -147,6 +165,9 @@ neighborhood: "Kenwood",
 state: "OH",
 type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Pizza restaurant and bar with table seating in the Kenwood dining corridor. Typically steady during dinner hours with increased activity later in the evening.",
 
@@ -167,13 +188,16 @@ insights: [
 "Weekend nights usually bring the most activity."
 ]
 },
-   
-   {
+
+{
 name: "Ambar India Restaurant",
 city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Indian restaurant with table seating and a casual dining room along Ludlow Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
@@ -202,6 +226,9 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Indian restaurant with buffet and table seating along the Ludlow corridor. Typically calmer earlier in the day with steady dinner traffic.",
