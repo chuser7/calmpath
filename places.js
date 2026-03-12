@@ -4318,8 +4318,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Dining-focused restaurant with a traditional table layout. Typically calm during weekday afternoons and busier during dinner service.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4330,6 +4335,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during lunch and dinner hours.",
 "First-timers note dinner brings the most activity.",
@@ -4343,8 +4349,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small restaurant with counter service and limited seating. Typically busiest during lunch and early evening hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4355,6 +4366,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as lunch-driven with quick visits.",
 "First-timers notice midday traffic peaks.",
@@ -4368,8 +4380,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with casual seating and counter service. Typically calmer earlier in the day and busier during evening hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4380,6 +4397,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as bar-forward during evening hours.",
 "First-timers notice activity increases after dinner time.",
@@ -4393,8 +4411,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Counter-service restaurant with limited seating. Typically busiest during lunch hours and late evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4405,6 +4428,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-service with short visits.",
 "Lunch hours bring the most consistent activity.",
@@ -4418,8 +4442,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Large pizza restaurant with dining tables and bar seating. Typically steady during lunch hours and busier during evenings and weekends.",
+
 environment: {
 parking: "Street parking and nearby lots.",
 restrooms: {
@@ -4430,6 +4459,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as high-traffic during evenings.",
 "First-timers note activity increases around dinner time.",
@@ -4443,8 +4473,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4455,486 +4490,601 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady neighborhood traffic.",
 "First-timers note evenings bring fuller tables.",
 "Weekend activity is slightly higher than weekdays."
 ]
 },
+
+{
+name: "Montgomery Inn – The Boathouse",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Large riverfront restaurant with multiple dining rooms and patio seating. Generally calmer earlier in the day, with increased activity during dinner hours, weekends, and nearby events.",
+
+environment: {
+parking: "Valet only.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon except during peak dinner hours",
+location: "Inside main building"
+},
+noise: "Moderate; higher when dining rooms are full.",
+exits: "Multiple exits and patio access."
+},
+
+insights: [
+"Spacious layout with steady dining traffic.",
+"Activity increases around dinner hours.",
+"Weekend evenings bring the fullest seating."
+]
+},
+
+{
+name: "Bow Tie Cafe",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Small café with counter service and limited seating. Typically busiest during morning and early afternoon hours.",
+
+environment: {
+parking: "Street parking in Mt. Adams.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Uncommon",
+location: "Inside venue"
+},
+noise: "Low to Moderate; generally quiet outside peak coffee hours.",
+exits: "Direct sidewalk access."
+},
+
+insights: [
+"Morning-focused traffic pattern.",
+"Breakfast hours bring the most activity.",
+"Traffic decreases steadily through the afternoon."
+]
+},
+
+{
+name: "Luca Bistro",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Compact restaurant with a structured dining room and bar seating. Generally calm earlier in the evening and busier during peak dinner hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate; increases as the dining room fills.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Intimate atmosphere due to smaller size.",
+"Dinner hours gradually increase activity.",
+"Weekends bring fuller seating."
+]
+},
+
+{
+name: "Al'Lupo Ristorante",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small dining-focused restaurant with closely arranged tables. Typically quieter midweek and busier during dinner hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate; higher when dining room is full.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Compact dining layout.",
+"Reservations shape the evening pace.",
+"Weekend dinners bring the highest occupancy."
+]
+},
+
+{
+name: "El Barril",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Street-level restaurant with bar seating and dining tables. Generally lighter during weekday hours and busier during evening service and weekends.",
+
+environment: {
+parking: "Street parking in Mt. Adams.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak evening hours",
+location: "Inside venue"
+},
+noise: "Moderate; higher during peak dinner and bar hours.",
+exits: "Direct sidewalk access."
+},
+
+insights: [
+"Bar-forward layout influences traffic patterns.",
+"Activity increases noticeably after dinner hours.",
+"Weekend evenings bring the most consistent traffic."
+]
+},
+
+{
+name: "Mt. Adams Bar & Grill",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood bar and restaurant with indoor seating and patio space. Typically steady during the day and busier during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak evening hours",
+location: "Inside venue"
+},
+noise: "Moderate; higher during weekend evenings.",
+exits: "Patio and street access available."
+},
+
+insights: [
+"Locally driven neighborhood spot.",
+"Activity builds gradually through the evening.",
+"Weekend nights bring the most noticeable crowd levels."
+]
+},
+
+{
+name: "City View Tavern",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small bar and restaurant with indoor seating and a patio overlooking the city. Typically calmer earlier in the day and busier during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during busy evenings",
+location: "Inside venue"
+},
+noise: "Moderate; higher during weekend evenings.",
+exits: "Patio access available."
+},
+
+insights: [
+"Patio and city views drive visitor traffic.",
+"Outdoor seating draws many first-time visitors.",
+"Evening hours bring the most activity."
+]
+},
+
+{
+name: "The Hilltop",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Bar with indoor seating and a rooftop patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during weekend nights",
+location: "Inside venue"
+},
+noise: "Moderate to High; increases late at night.",
+exits: "Street and rooftop access available."
+},
+
+insights: [
+"Nightlife-oriented traffic pattern.",
+"Activity increases after dinner hours.",
+"Weekend nights bring the highest crowd levels."
+]
+},
+
+{
+name: "Your Mom’s Pizzeria",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small counter-service pizza spot with limited seating. Typically busiest during late-night hours and weekend evenings.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Uncommon",
+location: "Inside venue"
+},
+noise: "Moderate; varies depending on crowd size.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Quick-stop oriented layout.",
+"Late-night hours bring the most activity.",
+"Traffic remains steady rather than event-driven."
+]
+},
+
+{
+name: "The Blind Lemon",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Small bar with indoor seating and a secluded outdoor patio. Typically calm earlier in the evening and busier during live music nights and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during busy nights",
+location: "Inside venue"
+},
+noise: "Moderate; higher during live music.",
+exits: "Patio and street access available."
+},
+
+insights: [
+"Patio-centered layout shapes the experience.",
+"Live music strongly influences activity.",
+"Weekend evenings bring the most visitors."
+]
+},
+
+{
+name: "Crowley’s Highland House Cafe",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood bar with a compact interior and traditional bar layout. Generally steady during the day and busier during evening hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during busy evenings",
+location: "Inside venue"
+},
+noise: "Moderate; higher during weekend evenings.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Locally driven with consistent traffic.",
+"Activity builds gradually through the evening.",
+"Weekends bring the fullest seating."
+]
+},
+
+{
+name: "Monk’s Cove",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Bar with a small interior and close seating arrangement. Typically quieter earlier in the evening and busier later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during weekend nights",
+location: "Inside venue"
+},
+noise: "Moderate to High; higher during weekend nights.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Night-focused bar traffic.",
+"Activity increases later in the evening.",
+"Weekend nights bring the highest crowd levels."
+]
+},
    
-   {
-  name: "Montgomery Inn – The Boathouse",
-  city: "Cincinnati",
-      neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Large riverfront restaurant with multiple dining rooms and patio seating. Generally calmer earlier in the day, with increased activity during dinner hours, weekends, and nearby events.",
-  environment: {
-    parking: "Valet only.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon except during peak dinner hours",
-      location: "Inside main building"
-    },
-    noise: "Moderate; higher when dining rooms are full.",
-    exits: "Multiple exits and patio access."
-  },
-  insights: [
-    "Spacious layout with steady dining traffic.",
-    "Activity increases around dinner hours.",
-    "Weekend evenings bring the fullest seating."
-  ]
+{
+name: "The View at Mt. Adams",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Restaurant and bar with large windows and outdoor seating overlooking the city. Typically lighter earlier in the day and busier during dinner hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak evenings",
+location: "Inside venue"
+},
+noise: "Moderate; higher during weekend evenings.",
+exits: "Patio and street access available."
+},
+
+insights: [
+"View-driven destination spot.",
+"Window and patio seating attract most visitors.",
+"Evenings bring the most consistent traffic."
+]
 },
 
 {
-  name: "Bow Tie Cafe",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Small café with counter service and limited seating. Typically busiest during morning and early afternoon hours.",
-  environment: {
-    parking: "Street parking in Mt. Adams.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Uncommon",
-      location: "Inside venue"
-    },
-    noise: "Low to Moderate; generally quiet outside peak coffee hours.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Morning-focused traffic pattern.",
-    "Breakfast hours bring the most activity.",
-    "Traffic decreases steadily through the afternoon."
-  ]
+name: "Hi-Fi Cincy",
+city: "Cincinnati",
+neighborhood: "Mt. Adams",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Bar with indoor seating and an entertainment-focused layout. Typically quiet during the day and busier during evening hours and weekends.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during busy nights",
+location: "Inside venue"
+},
+noise: "High; especially during late-night hours.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"Music and nightlife oriented environment.",
+"Activity increases significantly after dinner hours.",
+"Weekend nights bring the highest crowd levels."
+]
 },
 
 {
-  name: "Luca Bistro",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Compact restaurant with a structured dining room and bar seating. Generally calm earlier in the evening and busier during peak dinner hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak dinner hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; increases as the dining room fills.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Intimate atmosphere due to smaller size.",
-    "Dinner hours gradually increase activity.",
-    "Weekends bring fuller seating."
-  ]
+name: "Court Street Kitchen",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Street-level restaurant with a compact dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
+environment: {
+parking: "Street parking and nearby downtown garages.",
+restrooms: {
+capacity: "Indoor; limited capacity",
+waits: "Possible during peak dinner hours",
+location: "Inside main dining area"
+},
+noise: "Moderate; increases as tables fill.",
+exits: "Direct sidewalk access."
+},
+
+insights: [
+"Neighborhood-oriented and steady in pace.",
+"Activity builds gradually into the evening.",
+"Weekends bring fuller seating compared to midweek."
+]
 },
 
 {
-  name: "Al'Lupo Ristorante",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Small dining-focused restaurant with closely arranged tables. Typically quieter midweek and busier during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak dinner hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher when dining room is full.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Compact dining layout.",
-    "Reservations shape the evening pace.",
-    "Weekend dinners bring the highest occupancy."
-  ]
+name: "Alcove by MadTree Brewing",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Modern restaurant with indoor seating and patio space in a mixed-use development. Generally calm earlier in the day and busier during dinner service and weekends.",
+
+environment: {
+parking: "Dedicated lot and shared development parking available.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Possible during peak dinner hours",
+location: "Inside main building"
+},
+noise: "Moderate; higher during peak dinner service.",
+exits: "Patio and street-level access available."
+},
+
+insights: [
+"Open, contemporary layout.",
+"Evenings bring a noticeable increase in traffic.",
+"Structured atmosphere rather than nightlife-driven."
+]
 },
 
 {
-  name: "El Barril",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Street-level restaurant with bar seating and dining tables. Generally lighter during weekday hours and busier during evening service and weekends.",
-  environment: {
-    parking: "Street parking in Mt. Adams.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak evening hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during peak dinner and bar hours.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Bar-forward layout influences traffic patterns.",
-    "Activity increases noticeably after dinner hours.",
-    "Weekend evenings bring the most consistent traffic."
-  ]
+name: "The Eagle OTR",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Two-level restaurant with bar seating and closely arranged dining tables. Typically lighter during weekday afternoons and noticeably busier during dinner hours and weekends.",
+
+environment: {
+parking: "Street parking and nearby OTR garages.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Common during peak dinner hours",
+location: "Inside venue"
+},
+noise: "Moderate to High; increases during peak dinner service.",
+exits: "Street-level entrance."
+},
+
+insights: [
+"High traffic during dinner hours.",
+"Weekend wait times are common.",
+"Activity increases steadily after 5 pm."
+]
 },
 
 {
-  name: "Mt. Adams Bar & Grill",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Neighborhood bar and restaurant with indoor seating and patio space. Typically steady during the day and busier during evening hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak evening hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Patio and street access available."
-  },
-  insights: [
-    "Locally driven neighborhood spot.",
-    "Activity builds gradually through the evening.",
-    "Weekend nights bring the most noticeable crowd levels."
-  ]
+name: "Ruth’s Chris Steak House",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Upscale, structured dining room with traditional table seating. Generally calm during weekday evenings and busier during weekend dinner hours.",
+
+environment: {
+parking: "Valet and nearby downtown garages.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon",
+location: "Inside main dining area"
+},
+noise: "Low to Moderate; conversation-friendly.",
+exits: "Street-level access."
+},
+
+insights: [
+"Reservation-driven and paced environment.",
+"Consistent, controlled atmosphere.",
+"Weekend evenings bring fuller dining rooms."
+]
 },
 
 {
-  name: "City View Tavern",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Small bar and restaurant with indoor seating and a patio overlooking the city. Typically calmer earlier in the day and busier during evening hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during busy evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Patio access available."
-  },
-  insights: [
-    "Patio and city views drive visitor traffic.",
-    "Outdoor seating draws many first-time visitors.",
-    "Evening hours bring the most activity."
-  ]
+name: "The Precinct",
+city: "Cincinnati",
+neighborhood: "Columbia Tusculum",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
+whatToExpect:
+"Multi-room steakhouse set in a historic building with structured table layouts. Generally calm earlier in the evening, with busier dinner hours and weekends.",
+
+environment: {
+parking: "Valet. On-site parking lot available.",
+restrooms: {
+capacity: "Indoor; accessible",
+waits: "Uncommon",
+location: "Inside building"
+},
+noise: "Low to Moderate; conversation-friendly throughout most hours.",
+exits: "Multiple building exits."
 },
 
-{
-  name: "The Hilltop",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Bar with indoor seating and a rooftop patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during weekend nights",
-      location: "Inside venue"
-    },
-    noise: "Moderate to High; increases late at night.",
-    exits: "Street and rooftop access available."
-  },
-  insights: [
-    "Nightlife-oriented traffic pattern.",
-    "Activity increases after dinner hours.",
-    "Weekend nights bring the highest crowd levels."
-  ]
-},
-
-{
-  name: "Your Mom’s Pizzeria",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Small counter-service pizza spot with limited seating. Typically busiest during late-night hours and weekend evenings.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Uncommon",
-      location: "Inside venue"
-    },
-    noise: "Moderate; varies depending on crowd size.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Quick-stop oriented layout.",
-    "Late-night hours bring the most activity.",
-    "Traffic remains steady rather than event-driven."
-  ]
-},
-
-{
-  name: "The Blind Lemon",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Small bar with indoor seating and a secluded outdoor patio. Typically calm earlier in the evening and busier during live music nights and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during busy nights",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during live music.",
-    exits: "Patio and street access available."
-  },
-  insights: [
-    "Patio-centered layout shapes the experience.",
-    "Live music strongly influences activity.",
-    "Weekend evenings bring the most visitors."
-  ]
-},
-
-{
-  name: "Crowley’s Highland House Cafe",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Neighborhood bar with a compact interior and traditional bar layout. Generally steady during the day and busier during evening hours.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during busy evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Locally driven with consistent traffic.",
-    "Activity builds gradually through the evening.",
-    "Weekends bring the fullest seating."
-  ]
-},
-
-{
-  name: "Monk’s Cove",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Bar with a small interior and close seating arrangement. Typically quieter earlier in the evening and busier later at night.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during weekend nights",
-      location: "Inside venue"
-    },
-    noise: "Moderate to High; higher during weekend nights.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Night-focused bar traffic.",
-    "Activity increases later in the evening.",
-    "Weekend nights bring the highest crowd levels."
-  ]
-},
-
-{
-  name: "The View at Mt. Adams",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Restaurant and bar with large windows and outdoor seating overlooking the city. Typically lighter earlier in the day and busier during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak evenings",
-      location: "Inside venue"
-    },
-    noise: "Moderate; higher during weekend evenings.",
-    exits: "Patio and street access available."
-  },
-  insights: [
-    "View-driven destination spot.",
-    "Window and patio seating attract most visitors.",
-    "Evenings bring the most consistent traffic."
-  ]
-},
-
-{
-  name: "Hi-Fi Cincy",
-  city: "Cincinnati",
-   neighborhood: "Mt. Adams",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Bar with indoor seating and an entertainment-focused layout. Typically quiet during the day and busier during evening hours and weekends.",
-  environment: {
-    parking: "Street parking nearby.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during busy nights",
-      location: "Inside venue"
-    },
-    noise: "High; especially during late-night hours.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "Music and nightlife oriented environment.",
-    "Activity increases significantly after dinner hours.",
-    "Weekend nights bring the highest crowd levels."
-  ]
-},
-   
-{
-  name: "Court Street Kitchen",
-  city: "Cincinnati",
-   neighborhood: "Downtown",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Street-level restaurant with a compact dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking and nearby downtown garages.",
-    restrooms: {
-      capacity: "Indoor; limited capacity",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main dining area"
-    },
-    noise: "Moderate; increases as tables fill.",
-    exits: "Direct sidewalk access."
-  },
-  insights: [
-    "Neighborhood-oriented and steady in pace.",
-    "Activity builds gradually into the evening.",
-    "Weekends bring fuller seating compared to midweek."
-  ]
-},
-
-{
-  name: "Alcove by MadTree Brewing",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Modern restaurant with indoor seating and patio space in a mixed-use development. Generally calm earlier in the day and busier during dinner service and weekends.",
-  environment: {
-    parking: "Dedicated lot and shared development parking available.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Possible during peak dinner hours",
-      location: "Inside main building"
-    },
-    noise: "Moderate; higher during peak dinner service.",
-    exits: "Patio and street-level access available."
-  },
-  insights: [
-    "Open, contemporary layout.",
-    "Evenings bring a noticeable increase in traffic.",
-    "Structured atmosphere rather than nightlife-driven."
-  ]
-},
-
-{
-  name: "The Eagle OTR",
-  city: "Cincinnati",
-   neighborhood: "OTR",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Two-level restaurant with bar seating and closely arranged dining tables. Typically lighter during weekday afternoons and noticeably busier during dinner hours and weekends.",
-  environment: {
-    parking: "Street parking and nearby OTR garages.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Common during peak dinner hours",
-      location: "Inside venue"
-    },
-    noise: "Moderate to High; increases during peak dinner service.",
-    exits: "Street-level entrance."
-  },
-  insights: [
-    "High traffic during dinner hours.",
-    "Weekend wait times are common.",
-    "Activity increases steadily after 5 pm."
-  ]
-},
-
-{
-  name: "Ruth’s Chris Steak House",
-  city: "Cincinnati",
-   neighborhood: "The Banks",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Upscale, structured dining room with traditional table seating. Generally calm during weekday evenings and busier during weekend dinner hours.",
-  environment: {
-    parking: "Valet and nearby downtown garages.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon",
-      location: "Inside main dining area"
-    },
-    noise: "Low to Moderate; conversation-friendly.",
-    exits: "Street-level access."
-  },
-  insights: [
-    "Reservation-driven and paced environment.",
-    "Consistent, controlled atmosphere.",
-    "Weekend evenings bring fuller dining rooms."
-  ]
-},
-
-{
-  name: "The Precinct",
-  city: "Cincinnati",
-   neighborhood: "Columbia Tusculum",
-  state: "OH",
-  type: "full",
-  whatToExpect:
-    "Multi-room steakhouse set in a historic building with structured table layouts. Generally calm earlier in the evening, with busier dinner hours and weekends.",
-  environment: {
-    parking: "Valet. On-site parking lot available.",
-    restrooms: {
-      capacity: "Indoor; accessible",
-      waits: "Uncommon",
-      location: "Inside building"
-    },
-    noise: "Low to Moderate; conversation-friendly throughout most hours.",
-    exits: "Multiple building exits."
-  },
-  insights: [
-    "Steady and organized even when full.",
-    "Multi-room layout changes the feel depending on seating.",
-    "Dinner hours shape most of the activity."
-  ]
+insights: [
+"Steady and organized even when full.",
+"Multi-room layout changes the feel depending on seating.",
+"Dinner hours shape most of the activity."
+]
 },
 
 {
