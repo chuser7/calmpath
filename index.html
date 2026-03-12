@@ -15,7 +15,6 @@ gtag('config', 'G-2E1R2DVVXQ');
 </script>
 
 <style>
-
 body {
 font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 background: #f6f7f9;
@@ -76,8 +75,6 @@ color: #666;
 margin-bottom: 6px;
 }
 
-/* Snapshot Grid */
-
 .snapshot {
 margin: 12px 0 8px 0;
 }
@@ -130,7 +127,7 @@ border-radius: 8px;
 max-height: 260px;
 overflow-y: auto;
 background: white;
-margin-top: 4px;
+margin-top: 6px;
 box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 z-index: 1000;
 }
@@ -145,64 +142,6 @@ font-size: 15px;
 background: #f7f7f7;
 }
 
-.coverage {
-font-size: 13px;
-color: #777;
-margin-top: 6px;
-margin-bottom: 14px;
-}
-
-/* QUICK FILTERS */
-
-.quick-filters {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.filter-group {
-margin-bottom: 8px;
-}
-
-.filter-btn {
-padding: 6px 12px;
-margin: 4px;
-border-radius: 20px;
-border: 1px solid #ccc;
-background: white;
-cursor: pointer;
-font-size: 13px;
-}
-
-.filter-btn.active {
-background: #111;
-color: white;
-border-color: #111;
-}
-  
-/* Featured place card */
-
-.featured-card{
-background:#f7f7f7;
-border:1px solid #e2e2e2;
-border-radius:10px;
-padding:16px;
-margin-top:14px;
-max-width:500px;
-}
-
-.featured-card strong{
-font-size:16px;
-}
-
-.featured-card .suggestion-item{
-cursor:pointer;
-padding-top:6px;
-}
-
-.featured-card:hover{
-background:#f1f1f1;
-}
-  
 </style>
 </head>
 
@@ -215,8 +154,8 @@ background:#f1f1f1;
 See parking, noise, restrooms, and layout before you go.
 </p>
 
-<p class="coverage">
-430+ places across Cincinnati, OH and Northern Kentucky
+<p style="margin-top:10px;font-weight:600;">
+431+ venues across Cincinnati & Northern Kentucky
 </p>
 
 <div class="search-container">
@@ -231,333 +170,9 @@ oninput="searchPlace()"
 
 </div>
 
-<!-- QUICK FILTERS -->
-
-<div class="quick-filters">
-
-<div class="filter-group">
-<strong>Parking</strong><br>
-<button class="filter-btn" data-filter="parking" data-value="Easy">Easy</button>
-<button class="filter-btn" data-filter="parking" data-value="Moderate">Moderate</button>
-<button class="filter-btn" data-filter="parking" data-value="Limited">Limited</button>
-</div>
-
-<div class="filter-group">
-<strong>Noise</strong><br>
-<button class="filter-btn" data-filter="noise" data-value="Low">Low</button>
-<button class="filter-btn" data-filter="noise" data-value="Moderate">Moderate</button>
-<button class="filter-btn" data-filter="noise" data-value="High">High</button>
-</div>
-
-<div class="filter-group">
-<strong>Neighborhood</strong><br>
-
-<select id="neighborhoodFilter">
-
-<option value="">All</option>
-
-<option value="OTR">OTR</option>
-<option value="Hyde Park">Hyde Park</option>
-<option value="Covington">Covington</option>
-<option value="Newport">Newport</option>
-<option value="MainStrasse">MainStrasse</option>
-<option value="Roebling/Riverfront">Roebling / Riverfront</option>
-<option value="Blue Ash">Blue Ash</option>
-<option value="Montgomery">Montgomery</option>
-  <option value="Kenwood">Kenwood</option>
-  <option value="Oakley">Oakley</option>
-  <option value="Crescent Springs">Crescent Springs</option>
-  <option value="Rookwood">Rookwood</option>
-<option value="Price Hill">Price Hill</option>
-  <option value="Mt. Lookout">Mt. Lookout</option>
-  <option value="Pleasant Ridge">Pleasant Ridge</option>
-  <option value="Clifton">Clifton</option>
-  <option value="Mt. Adams">Mt. Adams</option>
-  <option value="Florence">Florence</option>
-  
-</select>
-
-</div>
-
-</div>
-
-<div id="featured-place"></div>  
-<div id="results-count"></div>
-<div id="results-list"></div>
+<div id="result"></div>
 
 <script src="places.js"></script>
 
-<script>
-  
-/* ---------------- VARIABLES ---------------- */
-
-let activeFilters = {
-parking: null,
-noise: null,
-neighborhood: null
-};
-
-const filterButtons = document.querySelectorAll(".filter-btn");
-const resultsCount = document.getElementById("results-count");
-const resultsList = document.getElementById("results-list");
-const suggestions = document.getElementById("suggestions");
-const searchInput = document.getElementById("search");
-const neighborhoodDropdown = document.getElementById("neighborhoodFilter");
-const featuredContainer = document.getElementById("featured-place");
-
-
-/* ---------------- FEATURED PLACE ---------------- */
-
-function showFeaturedPlace(){
-
-if(!featuredContainer) return;
-
-const randomPlace = places[Math.floor(Math.random() * places.length)];
-
-featuredContainer.innerHTML = `
-<div class="featured-card">
-
-<strong>Featured Place</strong><br><br>
-
-<div class="suggestion-item featured-item">
-
-<strong>${randomPlace.name}</strong><br>
-
-<span style="font-size:13px;color:#666">
-${randomPlace.neighborhood ? randomPlace.neighborhood : randomPlace.city}
-</span>
-
-</div>
-
-</div>
-`;
-
-/* attach click safely */
-
-const featuredItem = featuredContainer.querySelector(".featured-item");
-
-if(featuredItem){
-featuredItem.addEventListener("click", () => renderPlace(randomPlace));
-}
-
-}
-
-
-/* ---------------- SEARCH ---------------- */
-
-function searchPlace(){
-
-const query = searchInput.value.toLowerCase();
-
-suggestions.innerHTML = "";
-
-if(query.length === 0){
-return;
-}
-
-const matches = places
-.filter(place => place.name.toLowerCase().includes(query))
-.slice(0,8);
-
-matches.forEach(place => {
-
-const div = document.createElement("div");
-
-div.className = "suggestion-item";
-
-div.innerHTML = place.name;
-
-div.addEventListener("click", () => {
-
-searchInput.value = place.name;
-
-suggestions.innerHTML = "";
-
-renderPlace(place);
-
-});
-
-suggestions.appendChild(div);
-
-});
-
-}
-
-
-/* ---------------- FILTER BUTTONS ---------------- */
-
-filterButtons.forEach(button => {
-
-button.addEventListener("click", () => {
-
-const type = button.dataset.filter;
-const value = button.dataset.value;
-
-if(activeFilters[type] === value){
-
-activeFilters[type] = null;
-button.classList.remove("active");
-
-}else{
-
-document
-.querySelectorAll(`[data-filter="${type}"]`)
-.forEach(btn => btn.classList.remove("active"));
-
-activeFilters[type] = value;
-button.classList.add("active");
-
-}
-
-applyFilters();
-
-});
-
-});
-
-
-/* ---------------- NEIGHBORHOOD DROPDOWN ---------------- */
-
-if(neighborhoodDropdown){
-
-neighborhoodDropdown.addEventListener("change", () => {
-
-const value = neighborhoodDropdown.value;
-
-activeFilters.neighborhood = value === "" ? null : value;
-
-applyFilters();
-
-});
-
-}
-
-
-/* ---------------- APPLY FILTERS ---------------- */
-
-function applyFilters(){
-
-const searchQuery = searchInput ? searchInput.value.trim() : "";
-
-const filtersActive =
-activeFilters.parking ||
-activeFilters.noise ||
-activeFilters.neighborhood;
-
-/* SHOW FEATURED IF NOTHING SELECTED */
-
-if(!filtersActive && searchQuery === ""){
-
-resultsCount.innerHTML = "";
-resultsList.innerHTML = "";
-
-showFeaturedPlace();
-
-return;
-
-}
-
-/* HIDE FEATURED WHEN FILTERS USED */
-
-if(featuredContainer){
-featuredContainer.innerHTML = "";
-}
-
-const filtered = places.filter(place => {
-
-let parkingMatch = true;
-let noiseMatch = true;
-let neighborhoodMatch = true;
-let searchMatch = true;
-
-if(searchQuery){
-searchMatch = place.name.toLowerCase().includes(searchQuery.toLowerCase());
-}
-
-if(activeFilters.parking){
-parkingMatch = place.parkingLevel === activeFilters.parking;
-}
-
-if(activeFilters.noise){
-noiseMatch = place.noiseLevel === activeFilters.noise;
-}
-
-if(activeFilters.neighborhood){
-neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
-}
-
-return parkingMatch && noiseMatch && neighborhoodMatch && searchMatch;
-
-});
-
-renderResults(filtered);
-
-}
-
-
-/* ---------------- RENDER RESULTS ---------------- */
-
-function renderResults(list){
-
-resultsList.innerHTML = "";
-
-if(list.length === 0){
-
-resultsCount.innerHTML = "No places found";
-return;
-
-}
-
-resultsCount.innerHTML = `<strong>${list.length} places found</strong>`;
-
-list.forEach(place => {
-
-const div = document.createElement("div");
-
-div.className = "suggestion-item";
-
-div.innerHTML = `
-<strong>${place.name}</strong><br>
-<span style="font-size:13px;color:#666">
-${place.neighborhood ? place.neighborhood : place.city}
-</span>
-`;
-
-div.onclick = () => renderPlace(place);
-
-resultsList.appendChild(div);
-
-});
-
-}
-
-
-/* ---------------- CLEAR FILTERS ---------------- */
-
-function clearFilters(){
-
-activeFilters = {
-parking: null,
-noise: null,
-neighborhood: null
-};
-
-filterButtons.forEach(btn => btn.classList.remove("active"));
-
-if(neighborhoodDropdown){
-neighborhoodDropdown.value = "";
-}
-
-resultsCount.innerHTML = "";
-resultsList.innerHTML = "";
-
-showFeaturedPlace();
-
-}
-
-
-/* ---------------- INITIAL LOAD ---------------- */
-
-showFeaturedPlace();
-
-</script>
+</body>
+</html>
