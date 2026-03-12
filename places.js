@@ -3451,6 +3451,9 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
+parkingLevel: "Limited",
+noiseLevel: "Low",
+
 whatToExpect:
 "Local café with table seating and a relaxed neighborhood atmosphere near Mt. Lookout Square. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
 
@@ -3478,6 +3481,9 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Limited",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Mediterranean restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with busier dinner periods and weekend activity.",
@@ -3507,6 +3513,9 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
+parkingLevel: "Limited",
+noiseLevel: "Low",
+
 whatToExpect:
 "Italian café and market with table seating and counter service near Mt. Lookout Square. Typically steady during lunch hours, with quieter periods in the afternoon and early evening.",
 
@@ -3534,6 +3543,9 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Limited",
+noiseLevel: "Low",
 
 whatToExpect:
 "Walk-up ice cream stand with outdoor ordering and limited seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
@@ -3563,6 +3575,9 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Neighborhood bar and grill with a large bar area and casual seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
 
@@ -3583,15 +3598,20 @@ insights: [
 "Weekend nights tend to bring the largest crowds."
 ]
 },
-   
-   {
+
+{
 name: "Delwood",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood restaurant with a structured dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around Mt. Lookout Square.",
 restrooms: {
@@ -3602,6 +3622,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady evening traffic.",
 "First-timers note activity builds after typical work hours.",
@@ -3615,8 +3636,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Classic neighborhood restaurant with bar seating and table service. Typically steady during lunch hours and busier during dinner periods and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3627,6 +3653,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as consistently busy during lunch and dinner.",
 "First-timers note activity increases around midday.",
@@ -3640,8 +3667,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with table seating and a compact dining layout. Typically calmer earlier in the day and busier during dinner service and weekends.",
+
 environment: {
 parking: "Street parking around Mt. Lookout Square.",
 restrooms: {
@@ -3652,6 +3684,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-oriented.",
 "First-timers notice activity increases after 5 pm.",
@@ -3665,8 +3698,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Large bar with multiple floors and outdoor patio seating. Typically lighter earlier in the day and significantly busier during evening hours and weekends.",
+
 environment: {
 parking: "Street parking around Mt. Lookout Square.",
 restrooms: {
@@ -3677,6 +3715,7 @@ location: "Inside venue"
 noise: "High.",
 exits: "Patio and street-level access available."
 },
+
 insights: [
 "Often described as nightlife-oriented, especially on weekends.",
 "First-timers note activity increases significantly later in the evening.",
@@ -3690,8 +3729,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and bar with a modern interior and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekend evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3702,6 +3746,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as bar-forward during evening hours.",
 "First-timers notice activity builds steadily through dinner service.",
@@ -3715,8 +3760,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant and wine bar with indoor seating and patio space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around Mt. Lookout Square.",
 restrooms: {
@@ -3727,6 +3777,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Patio and street-level access available."
 },
+
 insights: [
 "Often described as evening-focused with steady dinner traffic.",
 "First-timers note patio seating draws visitors during warm weather.",
@@ -3740,8 +3791,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Restaurant with a traditional dining layout and sushi bar seating. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3752,6 +3808,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during lunch and dinner.",
 "First-timers note activity increases during evening service.",
@@ -3765,8 +3822,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3777,6 +3839,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-service with steady dining traffic.",
 "First-timers notice lunch and dinner bring the most activity.",
@@ -3790,8 +3853,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking around Mt. Lookout Square.",
 restrooms: {
@@ -3802,6 +3870,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady evening traffic.",
 "First-timers notice activity builds after typical work hours.",
@@ -3815,8 +3884,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3827,6 +3901,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during dinner service.",
 "First-timers note evenings bring the most activity.",
@@ -3840,8 +3915,13 @@ city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small café with counter ordering and limited seating. Typically busiest during morning hours and early afternoons.",
+
 environment: {
 parking: "Street parking around Mt. Lookout Square.",
 restrooms: {
@@ -3852,6 +3932,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with short visits.",
 "First-timers note breakfast hours bring the most activity.",
@@ -3865,8 +3946,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Counter-service restaurant with a straightforward ordering line and casual seating. Typically busiest during lunch hours and early evening periods.",
+
 environment: {
 parking: "Street parking along nearby Clifton streets.",
 restrooms: {
@@ -3877,6 +3963,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-stop oriented with short visits.",
 "Lunch hours bring the most consistent activity.",
@@ -3890,8 +3977,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small restaurant with a casual dining layout and counter ordering. Typically calmer mid-afternoon and busier during lunch and early dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3902,6 +3994,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady during midday hours.",
 "First-time visitors note traffic builds around lunch.",
@@ -3915,8 +4008,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3927,6 +4025,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-service with short visit times.",
 "Lunch and late-night hours bring the most traffic.",
@@ -3940,8 +4039,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Compact café-style space with counter ordering and small seating areas. Typically busiest during dessert hours and late evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3952,6 +4056,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dessert-focused with short visits.",
 "First-timers notice increased activity after dinner hours.",
@@ -3965,8 +4070,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Dining-focused restaurant with table seating and a bar area. Typically calmer during weekday afternoons and busier during dinner hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -3977,6 +4087,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-oriented.",
 "First-timers note traffic increases steadily after 5 pm.",
@@ -3990,8 +4101,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Street-level restaurant with a traditional dining layout. Typically steady during lunch hours and busier during dinner periods.",
+
 environment: {
 parking: "Street parking along Vine Street.",
 restrooms: {
@@ -4002,6 +4118,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as steady throughout the day.",
 "First-timers note activity increases during evening service.",
@@ -4015,8 +4132,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Casual restaurant with bar seating and a compact dining room. Typically busiest during breakfast, brunch, and weekend mornings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4027,6 +4149,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as morning-focused with high brunch traffic.",
 "First-timers notice weekend mornings bring the most activity.",
@@ -4040,8 +4163,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Small counter-service restaurant with limited seating. Typically busiest during lunch and early evening hours.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4052,6 +4180,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-stop oriented.",
 "Lunch hours bring the most consistent traffic.",
@@ -4065,8 +4194,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and late evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4077,6 +4211,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as quick-service with shorter visits.",
 "Lunch and late-night hours bring the most traffic.",
@@ -4090,8 +4225,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with a mix of counter ordering and dining tables. Typically calmer mid-afternoon and busier during lunch and dinner periods.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4102,6 +4242,7 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as lunch and dinner focused.",
 "First-timers note activity increases around midday.",
@@ -4115,8 +4256,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Casual restaurant and bakery with counter ordering and dining tables. Typically steady during lunch hours and early evenings.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4127,6 +4273,7 @@ location: "Inside venue"
 noise: "Low to Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as consistent throughout the day.",
 "First-timers note lunch brings the most activity.",
@@ -4140,8 +4287,13 @@ city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Restaurant with bar seating and a compact dining area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
@@ -4152,13 +4304,14 @@ location: "Inside venue"
 noise: "Moderate.",
 exits: "Street-level entrance."
 },
+
 insights: [
 "Often described as dinner-focused with steady traffic.",
 "First-timers note evenings bring fuller tables.",
 "Weekend nights show the highest activity."
 ]
 },
-
+   
 {
 name: "Sichuan Palace",
 city: "Cincinnati",
