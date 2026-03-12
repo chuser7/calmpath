@@ -337,13 +337,22 @@ let parkingMatch = true;
 let noiseMatch = true;
 let neighborhoodMatch = true;
 
+
+/* PARKING FILTER */
+
 if(activeFilters.parking){
-parkingMatch = place.parking?.includes(activeFilters.parking);
+parkingMatch = place.parkingLevel === activeFilters.parking;
 }
 
+
+/* NOISE FILTER */
+
 if(activeFilters.noise){
-noiseMatch = place.noise?.includes(activeFilters.noise);
+noiseMatch = place.noiseLevel === activeFilters.noise;
 }
+
+
+/* NEIGHBORHOOD FILTER */
 
 if(activeFilters.neighborhood){
 neighborhoodMatch = place.neighborhood === activeFilters.neighborhood;
@@ -381,7 +390,7 @@ div.className = "suggestion-item";
 
 div.innerHTML = `
 <strong>${place.name}</strong><br>
-<span style="font-size:13px;color:#666">${place.neighborhood}</span>
+<span style="font-size:13px;color:#666">${place.city}</span>
 `;
 
 div.onclick = () => renderPlace(place);
