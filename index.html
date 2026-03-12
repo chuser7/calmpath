@@ -348,6 +348,21 @@ applyFilters();
 
 });
 
+  /* ------------- NEIGHBORHOOD DROPDOWN ------------- */
+
+const neighborhoodSelect = document.getElementById("neighborhood");
+
+if (neighborhoodSelect) {
+
+  neighborhoodSelect.addEventListener("change", function () {
+
+    activeFilters.neighborhood = this.value || null;
+
+    applyFilters();
+
+  });
+
+}
 
 /* ---------------- APPLY FILTERS ---------------- */
 
