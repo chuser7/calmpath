@@ -319,44 +319,59 @@ suggestions.appendChild(div);
 
 /* ---------------- FILTER BUTTONS ---------------- */
 
+const filterButtons = document.querySelectorAll("[data-filter]");
+
+let activeFilters = {
+  parking: null,
+  noise: null,
+  neighborhood: null
+};
+
 filterButtons.forEach(button => {
 
-button.addEventListener("click", () => {
+  button.addEventListener("click", () => {
 
-const type = button.dataset.filter;
-const value = button.dataset.value;
+    const type = button.dataset.filter;
+    const value = button.dataset.value;
 
-if(activeFilters[type] === value){
+    /* TOGGLE OFF IF CLICKED AGAIN */
 
-activeFilters[type] = null;
-button.classList.remove("active");
+    if (activeFilters[type] === value) {
 
-}else{
+      activeFilters[type] = null;
+      button.classList.remove("active");
 
-document
-.querySelectorAll(`[data-filter="${type}"]`)
-.forEach(btn => btn.classList.remove("active"));
+    } else {
 
-activeFilters[type] = value;
-button.classList.add("active");
+      /* REMOVE ACTIVE FROM OTHER BUTTONS OF SAME TYPE */
 
-}
+      document
+        .querySelectorAll(`[data-filter="${type}"]`)
+        .forEach(btn => btn.classList.remove("active"));
 
-applyFilters();
+      activeFilters[type] = value;
+      button.classList.add("active");
+
+    }
+
+    applyFilters();
+
+  });
 
 });
 
-});
 
-  /* ------------- NEIGHBORHOOD DROPDOWN ------------- */
+/* ---------------- NEIGHBORHOOD DROPDOWN ---------------- */
 
-const neighborhoodSelect = document.getElementById("neighborhood");
+const neighborhoodDropdown = document.getElementById("neighborhood");
 
-if (neighborhoodSelect) {
+if (neighborhoodDropdown) {
 
-  neighborhoodSelect.addEventListener("change", function () {
+  neighborhoodDropdown.addEventListener("change", () => {
 
-    activeFilters.neighborhood = this.value || null;
+    const value = neighborhoodDropdown.value;
+
+    activeFilters.neighborhood = value === "" ? null : value;
 
     applyFilters();
 
