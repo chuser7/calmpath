@@ -258,10 +258,11 @@ const type = button.dataset.filter;
 const value = button.dataset.value;
 
 if(activeFilters[type] === value){
+
 activeFilters[type] = null;
 button.classList.remove("active");
-}
-else{
+
+}else{
 
 document.querySelectorAll(`[data-filter="${type}"]`)
 .forEach(btn => btn.classList.remove("active"));
@@ -276,6 +277,7 @@ applyFilters();
 });
 
 });
+
 
 function applyFilters(){
 
@@ -301,22 +303,33 @@ return parkingMatch && noiseMatch && neighborhoodMatch;
 
 });
 
-renderPlaces(filtered);
+renderFilteredPlaces(filtered);
 
 }
 
-function renderPlaces(list){
+
+
+function renderFilteredPlaces(list){
 
 const countDiv = document.getElementById("results-count");
 const resultsDiv = document.getElementById("results-list");
 
-countDiv.innerHTML = `<strong>${list.length} places found</strong>`;
+if(list.length === 0){
+
+countDiv.innerHTML = "No places found";
+resultsDiv.innerHTML = "";
+return;
+
+}
+
+countDiv.innerHTML = "<strong>" + list.length + " places found</strong>";
 
 resultsDiv.innerHTML = "";
 
 list.forEach(place => {
 
 const item = document.createElement("div");
+
 item.className = "result-item";
 
 item.innerHTML = `
@@ -325,7 +338,7 @@ item.innerHTML = `
 `;
 
 item.addEventListener("click", () => {
-openPlace(place);
+showPlace(place);
 });
 
 resultsDiv.appendChild(item);
