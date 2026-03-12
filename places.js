@@ -5694,37 +5694,6 @@ insights: [
 },
 
 {
-name: "York Street Cafe",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant with eclectic decor and table seating along the York Street corridor. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Upstairs"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
 name: "Brothers Bar & Grill – Newport",
 city: "Newport",
 neighborhood: "",
