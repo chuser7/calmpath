@@ -506,6 +506,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Restaurant with table seating and a small bar area on Republic Street in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
 
@@ -533,6 +536,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Japanese restaurant with bar seating and table dining in the OTR district. Typically relaxed earlier in the day with steady dinner traffic and weekend visits.",
@@ -562,6 +568,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Bar and grill with a large bar area and casual seating near Washington Park. Typically calmer earlier in the day with increased activity during evenings and sports events.",
 
@@ -589,6 +598,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Outdoor bar with a large courtyard and multiple seating areas in OTR. Typically relaxed earlier in the day with increased activity during evening hours and weekends.",
@@ -618,6 +630,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Neighborhood bar with a casual atmosphere and bar seating along the Vine Street corridor. Typically quieter earlier in the day with more activity later at night.",
 
@@ -645,6 +660,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
 "Wine and bottle shop with bar seating and small table areas in OTR. Typically calmer earlier in the evening with steady social visits later at night.",
@@ -674,6 +692,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Large entertainment venue with bars, games, and open social spaces near the OTR nightlife district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
 
@@ -702,6 +723,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Arcade bar with vintage video games and bar seating in the OTR entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
 
@@ -722,13 +746,16 @@ insights: [
 "Weekend nights usually bring the most visitors."
 ]
 },
-   
-   {
+
+{
 name: "Five Kitchen + Bar",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant and bar with table seating and a casual dining layout near the Vine Street corridor in OTR. Typically quieter earlier in the evening with steady dinner service and weekend activity.",
@@ -758,6 +785,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Brewery and distillery with table seating, bar service, and a large indoor taproom space. Typically relaxed earlier in the day with increased activity during evenings and weekend visits.",
 
@@ -785,6 +815,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
 "Neighborhood bar and live music venue with bar seating and a performance space. Typically quieter earlier in the day with more activity during evening shows and weekend nights.",
@@ -814,6 +847,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Bar with a large outdoor courtyard and indoor seating areas in the OTR district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
 
@@ -841,6 +877,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Bar and restaurant with table seating and a bar area along the Vine Street corridor in OTR. Typically calmer earlier in the evening with steady dinner and bar activity later at night.",
@@ -870,6 +909,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Wine bar with indoor seating and an outdoor patio along Vine Street in OTR. Typically relaxed earlier in the evening with steady wine bar activity later at night.",
 
@@ -897,6 +939,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Brewery taproom with bar seating and tables throughout the space in OTR. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
@@ -926,6 +971,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Vietnamese restaurant with table seating located near Findlay Market in OTR. Typically steady during lunch hours with continued traffic during dinner service.",
 
@@ -953,6 +1001,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Modern Mexican restaurant with bar seating and multiple dining areas in the downtown dining district. Typically calmer earlier in the day with busier dinner service and weekend activity.",
@@ -982,6 +1033,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
 whatToExpect:
 "Italian restaurant with a basement dining room and bar seating near the downtown dining corridor. Typically quieter earlier in the evening with steady dinner reservations later in the night.",
 
@@ -1009,6 +1063,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Italian restaurant with indoor dining and patio seating near Fountain Square. Typically calmer earlier in the evening with steady dinner service and weekend visits.",
@@ -1038,6 +1095,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
 whatToExpect:
 "Karaoke bar with themed rooms and a central bar area in the downtown entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
 
@@ -1065,6 +1125,9 @@ city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Restaurant and bar with table seating and a music-themed dining environment in the downtown entertainment district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
@@ -1094,6 +1157,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Belgian-inspired restaurant with table seating and a bar area near Findlay Market in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
 
@@ -1114,13 +1180,16 @@ insights: [
 "Weekend brunch hours tend to bring the most activity."
 ]
 },
-   
-   {
+
+{
 name: "Abigail Street",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
 type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
 "Mediterranean restaurant with table seating and a bar area along Vine Street in OTR. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
@@ -1150,6 +1219,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Modern diner-style restaurant with table seating and a bar area on Vine Street in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
 
@@ -1178,6 +1250,9 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
 whatToExpect:
 "Asian street food restaurant with table seating and counter ordering in OTR. Typically steady during dinner hours with weekend evenings bringing more activity.",
 
@@ -1198,7 +1273,7 @@ insights: [
 "Weekend evenings usually see the most activity."
 ]
 },
-
+   
 {
 name: "Ché OTR",
 city: "Cincinnati",
