@@ -319,7 +319,7 @@ featuredContainer.innerHTML = `
 
 <strong>Featured Place</strong><br><br>
 
-<div class="suggestion-item featured-item">
+<div class="suggestion-item" onclick="renderPlaceByName('${randomPlace.name}')">
 
 <strong>${randomPlace.name}</strong><br>
 
@@ -331,8 +331,6 @@ ${randomPlace.neighborhood ? randomPlace.neighborhood : randomPlace.city}
 
 </div>
 `;
-
-document.querySelector(".featured-item").onclick = () => renderPlace(randomPlace);
 
 }
 
