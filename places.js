@@ -8266,30 +8266,6 @@ insights: [
 ]
 },
 
-{
-name: "Chart House",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Large riverfront restaurant with multiple dining areas and panoramic windows overlooking the river. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
-
-environment: {
-parking: "Dedicated parking lot available.",
-restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
-},
-noise: "Moderate.",
-exits: "Riverfront patio access available."
-},
-
 insights: [
 "Often described as view-oriented with steady dinner traffic.",
 "First-timers notice sunset hours bring the most activity.",
