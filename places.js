@@ -12366,6 +12366,195 @@ insights: [
 },
 
 {
+name: "The Globe",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with a relaxed atmosphere and a mix of bar seating and small tables. Typically quieter earlier in the day with increased activity during evening hours.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Afternoons often feel calmer.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "The Hannaford",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood restaurant and bar with a casual dining room and bar seating along the MainStrasse corridor. Typically steady during dinner hours with weekend activity.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking and nearby public lots.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Rarely long waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Early dinners tend to feel calmer.",
+"Evenings bring couples and small groups.",
+"Weekend nights usually see the most activity."
+]
+},
+
+{
+name: "The Lagoon Saloon",
+city: "Ludlow",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+parkingLevel: "Moderate",
+noiseLevel: "High",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during peak nightlife hours",
+location: "Inside venue"
+},
+noise: "Moderate to High",
+exits: "Patio and street-level access available."
+},
+insights: [
+"Often described as bar-focused with evening activity.",
+"Traffic increases later in the evening.",
+"Weekend nights bring the highest crowd levels."
+]
+},
+
+{
+name: "The Mercer OTR",
+city: "Cincinnati",
+neighborhood: "Over-the-Rhine",
+state: "OH",
+type: "full",
+whatToExpect:
+"Upscale restaurant with a large open dining room and bar seating in the Over-the-Rhine dining district. Typically steady during dinner hours with busy weekend reservations.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking and nearby public garages.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Rarely long waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Early dinners often feel calmer.",
+"Dinner service attracts couples and groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Through the Garden",
+city: "Cincinnati",
+neighborhood: "Over-the-Rhine",
+state: "OH",
+type: "full",
+whatToExpect:
+"Wine bar and small plates restaurant with a cozy interior and intimate seating layout. Typically calmer earlier in the evening with steady late evening traffic.",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+environment: {
+parking: "Street parking and nearby garages.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rarely long waits",
+location: "Inside the venue"
+},
+noise: "Low to Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Early evening visits often feel relaxed.",
+"Couples and small groups are common.",
+"Weekend nights tend to bring the most activity."
+]
+},
+
+{
+name: "Wooden Cask Brewery",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Brewery with a large open taproom, bar seating, and casual table seating. Often hosts events and live music with increased activity during evenings and weekends.",
+parkingLevel: "Moderate",
+noiseLevel: "High",
+environment: {
+parking: "Street parking and nearby lots.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during busy events",
+location: "Inside near the back"
+},
+noise: "High",
+exits: "Street-level entrance."
+},
+insights: [
+"Afternoons can feel quieter outside events.",
+"Evenings bring groups and social gatherings.",
+"Weekend nights and events bring the largest crowds."
+]
+},
+
+{
+name: "Wunderbar",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+whatToExpect:
+"German-style beer bar with bar seating, communal tables, and a lively social atmosphere in the MainStrasse district.",
+parkingLevel: "Moderate",
+noiseLevel: "High",
+environment: {
+parking: "Street parking and nearby public lots.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during busy nights",
+location: "Inside the venue"
+},
+noise: "High",
+exits: "Street-level entrance."
+},
+insights: [
+"Evenings bring steady bar traffic.",
+"Groups often gather for drinks and food.",
+"Weekend nights usually bring the highest activity."
+]
+},
+   
+{
 name: "Hotel Covington Lobby Bar",
 city: "Covington",
 neighborhood: "",
