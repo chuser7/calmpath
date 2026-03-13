@@ -7151,37 +7151,6 @@ insights: [
 },
 
 {
-name: "The Local Post",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with a casual atmosphere and bar seating in the Newport nightlife area. Typically calmer earlier in the day with increased activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights tend to bring the most visitors."
-]
-},
-
-{
 name: "Brio Italian Grille",
 city: "Newport",
 neighborhood: "The Levee",
