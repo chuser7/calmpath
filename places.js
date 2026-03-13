@@ -67,38 +67,6 @@ insights: [
 },  
 
 {
-name: "Southgate House Revival",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Historic multi-room music venue hosting live bands across several stages. Shows often draw crowds moving between rooms with bar service and a lively atmosphere.",
-
-environment: {
-parking: "Street parking and nearby lots throughout the Newport area.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy shows",
-location: "Inside the venue"
-},
-noise: "Moderate to High depending on the performance room and crowd size.",
-exits: "Multiple entrances and exits around the building connecting to surrounding streets."
-},
-
-insights: [
-"Some events feature performances in multiple rooms.",
-"Evenings and weekends tend to be busiest.",
-"Crowds often gather outside between sets.",
-"Nearby Newport bars and restaurants are commonly visited before shows."
-]
-},
-
-{
 name: "Ludlow Garage",
 city: "Cincinnati",
 neighborhood: "Clifton",
