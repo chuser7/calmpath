@@ -10069,7 +10069,7 @@ insights: [
 },
 
 {
-name: "BJ's Restaurant & Brewhouse",
+name: "BJ's Restaurant & Brewhouse - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
