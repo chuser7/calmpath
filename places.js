@@ -35,6 +35,564 @@ insights: [
 },
 
 {
+name: "Half Day Cafe",
+city: "Cincinnati",
+neighborhood: "Wyoming",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Breakfast and lunch restaurant with table seating along Springfield Pike in the Wyoming business district. Typically busiest during morning and late morning hours with calmer afternoons.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours bring steady breakfast traffic.",
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Tela Bar + Kitchen",
+city: "Cincinnati",
+neighborhood: "Wyoming",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Restaurant and bar with table seating and patio areas near the Wyoming village center. Typically calmer earlier in the evening with steady dinner traffic later.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Wyoming Community Coffee",
+city: "Cincinnati",
+neighborhood: "Wyoming",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop with indoor seating and a relaxed café atmosphere in the Wyoming village district. Typically busiest during morning and midday hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the cafe"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours bring steady coffee traffic.",
+"Afternoons attract remote workers and students.",
+"Evenings usually feel quieter."
+]
+},
+
+{
+name: "The Birch",
+city: "Cincinnati",
+neighborhood: "Wyoming",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Restaurant with table seating and a modern dining room near the Wyoming village center. Typically calmer earlier in the evening with steady dinner reservations later.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early dinner hours often feel calmer.",
+"Dinner service attracts couples and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Boswell's Alley",
+city: "Cincinnati",
+neighborhood: "Deer Park",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar with bar seating and casual dining tables along the Deer Park restaurant corridor. Typically quieter earlier in the day with increased evening activity.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Chicken on the Run",
+city: "Cincinnati",
+neighborhood: "Deer Park",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Fast-casual restaurant with counter ordering and limited seating along the Deer Park dining corridor. Typically steady during lunch hours with moderate dinner activity.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Most visits involve quick dine-in meals or carryout.",
+"Weekend evenings bring steady traffic."
+]
+},
+
+{
+name: "Los Potrillos Mexican Restaurant",
+city: "Cincinnati",
+neighborhood: "Deer Park",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Mexican restaurant with booth seating and table dining along the Deer Park restaurant corridor. Typically steady during dinner hours with consistent lunch visits.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours attract families and groups.",
+"Weekend evenings usually bring steady activity."
+]
+},
+
+{
+name: "Arrechissimo Restaurant",
+city: "Cincinnati",
+neighborhood: "Deer Park",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Restaurant with table seating and a casual dining atmosphere along the Deer Park business district. Typically steady during dinner hours with quieter periods earlier in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings tend to bring the most activity."
+]
+},
+
+{
+name: "Blue Goose Sports Cafe",
+city: "Cincinnati",
+neighborhood: "Deer Park",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evening games.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Sports events increase bar activity.",
+"Weekend nights usually bring the most visitors."
+]
+},
+
+{
+name: "The Back Porch Saloon",
+city: "Cincinnati",
+neighborhood: "Deer Park",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar with bar seating and casual table areas in the Deer Park restaurant corridor. Typically quieter earlier in the day with increased evening activity.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside the venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Afternoons often feel quieter.",
+"Evenings bring steady bar traffic.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Wiedemann's Fine Beer",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Brewery and restaurant with table seating and bar service in the St. Bernard business district. Typically steady during dinner hours with increased weekend activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evening visits often feel relaxed.",
+"Dinner hours bring groups and families.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Tuba Baking Co.",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "low",
+
+whatToExpect:
+"Bakery and café with counter service and limited seating in the St. Bernard business district. Typically busiest during morning and midday hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the bakery"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours bring steady bakery traffic.",
+"Lunch visits move quickly.",
+"Afternoons usually feel quieter."
+]
+},
+
+{
+name: "Sugar n' Spice Restaurant",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "lot",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Breakfast restaurant with table seating and classic diner atmosphere in the St. Bernard corridor. Typically busiest during morning and late morning hours.",
+
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+
+insights: [
+"Morning hours bring steady breakfast traffic.",
+"Late morning brunch periods often fill quickly.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "Strong's Brick Oven Pizzeria",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Pizzeria with table seating and brick oven kitchen in the St. Bernard dining corridor. Typically steady during dinner hours with moderate lunch traffic.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours bring families and small groups.",
+"Weekend evenings usually bring the most activity."
+]
+},
+
+{
+name: "Tres Belle Cakes & Coffee Shop",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "low",
+
+whatToExpect:
+"Bakery and coffee shop with counter service and small seating areas in the St. Bernard business district. Typically busiest during morning and afternoon hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning visits bring steady coffee traffic.",
+"Afternoons attract dessert and bakery visitors.",
+"Evenings usually feel quieter."
+]
+},
+
+{
+name: "Angilo's Pizza",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Pizzeria with counter ordering and table seating along the St. Bernard restaurant corridor. Typically steady during dinner hours with consistent carryout orders.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Takeout orders are common throughout the evening.",
+"Dinner hours bring families and local groups.",
+"Weekend evenings tend to bring steady traffic."
+]
+},
+
+{
+name: "Jasmine Thai Cuisine",
+city: "St. Bernard",
+neighborhood: "St. Bernard",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Thai restaurant with table seating in the St. Bernard dining corridor. Typically steady during dinner hours with quieter periods earlier in the day.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Dinner hours attract couples and small groups.",
+"Weekend evenings usually bring steady activity."
+]
+},
+
+{
+name: "Silver Spring House",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+parkingLevel: "large_lot",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Restaurant and bar with indoor seating and a large outdoor patio along Montgomery Road. Typically steady during dinner hours with increased activity on weekends.",
+
+environment: {
+parking: "Large shared parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to patio area"
+},
+
+insights: [
+"Early evenings often feel calmer.",
+"Dinner hours bring families and groups.",
+"Weekend nights usually bring the most activity."
+]
+},
+   
+{
 name: "Trio",
 city: "Cincinnati",
 neighborhood: "Kenwood",
