@@ -655,7 +655,7 @@ insights: [
 },
 
 {
-name: "Liberty's Bar & Bottle",
+name: "Liberty's Bar & Bottle - OTR",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
