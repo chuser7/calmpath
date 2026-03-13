@@ -35,6 +35,230 @@ insights: [
 },
 
 {
+name: "Taft Theatre",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Historic seated theater in downtown Cincinnati hosting concerts, comedy shows, and touring performances. Events typically bring steady crowds arriving shortly before showtime.",
+
+environment: {
+parking: "Downtown garages and street parking nearby with short walks to the theater.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Moderate waits possible during intermission",
+location: "Inside the theater lobby areas"
+},
+noise: "Moderate to High depending on the type of performance.",
+exits: "Multiple exits leading directly to surrounding downtown streets."
+},
+
+insights: [
+"Many visitors arrive shortly before showtime.",
+"Intermission tends to be the busiest time for restrooms.",
+"Events usually end with crowds exiting at the same time.",
+"Nearby downtown garages are commonly used."
+]
+},  
+
+{
+name: "Southgate House Revival",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Historic multi-room music venue hosting live bands across several stages. Shows often draw crowds moving between rooms with bar service and a lively atmosphere.",
+
+environment: {
+parking: "Street parking and nearby lots throughout the Newport area.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy shows",
+location: "Inside the venue"
+},
+noise: "Moderate to High depending on the performance room and crowd size.",
+exits: "Multiple entrances and exits around the building connecting to surrounding streets."
+},
+
+insights: [
+"Some events feature performances in multiple rooms.",
+"Evenings and weekends tend to be busiest.",
+"Crowds often gather outside between sets.",
+"Nearby Newport bars and restaurants are commonly visited before shows."
+]
+},
+
+{
+name: "Ludlow Garage",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Intimate concert venue and restaurant space in Clifton hosting live music performances with table seating and a relaxed listening atmosphere.",
+
+environment: {
+parking: "Street parking and nearby lots along Ludlow Avenue.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the venue"
+},
+noise: "Moderate during performances with amplified music and audience conversation.",
+exits: "Main entrance leading directly to Ludlow Avenue."
+},
+
+insights: [
+"Shows often feature seated listening-style audiences.",
+"Arriving early helps secure preferred seating.",
+"Visitors frequently explore nearby Clifton restaurants and bars.",
+"Smaller crowds compared to large concert venues."
+]
+},
+
+{
+name: "Northside Tavern",
+city: "Cincinnati",
+neighborhood: "Northside",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and live music venue in Northside known for frequent local bands and casual gatherings. Evenings often bring steady crowds and a lively bar atmosphere.",
+
+environment: {
+parking: "Street parking available along surrounding Northside streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during live music performances and busy evenings.",
+exits: "Main entrance opens directly to the street."
+},
+
+insights: [
+"Live music events are common throughout the week.",
+"Weekends tend to be the busiest nights.",
+"Neighborhood regulars and local music fans are common.",
+"Nearby Northside restaurants and bars are often visited before or after shows."
+]
+},
+
+{
+name: "Woodward Theater",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Historic theater and event venue in Over-the-Rhine hosting concerts, performances, and special events. Events typically bring steady crowds gathering inside the restored theater space.",
+
+environment: {
+parking: "Street parking and nearby garages in the Over-the-Rhine area.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy events",
+location: "Inside the theater"
+},
+noise: "Moderate to High depending on the performance or event.",
+exits: "Main entrance and exits leading directly to surrounding OTR streets."
+},
+
+insights: [
+"Many visitors arrive shortly before events begin.",
+"Nearby OTR restaurants and bars are common pre-show stops.",
+"Events vary widely from concerts to community events.",
+"Crowds typically exit together after shows."
+]
+},
+   
+{
+name: "Andrew J. Brady Music Center",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "high",
+
+whatToExpect:
+"Large indoor concert venue near The Banks hosting touring artists and live performances. Events bring large crowds with security screening at the entrance and busy concourses before shows and during intermissions.",
+
+environment: {
+parking: "Multiple garages and surface lots around The Banks and downtown. Many visitors park nearby and walk several blocks to the venue.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Moderate waits possible between sets or before shows",
+location: "Located inside the venue"
+},
+noise: "High during concerts with amplified music and crowd cheering.",
+exits: "Multiple entrances and exits leading directly to surrounding streets and nearby parking garages."
+},
+
+insights: [
+"Arriving early helps avoid entry lines before popular shows.",
+"Restroom lines tend to increase between sets.",
+"Many visitors combine concerts with nearby restaurants and bars at The Banks.",
+"Large crowds typically exit at the same time after shows."
+]
+},
+
+{
+name: "Bogart's",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "high",
+
+whatToExpect:
+"Historic indoor music venue near the University of Cincinnati hosting live concerts and touring bands. Shows typically draw standing-room crowds with an energetic atmosphere throughout the performance.",
+
+environment: {
+parking: "Street parking and nearby lots in the surrounding Corryville area.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Moderate waits possible during busy shows",
+location: "Inside the venue"
+},
+noise: "High during performances with amplified music and crowd activity.",
+exits: "Main entrance and additional exits leading to nearby streets."
+},
+
+insights: [
+"Most shows are standing-room events.",
+"Lines may form outside before doors open.",
+"College students and younger crowds are common depending on the show.",
+"Leaving after concerts usually moves quickly."
+]
+},
+   
+{
 name: "Paycor Stadium",
 city: "Cincinnati",
 neighborhood: "The Banks",
