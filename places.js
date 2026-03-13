@@ -12123,6 +12123,276 @@ insights: [
 },
 
 {
+name: "Aroma Restaurant & Sushi",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Sushi and Asian restaurant near Kenwood Towne Centre with a casual dining room and booth seating. Typically steady during lunch and busier during dinner hours and weekends.",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+environment: {
+parking: "Large shared shopping center parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Rarely long waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Lunch visits often move quickly due to nearby offices and shopping.",
+"Dinner hours bring couples and small groups.",
+"Weekend evenings tend to see the most activity."
+]
+},
+
+{
+name: "Cafe Bistro at Nordstrom",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Café-style restaurant located inside Nordstrom at Kenwood Towne Centre with table seating and a bright open layout. Typically busiest during lunch hours and weekend shopping periods.",
+parkingLevel: "Easy",
+noiseLevel: "Low",
+environment: {
+parking: "Large Kenwood Towne Centre parking lot.",
+restrooms: {
+capacity: "Mall restrooms available nearby",
+waits: "Rarely long waits",
+location: "Inside the store area"
+},
+noise: "Low to Moderate",
+exits: "Located inside Nordstrom with direct mall exits"
+},
+insights: [
+"Lunch hours often bring shoppers and nearby workers.",
+"Visits are usually shorter compared to full restaurants.",
+"Weekend afternoons tend to bring the most activity."
+]
+},
+
+{
+name: "Crazy Fox Saloon",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Neighborhood bar with a compact interior and bar seating. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
+parkingLevel: "Moderate",
+noiseLevel: "High",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "Moderate to High",
+exits: "Street-level entrance."
+},
+insights: [
+"Known as a long-standing local bar with a friendly crowd.",
+"Evenings bring the most consistent traffic.",
+"Weekend nights usually bring the highest activity."
+]
+},
+
+{
+name: "Dewey's Pizza - Kenwood",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual pizza restaurant with table seating and an open kitchen layout. Typically steady throughout dinner hours with families and groups visiting evenings and weekends.",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+environment: {
+parking: "Shared shopping center parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during peak dinner",
+location: "Inside near the dining area"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Families and groups commonly visit during dinner.",
+"Takeout and dine-in traffic remain steady throughout the evening.",
+"Weekend dinners bring the most activity."
+]
+},
+
+{
+name: "Don Rigo Taqueria",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual Mexican restaurant with table seating and counter ordering areas. Typically steady during lunch hours with continued dinner traffic and weekend visits.",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+environment: {
+parking: "Shared shopping center parking lot.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Lunch hours often bring quick dine-in visits.",
+"Evenings bring families and small groups.",
+"Weekend dinners usually see the highest activity."
+]
+},
+
+{
+name: "Embers Restaurant",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Upscale steakhouse with multiple dining rooms and bar seating. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
+parkingLevel: "Easy",
+noiseLevel: "Low",
+environment: {
+parking: "Dedicated parking lot available.",
+restrooms: {
+capacity: "Indoor accessible restrooms",
+waits: "Rarely long waits",
+location: "Inside near the back"
+},
+noise: "Low to Moderate",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Early dinner reservations often feel quieter.",
+"Evenings bring couples and small groups.",
+"Weekend nights tend to be the busiest."
+]
+},
+
+{
+name: "First Watch - Kenwood",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Breakfast and brunch restaurant with table seating and an open dining room layout. Typically busiest during morning and late morning hours with quieter afternoons.",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+environment: {
+parking: "Shared shopping center parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during peak brunch",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Morning breakfast hours bring the most traffic.",
+"Late morning brunch periods can fill quickly.",
+"Afternoons tend to feel quieter."
+]
+},
+
+{
+name: "Fratelli's Pizzeria",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Neighborhood pizza restaurant with casual table seating and counter ordering. Typically steady during lunch and dinner hours with consistent takeout traffic.",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+environment: {
+parking: "Shared shopping center parking lot.",
+restrooms: {
+capacity: "Indoor restroom available",
+waits: "Rarely long waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Lunch hours often involve quick visits.",
+"Evenings bring families and small groups.",
+"Weekend dinners typically see the most activity."
+]
+},
+
+{
+name: "Hoppin' Vines",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Wine bar and restaurant with bar seating and entertainment areas including duckpin bowling. Typically relaxed earlier in the day with busier evenings and weekend gatherings.",
+parkingLevel: "Easy",
+noiseLevel: "High",
+environment: {
+parking: "Shared development parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Groups often gather for drinks and games.",
+"Evenings tend to be the busiest period.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Hotel Covington Lobby Bar",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Hotel bar located inside the Hotel Covington lobby with lounge seating and a polished social atmosphere. Typically calmer earlier in the day with increased activity during evening cocktail hours.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Valet and nearby street parking.",
+restrooms: {
+capacity: "Hotel restrooms available",
+waits: "Rarely long waits",
+location: "Inside the hotel"
+},
+noise: "Low to Moderate",
+exits: "Hotel lobby entrance to the street"
+},
+insights: [
+"Afternoons tend to feel quieter.",
+"Evenings bring hotel guests and local visitors.",
+"Weekend nights often bring the most activity."
+]
+},
+   
+{
 name: "Artemis Mediterranean Bistro",
 city: "Montgomery",
 neighborhood: "Montgomery",
