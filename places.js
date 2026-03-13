@@ -11006,7 +11006,7 @@ insights: [
 },
 
 {
-name: "First Watch",
+name: "First Watch - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
