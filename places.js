@@ -129,6 +129,38 @@ insights: [
 "Walking routes from nearby garages are common after matches."
 ]
 },
+
+{
+name: "Findlay Market",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Historic public market in Over-the-Rhine with dozens of food vendors, produce stands, and small restaurants inside a large open market building and surrounding outdoor stalls. Activity varies by time of day but weekends and midday visits often bring large crowds moving between vendors and seating areas.",
+
+environment: {
+parking: "Street parking and nearby paid lots or garages in the Over-the-Rhine area. Many visitors park several blocks away and walk to the market.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy weekend periods",
+location: "Located inside the main market building"
+},
+noise: "Moderate to High depending on crowd size, with vendor activity, conversations, and music from nearby streets.",
+exits: "Multiple entrances and exits along surrounding streets with open walkways connecting indoor and outdoor vendor areas."
+},
+
+insights: [
+"Weekend mornings and early afternoons tend to be the busiest times.",
+"Visitors often move between multiple food vendors before finding seating.",
+"Outdoor seating and nearby public spaces are commonly used during busy periods.",
+"Weekday visits are usually calmer with more space to walk through the market."
+]
+},
    
 {
 name: "Half Day Cafe",
