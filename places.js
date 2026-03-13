@@ -8050,7 +8050,7 @@ insights: [
 },
 
 {
-name: "Cancun Mexican Bar and Grill",
+name: "Cancun Mexican Bar & Grill - Bellevue",
 city: "Bellevue",
 neighborhood: "",
 state: "KY",
@@ -9104,7 +9104,7 @@ insights: [
 },
 
 {
-name: "Cancun Mexican Bar & Grill",
+name: "Cancun Mexican Bar & Grill - Crescent Springs",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
