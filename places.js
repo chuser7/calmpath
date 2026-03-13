@@ -2298,9 +2298,9 @@ insights: [
 },
 
 {
-name: "BJ's Restaurant & Brewhouse",
+name: "BJ's Restaurant & Brewhouse - Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
