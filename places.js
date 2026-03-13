@@ -8235,13 +8235,6 @@ insights: [
 ]
 },
 
-insights: [
-"Often described as view-oriented with steady dinner traffic.",
-"First-timers notice sunset hours bring the most activity.",
-"Weekend evenings bring higher occupancy."
-]
-},
-
 {
 name: "The Pretzel Place",
 city: "Bellevue",
