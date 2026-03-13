@@ -8144,7 +8144,7 @@ insights: [
 
 {
 name: "Pompilio's",
-city: "Bellevue",
+city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
