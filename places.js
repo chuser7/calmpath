@@ -8987,7 +8987,7 @@ insights: [
 },
 
 {
-name: "La Torta Loca",
+name: "La Torta Loca - Crescent Springs",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
