@@ -65,6 +65,70 @@ insights: [
 "Traffic leaving the area can take time immediately after games."
 ]
 },
+
+{
+name: "Great American Ball Park",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Outdoor Major League Baseball stadium along the Ohio River and home of the Cincinnati Reds. Game days bring large crowds moving through The Banks area with multiple entry gates and busy concourses. Activity usually builds before first pitch as fans gather at nearby restaurants, bars, and riverfront areas.",
+
+environment: {
+parking: "Several garages and surface lots around The Banks and downtown. Many visitors park a few blocks away and walk to the stadium.",
+restrooms: {
+capacity: "Large restroom banks located throughout the concourses",
+waits: "Moderate waits possible during inning breaks and between innings",
+location: "Located on multiple concourse levels around the stadium"
+},
+noise: "Moderate to High depending on crowd size, with stadium announcements, music, and cheering during games.",
+exits: "Multiple stadium gates and exits connecting to The Banks riverfront area and downtown streets. Crowds typically move steadily out after games."
+},
+
+insights: [
+"Arrival before first pitch is common as fans spend time in The Banks area nearby.",
+"Inning breaks often bring restroom and concession lines.",
+"Weekend and rivalry games tend to draw the largest crowds.",
+"Walking routes along the riverfront and nearby garages are commonly used."
+]
+},
+
+{
+name: "TQL Stadium",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "high",
+
+whatToExpect:
+"Modern open-air soccer stadium in Cincinnati's West End and home of FC Cincinnati. Match days bring energetic crowds with supporter sections, chanting, and a lively atmosphere throughout the venue. Activity builds before kickoff as fans gather around nearby streets and plazas.",
+
+environment: {
+parking: "Parking garages and lots located around the stadium and surrounding neighborhoods. Many visitors park in nearby garages or downtown and walk to the stadium.",
+restrooms: {
+capacity: "Large restroom banks located around the stadium concourses",
+waits: "Moderate waits possible at halftime",
+location: "Located throughout the stadium concourse areas"
+},
+noise: "High during matches with chanting supporter sections, stadium music, and crowd reactions throughout the game.",
+exits: "Multiple stadium gates around the venue with crowds dispersing into surrounding streets and nearby parking garages."
+},
+
+insights: [
+"Supporter sections create a loud and energetic atmosphere throughout the match.",
+"Halftime tends to bring the longest restroom and concession lines.",
+"Many fans arrive early to gather around the stadium plaza areas.",
+"Walking routes from nearby garages are common after matches."
+]
+},
    
 {
 name: "Half Day Cafe",
