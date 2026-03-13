@@ -13240,6 +13240,99 @@ insights: [
 },
 
 {
+name: "The Bodega at Roebling",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Small market-style restaurant and bar with counter service and casual seating near the Roebling Bridge corridor. Typically steady during lunch hours with moderate evening activity.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the venue"
+},
+noise: "Moderate",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Lunch visits often move quickly.",
+"Afternoons tend to feel calmer.",
+"Evenings bring small groups stopping for drinks or quick meals."
+]
+},
+
+{
+name: "King Pigeon",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Bar and restaurant with indoor seating and a casual social atmosphere along the Vine Street corridor in OTR. Typically calmer earlier in the evening with increased activity later at night.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Short waits possible during busy hours",
+location: "Inside near the back"
+},
+noise: "Moderate to High",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Early evenings often feel relaxed.",
+"Later hours bring groups gathering for drinks.",
+"Weekend nights usually bring the most activity."
+]
+},
+
+{
+name: "Tuba Baking Co.",
+city: "Dayton",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "street",
+noiseLevel: "low",
+
+whatToExpect:
+"Bakery and café with counter service and limited indoor seating. Typically busiest during morning and midday hours.",
+
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the bakery"
+},
+noise: "Low",
+exits: "Easy step outside to sidewalk"
+},
+
+insights: [
+"Morning hours bring steady coffee and pastry traffic.",
+"Lunch visits often move quickly.",
+"Afternoons usually feel quieter."
+]
+},
+   
+{
 name: "The Cheesecake Factory",
 city: "Cincinnati",
 neighborhood: "Kenwood",
