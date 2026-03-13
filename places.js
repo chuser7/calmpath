@@ -13259,6 +13259,37 @@ insights: [
 },
 
 {
+name: "The Cone",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Iconic roadside ice cream stand shaped like a giant soft-serve cone. Most visitors order at walk-up windows and enjoy treats at outdoor tables or nearby seating areas. Activity increases significantly on warm evenings and summer weekends.",
+
+environment: {
+parking: "Large parking lot directly surrounding the stand.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy summer evenings",
+location: "Inside the building"
+},
+noise: "Moderate",
+exits: "Open outdoor layout with easy movement between the ordering windows, seating area, and parking lot"
+},
+
+insights: [
+"Warm weather evenings bring the largest crowds.",
+"Families and groups often visit after dinner.",
+"Lines move quickly even during busy periods."
+]
+},
+   
+{
 name: "Smokey Bones - West Chester",
 city: "West Chester Township",
 neighborhood: "West Chester",
