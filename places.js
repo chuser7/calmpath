@@ -13222,6 +13222,600 @@ insights: [
 "Weekend evenings tend to bring the most activity."
 ]
 },
+
+   /* =========================
+WEST CHESTER TOWNSHIP, OH
+========================= */
+
+{
+name: "Matt the Miller's Tavern",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Large tavern-style restaurant with bar seating, booths, and multiple dining areas. Activity typically builds during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Large parking lot surrounding the shopping center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Front entrance leads directly to the parking lot"
+},
+
+insights: [
+"Dinner hours draw steady crowds.",
+"Bar area becomes livelier later in the evening.",
+"Early weekday dinners are usually calmer."
+]
+},
+
+{
+name: "Smokey Bones - West Chester",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Casual barbecue restaurant with large dining rooms, TVs, and bar seating. Often lively during dinner hours and sports events.",
+
+environment: {
+parking: "Large dedicated parking lot around the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during peak dinner times",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Multiple doors leading directly to the parking lot"
+},
+
+insights: [
+"Dinner service is typically busiest.",
+"Sports games can increase noise levels.",
+"Afternoons are generally quieter."
+]
+},
+
+{
+name: "King Corona Latin Kitchen & Cantina",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Colorful Latin restaurant and cantina with table seating and a lively atmosphere. Dinner hours and weekend evenings usually bring the most activity.",
+
+environment: {
+parking: "Shared parking lot in the surrounding plaza.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Front entrance opens directly to parking lot"
+},
+
+insights: [
+"Dinner and weekend nights are busiest.",
+"Groups and celebrations are common.",
+"Earlier visits tend to be calmer."
+]
+},
+
+{
+name: "Saigon Noodle Bar",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Vietnamese restaurant with casual table seating and a relaxed dining environment. Often steady during lunch and dinner but generally calm.",
+
+environment: {
+parking: "Shared plaza parking lot nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Front entrance opens to parking lot"
+},
+
+insights: [
+"Lunch hours bring steady traffic.",
+"Dinner visits are typically relaxed.",
+"Smaller groups and quick meals are common."
+]
+},
+
+{
+name: "Sonder Brewing Taphaus & Kitchen",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Large brewery taproom with indoor and outdoor seating, long tables, and an active social atmosphere. Activity builds in the evenings and on weekends.",
+
+environment: {
+parking: "Large parking lot surrounding the brewery.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the taproom"
+},
+noise: "Moderate to High",
+exits: "Multiple exits leading directly to the parking lot and patio"
+},
+
+insights: [
+"Evenings and weekends are busiest.",
+"Large groups are common.",
+"Daytime visits are usually more relaxed."
+]
+},
+
+{
+name: "Jag's Steak & Seafood",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Upscale steakhouse with multiple dining rooms, bar seating, and a polished atmosphere. Typically busiest during dinner service and weekend evenings.",
+
+environment: {
+parking: "Large dedicated parking lot around the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Main entrance opens directly to the parking lot"
+},
+
+insights: [
+"Dinner hours bring the most activity.",
+"Bar lounge can become livelier later in the evening.",
+"Early reservations tend to feel calmer."
+]
+},
+
+{
+name: "El Trompo Mexican Grill - West Chester",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican grill with colorful décor and table seating. Activity usually increases during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Front entrance opens directly to parking lot"
+},
+
+insights: [
+"Dinner hours are the busiest.",
+"Families and small groups are common.",
+"Afternoon visits are typically quieter."
+]
+},
+
+{
+name: "Wise Owl Wine Bar",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Small wine bar with intimate seating and a relaxed atmosphere focused on wine tastings and conversation.",
+
+environment: {
+parking: "Parking available in the surrounding lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the wine bar"
+},
+noise: "Low to Moderate",
+exits: "Front entrance opens to parking lot"
+},
+
+insights: [
+"Evenings bring a steady crowd.",
+"Typically quieter than larger nearby restaurants.",
+"Often visited by couples and small groups."
+]
+},
+
+{
+name: "Dingle House Irish Pub & Grub",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Irish-style pub with bar seating, TVs, and a lively neighborhood atmosphere. Activity often increases during evenings and weekend nights.",
+
+environment: {
+parking: "Parking lot located directly outside.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the pub"
+},
+noise: "Moderate to High",
+exits: "Easy exit directly to parking lot"
+},
+
+insights: [
+"Evenings are typically busiest.",
+"Sports events can increase noise levels.",
+"Afternoons tend to be calmer."
+]
+},
+
+{
+name: "Yummy Bowl",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Mongolian-style grill restaurant where guests build their own bowls before cooking. Dining room activity increases during dinner hours.",
+
+environment: {
+parking: "Shared parking lot in the surrounding shopping center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Front entrance opens directly to parking lot"
+},
+
+insights: [
+"Dinner hours are the busiest.",
+"Guests move through the grill line during peak times.",
+"Lunch visits are usually quicker."
+]
+},
+
+{
+name: "Chuy's - West Chester",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Large Tex-Mex restaurant with colorful decor, bar seating, and multiple dining areas. Typically busiest during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Large parking lot surrounding the restaurant in the shopping plaza.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during peak dinner hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High",
+exits: "Front entrance opens directly to the plaza parking lot"
+},
+
+insights: [
+"Dinner hours and weekends bring the largest crowds.",
+"Families and groups are common.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Thai Koon Kitchen",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Thai restaurant with casual table seating and a relaxed dining environment. Often steady during lunch and dinner but generally calm.",
+
+environment: {
+parking: "Shared parking lot in the surrounding plaza.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Front entrance opens directly to the parking lot"
+},
+
+insights: [
+"Lunch visits are typically quick.",
+"Dinner hours bring steady traffic.",
+"Usually quieter than nearby chain restaurants."
+]
+},
+
+{
+name: "WNB Factory",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Wings and burger restaurant focused on quick meals and casual dining. Activity typically builds during lunch and dinner hours.",
+
+environment: {
+parking: "Shared parking lot in the surrounding shopping plaza.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Front entrance opens directly to the parking lot"
+},
+
+insights: [
+"Lunch hours bring steady traffic.",
+"Takeout orders are common.",
+"Most visits are short."
+]
+},
+
+{
+name: "Flame India Restaurant",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Indian restaurant with a calm dining environment and traditional menu offerings. Activity typically builds during dinner service.",
+
+environment: {
+parking: "Shared plaza parking lot nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Front entrance leads directly to the parking lot"
+},
+
+insights: [
+"Dinner hours are the busiest.",
+"Often quieter earlier in the day.",
+"Small groups and couples are common."
+]
+},
+
+{
+name: "Sawasdee Thai Cuisine & Sushi",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Thai and sushi restaurant with table seating and a relaxed dining environment. Typically steady during lunch and dinner.",
+
+environment: {
+parking: "Shared parking lot in the surrounding shopping area.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Front entrance opens directly to parking lot"
+},
+
+insights: [
+"Lunch visits are typically quick.",
+"Dinner hours bring steady activity.",
+"Generally calmer than larger nearby restaurants."
+]
+},
+
+{
+name: "Charis Coffee & Creamery",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop and ice cream spot with casual seating and a relaxed community feel. Often steady during mornings and early evenings.",
+
+environment: {
+parking: "Easy parking in the nearby lot.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the shop"
+},
+noise: "Low to Moderate",
+exits: "Front entrance opens directly to the parking lot"
+},
+
+insights: [
+"Mornings are busiest for coffee.",
+"Evenings bring dessert and ice cream visitors.",
+"Often used as a casual meeting spot."
+]
+},
+
+{
+name: "Voodoo Brewing Co - West Chester",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Brewery taproom with indoor seating, bar service, and a social atmosphere. Activity typically increases during evenings and weekends.",
+
+environment: {
+parking: "Large shared parking lot in the surrounding plaza.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the brewery"
+},
+noise: "Moderate to High",
+exits: "Front entrance leads directly to parking lot"
+},
+
+insights: [
+"Evenings and weekends are the busiest.",
+"Groups often gather for drinks and social visits.",
+"Afternoons tend to be calmer."
+]
+},
+
+{
+name: "Sushi Samurais",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Sushi restaurant with casual table seating and a relaxed dining environment. Typically steady during lunch and dinner hours.",
+
+environment: {
+parking: "Shared parking lot in the surrounding plaza.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate",
+exits: "Front entrance opens directly to the parking lot"
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring steady activity.",
+"Typically smaller groups and couples."
+]
+},
+
+{
+name: "Topgolf - West Chester",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "high",
+
+whatToExpect:
+"Large entertainment venue with golf bays, restaurant service, and multiple levels of seating. Activity and noise levels increase significantly during evenings and weekends.",
+
+environment: {
+parking: "Large dedicated parking lot surrounding the venue.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy periods",
+location: "Inside the venue"
+},
+noise: "High",
+exits: "Multiple exits throughout the venue leading to the parking lot"
+},
+
+insights: [
+"Evenings and weekends are the busiest times.",
+"Large groups and events are common.",
+"Weekday afternoons tend to be calmer."
+]
+},
+
    
 ];
 
