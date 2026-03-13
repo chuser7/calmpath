@@ -9197,7 +9197,7 @@ insights: [
 },
 
 {
-name: "BRU Burger Bar",
+name: "BRU Burger Bar - Crescent Springs",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
