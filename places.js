@@ -12391,6 +12391,276 @@ insights: [
 "Weekend nights often bring the most activity."
 ]
 },
+
+{
+name: "La Torta Loca - Price Hill",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Casual Mexican restaurant known for tortas, tacos, and quick counter service. The dining room is compact with simple table seating and steady takeout activity throughout the day.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Small lot and street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Lunch visits are often quick dine-in or takeout stops.",
+"Evenings bring steady neighborhood traffic.",
+"Weekend afternoons tend to be the busiest."
+]
+},
+
+{
+name: "Las Delicias Bakery",
+city: "Cincinnati",
+neighborhood: "Price Hill",
+state: "OH",
+type: "full",
+whatToExpect:
+"Neighborhood Latin bakery with counter service and limited seating. Known for pastries, breads, and quick takeaway visits.",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside bakery"
+},
+noise: "Low",
+exits: "Street-level entrance."
+},
+insights: [
+"Morning visits often bring the most activity.",
+"Many visits involve quick bakery purchases.",
+"Afternoons typically feel calmer."
+]
+},
+
+{
+name: "La Torta Loca - Covington",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Casual Mexican restaurant with counter ordering and table seating. Known for tortas and traditional street-style dishes with steady lunch and dinner traffic.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rarely long waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Lunch visits often move quickly.",
+"Takeout orders are common throughout the evening.",
+"Weekend afternoons tend to see the most activity."
+]
+},
+
+{
+name: "Liberty's Bar & Bottle - Covington",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Wine bar and bottle shop with bar seating and a relaxed social atmosphere. Guests can enjoy wine by the glass or purchase bottles to take home.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside venue"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Early evenings tend to feel relaxed.",
+"Small groups often gather for drinks.",
+"Weekend evenings bring the most activity."
+]
+},
+
+{
+name: "Logo's Sports Bar & Grill",
+city: "Cincinnati",
+neighborhood: "White Oak",
+state: "OH",
+type: "full",
+whatToExpect:
+"Neighborhood sports bar with TVs throughout the space, bar seating, and casual dining tables. Known for game-day gatherings and a lively evening crowd.",
+parkingLevel: "Easy",
+noiseLevel: "High",
+environment: {
+parking: "Dedicated parking lot.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during busy games",
+location: "Inside near the back"
+},
+noise: "High",
+exits: "Easy step outside to parking lot"
+},
+insights: [
+"Game nights often increase noise levels.",
+"Evenings bring the most consistent bar traffic.",
+"Weekend nights usually draw the largest crowds."
+]
+},
+
+{
+name: "Molly Malone's",
+city: "Covington",
+neighborhood: "MainStrasse",
+state: "KY",
+type: "full",
+whatToExpect:
+"Irish pub with a large bar area, dining tables, and occasional live music. Typically steady throughout the evening with increased activity on weekends.",
+parkingLevel: "Moderate",
+noiseLevel: "High",
+environment: {
+parking: "Street parking and nearby public lots.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Possible waits during busy nights",
+location: "Inside venue"
+},
+noise: "High",
+exits: "Street-level entrance."
+},
+insights: [
+"Evenings bring steady pub traffic.",
+"Live music nights increase overall noise.",
+"Weekend nights are usually the busiest."
+]
+},
+
+{
+name: "Plan B Flights",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+whatToExpect:
+"Wine and bourbon bar offering tasting flights and small plates in a relaxed lounge setting. Typically calmer earlier in the evening with steady weekend traffic.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rarely long waits",
+location: "Inside venue"
+},
+noise: "Moderate",
+exits: "Street-level entrance."
+},
+insights: [
+"Early evenings often feel relaxed.",
+"Couples and small groups are common.",
+"Weekend nights bring the most activity."
+]
+},
+
+{
+name: "The Cheesecake Factory",
+city: "Cincinnati",
+neighborhood: "Kenwood",
+state: "OH",
+type: "full",
+whatToExpect:
+"Large chain restaurant located at Kenwood Towne Centre with an extensive menu, multiple dining sections, and a busy bar area.",
+parkingLevel: "Easy",
+noiseLevel: "High",
+environment: {
+parking: "Large Kenwood Towne Centre parking lot.",
+restrooms: {
+capacity: "Multiple indoor restrooms available",
+waits: "Possible waits during peak hours",
+location: "Inside near the dining area"
+},
+noise: "High",
+exits: "Located inside mall with exterior mall exits"
+},
+insights: [
+"Dinner hours often bring long wait times.",
+"Families and large groups are common.",
+"Weekend evenings tend to be the busiest."
+]
+},
+
+{
+name: "The Coffee Exchange",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+whatToExpect:
+"Neighborhood coffee shop with counter ordering and cozy seating areas. Known for a relaxed atmosphere and steady morning traffic.",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+environment: {
+parking: "Street parking nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "No typical waits",
+location: "Inside cafe"
+},
+noise: "Low",
+exits: "Street-level entrance."
+},
+insights: [
+"Morning hours bring steady coffee traffic.",
+"Many visits involve quick takeout orders.",
+"Afternoons usually feel calmer."
+]
+},
+
+{
+name: "The Davidson",
+city: "Cincinnati",
+neighborhood: "Mount Lookout",
+state: "OH",
+type: "full",
+whatToExpect:
+"Restaurant and bar with a modern dining room and patio seating in the Mount Lookout Square area. Typically steady during dinner hours with a social weekend crowd.",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+environment: {
+parking: "Street parking around Mount Lookout Square.",
+restrooms: {
+capacity: "Indoor restrooms available",
+waits: "Rarely long waits",
+location: "Inside near the back"
+},
+noise: "Moderate",
+exits: "Street-level entrance and patio access"
+},
+insights: [
+"Evenings bring couples and small groups.",
+"The patio tends to stay active during warmer months.",
+"Weekend nights usually bring the most activity."
+]
+},
    
 {
 name: "Artemis Mediterranean Bistro",
