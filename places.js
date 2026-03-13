@@ -35,6 +35,38 @@ insights: [
 },
 
 {
+name: "Paycor Stadium",
+city: "Cincinnati",
+neighborhood: "The Banks",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "high",
+
+whatToExpect:
+"Large open-air NFL stadium along the Ohio River and home of the Cincinnati Bengals. Game days bring very large crowds with security screening at entry gates, busy concourses, and high energy throughout the venue. Activity begins building well before kickoff as fans gather around The Banks and nearby tailgating areas.",
+
+environment: {
+parking: "Multiple garages and surface lots around downtown and The Banks area. Many fans park several blocks away or use garages with a short walk to the stadium.",
+restrooms: {
+capacity: "Large restroom banks throughout the concourses",
+waits: "Long waits common during halftime and between quarters",
+location: "Located on all main concourse levels"
+},
+noise: "High during games with crowd cheering, stadium audio, and music throughout the venue.",
+exits: "Multiple stadium gates and exits. Large crowds leave at once after games which can slow movement around surrounding streets and bridges."
+},
+
+insights: [
+"Gates typically open well before kickoff and early arrival helps avoid longer entry lines.",
+"Halftime is usually the busiest time for restrooms and concession areas.",
+"Many visitors walk to and from nearby areas like The Banks, downtown garages, or Northern Kentucky bridges.",
+"Traffic leaving the area can take time immediately after games."
+]
+},
+   
+{
 name: "Half Day Cafe",
 city: "Cincinnati",
 neighborhood: "Wyoming",
