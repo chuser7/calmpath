@@ -15376,6 +15376,874 @@ insights: [
 ]
 },   
 
+{
+name: "Cattleman's Roadhouse",
+city: "Richwood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Large steakhouse-style restaurant with multiple dining rooms, booth seating, and a casual family-friendly atmosphere. Activity typically builds during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Large dedicated parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during peak dinner times",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity and conversation.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours bring the most activity.",
+"Weekend evenings tend to be the busiest.",
+"Large groups and families are common."
+]
+},
+
+{
+name: "Longnecks Sports Grill - Richwood",
+city: "Richwood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Large sports bar and grill with bar seating, dining tables, and multiple TVs throughout the space. Evenings and game days typically bring steady crowds.",
+
+environment: {
+parking: "Large shared parking lot surrounding the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy sporting events",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings and major games.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Game days are typically the busiest.",
+"Evenings bring steady crowds.",
+"Large groups often gather to watch sports."
+]
+},
+
+{
+name: "The Hideout",
+city: "Richwood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar with a casual atmosphere and bar seating. Evenings often bring steady activity as locals gather for drinks and conversation.",
+
+environment: {
+parking: "Parking lot located directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Local regulars are common.",
+"Weeknights tend to be calmer."
+]
+},
+
+{
+name: "Zenshi Handcrafted Sushi",
+city: "Richwood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Sushi restaurant with a modern interior and casual table seating. Lunch and dinner hours typically bring steady activity with a relaxed dining atmosphere.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with typical dining conversation.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring steady traffic.",
+"Smaller groups and couples are common."
+]
+},
+
+{
+name: "Julias Tacos",
+city: "Richwood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual taco restaurant with counter ordering and casual seating. Activity typically builds during lunch and dinner hours with steady takeout traffic.",
+
+environment: {
+parking: "Shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant activity and conversation.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Lunch visits are typically quick.",
+"Dinner hours bring steady crowds."
+]
+},
+
+{
+name: "The Pub - Crestview Hills",
+city: "Crestview Hills",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Large British-style pub and restaurant with bar seating, dining tables, and TVs throughout the space. Evenings and weekends typically bring steady crowds.",
+
+environment: {
+parking: "Large shared parking lot at Crestview Hills Town Center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy weekend evenings",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings with conversation and bar activity.",
+exits: "Front entrance opens directly to the shopping center walkway and parking lot."
+},
+
+insights: [
+"Evenings and weekends tend to be busiest.",
+"Bar seating often fills during sporting events.",
+"Groups and social gatherings are common."
+]
+},
+
+{
+name: "Asiana Crestview Hills Thai & Sushi",
+city: "Crestview Hills",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Thai and sushi restaurant with casual table seating and a relaxed dining atmosphere. Lunch and dinner hours typically bring steady activity.",
+
+environment: {
+parking: "Shared parking lot at Crestview Hills Town Center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with typical dining conversation.",
+exits: "Front entrance opens to the shopping center walkway and parking lot."
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring steady crowds.",
+"Smaller groups and couples are common."
+]
+},
+
+{
+name: "MacKenzie River Pizza, Grill & Pub",
+city: "Crestview Hills",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Large restaurant serving pizza, burgers, and pub-style food with booth seating and bar seating. Activity typically increases during dinner hours and weekends.",
+
+environment: {
+parking: "Large shared parking lot surrounding the shopping center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy evenings",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity and conversation.",
+exits: "Main entrance opens directly to the shopping center parking lot."
+},
+
+insights: [
+"Dinner hours bring the most activity.",
+"Families and groups are common.",
+"Weekend evenings are typically busier."
+]
+},
+
+{
+name: "Dewey's Pizza - Crestview Hills",
+city: "Crestview Hills",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Popular pizza restaurant with open kitchen views and casual table seating. Lunch and dinner hours typically bring steady crowds.",
+
+environment: {
+parking: "Shared parking lot at Crestview Hills Town Center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with dining activity and conversation.",
+exits: "Front entrance opens to the shopping center walkway and parking lot."
+},
+
+insights: [
+"Dinner hours tend to be the busiest.",
+"Families and groups are common.",
+"Takeout orders are frequent."
+]
+},
+
+{
+name: "Wings and Rings",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Sports bar and restaurant with bar seating, dining tables, and TVs throughout the space. Evenings and sporting events typically bring the most activity.",
+
+environment: {
+parking: "Large shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy game nights",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during sporting events and busy evenings.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Game days bring the largest crowds.",
+"Evenings are typically the busiest.",
+"Groups often gather to watch sports."
+]
+},
+
+{
+name: "Noce's Pizzeria",
+city: "Edgewood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Local pizzeria with casual seating and counter ordering. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout customers.",
+
+environment: {
+parking: "Parking lot located outside the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with steady dining activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Lunch visits are typically quick.",
+"Dinner hours bring steady crowds."
+]
+},
+
+{
+name: "Gobblin' Goblin",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Sandwich and deli-style restaurant focused on quick meals with casual seating and takeout options.",
+
+environment: {
+parking: "Shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady lunch activity and conversation.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours are typically busiest.",
+"Takeout orders are common.",
+"Most visits are short."
+]
+},
+
+{
+name: "Garzelli's Pub & Pizza",
+city: "Edgewood",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and pizzeria with bar seating, tables, and televisions throughout the space. Evenings typically bring steady crowds.",
+
+environment: {
+parking: "Parking lot located outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings tend to be the busiest.",
+"Sports events increase activity.",
+"Local regulars are common."
+]
+},
+
+{
+name: "Sake Bomb Sushi - Dixie Hwy",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Sushi restaurant with casual seating and a relaxed dining environment. Lunch and dinner hours typically bring steady traffic.",
+
+environment: {
+parking: "Shared parking lot along Dixie Highway.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with typical dining conversation.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring steady crowds.",
+"Smaller groups and couples are common."
+]
+},
+
+{
+name: "El Nopal Mexican Restaurant - Dixie Hwy",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady activity.",
+
+environment: {
+parking: "Shared parking lot along Dixie Highway.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours bring the most activity.",
+"Families and groups are common.",
+"Parking is typically easy."
+]
+},
+
+{
+name: "1st Wok Chinese Restaurant",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Casual Chinese restaurant offering counter service with a small dining area and steady takeout traffic. Lunch and dinner hours typically bring the most activity.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with quiet dining and takeout activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Lunch visits are typically quick.",
+"Dinner hours bring steady traffic."
+]
+},
+
+{
+name: "The Hive - East Coast Kitchen & Coffee Bar",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Café-style restaurant serving coffee, breakfast, and casual meals with a relaxed dining space. Mornings and early afternoons typically bring the most visitors.",
+
+environment: {
+parking: "Parking lot located directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation and dining activity.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Mornings tend to be the busiest.",
+"Visitors often stay for coffee or breakfast.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Greek To Me",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Casual Mediterranean restaurant with counter ordering and table seating. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout orders.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with steady dining activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours are typically busiest.",
+"Takeout orders are common.",
+"Most visits are relatively quick."
+]
+},
+
+{
+name: "JB Barbecue LLC",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Local barbecue restaurant with casual seating and counter ordering. Lunch and dinner hours typically bring steady crowds from surrounding neighborhoods.",
+
+environment: {
+parking: "Parking lot located outside the building.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity and conversation.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours are often busiest.",
+"Takeout orders are common.",
+"Parking is usually easy."
+]
+},
+
+{
+name: "Camporosso",
+city: "Fort Mitchell",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Wood-fired pizza restaurant with a large dining room, bar seating, and patio space. Dinner hours and weekends typically bring steady crowds.",
+
+environment: {
+parking: "Dedicated parking lot located outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity and conversation.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Groups and families are common.",
+"Weekend evenings bring the most activity."
+]
+},
+
+{
+name: "Greyhound Tavern",
+city: "Fort Mitchell",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Historic restaurant known for traditional comfort food and classic dining rooms. Lunch and dinner hours typically bring steady crowds.",
+
+environment: {
+parking: "Large dedicated parking lot surrounding the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy dinner periods",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours tend to be the busiest.",
+"Families and long-time local visitors are common.",
+"Weekend evenings bring steady crowds."
+]
+},
+
+{
+name: "Barleycorn's - Lakeside Park",
+city: "Lakeside Park",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood sports bar and grill with bar seating, dining tables, and multiple TVs throughout the space. Evenings and sporting events bring the most activity.",
+
+environment: {
+parking: "Large shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Game days are typically the busiest.",
+"Evenings bring steady crowds.",
+"Groups often gather to watch sports."
+]
+},
+
+{
+name: "Fort Mitchell Public House",
+city: "Fort Mitchell",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Neighborhood restaurant and bar with casual seating and a relaxed dining atmosphere. Lunch and dinner hours bring steady activity.",
+
+environment: {
+parking: "Parking lot located outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining conversation.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Local regulars are common.",
+"Parking is generally easy."
+]
+},
+
+{
+name: "Harmon's Barbecue",
+city: "Fort Wright",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Longstanding barbecue restaurant with casual table seating and a relaxed neighborhood atmosphere. Lunch and dinner hours typically bring steady crowds.",
+
+environment: {
+parking: "Parking lot located outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours are typically busiest.",
+"Local visitors are common.",
+"Takeout orders are frequent."
+]
+},
+
+{
+name: "Braxton Barrel House",
+city: "Fort Mitchell",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Brewery restaurant with bar seating, dining tables, and a casual social atmosphere centered around craft beer and pub-style food.",
+
+environment: {
+parking: "Shared parking lot surrounding the shopping area.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings and weekends.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings and weekends bring the most activity.",
+"Groups often gather for drinks and food.",
+"Happy hour periods are popular."
+]
+},
+
+{
+name: "Mi Tierra",
+city: "Fort Mitchell",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with colorful décor and booth seating. Lunch and dinner hours bring steady crowds.",
+
+environment: {
+parking: "Parking lot located outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Families and groups are common.",
+"Parking is generally easy."
+]
+},
+
+{
+name: "Dickmann's Sports Barn",
+city: "Fort Wright",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Large sports bar and restaurant known for wings, outdoor seating, and multiple TVs. Evenings and sporting events bring steady crowds.",
+
+environment: {
+parking: "Large parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy game nights",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during sporting events and busy evenings.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Game days bring the largest crowds.",
+"Outdoor seating is popular in warm weather.",
+"Groups often gather to watch sports."
+]
+},
+
+{
+name: "Walt's Hitching Post",
+city: "Fort Wright",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Historic steakhouse and barbecue restaurant with multiple dining rooms and a classic supper club atmosphere. Dinner service typically brings steady crowds.",
+
+environment: {
+parking: "Valet or Large dedicated parking lot surrounding the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy dinner periods",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining conversation.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Special occasion dinners are common.",
+"Weekend evenings bring steady crowds."
+]
+},
+
    
 ];
 
