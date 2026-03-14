@@ -11877,6 +11877,223 @@ insights: [
 },
 
 {
+name: "Coba Bar & Grill",
+city: "Independence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and grill with casual dining tables, bar seating, and TVs. Evenings often bring steady crowds gathering for drinks and food.",
+
+environment: {
+parking: "Parking lot directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are typically the busiest time.",
+"Sports events can increase crowd noise.",
+"Parking is usually easy directly outside."
+]
+},
+
+{
+name: "Crewitts Creek Kitchen & Bar",
+city: "Independence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Local restaurant and bar along Madison Pike with casual table seating and a relaxed neighborhood atmosphere. Activity typically increases during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot directly outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with conversation and occasional bar activity during busy periods.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours tend to be the busiest.",
+"Bar seating often fills later in the evening.",
+"Parking is typically easy directly outside."
+]
+},   
+
+{
+name: "Peppers Mexican Grill",
+city: "Independence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with booth and table seating in a relaxed dining environment. Lunch and dinner hours typically bring steady traffic from nearby neighborhoods.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and background music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch visits are often quick and steady.",
+"Dinner hours bring families and small groups.",
+"Parking is generally easy in the plaza lot."
+]
+},   
+
+{
+name: "Peecox Bar & Grill - Independence",
+city: "Independence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood sports bar with bar seating, tables, and TVs throughout the space. Evenings and weekends typically bring the most activity.",
+
+environment: {
+parking: "Parking lot directly outside the bar.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Sports events can increase noise levels.",
+"Most visits are casual and social."
+]
+},   
+
+{
+name: "Log Cabin Inn",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Longstanding neighborhood restaurant and bar with rustic décor and casual dining spaces. Activity typically builds during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Parking lot located directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dinner conversation and bar activity.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are the busiest period.",
+"Regular local visitors are common.",
+"Parking is usually easy directly outside."
+]
+},  
+
+{
+name: "Knuk-N-Futz",
+city: "Taylor Mill",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Casual neighborhood bar and grill with bar seating, tables, and a relaxed social atmosphere. Evenings and weekends typically bring the most activity.",
+
+environment: {
+parking: "Parking lot directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and live entertainment.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings and weekends are typically busiest.",
+"Live music or events may increase noise levels.",
+"Most visitors stay for drinks and casual meals."
+]
+},
+   
+{
+name: "El Jinete Mexican Restaurant",
+city: "Independence",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady activity.",
+
+environment: {
+parking: "Large parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with conversation and background music during busy periods.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours are steady with nearby workers.",
+"Dinner hours bring families and groups.",
+"Parking is typically easy."
+]
+},
+   
+{
 name: "Woody's Bar & Grille",
 city: "Florence",
 neighborhood: "",
