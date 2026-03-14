@@ -7471,6 +7471,37 @@ insights: [
 },
 
 {
+name: "Madres Modern Mexican",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Modern Mexican restaurant along Madison Avenue with colorful décor, table seating, and a bar area focused on handcrafted cocktails. Lunch and dinner hours typically bring steady crowds from nearby neighborhoods and downtown visitors.",
+
+environment: {
+parking: "Street parking along surrounding Covington streets with additional nearby public lots.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and background music.",
+exits: "Front entrance opens directly to the sidewalk along Madison Avenue."
+},
+
+insights: [
+"Dinner hours tend to be the busiest.",
+"Visitors often stop in while exploring nearby Covington areas.",
+"Street parking may require a short walk during busy periods."
+]
+},
+   
+{
 name: "Doubt It Bar",
 city: "Covington",
 neighborhood: "MainStrasse",
