@@ -14539,6 +14539,843 @@ insights: [
 ]
 },
 
+   {
+name: "Knotty Pine on the Bayou",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Cajun-inspired restaurant and bar with a rustic interior and casual dining space. Activity typically builds during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot directly outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with conversation and occasional bar activity.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically the busiest.",
+"Weekend evenings bring the most activity.",
+"Parking is usually easy directly outside."
+]
+},
+
+{
+name: "Longnecks Sports Grill - Wilder",
+city: "Wilder",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Large sports bar and grill with table seating, bar seating, and multiple TVs throughout the space. Activity increases during evenings, weekends, and major sporting events.",
+
+environment: {
+parking: "Large shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy game nights",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Game days tend to be the busiest.",
+"Evenings draw steady crowds.",
+"Large groups are common."
+]
+},
+
+{
+name: "Barleycorn's - Cold Spring",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood sports bar and grill with TVs, bar seating, and casual dining tables. Evenings typically bring steady crowds gathering for drinks and food.",
+
+environment: {
+parking: "Shared plaza parking lot nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings and sports events.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Sports events increase crowd activity.",
+"Groups often gather for games."
+]
+},
+
+{
+name: "Peppers Mexican Grill - Cold Spring",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with colorful décor and booth seating. Lunch and dinner hours usually bring steady traffic from nearby neighborhoods.",
+
+environment: {
+parking: "Shared parking lot in the surrounding shopping plaza.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and background music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring families and groups.",
+"Parking is typically easy."
+]
+},
+
+{
+name: "Skyline Tavern",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar with casual seating and a relaxed social atmosphere. Evenings usually bring the most activity as locals gather for drinks and conversation.",
+
+environment: {
+parking: "Street parking and nearby small lots available.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings.",
+exits: "Main entrance opens directly to the street."
+},
+
+insights: [
+"Evenings are typically busiest.",
+"Local regulars are common.",
+"Weeknights tend to be calmer."
+]
+},
+
+{
+name: "Wing Snob",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Wings-focused restaurant with counter ordering and casual seating. Activity typically increases during lunch and dinner hours with steady takeout traffic.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining and takeout activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Lunch hours move quickly.",
+"Dinner hours bring steady traffic."
+]
+},
+
+{
+name: "Nittha Siam Kitchen",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Thai restaurant with a calm dining space and casual table seating. Activity typically builds during dinner service with a relaxed overall atmosphere.",
+
+environment: {
+parking: "Dedicated parking lot located outside the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with typical restaurant conversation.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are the busiest.",
+"Smaller groups and couples are common.",
+"Generally quieter than nearby bars."
+]
+},
+
+{
+name: "Maki Asian Bowls",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Fast-casual Asian restaurant specializing in sushi bowls and rice bowls with counter ordering and casual seating.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with steady lunch and dinner activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch visits are typically quick.",
+"Takeout orders are common.",
+"Evenings bring steady traffic."
+]
+},
+
+{
+name: "City Barbeque",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Counter-service barbecue restaurant with indoor seating and a casual dining atmosphere. Activity usually builds during lunch and dinner hours.",
+
+environment: {
+parking: "Large shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining and takeout activity.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours move quickly.",
+"Takeout orders are common.",
+"Dinner hours bring steady crowds."
+]
+},
+
+{
+name: "El Nopal - Cold Spring",
+city: "Cold Spring",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady traffic.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Families and groups are common.",
+"Parking is usually easy."
+]
+},
+
+{
+name: "Chan's Asian Wok",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Casual Asian restaurant offering Chinese and Asian-inspired dishes with counter service and casual seating. Activity typically builds during lunch and dinner hours with steady takeout traffic.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with typical dining and takeout activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Lunch visits are typically quick.",
+"Dinner hours bring steady traffic."
+]
+},
+
+{
+name: "Four Mile Pig",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Local barbecue restaurant with casual seating and counter ordering. Lunch and dinner hours typically bring steady crowds from surrounding neighborhoods.",
+
+environment: {
+parking: "Dedicated parking lot directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and dining activity.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch hours are typically busiest.",
+"Takeout orders are common.",
+"Parking is usually easy directly outside."
+]
+},
+
+{
+name: "Bender's Pub Grub",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and grill with bar seating, tables, and TVs throughout the space. Evenings often bring steady crowds gathering for drinks, food, and sports.",
+
+environment: {
+parking: "Parking lot directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings tend to be the busiest.",
+"Sports events increase crowd activity.",
+"Local regulars are common."
+]
+},
+
+{
+name: "Spare-Time Grill",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual grill and bar with table seating and a relaxed neighborhood dining environment. Activity typically builds during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Parking lot located directly outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining and bar activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours bring the most activity.",
+"Weekend evenings are typically busier.",
+"Parking is usually easy."
+]
+},
+
+{
+name: "Honey Hole Bar & Grill",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and grill with a casual atmosphere, bar seating, and TVs. Evenings often bring steady crowds gathering for drinks and socializing.",
+
+environment: {
+parking: "Dedicated parking lot outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are typically busiest.",
+"Weekend nights draw larger crowds.",
+"Most visitors are local regulars."
+]
+},
+
+{
+name: "Slice is Right Pizzeria",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Local pizzeria with counter ordering and casual seating. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout orders.",
+
+environment: {
+parking: "Shared plaza parking lot nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with steady dining and takeout activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Lunch visits are typically quick.",
+"Dinner hours bring steady traffic."
+]
+},
+
+{
+name: "Barrett's Pour House",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Local bar with a casual neighborhood atmosphere, bar seating, and televisions. Evenings typically bring the most activity.",
+
+environment: {
+parking: "Parking lot located outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are usually the busiest.",
+"Sports events increase activity.",
+"Local regulars are common."
+]
+},
+
+{
+name: "TRU Healthy Spot",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low",
+
+whatToExpect:
+"Small café-style shop focused on smoothies, teas, and light health-focused options. Visits are typically quick with a relaxed atmosphere.",
+
+environment: {
+parking: "Shared plaza parking lot nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the shop"
+},
+noise: "Low with quiet conversation and short visits.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Most visits are short.",
+"Mornings and afternoons bring steady traffic.",
+"Takeout drinks are common."
+]
+},
+
+{
+name: "Alexandria Brewing Company",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Local brewery taproom with bar seating, tables, and a social atmosphere centered around craft beer. Evenings and weekends typically bring the largest crowds.",
+
+environment: {
+parking: "Parking lot located directly outside the brewery.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the brewery"
+},
+noise: "Moderate to High during busy evenings with conversation and music.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings and weekends are busiest.",
+"Groups often gather for drinks.",
+"Local events occasionally increase crowds."
+]
+},
+
+{
+name: "El Rio Bravo Mexican Restaurant",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with booth seating and a colorful dining room. Lunch and dinner hours bring steady traffic from nearby neighborhoods.",
+
+environment: {
+parking: "Shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring families and groups.",
+"Parking is typically easy."
+]
+},
+
+{
+name: "Veracruz Mexican Grill",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant with booth and table seating in a relaxed dining space. Lunch and dinner hours typically bring steady activity from nearby neighborhoods.",
+
+environment: {
+parking: "Shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation and background music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Families and small groups are common.",
+"Parking is generally easy."
+]
+},
+
+{
+name: "Brass Key Coffee",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Local coffee shop with casual seating and a relaxed café atmosphere. Mornings typically bring steady traffic for coffee and quick visits.",
+
+environment: {
+parking: "Street parking and nearby small lots available.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with quiet conversation and coffee shop activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings are typically the busiest.",
+"Visitors often stay briefly for coffee.",
+"Afternoons tend to be quieter."
+]
+},
+
+{
+name: "Sharky's - Alexandria",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and grill with bar seating, tables, and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and sports.",
+
+environment: {
+parking: "Parking lot located directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings tend to be the busiest.",
+"Sports events increase activity levels.",
+"Local regulars are common."
+]
+},
+
+{
+name: "Pelle's - Silver Grove",
+city: "Silver Grove",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual restaurant and bar in the Silver Grove area with table seating and a relaxed neighborhood atmosphere.",
+
+environment: {
+parking: "Parking lot located directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining and bar activity.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours bring the most activity.",
+"Local visitors are common.",
+"Parking is usually easy."
+]
+},
+
+{
+name: "Camp Springs Tavern",
+city: "Camp Springs",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Historic neighborhood tavern known for casual dining and a relaxed bar atmosphere. Evenings and weekends often bring steady crowds.",
+
+environment: {
+parking: "Parking lot located outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the tavern"
+},
+noise: "Moderate to High during busy evenings and live entertainment.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Live music or events occasionally increase crowds.",
+"Visitors often come from surrounding rural areas."
+]
+},
+
+{
+name: "Pepperoncini's Pizza - Silver Grove",
+city: "Silver Grove",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Local pizza restaurant with casual seating and counter ordering. Activity typically increases during dinner hours with a mix of dine-in and takeout customers.",
+
+environment: {
+parking: "Parking lot located outside the restaurant.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with steady dining and takeout activity.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Takeout orders are common.",
+"Dinner hours bring the most traffic.",
+"Visits are usually short."
+]
+},
+
+{
+name: "Bambooz Bar & Grill",
+city: "Wilder",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and grill with casual seating, bar service, and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and food.",
+
+environment: {
+parking: "Parking lot located directly outside the building.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Evenings tend to be the busiest.",
+"Sports events increase activity levels.",
+"Local regulars are common."
+]
+},   
+
    
 ];
 
