@@ -6539,7 +6539,38 @@ insights: [
 "Weekend evenings tend to be busiest."
 ]
 },
+   
+{
+name: "Villa Fiesta",
+city: "Covington",
+neighborhood: "Latonia",
+state: "KY",
+type: "full",
 
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Casual Mexican restaurant along Taylor Mill Road with booth and table seating in a relaxed neighborhood dining environment. Activity typically builds during dinner hours and weekend evenings.",
+
+environment: {
+parking: "Dedicated parking lot directly outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dinner conversation and background music.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours are typically the busiest.",
+"Families and small groups are common.",
+"Parking is usually easy directly outside the restaurant."
+]
+},
+   
 {
 name: "Del Gardo’s Cannoli",
 city: "Covington",
