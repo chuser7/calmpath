@@ -1626,6 +1626,533 @@ insights: [
 },
 
 {
+name: "The Aperture",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Modern café and bar space that hosts coffee service during the day and social gatherings or events in the evening. Activity varies depending on events and time of day.",
+
+environment: {
+parking: "Street parking available along surrounding Walnut Hills streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the venue"
+},
+noise: "Moderate with conversation and occasional music or events.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Evenings sometimes include hosted events.",
+"Daytime visits are usually calmer.",
+"Visitors often stay for coffee or conversation."
+]
+},
+
+{
+name: "Etxe Basque Steakhouse",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Upscale steakhouse featuring Basque-inspired cuisine with table seating and a refined dining atmosphere. Dinner service typically brings steady crowds.",
+
+environment: {
+parking: "Street parking available nearby with additional nearby lots.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical restaurant conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Reservations are common.",
+"Couples and small groups are frequent."
+]
+},
+
+{
+name: "Decibel Korean Fried Chicken",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Korean fried chicken restaurant with casual seating and a lively dining atmosphere. Lunch and dinner hours typically bring steady crowds.",
+
+environment: {
+parking: "Street parking available along nearby streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with dining conversation and background music.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Takeout orders are common.",
+"Groups often gather for casual meals."
+]
+},
+
+{
+name: "Caffe Vivace - Jazz Lounge",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Coffeehouse and jazz lounge known for live music performances and a relaxed listening atmosphere. Evenings typically bring the most activity.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the venue"
+},
+noise: "Moderate to High during live jazz performances.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Evening performances bring steady crowds.",
+"Visitors often arrive before shows begin.",
+"Music-focused listening atmosphere during performances."
+]
+},
+
+{
+name: "Confessions Bar & Restaurant Lounge",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Lounge-style bar and restaurant with bar seating, dining tables, and a lively nightlife atmosphere. Evenings and weekends typically bring the most activity.",
+
+environment: {
+parking: "Street parking available along surrounding streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the lounge"
+},
+noise: "Moderate to High during busy evenings with music and conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Weekend evenings bring the largest crowds.",
+"Music and nightlife events are common.",
+"Groups often gather for drinks and socializing."
+]
+},
+
+{
+name: "Brew House",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar and restaurant with casual seating and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and sports.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Main entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Sports events increase crowd activity.",
+"Local regulars are common."
+]
+},
+
+{
+name: "The Fix Coffeehouse & Bar",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop and bar offering coffee, drinks, and casual seating in a relaxed neighborhood setting. Mornings and afternoons typically bring steady traffic.",
+
+environment: {
+parking: "Street parking available along nearby Walnut Hills streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with coffee shop conversation and background music.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be busiest.",
+"Visitors often stay for coffee or casual meetings.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "The Pickled Pig",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Local sandwich and deli-style restaurant with counter ordering and casual seating. Lunch hours typically bring steady traffic from nearby residents and workers.",
+
+environment: {
+parking: "Street parking available along surrounding Walnut Hills streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical lunch crowd conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Lunch hours tend to be the busiest.",
+"Takeout orders are common.",
+"Visits are usually short."
+]
+},
+
+{
+name: "6 'N the Mornin'",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Breakfast and brunch restaurant with casual table seating and a lively daytime dining atmosphere. Mornings and early afternoons typically bring the most activity.",
+
+environment: {
+parking: "Street parking available along surrounding streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy brunch hours",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady brunch activity and conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Weekend brunch hours are typically busiest.",
+"Mornings bring steady crowds.",
+"Groups and families are common."
+]
+},
+
+{
+name: "Heyday",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood restaurant and bar with a modern interior and social dining atmosphere. Evenings and weekends typically bring the most activity.",
+
+environment: {
+parking: "Street parking available along nearby Walnut Hills streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy evenings with bar activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Weekend dinners draw steady crowds.",
+"Groups often gather for drinks and food."
+]
+},
+
+{
+name: "Rusk Kitchen + Bar",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Neighborhood restaurant and bar with casual dining tables and a relaxed atmosphere. Lunch and dinner hours bring steady activity.",
+
+environment: {
+parking: "Street parking along surrounding Walnut Hills streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining conversation.",
+exits: "Main entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Local visitors are common.",
+"Weekday lunches move quickly."
+]
+},
+
+{
+name: "Home Court Tavern",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar with a casual sports-bar atmosphere and bar seating. Evenings typically bring steady crowds gathering for drinks and sports.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings and sporting events.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Sports events increase crowd activity.",
+"Local regulars are common."
+]
+},
+
+{
+name: "Esoteric Brewing Co",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Craft brewery and restaurant with bar seating, dining tables, and a social taproom atmosphere. Evenings and weekends typically bring the most activity.",
+
+environment: {
+parking: "Street parking available along surrounding streets with nearby lots.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the brewery"
+},
+noise: "Moderate to High during busy evenings with conversation and music.",
+exits: "Main entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Evenings and weekends are typically busiest.",
+"Groups often gather for drinks.",
+"Local events occasionally increase crowds."
+]
+},
+
+{
+name: "Cafe Mochiko",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Japanese-inspired café and bakery known for pastries, coffee, and creative lunch dishes. Mornings and lunch hours typically bring steady crowds.",
+
+environment: {
+parking: "Street parking available along nearby streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with steady café activity and conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings are typically the busiest.",
+"Pastry and coffee visits are common.",
+"Lunch hours bring steady traffic."
+]
+},
+
+{
+name: "Bridges Nepali Cuisine",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Nepali restaurant known for momos and traditional dishes served in a casual dining space. Lunch and dinner hours bring steady activity.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Low to Moderate with relaxed dining conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Lunch visits are often quick.",
+"Dinner hours bring steady crowds.",
+"Smaller groups and couples are common."
+]
+},
+
+{
+name: "Gomez Salsa - Walnut Hills",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Fast-casual Mexican restaurant known for tacos and tortas with counter ordering and casual seating. Lunch and late evening hours often bring steady crowds.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining and takeout activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Late-night visits are common.",
+"Takeout orders are frequent.",
+"Lunch hours move quickly."
+]
+},
+
+{
+name: "Fireside Pizza",
+city: "Cincinnati",
+neighborhood: "Walnut Hills",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Wood-fired pizza restaurant with a large dining room, bar seating, and a relaxed neighborhood atmosphere. Dinner hours typically bring steady crowds.",
+
+environment: {
+parking: "Street parking available nearby with additional nearby lots.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity and conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Dinner hours are typically busiest.",
+"Families and groups are common.",
+"Weekend evenings bring steady crowds."
+]
+},   
+
+{
 name: "Pho Lang Thang",
 city: "Cincinnati",
 neighborhood: "OTR",
