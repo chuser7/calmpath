@@ -35,6 +35,161 @@ insights: [
 },
 
 {
+name: "Ghost Baby",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Underground cocktail lounge and music venue located in a multi-level historic tunnel space in Over-the-Rhine. Evenings typically bring steady crowds for live music performances and cocktails.",
+
+environment: {
+parking: "Street parking and nearby garages available throughout the Over-the-Rhine area.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Short waits possible during busy performances",
+location: "Located inside the venue on lower levels"
+},
+noise: "Moderate to High during live music performances and busy evenings.",
+exits: "Entrance located at street level with stairs and elevator access leading to the underground venue."
+},
+
+insights: [
+"Reservations are common for live music nights.",
+"Evenings and weekends bring the largest crowds.",
+"Visitors often arrive before performances begin."
+]
+},   
+
+{
+name: "Redtree Coffee and Art",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop and art space with casual seating and rotating artwork on display. Mornings and afternoons typically bring steady traffic for coffee and light meals.",
+
+environment: {
+parking: "Street parking available along surrounding neighborhood streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be the busiest.",
+"Visitors often stay for coffee or casual work.",
+"Artwork displays rotate periodically."
+]
+},
+
+{
+name: "Cincy Cafe",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood café serving coffee, breakfast items, and casual lunch options with table seating and a relaxed dining atmosphere.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady café conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings are typically busiest.",
+"Lunch hours bring steady visitors.",
+"Many guests stay for casual meetings or work."
+]
+},
+
+{
+name: "Coffee Emporium",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Popular Cincinnati coffee roaster and café with indoor seating and a steady flow of customers throughout the day.",
+
+environment: {
+parking: "Street parking available nearby with some nearby public lots depending on location.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with steady coffee shop activity and conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to bring the largest crowds.",
+"Coffee and pastry visits are common.",
+"Visitors often stay to work or study."
+]
+},   
+
+{
+name: "The Upside Brew",
+city: "Cincinnati",
+neighborhood: "Clifton",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop and café in Clifton with a relaxed atmosphere, counter ordering, and casual seating for coffee, pastries, and light meals. Mornings and early afternoons typically bring steady traffic from nearby residents and students.",
+
+environment: {
+parking: "Street parking available along surrounding Clifton streets with nearby small lots.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation and background music.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be the busiest.",
+"Visitors often stay for coffee or studying.",
+"Afternoons are usually calmer."
+]
+},   
+
+{
 name: "Taft Theatre",
 city: "Cincinnati",
 neighborhood: "Downtown",
