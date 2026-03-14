@@ -13599,6 +13599,37 @@ insights: [
 },
 
 {
+name: "Legends Bar",
+city: "Covington",
+neighborhood: "Latonia",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Neighborhood bar in the Latonia area of Covington with bar seating, TVs, and a casual social atmosphere. Evenings and weekends typically bring the most activity as locals gather for drinks and sports.",
+
+environment: {
+parking: "Street parking available along surrounding neighborhood streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the bar"
+},
+noise: "Moderate to High during busy evenings with conversation, music, and sports on TV.",
+exits: "Main entrance opens directly to the sidewalk along the street."
+},
+
+insights: [
+"Evenings are typically the busiest.",
+"Sports events often increase crowd activity.",
+"Most visitors are local regulars from the surrounding neighborhood."
+]
+},   
+
+{
 name: "Logo's Sports Bar & Grill",
 city: "Cincinnati",
 neighborhood: "White Oak",
