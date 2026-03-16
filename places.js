@@ -66,6 +66,223 @@ insights: [
 },   
 
 {
+name: "Collective Espresso",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Specialty coffee shop known for high-quality espresso drinks with a modern café space and casual seating. Mornings and early afternoons typically bring steady crowds.",
+
+environment: {
+parking: "Street parking available along nearby city streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be the busiest.",
+"Visitors often stay to work or meet friends.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Proud Hound Coffee",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Coffee shop and café offering espresso drinks and brunch-style dishes with a bright dining space and casual seating.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with steady brunch and coffee activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Weekend brunch hours are typically busiest.",
+"Mornings bring steady coffee traffic.",
+"Groups often gather for brunch."
+]
+},
+
+{
+name: "Sidewinder Coffee",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood coffee shop with casual seating and a relaxed café environment serving espresso drinks and light bites.",
+
+environment: {
+parking: "Street parking available along nearby streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings are typically the busiest.",
+"Visitors often stay for studying or work.",
+"Afternoons tend to be quieter."
+]
+},
+
+{
+name: "Left Bank Coffeehouse",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood coffee shop with casual seating and a relaxed atmosphere serving espresso drinks and light café items.",
+
+environment: {
+parking: "Street parking available along surrounding Covington streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to bring the most visitors.",
+"Visitors often stay for coffee or casual work.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Roebling Point Books & Coffee",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low",
+
+whatToExpect:
+"Independent bookstore and coffee shop with seating for reading, studying, and casual conversation. Visitors often browse books while enjoying coffee.",
+
+environment: {
+parking: "Street parking available along nearby Covington streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the shop"
+},
+noise: "Low with quiet conversation and reading.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Visitors often stay to read or study.",
+"Mornings bring steady coffee traffic.",
+"Afternoons tend to be relaxed."
+]
+},
+
+{
+name: "Mom 'n 'em Coffee & Wine",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Coffee shop and café offering espresso drinks, pastries, and light meals with a bright, modern interior and casual seating.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with steady café conversation and dining activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Lunch hours attract small groups.",
+"Visitors often stay for casual meetings."
+]
+},
+
+{
+name: "Carabello Coffee",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Specialty coffee roastery and café known for espresso drinks and pour-over coffee with a relaxed seating area.",
+
+environment: {
+parking: "Street parking available along surrounding Newport streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be the busiest.",
+"Visitors often stay to work or study.",
+"Coffee enthusiasts often stop by for specialty drinks."
+]
+},   
+
+{
 name: "Redtree Coffee and Art",
 city: "Cincinnati",
 neighborhood: "OTR",
