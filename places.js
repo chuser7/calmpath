@@ -18610,6 +18610,15 @@ function showRandomPlace() {
 
   document.getElementById("suggestions").innerHTML = "";
 
+  // Track venue selected from dropdown
+  if (typeof gtag !== "undefined" && place) {
+    gtag('event', 'venue_selected', {
+      venue_name: place.name || "",
+      neighborhood: place.neighborhood || "",
+      city: place.city || ""
+    });
+  }
+
   renderPlace(place);
 
 }
@@ -18617,12 +18626,6 @@ function showRandomPlace() {
 function searchPlace() {
 
   const inputRaw = document.getElementById("search").value;
-
-  if (typeof gtag !== "undefined") {
-    gtag('event', 'search', {
-      search_term: inputRaw
-    });
-  }
 
   const input = normalize(inputRaw);
   const resultDiv = document.getElementById("result");
@@ -18660,6 +18663,14 @@ function searchPlace() {
     </div>
   `).join("");
 
+  // Track searches
+  if (typeof gtag !== "undefined") {
+    gtag('event', 'search_performed', {
+      search_term: inputRaw || "",
+      results_count: matches.length
+    });
+  }
+
   if (matches.length === 0) {
 
     resultDiv.innerHTML = `
@@ -18668,21 +18679,7 @@ function searchPlace() {
       </p>
     `;
 
-    if (typeof gtag !== "undefined") {
-      gtag('event', 'search_performed', {
-        search_term: inputRaw,
-        results_count: 0
-      });
-    }
-
     return;
-  }
-
-  if (typeof gtag !== "undefined") {
-    gtag('event', 'search_performed', {
-      search_term: inputRaw,
-      results_count: matches.length
-    });
   }
 
 }
@@ -18692,6 +18689,15 @@ function renderPlace(place) {
   const resultDiv = document.getElementById("result");
 
   resultDiv.innerHTML = "";
+
+  // Track profile view
+  if (typeof gtag !== "undefined" && place) {
+    gtag('event', 'profile_view', {
+      venue_name: place.name || "",
+      neighborhood: place.neighborhood || "",
+      city: place.city || ""
+    });
+  }
 
   const patternsHTML =
     place.insights && place.insights.length
