@@ -13590,6 +13590,595 @@ insights: [
 },
 
 {
+name: "Wholy Beans Coffee Co.",
+city: "New Richmond",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Local coffee shop serving espresso drinks and pastries with casual seating and a relaxed café atmosphere along the Ohio River in New Richmond.",
+
+environment: {
+parking: "Street parking available along nearby downtown streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring the most visitors.",
+"Many guests stop in while visiting the riverfront area.",
+"Afternoons are usually quieter."
+]
+},
+
+{
+name: "513 Coffee",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood coffee shop in Covington serving espresso drinks, pastries, and light café items with casual seating.",
+
+environment: {
+parking: "Street parking available along surrounding Covington streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings are typically busiest.",
+"Visitors often stop in for quick coffee runs.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Elliott Coffee",
+city: "Dayton",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood coffee shop serving espresso drinks and pastries with a small, casual seating area and relaxed atmosphere.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with quiet coffee shop activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring the most traffic.",
+"Most visits are short coffee stops.",
+"Afternoons tend to be quieter."
+]
+},
+
+{
+name: "The Roost Latonia",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood café in the Latonia district serving coffee, breakfast items, and light meals with casual seating.",
+
+environment: {
+parking: "Street parking available along surrounding Covington streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical café conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Visitors often stay for casual meetings.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Birdie's Coffee Co.",
+city: "Norwood",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop in Norwood serving espresso drinks and pastries with a casual café seating area.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady café conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings are typically busiest.",
+"Visitors often stay to work or study.",
+"Afternoons tend to be calmer."
+]
+},
+
+{
+name: "Trailhead Coffee",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop along Monmouth Street in Newport serving espresso drinks and light café items with casual seating.",
+
+environment: {
+parking: "Street parking available along nearby Newport streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Visitors often stop in while walking Monmouth Street.",
+"Afternoons are typically quieter."
+]
+},
+
+{
+name: "Fulton Yards Coffeehouse and Spirits",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Coffeehouse and cocktail bar serving espresso drinks during the day and cocktails in the evening with casual seating.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with coffee shop activity during the day and bar activity in the evening.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Evenings shift toward a bar atmosphere.",
+"Visitors often stay for meetings or socializing."
+]
+},
+
+{
+name: "Cinergy Cafe",
+city: "Cincinnati",
+neighborhood: "Pleasant Ridge",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Café inside the Cinergy entertainment complex offering coffee, snacks, and quick bites for visitors to the theater and entertainment venue.",
+
+environment: {
+parking: "Large parking lot available at the entertainment complex.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the complex"
+},
+noise: "Low to Moderate depending on activity in surrounding entertainment areas.",
+exits: "Located inside the complex with exits leading to the main lobby and parking lot."
+},
+
+insights: [
+"Most visits are quick.",
+"Visitors often stop in before or after movies.",
+"Parking is typically easy."
+]
+},
+
+{
+name: "Kings Arms Coffee Roasters",
+city: "Cincinnati",
+neighborhood: "OTR",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Specialty coffee roaster and café serving espresso drinks and pour-over coffee with seating for guests.",
+
+environment: {
+parking: "Street parking available along nearby West End streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Visitors often stay to work or study.",
+"Coffee enthusiasts visit for specialty drinks."
+]
+},
+
+{
+name: "Reality Tuesday Cafe",
+city: "Park Hills",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low",
+
+whatToExpect:
+"Community café serving coffee and breakfast items with a relaxed and quiet atmosphere.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low with quiet conversation and relaxed café activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring the most visitors.",
+"Visitors often stay for casual meetings.",
+"Afternoons tend to be calm."
+]
+},
+
+{
+name: "Unataza Coffee",
+city: "Dayton",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood coffee shop serving espresso drinks, pastries, and light café items with casual seating and a relaxed atmosphere.",
+
+environment: {
+parking: "Street parking available along surrounding Dayton streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring the most coffee traffic.",
+"Visitors often stop in for quick coffee runs.",
+"Afternoons are typically quieter."
+]
+},
+
+{
+name: "Cream + Sugar Coffeehouse",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Coffee shop and café offering espresso drinks, pastries, and light breakfast options with casual seating.",
+
+environment: {
+parking: "Street parking available along nearby city streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady coffee shop conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be busiest.",
+"Visitors often stay for coffee or work.",
+"Afternoons are usually calmer."
+]
+},
+
+{
+name: "Luckman Coffee",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Local coffee shop serving espresso drinks and pastries with casual seating and a relaxed café environment.",
+
+environment: {
+parking: "Street parking available along nearby streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical coffee shop activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring the most activity.",
+"Visitors often stop in for quick coffee visits.",
+"Afternoons tend to be quieter."
+]
+},
+
+{
+name: "Point Perk Coffee",
+city: "Covington",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood coffee shop serving espresso drinks and light café items with casual seating.",
+
+environment: {
+parking: "Street parking available along surrounding Covington streets.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with steady café conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Visitors often stop in before work.",
+"Afternoons are typically quieter."
+]
+},
+
+{
+name: "Daylily",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Café and bakery offering coffee, pastries, and light breakfast items with casual seating and a relaxed atmosphere.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with café conversation and background music.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings tend to be the busiest.",
+"Pastries and coffee are popular stops.",
+"Afternoons are generally calmer."
+]
+},
+
+{
+name: "Lola's Coffee + Bar",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Coffee shop and bar serving espresso drinks during the day and cocktails in the evening with casual seating.",
+
+environment: {
+parking: "Street parking available along nearby streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with coffee shop activity during the day and bar activity in the evening.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady coffee traffic.",
+"Evenings shift toward a bar atmosphere.",
+"Visitors often stay for social gatherings."
+]
+},
+
+{
+name: "Fable Cafe",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Neighborhood café offering coffee, pastries, and casual seating in a relaxed environment.",
+
+environment: {
+parking: "Street parking available nearby.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Low to Moderate with typical café conversation.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Mornings bring steady visitors.",
+"Visitors often stay for casual work.",
+"Afternoons are usually quieter."
+]
+},
+
+{
+name: "Bean & Barley",
+city: "Cincinnati",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Coffee shop and café offering espresso drinks and brunch-style food with a casual dining atmosphere.",
+
+environment: {
+parking: "Street parking available along nearby streets.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the café"
+},
+noise: "Moderate with steady dining and coffee activity.",
+exits: "Front entrance opens directly to the sidewalk."
+},
+
+insights: [
+"Weekend brunch hours are typically busiest.",
+"Mornings bring steady coffee traffic.",
+"Groups often gather for brunch."
+]
+},
+
+{
+name: "The Little Spoon Bakery & Cafe",
+city: "Newport",
+neighborhood: "Newport on the Levee",
+state: "KY",
+type: "full",
+
+parkingLevel: "moderate",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Bakery and café located at Newport on the Levee offering pastries, breakfast items, and coffee with casual seating.",
+
+environment: {
+parking: "Parking garages and surface lots available at Newport on the Levee.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the Levee complex"
+},
+noise: "Moderate depending on activity in the surrounding Levee area.",
+exits: "Located inside the Levee complex with nearby exits to the riverfront and parking garages."
+},
+
+insights: [
+"Mornings bring steady breakfast traffic.",
+"Visitors often stop in while exploring the Levee.",
+"Weekend mornings tend to be busier."
+]
+},   
+   
+{
 name: "Ferrari's Little Italy",
 city: "Montgomery",
 neighborhood: "Montgomery",
