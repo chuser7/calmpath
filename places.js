@@ -14150,7 +14150,7 @@ insights: [
 {
 name: "The Little Spoon Bakery & Cafe",
 city: "Newport",
-neighborhood: "Newport on the Levee",
+neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
