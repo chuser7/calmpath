@@ -16245,6 +16245,37 @@ insights: [
 },
 
 {
+name: "Strato Artisanal European Delights",
+city: "West Chester Township",
+neighborhood: "West Chester",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"European-style café at Liberty Center offering coffee, pastries, macarons, chocolates, and light café items with casual seating in a bright shopping-center environment.",
+
+environment: {
+parking: "Large parking lots and garages available throughout Liberty Center.",
+restrooms: {
+capacity: "Single restroom",
+waits: "Rare waits",
+location: "Inside the café or nearby Liberty Center facilities"
+},
+noise: "Low to Moderate with typical café conversation and nearby shopping activity.",
+exits: "Located along the Liberty Center shopping walkway with multiple exits leading to surrounding parking areas."
+},
+
+insights: [
+"Mornings and early afternoons bring the most coffee traffic.",
+"Visitors often stop in while shopping at Liberty Center.",
+"Most visits are short coffee or pastry stops."
+]
+},   
+
+{
 name: "The Cone",
 city: "West Chester Township",
 neighborhood: "West Chester",
