@@ -55,7 +55,7 @@ input {
 width: 100%;
 padding: 12px;
 font-size: 1rem;
-margin: 16px 0;
+margin: 16px 0 8px 0;
 border-radius: 8px;
 border: 1px solid #ddd;
 }
@@ -142,6 +142,33 @@ font-size: 15px;
 background: #f7f7f7;
 }
 
+/* NEW: Explore row */
+.explore-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 12px;
+padding: 10px 2px;
+}
+
+.explore-text {
+font-size: 0.9rem;
+color: #555;
+}
+
+.explore-btn {
+background: white;
+border: 1px solid #ddd;
+border-radius: 999px;
+padding: 8px 14px;
+font-size: 0.85rem;
+cursor: pointer;
+}
+
+.explore-btn:active {
+transform: scale(0.97);
+}
+
 </style>
 </head>
 
@@ -170,9 +197,21 @@ oninput="searchPlace()"
 
 </div>
 
+<!-- NEW: Explore with filters entry -->
+<div class="explore-row">
+<div class="explore-text">Unsure where to go?</div>
+<button class="explore-btn" onclick="goToFilters()">Explore with filters</button>
+</div>
+
 <div id="result"></div>
 
 <script src="places.js"></script>
+
+<script>
+function goToFilters() {
+window.location.href = "filters.html";
+}
+</script>
 
 </body>
 </html>
