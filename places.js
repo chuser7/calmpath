@@ -16309,7 +16309,7 @@ insights: [
 {
 name: "The Davidson",
 city: "Cincinnati",
-neighborhood: "Mount Lookout",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 whatToExpect:
