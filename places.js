@@ -16312,24 +16312,28 @@ city: "Cincinnati",
 neighborhood: "Downtown",
 state: "OH",
 type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "moderate",
+
 whatToExpect:
-"Restaurant and bar with a modern dining room and patio seating in the Mount Lookout Square area. Typically steady during dinner hours with a social weekend crowd.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
+"Upscale restaurant and bar located inside The Lytle Park Hotel with a polished dining room and cocktail-focused bar area. Typically attracts a mix of hotel guests, business diners, and downtown visitors, especially during dinner hours.",
+
 environment: {
-parking: "Street parking around Mount Lookout Square.",
+parking: "Valet parking available at the hotel with nearby street parking and garages in downtown.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the hotel near the restaurant"
 },
-noise: "Moderate",
-exits: "Street-level entrance and patio access"
+noise: "Moderate with steady dining conversation and background music.",
+exits: "Entrance through The Lytle Park Hotel lobby with direct access to the street."
 },
+
 insights: [
-"Evenings bring couples and small groups.",
-"The patio tends to stay active during warmer months.",
-"Weekend nights usually bring the most activity."
+"Dinner hours and evenings bring the most activity.",
+"Reservations are common for peak times.",
+"Hotel guests and business diners make up a large portion of visitors."
 ]
 },
    
