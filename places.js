@@ -97,7 +97,7 @@ insights: [
 },
 
 {
-name: "Ichiban",
+name: "Ichiban - Alexandria",
 city: "Alexandria",
 neighborhood: "",
 state: "KY",
