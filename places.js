@@ -16305,37 +16305,6 @@ insights: [
 "Afternoons usually feel calmer."
 ]
 },
-
-{
-name: "The Davidson",
-city: "Cincinnati",
-neighborhood: "Downtown",
-state: "OH",
-type: "full",
-
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Upscale restaurant and bar located inside The Lytle Park Hotel with a polished dining room and cocktail-focused bar area. Typically attracts a mix of hotel guests, business diners, and downtown visitors, especially during dinner hours.",
-
-environment: {
-parking: "Valet parking available at the hotel with nearby street parking and garages in downtown.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the hotel near the restaurant"
-},
-noise: "Moderate with steady dining conversation and background music.",
-exits: "Entrance through The Lytle Park Hotel lobby with direct access to the street."
-},
-
-insights: [
-"Dinner hours and evenings bring the most activity.",
-"Reservations are common for peak times.",
-"Hotel guests and business diners make up a large portion of visitors."
-]
-},
    
 {
 name: "Artemis Mediterranean Bistro",
