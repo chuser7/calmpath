@@ -35,6 +35,161 @@ insights: [
 },
 
 {
+name: "Mellow Mushroom - Wilder",
+city: "Wilder",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Casual pizza restaurant with a colorful interior, bar seating, and a large dining area known for specialty pizzas, sandwiches, and a wide beer selection.",
+
+environment: {
+parking: "Large parking lot available directly outside the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High during busy dinner hours and weekends.",
+exits: "Main entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours and weekends bring the most activity.",
+"Groups and families are common.",
+"Bar area can be livelier in the evenings."
+]
+},
+
+{
+name: "New China Buffet",
+city: "Newport",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Large Chinese buffet restaurant offering a wide selection of dishes including sushi, seafood, and traditional buffet items with a spacious dining area.",
+
+environment: {
+parking: "Large shared parking lot at the surrounding shopping center.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity typical of buffet-style service.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch and dinner hours bring steady traffic.",
+"Buffet line movement increases during peak times.",
+"Families and larger groups are common."
+]
+},
+
+{
+name: "Ichiban",
+city: "Alexandria",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Japanese and sushi restaurant with table seating and a casual dining atmosphere serving sushi, hibachi-style dishes, and traditional entrees.",
+
+environment: {
+parking: "Shared plaza parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with typical dining conversation.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Dinner hours bring steady crowds.",
+"Families and small groups are common.",
+"Lunch visits are typically quicker."
+]
+},
+
+{
+name: "El Ocho Loco",
+city: "Erlanger",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "low_moderate",
+
+whatToExpect:
+"Small, casual Mexican taqueria along Stevenson Road known for authentic street-style tacos and a relaxed, no-frills setup. The layout is informal and may feel different from a typical sit-down restaurant, with no clear host stand when entering.",
+
+environment: {
+parking: "Parking lot located directly outside the restaurant.",
+restrooms: {
+capacity: "Unknown",
+waits: "Unknown",
+location: "Not clearly visible—confirm on arrival if needed"
+},
+noise: "Low to Moderate with kitchen activity and casual conversation.",
+exits: "Front entrance opens directly to the parking lot with a small interior dining area."
+},
+
+insights: [
+"No traditional host stand—ordering may be at the counter or after seating.",
+"Staff may be primarily in the kitchen area when you walk in.",
+"Calling ahead for takeout can be easier than ordering in person."
+]
+},
+
+{
+name: "Jade Buffet",
+city: "Cincinnati",
+neighborhood: "North Cincy",
+state: "OH",
+type: "full",
+
+parkingLevel: "easy",
+noiseLevel: "moderate",
+
+whatToExpect:
+"Chinese buffet restaurant offering a wide variety of dishes with a large dining area and self-serve buffet setup.",
+
+environment: {
+parking: "Large shared parking lot surrounding the restaurant.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate with steady dining activity typical of buffet service.",
+exits: "Front entrance opens directly to the parking lot."
+},
+
+insights: [
+"Lunch and dinner hours bring steady crowds.",
+"Buffet lines move continuously during peak times.",
+"Families and groups are common."
+]
+},   
+
+{
 name: "RJ Four Mile Pig",
 city: "Newtown",
 neighborhood: "East Cincy",
