@@ -35,6 +35,37 @@ insights: [
 },
 
 {
+name: "The Davidson",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "moderate_difficult",
+noiseLevel: "moderate_high",
+
+whatToExpect:
+"Restaurant and bar located on Fountain Square in downtown Cincinnati with indoor seating and a strong connection to the outdoor plaza. Activity varies with events on the square but typically increases during evenings, weekends, and downtown events.",
+
+environment: {
+parking: "Street parking and nearby downtown garages within a short walk of Fountain Square.",
+restrooms: {
+capacity: "Multiple restrooms",
+waits: "Rare waits",
+location: "Inside the restaurant"
+},
+noise: "Moderate to High depending on crowd levels and events happening on Fountain Square.",
+exits: "Entrance opens directly to Fountain Square with immediate access to the plaza."
+},
+
+insights: [
+"Events on Fountain Square can significantly increase noise and crowd levels.",
+"Evenings and weekends bring the most activity.",
+"Foot traffic from downtown offices and events is common."
+]
+},
+
+{
 name: "Mellow Mushroom - Wilder",
 city: "Wilder",
 neighborhood: "",
