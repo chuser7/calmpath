@@ -2527,7 +2527,7 @@ insights: [
 {
 name: "Kiki",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
@@ -2535,7 +2535,7 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Japanese restaurant with bar seating and table dining in the OTR district. Typically relaxed earlier in the day with steady dinner traffic and weekend visits.",
+"Japanese restaurant with bar seating and table dining in the Clifton district. Typically relaxed earlier in the day with steady dinner traffic and weekend visits.",
 
 environment: {
 parking: "Street parking nearby.",
