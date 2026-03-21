@@ -7247,7 +7247,7 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with indoor seating and a rooftop patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
+"Bar with indoor seating and a outdoor patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
 
 environment: {
 parking: "Street parking nearby.",
@@ -7257,7 +7257,7 @@ waits: "Possible during weekend nights",
 location: "Inside venue"
 },
 noise: "Moderate to High; increases late at night.",
-exits: "Street and rooftop access available."
+exits: "Street access available."
 },
 
 insights: [
