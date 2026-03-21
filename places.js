@@ -9062,7 +9062,7 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Multi-level restaurant and bar with indoor seating and a rooftop patio. Typically lighter earlier in the day and busier during dinner hours and weekends, especially in warmer weather.",
+"Multi-level restaurant and bar with indoor seating and a outdoor patio. Typically lighter earlier in the day and busier during dinner hours and weekends, especially in warmer weather.",
 
 environment: {
 parking: "Street parking and nearby public lots; may require short walk during peak times.",
@@ -9071,13 +9071,13 @@ capacity: "Indoor; accessible",
 waits: "Possible during peak dinner hours",
 location: "Inside main level"
 },
-noise: "Moderate; higher on rooftop and weekend evenings.",
-exits: "Street-level entrance and rooftop access."
+noise: "Moderate; higher on weekend evenings.",
+exits: "Street-level entrance."
 },
 
 insights: [
 "Seating level changes the overall experience.",
-"Rooftop traffic increases seasonally.",
+"Outdoor traffic increases seasonally.",
 "Activity builds steadily into the evening."
 ]
 },
