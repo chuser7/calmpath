@@ -1715,7 +1715,6 @@ exits: "Easy step outside to sidewalk"
 insights: [
 "Early dinner hours often feel calmer.",
 "Dinner service attracts couples and small groups.",
-"Weekend evenings usually bring the most activity."
 ]
 },
 
