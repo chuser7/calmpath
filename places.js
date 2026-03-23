@@ -15,17 +15,17 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual restaurant with a bar-centric layout and active social atmosphere. Louder and more crowded during peak meal times and game nights.",
+"Casual restaurant with a bar-forward layout and table seating throughout with steady foot traffic.",
 
 environment: {
-parking: "Street + nearby garages; tight during events.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
 capacity: "Limited capacity",
-waits: "Possible during peak times",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate to Loud when busy.",
-exits: "Street-level; easy step outside."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
@@ -41,27 +41,25 @@ neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar located on Fountain Square in downtown Cincinnati with indoor seating and a strong connection to the outdoor plaza. Activity varies with events on the square but typically increases during evenings, weekends, and downtown events.",
+"Restaurant with bar seating and dining tables connected directly to an outdoor plaza.",
 
 environment: {
-parking: "Street parking and nearby downtown garages within a short walk of Fountain Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on crowd levels and events happening on Fountain Square.",
-exits: "Entrance opens directly to Fountain Square with immediate access to the plaza."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Events on Fountain Square can significantly increase noise and crowd levels.",
-"Evenings and weekends bring the most activity.",
-"Foot traffic from downtown offices and events is common."
+"Events on Fountain Square increase noise and crowd levels."
 ]
 },
 
@@ -72,27 +70,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Casual pizza restaurant with a colorful interior, bar seating, and a large dining area known for specialty pizzas, sandwiches, and a wide beer selection.",
+"Spacious restaurant with a bar section and multiple dining areas for groups and families.",
 
 environment: {
-parking: "Large parking lot available directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy dinner hours and weekends.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours and weekends bring the most activity.",
-"Groups and families are common.",
-"Bar area can be livelier in the evenings."
+"Bar area is louder in the evenings."
 ]
 },
 
@@ -103,27 +99,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Large Chinese buffet restaurant offering a wide selection of dishes including sushi, seafood, and traditional buffet items with a spacious dining area.",
+"Large buffet-style restaurant with multiple seating sections and continuous guest movement.",
 
 environment: {
-parking: "Large shared parking lot at the surrounding shopping center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity typical of buffet-style service.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch and dinner hours bring steady traffic.",
-"Buffet line movement increases during peak times.",
-"Families and larger groups are common."
+"Buffet lines become busier during peak hours."
 ]
 },
 
@@ -134,26 +128,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Japanese and sushi restaurant with table seating and a casual dining atmosphere serving sushi, hibachi-style dishes, and traditional entrees.",
+"Sushi and hibachi restaurant with table seating and a steady dine-in flow.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady crowds.",
-"Families and small groups are common.",
 "Lunch visits are typically quicker."
 ]
 },
@@ -165,151 +157,140 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
-"Small, casual Mexican taqueria along Stevenson Road known for authentic street-style tacos and a relaxed, no-frills setup. The layout is informal and may feel different from a typical sit-down restaurant, with no clear host stand when entering.",
+"Small taqueria with limited seating and a simple counter-service setup.",
 
 environment: {
-parking: "Parking lot located directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Unknown",
-waits: "Unknown",
-location: "Not clearly visible—confirm on arrival if needed"
+capacity: "unknown",
+waits: "unknown",
+location: "unknown"
 },
-noise: "Low to Moderate with kitchen activity and casual conversation.",
-exits: "Front entrance opens directly to the parking lot with a small interior dining area."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"No traditional host stand—ordering may be at the counter or after seating.",
-"Staff may be primarily in the kitchen area when you walk in.",
-"Calling ahead for takeout can be easier than ordering in person."
+"No traditional host stand; ordering may occur at the counter.",
+"Staff may not be visible immediately when entering."
 ]
 },
 
 {
 name: "Jade Buffet",
 city: "Cincinnati",
-neighborhood: "North Cincy",
+neighborhood: "Springdale",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Chinese buffet restaurant offering a wide variety of dishes with a large dining area and self-serve buffet setup.",
+"Buffet restaurant with a large dining area and consistent guest traffic.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity typical of buffet service.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch and dinner hours bring steady crowds.",
-"Buffet lines move continuously during peak times.",
-"Families and groups are common."
+"Buffet lines move continuously during peak times."
 ]
-},   
+},
 
 {
 name: "RJ Four Mile Pig",
 city: "Newtown",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local barbecue restaurant serving smoked meats and sandwiches with counter service and casual seating.",
+"Local barbecue spot with counter ordering and a small indoor seating area.",
 
 environment: {
-parking: "Parking lot available directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring steady crowds.",
-"Takeout orders are common.",
-"Parking is usually easy."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Newtown Village Tavern Pizza",
 city: "Newtown",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pizza tavern with bar seating, dining tables, and a relaxed local atmosphere.",
+"Neighborhood tavern with a mix of bar seating and dining tables in a compact layout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and bar activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be busiest.",
-"Local residents visit regularly.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
 {
 name: "Fifty West Brewing Company - Burger Bar",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Wooster Pike",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Popular brewery restaurant known for burgers, craft beer, and outdoor seating areas with a lively atmosphere.",
+"Brewery-style restaurant with a large seating area, bar section, and frequent group gatherings.",
 
 environment: {
-parking: "Large parking lot available outside the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy evenings",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and weekends.",
-exits: "Main entrance opens directly to the parking lot and outdoor seating areas."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
-"Groups often gather for drinks and food."
+"Outdoor seating is used frequently in warm weather."
 ]
 },
 
