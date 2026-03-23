@@ -1775,7 +1775,6 @@ exits: "Easy step outside to parking lot"
 insights: [
 "Lunch visits often move quickly.",
 "Most visits involve quick dine-in meals or carryout.",
-"Weekend evenings bring steady traffic."
 ]
 },
 
