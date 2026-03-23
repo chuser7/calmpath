@@ -297,154 +297,140 @@ insights: [
 {
 name: "Scramblers",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Wooster Pike",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a family-friendly dining atmosphere.",
+"Breakfast and brunch restaurant with table seating and a steady flow of diners.",
 
 environment: {
-parking: "Parking lot available outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy brunch hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with steady brunch conversation and activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically the busiest.",
-"Weekend brunch hours bring larger crowds.",
-"Families and groups are common."
-]
+insights: []
 },
 
 {
 name: "Village Coffee Shop",
 city: "Newtown",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Small neighborhood café serving breakfast, lunch, and coffee with casual seating and a relaxed atmosphere.",
+"Small café with limited seating and a steady stream of walk-in customers.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Breakfast visits are common.",
-"Afternoons are usually quieter."
+"Afternoons are typically quieter."
 ]
-},   
+},
 
 {
 name: "Grove Park Grille",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar with casual seating and a relaxed dining atmosphere serving American-style comfort food.",
+"Neighborhood restaurant with bar seating and dining tables in a casual layout.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Local residents visit regularly.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
 {
 name: "Salem Gardens",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Casual neighborhood bar and grill with bar seating, dining tables, and a relaxed social atmosphere.",
+"Bar and grill with a mix of bar seating and tables in an active social setting.",
 
 environment: {
-parking: "Parking lot available outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings tend to be the busiest.",
-"Local regulars are common.",
-"Sports events increase activity."
+"Sports events increase crowd noise."
 ]
 },
 
 {
 name: "Mio's Pizza - Mt Washington",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pizza restaurant with casual seating and a family-friendly dining environment.",
+"Pizza restaurant with casual table seating and a consistent mix of dine-in and takeout orders.",
 
 environment: {
-parking: "Parking lot available outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady traffic.",
-"Families and groups are common.",
 "Takeout orders are frequent."
 ]
 },
@@ -452,156 +438,144 @@ insights: [
 {
 name: "Angilo's Pizza",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Local pizza restaurant offering counter service and casual seating with steady takeout traffic.",
+"Pizza spot with counter ordering and a small dining area with steady takeout activity.",
 
 environment: {
-parking: "Small parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical restaurant conversation.",
-exits: "Front entrance opens directly to the sidewalk or parking area."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "The Bridge of Mt Washington",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood restaurant and bar with dining tables, bar seating, and televisions creating a casual social atmosphere.",
+"Restaurant and bar with table seating, a bar area, and TVs throughout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings bring the most activity.",
-"Sports events increase crowd noise.",
-"Local regulars are common."
+"Sports events increase crowd noise."
 ]
 },
 
 {
 name: "Big Ash Brewing",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large craft brewery and restaurant with indoor seating, bar space, and outdoor patio areas.",
+"Large brewery with indoor seating, bar space, and an open layout for groups.",
 
 environment: {
-parking: "Large parking lot available directly outside the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and events.",
-exits: "Main entrance opens directly to the parking lot and patio areas."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
-"Groups often gather for drinks and food."
+"Outdoor seating is used frequently in warm weather."
 ]
 },
 
 {
 name: "Gyrolicious Grill",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Mediterranean-style restaurant serving gyros, wraps, and casual meals with counter ordering and seating.",
+"Casual restaurant with counter ordering and a small seating area for quick meals.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits are often quick.",
-"Takeout orders are common.",
-"Dinner hours bring steady traffic."
+"Lunch visits are often quick."
 ]
 },
 
 {
 name: "Sutton Bar & Grill",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with casual seating and a relaxed social atmosphere.",
+"Bar and grill with a mix of bar seating and tables in a social setting.",
 
 environment: {
-parking: "Parking lot available outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Local regulars are common.",
-"Weekend nights bring larger crowds."
-]
+insights: []
 },
 
 {
