@@ -864,32 +864,31 @@ insights: []
 },
 
 {
-name: "Eli's BBQ",
+name: "Eli's BBQ - Riverside",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Popular barbecue restaurant with counter ordering, casual seating, and outdoor dining space along the river.",
+"Popular barbecue spot with counter ordering, casual seating, and outdoor dining space.",
 
 environment: {
-parking: "Parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy lunch and dinner periods.",
-exits: "Main entrance opens toward the outdoor seating and parking area."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
+"Outdoor seating is used frequently in warm weather.",
 "Takeout orders are common."
 ]
 },
@@ -897,33 +896,31 @@ insights: [
 {
 name: "The Hi-Mark",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating, tables, and televisions creating a casual social atmosphere.",
+"Neighborhood bar and grill with a mix of bar seating and tables with TVs throughout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings bring the most activity.",
-"Sports events increase crowd noise.",
-"Local regulars are common."
+"Sports events increase crowd noise."
 ]
-},   
+},
 
 {
 name: "Ghost Baby",
@@ -932,88 +929,83 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Underground cocktail lounge and music venue located in a multi-level historic tunnel space in Over-the-Rhine. Evenings typically bring steady crowds for live music performances and cocktails.",
+"Multi-level cocktail lounge and music venue with seating across different levels.",
 
 environment: {
-parking: "Street parking and nearby garages available throughout the Over-the-Rhine area.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy performances",
-location: "Located inside the venue on lower levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Lower level"
 },
-noise: "Moderate to High during live music performances and busy evenings.",
-exits: "Entrance located at street level with stairs and elevator access leading to the underground venue."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservations are common for live music nights.",
-"Evenings and weekends bring the largest crowds.",
-"Visitors often arrive before performances begin."
+"Live music performances increase noise and crowd levels.",
+"Reservations are common for performances."
 ]
-},   
+},
 
 {
 name: "Collective Espresso",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Specialty coffee shop known for high-quality espresso drinks with a modern café space and casual seating. Mornings and early afternoons typically bring steady crowds.",
+"Modern coffee shop with casual seating and a steady flow of customers.",
 
 environment: {
-parking: "Street parking available along nearby city streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay to work or meet friends.",
-"Afternoons are usually calmer."
+"Visitors often stay to work or meet."
 ]
 },
 
 {
 name: "Proud Hound Coffee",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks and brunch-style dishes with a bright dining space and casual seating.",
+"Coffee shop with table seating and a mix of espresso service and brunch-style dining.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady brunch and coffee activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Weekend brunch hours are typically busiest.",
-"Mornings bring steady coffee traffic.",
 "Groups often gather for brunch."
 ]
 },
@@ -1021,31 +1013,29 @@ insights: [
 {
 name: "Sidewinder Coffee",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Northside",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood coffee shop with casual seating and a relaxed café environment serving espresso drinks and light bites.",
+"Neighborhood coffee shop with casual seating and a relaxed setup for short visits or work.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings are typically the busiest.",
-"Visitors often stay for studying or work.",
-"Afternoons tend to be quieter."
+"Visitors often stay to work or study."
 ]
 },
 
@@ -1056,27 +1046,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood coffee shop with casual seating and a relaxed atmosphere serving espresso drinks and light café items.",
+"Local coffee shop with seating for reading, working, and casual conversation.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to bring the most visitors.",
-"Visitors often stay for coffee or casual work.",
-"Afternoons are usually calmer."
+"Visitors often stay to read or work."
 ]
 },
 
@@ -1087,57 +1075,53 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Independent bookstore and coffee shop with seating for reading, studying, and casual conversation. Visitors often browse books while enjoying coffee.",
+"Bookstore and café with seating for reading, studying, and light conversation.",
 
 environment: {
-parking: "Street parking available along nearby Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low with quiet conversation and reading.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Visitors often stay to read or study.",
-"Mornings bring steady coffee traffic.",
-"Afternoons tend to be relaxed."
+"Visitors often stay to read or study."
 ]
 },
 
 {
 name: "Mom 'n 'em Coffee & Wine",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Madisonville",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks, pastries, and light meals with a bright, modern interior and casual seating.",
+"Café with table seating offering coffee, pastries, and light meals.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady café conversation and dining activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings bring steady coffee traffic.",
-"Lunch hours attract small groups.",
 "Visitors often stay for casual meetings."
 ]
 },
@@ -1149,29 +1133,27 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Specialty coffee roastery and café known for espresso drinks and pour-over coffee with a relaxed seating area.",
+"Specialty coffee shop with a focus on espresso drinks and a relaxed seating area.",
 
 environment: {
-parking: "Street parking available along surrounding Newport streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay to work or study.",
-"Coffee enthusiasts often stop by for specialty drinks."
+"Visitors often stay to work or study."
 ]
-},   
+}, 
 
 {
 name: "Redtree Coffee and Art",
