@@ -18800,15 +18800,6 @@ function showRandomPlace() {
 
   document.getElementById("suggestions").innerHTML = "";
 
-  // Track venue selected from dropdown
-  if (typeof gtag !== "undefined" && place) {
-    gtag('event', 'venue_selected', {
-      venue_name: place.name || "",
-      neighborhood: place.neighborhood || "",
-      city: place.city || ""
-    });
-  }
-
   renderPlace(place);
 
 }
@@ -18880,14 +18871,14 @@ function renderPlace(place) {
 
   resultDiv.innerHTML = "";
 
-  // Track profile view
-  if (typeof gtag !== "undefined" && place) {
-    gtag('event', 'profile_view', {
-      venue_name: place.name || "",
-      neighborhood: place.neighborhood || "",
-      city: place.city || ""
-    });
-  }
+// Track place view (PRIMARY METRIC)
+if (typeof gtag !== "undefined" && place) {
+  gtag('event', 'place_view', {
+    place_name: place.name || "",
+    neighborhood: place.neighborhood || "",
+    city: place.city || ""
+  });
+}
 
   const patternsHTML =
     place.insights && place.insights.length
