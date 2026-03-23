@@ -1654,7 +1654,6 @@ exits: "Easy step outside to sidewalk"
 insights: [
 "Early evening visits often feel relaxed.",
 "Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
 ]
 },
 
