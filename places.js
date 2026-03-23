@@ -580,30 +580,29 @@ insights: []
 
 {
 name: "Mercer Social House",
-city: "Cincinnati",
-neighborhood: "East Cincy",
+city: "Newtown",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and café offering coffee, brunch items, and casual meals with a welcoming dining space.",
+"Café-style restaurant with table seating and a steady mix of coffee and meal service.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady café and dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings and brunch hours bring steady traffic.",
 "Visitors often stay for casual meetings.",
 "Afternoons tend to be quieter."
 ]
@@ -611,248 +610,228 @@ insights: [
 
 {
 name: "Main Street Cafe",
-city: "Cincinnati",
-neighborhood: "East Cincy",
+city: "Newtown",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood café serving breakfast, lunch, and coffee with casual seating and a relaxed atmosphere.",
+"Neighborhood café with table seating and a steady flow of breakfast and lunch customers.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Breakfast visits are common.",
 "Afternoons are usually calmer."
 ]
-},   
+},
 
 {
-name: "Pig Candy BBQ",
+name: "Pig Candy BBQ - Kellogg Ave",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Barbecue restaurant with casual seating and counter service known for smoked meats and sandwiches. Lunch and dinner hours typically bring steady crowds.",
+"Barbecue spot with counter service and a casual dining area for dine-in and takeout.",
 
 environment: {
-parking: "Small parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring steady traffic.",
-"Takeout orders are common.",
-"Evenings can be busier on weekends."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "BrewRiver Creole Kitchen",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Creole-inspired restaurant along the Ohio River with indoor seating and riverfront views. Dinner hours and weekends typically bring the most activity.",
+"Restaurant with indoor seating and a dining area along the riverfront.",
 
 environment: {
-parking: "Parking lot available near the restaurant along the riverfront.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with dining conversation and occasional bar activity.",
-exits: "Main entrance opens to the riverfront parking area."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours are typically busiest.",
-"Riverfront views attract weekend visitors.",
-"Groups often gather for dinner."
+"Riverfront location draws more visitors on weekends."
 ]
 },
 
 {
 name: "Local Post East End Eatery",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar in the East End with casual seating and a relaxed local atmosphere.",
+"Neighborhood restaurant with bar seating and dining tables in a casual setting.",
 
 environment: {
-parking: "Street parking available along surrounding neighborhood streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and bar conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be busiest.",
-"Local residents visit regularly.",
-"Weekends bring steady crowds."
-]
+insights: []
 },
 
 {
 name: "Hitching Post - Kellogg",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual neighborhood restaurant along Kellogg Avenue with table seating and a relaxed dining atmosphere.",
+"Casual restaurant with table seating and a steady flow of diners.",
 
 environment: {
-parking: "Parking lot available directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring steady traffic.",
-"Local visitors are common.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
 name: "Swampwater Grill",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Riverfront bar and grill with outdoor seating, live music events, and a casual atmosphere.",
+"Bar and grill with indoor seating and outdoor areas that host live music and events.",
 
 environment: {
-parking: "Parking lot available near the venue.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during events",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during live music or busy evenings.",
-exits: "Main entrance opens toward the parking lot and outdoor seating area."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Live music events bring larger crowds.",
-"Outdoor seating is popular in warm weather.",
-"Evenings are typically busiest."
+"Live music events increase crowd size and noise."
 ]
 },
 
 {
 name: "Streetside Brewery",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood craft brewery with taproom seating, outdoor patio space, and rotating food trucks.",
+"Brewery with indoor seating, a taproom layout, and space for groups to gather.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and music.",
-exits: "Main entrance opens directly to the sidewalk and patio area."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends bring the most activity.",
-"Food trucks are often present.",
-"Groups gather for drinks and socializing."
+"Food trucks are often present."
 ]
 },
 
 {
 name: "Bandito Food Park + Cantina",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Food truck park and cantina with outdoor seating and rotating food vendors in a lively social setting.",
+"Outdoor food park with multiple vendors and shared seating areas for groups.",
 
 environment: {
-parking: "Parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy periods",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High with outdoor dining and music.",
-exits: "Multiple entrances from surrounding parking and seating areas."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Evenings and weekends bring the largest crowds.",
-"Outdoor seating is the primary dining area.",
 "Food vendors rotate periodically."
 ]
 },
@@ -860,32 +839,28 @@ insights: [
 {
 name: "The Turf Club",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Linwood",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Longstanding neighborhood restaurant known for burgers and casual dining with indoor seating and bar space.",
+"Established restaurant with bar seating and dining tables in a compact layout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring steady crowds.",
-"Local regulars are common.",
-"Weekend evenings are typically busier."
-]
+insights: []
 },
 
 {
