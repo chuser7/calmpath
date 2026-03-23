@@ -1745,7 +1745,6 @@ exits: "Easy step outside to parking lot"
 insights: [
 "Afternoons often feel quieter.",
 "Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
 ]
 },
 
