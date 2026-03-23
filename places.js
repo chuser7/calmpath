@@ -1529,7 +1529,6 @@ exits: "Multiple stadium gates and exits connecting to The Banks riverfront area
 insights: [
 "Arrival before first pitch is common as fans spend time in The Banks area nearby.",
 "Inning breaks often bring restroom and concession lines.",
-"Weekend and rivalry games tend to draw the largest crowds.",
 "Walking routes along the riverfront and nearby garages are commonly used."
 ]
 },
