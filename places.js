@@ -1369,7 +1369,6 @@ exits: "Main entrance opens directly to the street."
 
 insights: [
 "Live music events are common throughout the week.",
-"Weekends tend to be the busiest nights.",
 "Neighborhood regulars and local music fans are common.",
 "Nearby Northside restaurants and bars are often visited before or after shows."
 ]
