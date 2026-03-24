@@ -2122,9 +2122,9 @@ insights: []
 },
 
 {
-name: "Salazar",
+name: "Salazar Cincinnati",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -2132,28 +2132,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with table seating and a small bar area on Republic Street in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
+"Restaurant with table seating and a small bar area in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Couples and small groups are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Kiki",
+name: "Kiki on Ludlow",
 city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
@@ -2163,24 +2159,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Japanese restaurant with bar seating and table dining in the Clifton district. Typically relaxed earlier in the day with steady dinner traffic and weekend visits.",
+"Japanese restaurant with bar seating and table dining in a casual setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often move quickly.",
-"Dinner service attracts couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2194,23 +2186,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and grill with a large bar area and casual seating near Washington Park. Typically calmer earlier in the day with increased activity during evenings and sports events.",
+"Bar and grill with a large bar area and table seating in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the most visitors."
+"Sports events increase noise and activity."
 ]
 },
 
@@ -2225,23 +2215,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Outdoor bar with a large courtyard and multiple seating areas in OTR. Typically relaxed earlier in the day with increased activity during evening hours and weekends.",
+"Outdoor bar with a large courtyard and multiple seating areas.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel calmer in the outdoor space.",
-"Evenings bring steady social groups.",
-"Weekend nights usually bring the largest crowds."
+"Outdoor space fills with groups during busy periods."
 ]
 },
 
@@ -2256,24 +2244,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with a casual atmosphere and bar seating along the Vine Street corridor. Typically quieter earlier in the day with more activity later at night.",
+"Neighborhood bar with bar seating and a simple indoor layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel relaxed.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually see the most activity."
-]
+insights: []
 },
 
 {
@@ -2287,24 +2271,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Wine and bottle shop with bar seating and small table areas in OTR. Typically calmer earlier in the evening with steady social visits later at night.",
+"Wine bar with bar seating and small table areas in a compact space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups commonly gather for drinks later at night.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2318,23 +2298,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment venue with bars, games, and open social spaces near the OTR nightlife district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+"Large entertainment venue with multiple bars, games, and open seating areas.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter before nightlife hours.",
-"Groups frequently gather for games and drinks.",
-"Weekend nights usually bring the largest crowds."
+"Groups gather for games and drinks."
 ]
 },
 
@@ -2349,23 +2327,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Arcade bar with vintage video games and bar seating in the OTR entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
+"Arcade bar with gaming areas and bar seating in an open layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early evenings tend to feel calmer.",
-"Groups gather for arcade games and drinks later in the night.",
-"Weekend nights usually bring the most visitors."
+"Games and music contribute to overall noise levels."
 ]
 },
 
@@ -2380,24 +2356,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and a casual dining layout near the Vine Street corridor in OTR. Typically quieter earlier in the evening with steady dinner service and weekend activity.",
+"Restaurant and bar with table seating and a straightforward dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring steady groups and couples.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2411,23 +2383,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Brewery and distillery with table seating, bar service, and a large indoor taproom space. Typically relaxed earlier in the day with increased activity during evenings and weekend visits.",
+"Brewery and distillery with a large taproom, bar seating, and open tables.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel calmer than evenings.",
-"Groups frequently gather for drinks in the evening.",
-"Weekend nights usually bring the largest crowds."
+"Groups gather for drinks in the taproom."
 ]
 },
 
