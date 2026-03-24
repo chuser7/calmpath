@@ -2947,27 +2947,26 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual Mexican restaurant known for tacos and tortas with counter ordering and casual seating. Lunch and late evening hours often bring steady crowds.",
+"Fast-casual restaurant with counter ordering and casual seating for quick meals.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and takeout activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
 "Late-night visits are common.",
-"Takeout orders are frequent.",
-"Lunch hours move quickly."
+"Takeout orders are frequent."
 ]
 },
 
@@ -2978,29 +2977,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Wood-fired pizza restaurant with a large dining room, bar seating, and a relaxed neighborhood atmosphere. Dinner hours typically bring steady crowds.",
+"Pizza restaurant with a large dining room, bar seating, and table seating throughout.",
 
 environment: {
-parking: "Street parking available nearby with additional nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and groups are common.",
-"Weekend evenings bring steady crowds."
-]
-},   
+insights: []
+},
 
 {
 name: "Pho Lang Thang",
@@ -3013,30 +3008,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Vietnamese restaurant with table seating located near Findlay Market in OTR. Typically steady during lunch hours with continued traffic during dinner service.",
+"Restaurant with table seating located near a busy market area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent market traffic.",
-"Dinner service attracts small groups and families.",
-"Weekend afternoons around the market tend to be busiest."
+"Nearby market traffic increases activity during peak times."
 ]
 },
 
 {
 name: "Nada",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3044,30 +3037,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern Mexican restaurant with bar seating and multiple dining areas in the downtown dining district. Typically calmer earlier in the day with busier dinner service and weekend activity.",
+"Restaurant with multiple dining areas and a bar section in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often move quickly with downtown workers.",
-"Dinner service brings steady group dining.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Sotto",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3075,30 +3064,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Italian restaurant with a basement dining room and bar seating near the downtown dining corridor. Typically quieter earlier in the evening with steady dinner reservations later in the night.",
+"Restaurant with table seating and a bar area located on a lower level.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Downstairs"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Lower level"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early evening reservations often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to be the busiest."
+"Lower-level layout reduces outside noise."
 ]
 },
 
 {
 name: "Via Vite",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3106,30 +3093,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Italian restaurant with indoor dining and patio seating near Fountain Square. Typically calmer earlier in the evening with steady dinner service and weekend visits.",
+"Restaurant with indoor seating and a patio area in a central downtown location.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner hours often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Tokyo Kitty",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3137,23 +3120,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Karaoke bar with themed rooms and a central bar area in the downtown entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
+"Karaoke bar with private rooms and a central bar area in an entertainment setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early evening hours often feel calmer.",
-"Private karaoke rooms fill as the night progresses.",
-"Weekend nights usually bring the most activity."
+"Private rooms fill as the night progresses."
 ]
 },
 
@@ -3168,55 +3149,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and a music-themed dining environment in the downtown entertainment district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+"Restaurant with table seating and a bar area in a music-themed setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods often move quickly with downtown traffic.",
-"Dinner hours bring families and groups.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Taste of Belgium OTR",
-city: "Cincinnati",
-neighborhood: "OTR",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Belgian-inspired restaurant with table seating and a bar area near Findlay Market in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer after brunch.",
-"Weekend brunch hours tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3230,24 +3176,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mediterranean restaurant with table seating and a bar area along Vine Street in OTR. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
+"Restaurant with table seating and a bar area in a compact dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening reservations often feel calmer.",
-"Couples and small groups are common during dinner.",
-"Weekend evenings usually bring the highest activity."
-]
+insights: []
 },
 
 {
