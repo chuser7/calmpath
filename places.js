@@ -1933,24 +1933,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Indian restaurant with table seating and a casual dining room along Ludlow Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
+"Indian restaurant with table seating in a straightforward dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and couples.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -1964,54 +1960,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Indian restaurant with buffet and table seating along the Ludlow corridor. Typically calmer earlier in the day with steady dinner traffic.",
+"Indian restaurant with buffet service and table seating in a casual setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch buffet periods often bring steady traffic.",
-"Evenings attract small groups and families.",
-"Weekend dinners tend to bring the most activity."
-]
-},
-
-{
-name: "Taste of Belgium – Clifton",
-city: "Cincinnati",
-neighborhood: "Clifton",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Belgian-inspired restaurant with table seating and a bar area along Ludlow Avenue. Typically busiest during brunch hours with steady dinner traffic later in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Late morning brunch periods often fill quickly.",
-"Afternoons tend to feel calmer after brunch.",
-"Weekend brunch hours usually bring the most activity."
+"Buffet service increases movement during peak times."
 ]
 },
 
@@ -2026,54 +1989,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffeehouse with indoor seating and a relaxed neighborhood atmosphere along Ludlow Avenue. Typically busiest during morning and afternoon hours.",
+"Coffeehouse with indoor seating and a relaxed setup for casual visits or work.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning hours bring steady coffee traffic.",
-"Afternoons often attract students and remote workers.",
-"Evenings usually feel quieter."
-]
-},
-
-{
-name: "Fortune Noodle House",
-city: "Cincinnati",
-neighborhood: "Clifton",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Asian restaurant with table seating and counter service along the Clifton dining corridor. Typically steady during lunch and dinner hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring quick visits.",
-"Dinner hours attract small groups and students.",
-"Weekend evenings tend to bring the most activity."
+"Afternoons attract students and remote workers."
 ]
 },
 
@@ -2088,23 +2018,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual fast-casual restaurant with counter ordering and limited seating along the Clifton dining corridor. Typically steady during lunch and late evening hours.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Late-night traffic increases due to nearby campus activity.",
-"Weekend evenings bring steady crowds."
+"Late-night traffic increases due to nearby activity."
 ]
 },
 
@@ -2119,23 +2047,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating and casual dining tables along Ludlow Avenue. Typically quieter earlier in the day with increased activity during evenings.",
+"Bar and grill with bar seating and tables in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights tend to bring the most activity."
+"Evenings bring increased activity."
 ]
 },
 
@@ -2150,28 +2076,26 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically calmer earlier in the day with increased activity during evening hours.",
+"Sports bar with TVs, bar seating, and table seating for groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Sports events increase bar activity.",
-"Weekend nights usually bring the most visitors."
+"Sports events increase noise and activity."
 ]
 },
 
 {
-name: "Senate",
+name: "Senate OTR",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
@@ -2181,55 +2105,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar known for specialty hot dogs with table seating and a bar area along Vine Street. Typically calmer earlier in the day with busier dinner hours and weekend evenings.",
+"Restaurant with table seating and a bar area focused on a casual dining setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods often move quickly with nearby workers.",
-"Dinner hours bring steady small groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Goose & Elder",
-city: "Cincinnati",
-neighborhood: "OTR",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"American restaurant with a diner-inspired layout and table seating near Findlay Market. Typically busiest during brunch hours with steady dinner traffic later in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning and brunch periods tend to fill quickly.",
-"Afternoons usually feel calmer.",
-"Weekend brunch often brings the largest crowds."
-]
+insights: []
 },
 
 {
