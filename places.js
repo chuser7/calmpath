@@ -1162,26 +1162,24 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and art space with casual seating and rotating artwork on display. Mornings and afternoons typically bring steady traffic for coffee and light meals.",
+"Coffee shop with casual seating and rotating artwork displayed throughout the space.",
 
 environment: {
-parking: "Street parking available along surrounding neighborhood streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay for coffee or casual work.",
 "Artwork displays rotate periodically."
 ]
 },
@@ -1193,26 +1191,24 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood café serving coffee, breakfast items, and casual lunch options with table seating and a relaxed dining atmosphere.",
+"Neighborhood café with table seating serving breakfast and lunch items.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings are typically busiest.",
-"Lunch hours bring steady visitors.",
 "Many guests stay for casual meetings or work."
 ]
 },
@@ -1224,29 +1220,27 @@ neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Popular Cincinnati coffee roaster and café with indoor seating and a steady flow of customers throughout the day.",
+"Coffee shop with indoor seating and a steady flow of customers throughout the day.",
 
 environment: {
-parking: "Street parking available nearby with some nearby public lots depending on location.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady coffee shop activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to bring the largest crowds.",
-"Coffee and pastry visits are common.",
 "Visitors often stay to work or study."
 ]
-},   
+},
 
 {
 name: "The Upside Brew",
@@ -1255,29 +1249,27 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and café in Clifton with a relaxed atmosphere, counter ordering, and casual seating for coffee, pastries, and light meals. Mornings and early afternoons typically bring steady traffic from nearby residents and students.",
+"Coffee shop with counter ordering and casual seating for coffee and light meals.",
 
 environment: {
-parking: "Street parking available along surrounding Clifton streets with nearby small lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay for coffee or studying.",
-"Afternoons are usually calmer."
+"Visitors often stay to study."
 ]
-},   
+},
 
 {
 name: "Taft Theatre",
@@ -1286,30 +1278,28 @@ neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic seated theater in downtown Cincinnati hosting concerts, comedy shows, and touring performances. Events typically bring steady crowds arriving shortly before showtime.",
+"Seated theater venue hosting concerts and performances with large audiences.",
 
 environment: {
-parking: "Downtown garages and street parking nearby with short walks to the theater.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Moderate waits possible during intermission",
-location: "Inside the theater lobby areas"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on the type of performance.",
-exits: "Multiple exits leading directly to surrounding downtown streets."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Many visitors arrive shortly before showtime.",
-"Intermission tends to be the busiest time for restrooms.",
-"Events usually end with crowds exiting at the same time.",
-"Nearby downtown garages are commonly used."
+"Intermission is the busiest time for restrooms.",
+"Crowds exit at the same time after events."
 ]
-},  
+},
 
 {
 name: "Ludlow Garage",
@@ -1318,28 +1308,25 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Intimate concert venue and restaurant space in Clifton hosting live music performances with table seating and a relaxed listening atmosphere.",
+"Concert venue with table seating and a focus on live music performances.",
 
 environment: {
-parking: "Street parking and nearby lots along Ludlow Avenue.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate during performances with amplified music and audience conversation.",
-exits: "Main entrance leading directly to Ludlow Avenue."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Shows often feature seated listening-style audiences.",
-"Arriving early helps secure preferred seating.",
-"Visitors frequently explore nearby Clifton restaurants and bars.",
-"Smaller crowds compared to large concert venues."
+"Arriving early helps secure preferred seating."
 ]
 },
 
@@ -1350,27 +1337,25 @@ neighborhood: "Northside",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and live music venue in Northside known for frequent local bands and casual gatherings. Evenings often bring steady crowds and a lively bar atmosphere.",
+"Neighborhood bar with live music and a mix of standing and seated areas.",
 
 environment: {
-parking: "Street parking available along surrounding Northside streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during live music performances and busy evenings.",
-exits: "Main entrance opens directly to the street."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Live music events are common throughout the week.",
-"Neighborhood regulars and local music fans are common.",
-"Nearby Northside restaurants and bars are often visited before or after shows."
+"Live music events are frequent."
 ]
 },
 
@@ -1381,31 +1366,28 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic theater and event venue in Over-the-Rhine hosting concerts, performances, and special events. Events typically bring steady crowds gathering inside the restored theater space.",
+"Theater venue hosting concerts and events with open floor space and seating areas.",
 
 environment: {
-parking: "Street parking and nearby garages in the Over-the-Rhine area.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy events",
-location: "Inside the theater"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on the performance or event.",
-exits: "Main entrance and exits leading directly to surrounding OTR streets."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Many visitors arrive shortly before events begin.",
-"Nearby OTR restaurants and bars are common pre-show stops.",
-"Events vary widely from concerts to community events.",
-"Crowds typically exit together after shows."
+"Crowds typically exit together after events."
 ]
 },
-   
+
 {
 name: "Andrew J. Brady Music Center",
 city: "Cincinnati",
@@ -1413,28 +1395,26 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Large indoor concert venue near The Banks hosting touring artists and live performances. Events bring large crowds with security screening at the entrance and busy concourses before shows and during intermissions.",
+"Large concert venue with standing and seated areas hosting major live performances.",
 
 environment: {
-parking: "Multiple garages and surface lots around The Banks and downtown. Many visitors park nearby and walk several blocks to the venue.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Moderate waits possible between sets or before shows",
-location: "Located inside the venue"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "High during concerts with amplified music and crowd cheering.",
-exits: "Multiple entrances and exits leading directly to surrounding streets and nearby parking garages."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Arriving early helps avoid entry lines before popular shows.",
-"Restroom lines tend to increase between sets.",
-"Many visitors combine concerts with nearby restaurants and bars at The Banks.",
-"Large crowds typically exit at the same time after shows."
+"Restroom lines increase between sets.",
+"Large crowds exit at the same time after shows."
 ]
 },
 
@@ -1445,28 +1425,26 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic indoor music venue near the University of Cincinnati hosting live concerts and touring bands. Shows typically draw standing-room crowds with an energetic atmosphere throughout the performance.",
+"Music venue with standing-room crowds and live performances throughout the space.",
 
 environment: {
-parking: "Street parking and nearby lots in the surrounding Corryville area.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Moderate waits possible during busy shows",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during performances with amplified music and crowd activity.",
-exits: "Main entrance and additional exits leading to nearby streets."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
 "Most shows are standing-room events.",
-"Lines may form outside before doors open.",
-"College students and younger crowds are common depending on the show.",
-"Leaving after concerts usually moves quickly."
+"Lines may form before entry."
 ]
 },
    
