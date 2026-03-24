@@ -3678,30 +3678,26 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a large dining room and bar seating in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with a large dining room and bar seating in an open layout.",
 
 environment: {
-parking: "Large shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Direct exterior access to the shopping area."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as family-focused during early dinner hours.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
 name: "The Establishment",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
@@ -3709,24 +3705,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and bar seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and a bar area in a compact layout.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -3740,24 +3732,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a dining room and patio seating overlooking Hyde Park Square. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant with indoor seating and patio dining in a central square location.",
 
 environment: {
-parking: "Street parking around the square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio access overlooking Hyde Park Square."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as square-view focused during warm weather.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -3771,23 +3759,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic diner with counter seating and table seating in a compact layout. Typically busiest during breakfast and lunch hours.",
+"Classic diner with counter seating and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during weekend mornings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as breakfast-focused with strong morning traffic.",
-"First-timers notice weekend mornings bring the most activity.",
-"Afternoon hours are calmer."
+"Morning hours bring steady traffic."
 ]
 },
 
@@ -3802,24 +3788,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with table seating and a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant with table seating in a compact dining space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers notice activity increases after 5 pm.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -3833,24 +3815,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant with dining rooms and bar seating inside Rookwood Pavilion. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining areas and bar seating in an open layout.",
 
 environment: {
-parking: "Large shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Exterior access to Rookwood Pavilion."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers notice evenings bring fuller seating.",
-"Weekend dinners show the highest activity."
-]
+insights: []
 },
 
 {
@@ -3864,23 +3842,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with dining tables and bar seating in the Rookwood development. Typically busiest during brunch hours and early afternoons.",
+"Restaurant with table seating and a bar area in a casual dining layout.",
 
 environment: {
-parking: "Shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during weekend brunch",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Exterior access to the shopping area."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as brunch-focused with strong weekend traffic.",
-"First-timers notice mornings bring the most activity.",
-"Afternoon hours tend to be calmer."
+"Brunch periods fill quickly."
 ]
 },
 
@@ -3895,24 +3871,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant inside the Joseph-Beth bookstore with table seating and a quiet dining layout. Typically calmer during weekday hours and busier during lunch periods.",
+"Restaurant with table seating inside a bookstore setting with a quiet layout.",
 
 environment: {
-parking: "Rookwood Commons parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Rarely long waits",
-location: "Inside bookstore"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low.",
-exits: "Access through bookstore entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as calmer than nearby restaurants.",
-"First-timers notice lunch hours bring the most activity.",
-"Afternoon visits are generally quiet."
-]
+insights: []
 },
 
 {
@@ -3926,23 +3898,21 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large restaurant with multiple dining rooms in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining rooms designed for group seating.",
 
 environment: {
-parking: "Large Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood development."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as group-oriented with busy dinner periods.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners show higher traffic."
+"Group dining increases noise levels."
 ]
 },
 
@@ -3957,24 +3927,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with indoor seating and patio seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant and bar with indoor seating and patio space in a central location.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after 5 pm.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
