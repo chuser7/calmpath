@@ -2694,27 +2694,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and restaurant with casual seating and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and sports.",
+"Bar and restaurant with table seating and TVs throughout the space.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings are typically the busiest.",
-"Sports events increase crowd activity.",
-"Local regulars are common."
+"Sports events increase noise and activity."
 ]
 },
 
@@ -2725,27 +2723,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and bar offering coffee, drinks, and casual seating in a relaxed neighborhood setting. Mornings and afternoons typically bring steady traffic.",
+"Coffee shop and bar with casual seating for drinks, coffee, and small groups.",
 
 environment: {
-parking: "Street parking available along nearby Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with coffee shop conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be busiest.",
-"Visitors often stay for coffee or casual meetings.",
-"Afternoons are usually calmer."
+"Visitors often stay for meetings or work."
 ]
 },
 
@@ -2756,151 +2752,108 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local sandwich and deli-style restaurant with counter ordering and casual seating. Lunch hours typically bring steady traffic from nearby residents and workers.",
+"Deli-style restaurant with counter ordering and a small seating area.",
 
 environment: {
-parking: "Street parking available along surrounding Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical lunch crowd conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours tend to be the busiest.",
-"Takeout orders are common.",
-"Visits are usually short."
-]
-},
-
-{
-name: "6 'N the Mornin'",
-city: "Cincinnati",
-neighborhood: "Walnut Hills",
-state: "OH",
-type: "full",
-
-parkingLevel: "moderate",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Breakfast and brunch restaurant with casual table seating and a lively daytime dining atmosphere. Mornings and early afternoons typically bring the most activity.",
-
-environment: {
-parking: "Street parking available along surrounding streets.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy brunch hours",
-location: "Inside the restaurant"
-},
-noise: "Moderate with steady brunch activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
-},
-
-insights: [
-"Weekend brunch hours are typically busiest.",
-"Mornings bring steady crowds.",
-"Groups and families are common."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Heyday",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood restaurant and bar with a modern interior and social dining atmosphere. Evenings and weekends typically bring the most activity.",
+"Restaurant and bar with table seating and a central bar area in a social setting.",
 
 environment: {
-parking: "Street parking available along nearby Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with bar activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Weekend dinners draw steady crowds.",
-"Groups often gather for drinks and food."
-]
+insights: []
 },
 
 {
 name: "Rusk Kitchen + Bar",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar with casual dining tables and a relaxed atmosphere. Lunch and dinner hours bring steady activity.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Street parking along surrounding Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Local visitors are common.",
-"Weekday lunches move quickly."
-]
+insights: []
 },
 
 {
 name: "Home Court Tavern",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a casual sports-bar atmosphere and bar seating. Evenings typically bring steady crowds gathering for drinks and sports.",
+"Sports bar with bar seating and TVs in a casual setting.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings are typically the busiest.",
-"Sports events increase crowd activity.",
-"Local regulars are common."
+"Sports events increase noise and activity."
 ]
 },
 
@@ -2911,90 +2864,80 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Craft brewery and restaurant with bar seating, dining tables, and a social taproom atmosphere. Evenings and weekends typically bring the most activity.",
+"Brewery with bar seating, dining tables, and an open taproom layout.",
 
 environment: {
-parking: "Street parking available along surrounding streets with nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and music.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends are typically busiest.",
-"Groups often gather for drinks.",
-"Local events occasionally increase crowds."
+"Groups gather for drinks in the taproom."
 ]
 },
 
 {
 name: "Cafe Mochiko",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Japanese-inspired café and bakery known for pastries, coffee, and creative lunch dishes. Mornings and lunch hours typically bring steady crowds.",
+"Café and bakery with table seating and a steady flow of customers.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady café activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically the busiest.",
-"Pastry and coffee visits are common.",
-"Lunch hours bring steady traffic."
-]
+insights: []
 },
 
 {
-name: "Bridges Nepali Cuisine",
+name: "Bridges Nepali Cuisine - Walnut Hills",
 city: "Cincinnati",
 neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Nepali restaurant known for momos and traditional dishes served in a casual dining space. Lunch and dinner hours bring steady activity.",
+"Restaurant with table seating in a casual and compact dining space.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with relaxed dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady crowds.",
-"Smaller groups and couples are common."
-]
+insights: []
 },
 
 {
