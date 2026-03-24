@@ -3203,23 +3203,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern diner-style restaurant with table seating and a bar area on Vine Street in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+"Diner-style restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Late morning brunch periods tend to fill quickly.",
-"Afternoons usually feel calmer after brunch.",
-"Weekend brunch often brings the most consistent crowds."
+"Brunch periods fill quickly."
 ]
 },
 
@@ -3234,26 +3232,22 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Asian street food restaurant with table seating and counter ordering in OTR. Typically steady during dinner hours with weekend evenings bringing more activity.",
+"Restaurant with table seating and counter ordering in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring steady dine-in traffic.",
-"Weekend evenings usually see the most activity."
-]
+insights: []
 },
-   
+
 {
 name: "Ché OTR",
 city: "Cincinnati",
@@ -3265,24 +3259,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Argentine restaurant with table seating and a casual bar area in the OTR dining district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+"Restaurant with table seating and a bar area in a compact dining space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often involve shorter stays.",
-"Dinner service tends to bring small groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3296,24 +3286,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Steakhouse with multiple dining rooms and a bar area near Washington Park in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend traffic.",
+"Steakhouse with multiple dining rooms and a bar area in a structured layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening reservations often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3327,23 +3313,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai and sushi restaurant with table seating and a bar area along Vine Street. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
+"Restaurant with table seating and a bar area serving sushi and Thai dishes.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often feel calmer than evenings.",
-"Takeout orders are common during dinner service.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common during busy periods."
 ]
 },
 
@@ -3358,23 +3342,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Wine-focused restaurant with table seating and a bar area along Main Street in OTR. Typically relaxed earlier in the evening with busier dinner service and weekend visits.",
+"Wine-focused restaurant with table seating and a bar area in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Happy hour periods often bring steady traffic.",
-"Dinner hours attract small groups and couples.",
-"Weekend evenings tend to bring the most activity."
+"Happy hour brings steady traffic."
 ]
 },
 
@@ -3389,23 +3371,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and bar seating in the OTR nightlife district. Typically steady during dinner hours with increased activity late at night.",
+"Pizza spot with counter ordering and bar seating in a nightlife setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady dine-in visits.",
-"Late evening hours tend to attract nightlife crowds.",
-"Weekend nights usually see the most activity."
+"Late-night crowds increase activity."
 ]
 },
 
@@ -3420,30 +3400,28 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and counter ordering along Madison Road. Typically busiest during morning and late morning hours with quieter afternoons.",
+"Breakfast and brunch restaurant with table seating and counter ordering.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Late morning brunch periods fill quickly.",
-"Afternoons usually feel calmer."
+"Brunch periods fill quickly."
 ]
 },
 
 {
-name: "Mazunte Taqueria - Oakley",
+name: "Mazunte Taqueria - Madisonville",
 city: "Cincinnati",
-neighborhood: "Oakley",
+neighborhood: "Madisonville",
 state: "OH",
 type: "full",
 
@@ -3451,24 +3429,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with counter ordering and table seating along Madison Road. Typically steady during lunch hours with busier dinner periods.",
+"Mexican restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3482,24 +3456,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating and casual dining tables near Oakley Square. Typically quieter earlier in the day with increased activity during evening hours.",
+"Bar and grill with bar seating and table seating in a neighborhood setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
