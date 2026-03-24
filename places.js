@@ -18318,7 +18318,7 @@ function renderPlace(place) {
     </div>
   `;
 
-  attachVerificationHandlers(place);
+attachVerificationHandlers(place);
 }
 
 function attachVerificationHandlers(place) {
@@ -18340,11 +18340,29 @@ function attachVerificationHandlers(place) {
 
       const action = btn.dataset.action;
 
+      // Hide buttons + question
+      verification.querySelector(".verification-actions").style.display = "none";
+      const question = verification.querySelector(".verification-question");
+      if (question) question.remove();
+
       if (action === "up") {
 
-        verification.querySelector(".verification-actions").style.display = "none";
+        // ✅ Show confirmation
         confirmation.classList.remove("hidden");
 
+        // 🔥 Send VERIFIED to Airtable
+        fetch("https://hook.us2.make.com/82lmf35fe4jgl0ums1poz3js98fs57g2", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            place_name: place.name,
+            type: "Verified"
+          })
+        });
+
+        // ✅ Analytics
         if (typeof gtag !== "undefined") {
           gtag("event", "place_verified", {
             place_name: place.name || ""
@@ -18353,7 +18371,7 @@ function attachVerificationHandlers(place) {
 
       } else {
 
-        verification.querySelector(".verification-actions").style.display = "none";
+        // Show correction UI
         correction.classList.remove("hidden");
 
         if (typeof gtag !== "undefined") {
@@ -18365,6 +18383,7 @@ function attachVerificationHandlers(place) {
     });
   });
 
+  // Handle selection buttons
   const groups = verification.querySelectorAll(".correction-group");
 
   groups.forEach(group => {
@@ -18380,6 +18399,7 @@ function attachVerificationHandlers(place) {
     });
   });
 
+  // Submit corrections
   const submitBtn = verification.querySelector(".submit-correction");
 
   submitBtn.addEventListener("click", () => {
@@ -18392,21 +18412,24 @@ function attachVerificationHandlers(place) {
         return;
       }
     }
-     
-  fetch("https://hook.us2.make.com/82lmf35fe4jgl0ums1poz3js98fs57g2", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      place_name: place.name,
-      parking: selectedCorrections.parking,
-      noise: selectedCorrections.noise,
-      restrooms: selectedCorrections.restrooms,
-      exits: selectedCorrections.exits
-    })
-});
 
+    // 🔥 Send CORRECTION to Airtable
+    fetch("https://hook.us2.make.com/82lmf35fe4jgl0ums1poz3js98fs57g2", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        place_name: place.name,
+        type: "Correction",
+        parking: selectedCorrections.parking,
+        noise: selectedCorrections.noise,
+        restrooms: selectedCorrections.restrooms,
+        exits: selectedCorrections.exits
+      })
+    });
+
+    // ✅ Analytics
     if (typeof gtag !== "undefined") {
       gtag("event", "place_correction_submitted", {
         place_name: place.name || "",
