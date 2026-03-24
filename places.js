@@ -1680,158 +1680,113 @@ insights: []
 {
 name: "Los Potrillos Mexican Restaurant",
 city: "Cincinnati",
-neighborhood: "Deer Park",
+neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with booth seating and table dining along the Deer Park restaurant corridor. Typically steady during dinner hours with consistent lunch visits.",
+"Mexican restaurant with booth seating and table dining in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract families and groups.",
-"Weekend evenings usually bring steady activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Arrechissimo Restaurant",
-city: "Cincinnati",
-neighborhood: "Deer Park",
-state: "OH",
-type: "full",
-
-parkingLevel: "street",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Restaurant with table seating and a casual dining atmosphere along the Deer Park business district. Typically steady during dinner hours with quieter periods earlier in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Blue Goose Sports Cafe",
 city: "Cincinnati",
-neighborhood: "Deer Park",
+neighborhood: "Sharonville",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evening games.",
+"Sports bar with bar seating, TVs throughout, and table seating for groups.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Sports events increase bar activity.",
-"Weekend nights usually bring the most visitors."
+"Sports events increase activity and noise."
 ]
 },
 
 {
 name: "The Back Porch Saloon",
-city: "Cincinnati",
-neighborhood: "Deer Park",
+city: "West Chester Township",
+neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with bar seating and casual table areas in the Deer Park restaurant corridor. Typically quieter earlier in the day with increased evening activity.",
+"Neighborhood bar with bar seating and casual table areas in a compact layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Silver Spring House",
+name: "Silver Spring House Restaurant",
 city: "Cincinnati",
-neighborhood: "Pleasant Ridge",
+neighborhood: "Symmes Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "large_lot",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with indoor seating and a large outdoor patio along Montgomery Road. Typically steady during dinner hours with increased activity on weekends.",
+"Restaurant and bar with indoor seating and a large outdoor patio area.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to patio area"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel calmer.",
-"Dinner hours bring families and groups.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
-   
+
 {
 name: "Trio",
 city: "Cincinnati",
@@ -1843,24 +1798,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a bar area located near Kenwood Towne Centre. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -1874,24 +1825,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Italian restaurant with multiple dining rooms located next to Kenwood Towne Centre. Typically busy during dinner hours with steady weekend traffic.",
+"Italian restaurant with multiple dining rooms and a large indoor seating layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -1905,24 +1852,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and wine bar with table seating and a tasting room near the Kenwood retail district. Typically calmer earlier in the evening with steady dinner reservations.",
+"Restaurant with table seating and a dedicated tasting area in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Dinner hours attract couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -1936,24 +1879,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and table seating near Kenwood Towne Centre. Typically steady throughout the day with busy lunch periods.",
+"Casual restaurant with counter ordering and table seating in an open layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often bring consistent traffic.",
-"Afternoons tend to feel calmer.",
-"Weekend brunch periods usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -1967,24 +1906,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Pizza restaurant and bar with table seating in the Kenwood dining corridor. Typically steady during dinner hours with increased activity later in the evening.",
+"Pizza restaurant with table seating and a bar area in a casual setting.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring steady dine-in traffic.",
-"Groups often gather for drinks later in the evening.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
