@@ -3825,7 +3825,7 @@ insights: [
 {
 name: "Seasons 52",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -3856,7 +3856,7 @@ insights: [
 {
 name: "Taste of Belgium – Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -3887,7 +3887,7 @@ insights: [
 {
 name: "Bronte Bistro",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -3918,7 +3918,7 @@ insights: [
 {
 name: "Buca di Beppo Italian Restaurant",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
