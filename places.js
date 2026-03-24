@@ -1455,28 +1455,26 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Large open-air NFL stadium along the Ohio River and home of the Cincinnati Bengals. Game days bring very large crowds with security screening at entry gates, busy concourses, and high energy throughout the venue. Activity begins building well before kickoff as fans gather around The Banks and nearby tailgating areas.",
+"Large open-air stadium with multiple seating levels and high-capacity event crowds.",
 
 environment: {
-parking: "Multiple garages and surface lots around downtown and The Banks area. Many fans park several blocks away or use garages with a short walk to the stadium.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Large restroom banks throughout the concourses",
-waits: "Long waits common during halftime and between quarters",
-location: "Located on all main concourse levels"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "High during games with crowd cheering, stadium audio, and music throughout the venue.",
-exits: "Multiple stadium gates and exits. Large crowds leave at once after games which can slow movement around surrounding streets and bridges."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Gates typically open well before kickoff and early arrival helps avoid longer entry lines.",
-"Halftime is usually the busiest time for restrooms and concession areas.",
-"Many visitors walk to and from nearby areas like The Banks, downtown garages, or Northern Kentucky bridges.",
-"Traffic leaving the area can take time immediately after games."
+"Halftime brings the longest restroom lines.",
+"Large crowds exit at the same time after events."
 ]
 },
 
@@ -1487,27 +1485,25 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Outdoor Major League Baseball stadium along the Ohio River and home of the Cincinnati Reds. Game days bring large crowds moving through The Banks area with multiple entry gates and busy concourses. Activity usually builds before first pitch as fans gather at nearby restaurants, bars, and riverfront areas.",
+"Outdoor baseball stadium with multiple seating sections and steady crowd movement during games.",
 
 environment: {
-parking: "Several garages and surface lots around The Banks and downtown. Many visitors park a few blocks away and walk to the stadium.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Large restroom banks located throughout the concourses",
-waits: "Moderate waits possible during inning breaks and between innings",
-location: "Located on multiple concourse levels around the stadium"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on crowd size, with stadium announcements, music, and cheering during games.",
-exits: "Multiple stadium gates and exits connecting to The Banks riverfront area and downtown streets. Crowds typically move steadily out after games."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Arrival before first pitch is common as fans spend time in The Banks area nearby.",
-"Inning breaks often bring restroom and concession lines.",
-"Walking routes along the riverfront and nearby garages are commonly used."
+"Inning breaks increase restroom and concession lines."
 ]
 },
 
@@ -1518,28 +1514,26 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Modern open-air soccer stadium in Cincinnati's West End and home of FC Cincinnati. Match days bring energetic crowds with supporter sections, chanting, and a lively atmosphere throughout the venue. Activity builds before kickoff as fans gather around nearby streets and plazas.",
+"Soccer stadium with open seating areas and active supporter sections during matches.",
 
 environment: {
-parking: "Parking garages and lots located around the stadium and surrounding neighborhoods. Many visitors park in nearby garages or downtown and walk to the stadium.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Large restroom banks located around the stadium concourses",
-waits: "Moderate waits possible at halftime",
-location: "Located throughout the stadium concourse areas"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during matches with chanting supporter sections, stadium music, and crowd reactions throughout the game.",
-exits: "Multiple stadium gates around the venue with crowds dispersing into surrounding streets and nearby parking garages."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Supporter sections create a loud and energetic atmosphere throughout the match.",
-"Halftime tends to bring the longest restroom and concession lines.",
-"Many fans arrive early to gather around the stadium plaza areas.",
-"Walking routes from nearby garages are common after matches."
+"Supporter sections create consistent crowd noise throughout matches.",
+"Halftime increases restroom wait times."
 ]
 },
 
@@ -1550,58 +1544,26 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic public market in Over-the-Rhine with dozens of food vendors, produce stands, and small restaurants inside a large open market building and surrounding outdoor stalls.",
+"Public market with multiple vendor stalls and indoor and outdoor walkways.",
 
 environment: {
-parking: "Street parking and nearby paid lots or garages in the Over-the-Rhine area. Many visitors park several blocks away and walk to the market.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy weekend periods",
-location: "Located inside the main market building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on crowd size, with vendor activity, conversations, and music from nearby streets.",
-exits: "Multiple entrances and exits along surrounding streets with open walkways connecting indoor and outdoor vendor areas."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Weekend mornings and early afternoons tend to be the busiest times.",
-"Visitors often move between multiple food vendors before finding seating.",
-"Weekday visits are usually calmer with more space to walk through the market."
-]
-},
-   
-{
-name: "Half Day Cafe",
-city: "Cincinnati",
-neighborhood: "Wyoming",
-state: "OH",
-type: "full",
-
-parkingLevel: "lot",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Breakfast and lunch restaurant with table seating along Springfield Pike in the Wyoming business district. Typically busiest during morning and late morning hours with calmer afternoons.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
+"Visitors move between multiple vendors before finding seating.",
+"Weekdays are typically less crowded."
 ]
 },
 
@@ -1612,27 +1574,24 @@ neighborhood: "Wyoming",
 state: "OH",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and patio areas near the Wyoming village center. Typically calmer earlier in the evening with steady dinner traffic later.",
+"Restaurant and bar with table seating and a mix of indoor and patio dining.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Dinner hours bring couples and small groups.",
-]
+insights: []
 },
 
 {
@@ -1642,88 +1601,53 @@ neighborhood: "Wyoming",
 state: "OH",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop with indoor seating and a relaxed café atmosphere in the Wyoming village district. Typically busiest during morning and midday hours.",
+"Coffee shop with indoor seating and a steady flow of customers throughout the day.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours bring steady coffee traffic.",
-"Afternoons attract remote workers and students.",
-"Evenings usually feel quieter."
+"Afternoons attract remote workers and students."
 ]
 },
 
 {
-name: "The Birch",
+name: "The Birch - Terrace Park",
 city: "Cincinnati",
-neighborhood: "Wyoming",
+neighborhood: "Terrace Park",
 state: "OH",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a modern dining room near the Wyoming village center. Typically calmer earlier in the evening with steady dinner reservations later.",
+"Restaurant with table seating and a modern dining room setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Dinner service attracts couples and small groups.",
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Boswell's Alley",
-city: "Cincinnati",
-neighborhood: "Deer Park",
-state: "OH",
-type: "full",
-
-parkingLevel: "lot",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Neighborhood bar with bar seating and casual dining tables along the Deer Park restaurant corridor. Typically quieter earlier in the day with increased evening activity.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-]
+insights: []
 },
 
 {
@@ -1733,27 +1657,24 @@ neighborhood: "Deer Park",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating along the Deer Park dining corridor. Typically steady during lunch hours with moderate dinner activity.",
+"Fast-casual restaurant with counter ordering and limited seating for quick visits.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Most visits involve quick dine-in meals or carryout.",
-]
+insights: []
 },
 
 {
