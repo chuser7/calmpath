@@ -18070,7 +18070,7 @@ function showRandomPlace() {
       <!-- ✅ VERIFICATION (same as profile) -->
       <div class="verification">
 
-        <p class="verification-question">Was this accurate?</p>
+        <p class="verification-question">Did this match your experience?</p>
 
         <div class="verification-actions">
           <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
