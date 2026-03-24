@@ -18441,15 +18441,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   showRandomPlace();
 
-   fetch("YOUR_WEBHOOK_URL", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({
-    place_name: "Test Place",
-    parking: "Easy",
-    noise: "Moderate",
-    restrooms: "Easy",
-    exits: "Easy"
-  })
-
 });
