@@ -18392,6 +18392,20 @@ function attachVerificationHandlers(place) {
         return;
       }
     }
+     
+  fetch("https://hook.us2.make.com/82lmf35fe4jgl0ums1poz3js98fs57g2", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      place_name: place.name,
+      parking: selectedCorrections.parking,
+      noise: selectedCorrections.noise,
+      restrooms: selectedCorrections.restrooms,
+      exits: selectedCorrections.exits
+    })
+});
 
     if (typeof gtag !== "undefined") {
       gtag("event", "place_correction_submitted", {
