@@ -2412,23 +2412,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and live music venue with bar seating and a performance space. Typically quieter earlier in the day with more activity during evening shows and weekend nights.",
+"Bar and live music venue with a performance area and standing space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Live music events increase noise and activity.",
-"Weekend nights tend to bring the most visitors."
+"Live music events increase noise and crowd levels."
 ]
 },
 
@@ -2443,23 +2441,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bar with a large outdoor courtyard and indoor seating areas in the OTR district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+"Bar with indoor seating and a large outdoor courtyard for groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel relaxed in the outdoor space.",
-"Evenings bring steady social groups.",
-"Weekend nights typically bring the most activity."
+"Outdoor courtyard fills with groups during busy periods."
 ]
 },
 
@@ -2474,28 +2470,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bar and restaurant with table seating and a bar area along the Vine Street corridor in OTR. Typically calmer earlier in the evening with steady dinner and bar activity later at night.",
+"Restaurant and bar with table seating and a central bar area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring steady table seating.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "1215 Wine Bar",
+name: "1215 Wine Bar & Coffee Lab",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
@@ -2505,24 +2497,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Wine bar with indoor seating and an outdoor patio along Vine Street in OTR. Typically relaxed earlier in the evening with steady wine bar activity later at night.",
+"Wine bar with indoor seating and a small outdoor patio area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings tend to feel quieter.",
-"Small groups often gather for drinks later in the night.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2536,23 +2524,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Brewery taproom with bar seating and tables throughout the space in OTR. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+"Brewery taproom with bar seating and tables in an open layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter than evenings.",
-"Groups frequently gather for drinks after work.",
-"Weekend evenings tend to bring the most activity."
+"Groups gather for drinks during busier periods."
 ]
 },
 
@@ -2563,27 +2549,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern café and bar space that hosts coffee service during the day and social gatherings or events in the evening. Activity varies depending on events and time of day.",
+"Café and bar space with seating for coffee service and evening gatherings.",
 
 environment: {
-parking: "Street parking available along surrounding Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with conversation and occasional music or events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings sometimes include hosted events.",
-"Daytime visits are usually calmer.",
-"Visitors often stay for coffee or conversation."
+"Evenings may include hosted events."
 ]
 },
 
@@ -2594,27 +2578,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale steakhouse featuring Basque-inspired cuisine with table seating and a refined dining atmosphere. Dinner service typically brings steady crowds.",
+"Steakhouse with table seating in a structured dining room.",
 
 environment: {
-parking: "Street parking available nearby with additional nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours are typically busiest.",
-"Reservations are common.",
-"Couples and small groups are frequent."
+"Reservations are common."
 ]
 },
 
@@ -2625,27 +2607,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Korean fried chicken restaurant with casual seating and a lively dining atmosphere. Lunch and dinner hours typically bring steady crowds.",
+"Casual restaurant with table seating focused on quick dine-in and takeout orders.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with dining conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours are typically busiest.",
-"Takeout orders are common.",
-"Groups often gather for casual meals."
+"Takeout orders are common."
 ]
 },
 
@@ -2656,27 +2636,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Coffeehouse and jazz lounge known for live music performances and a relaxed listening atmosphere. Evenings typically bring the most activity.",
+"Coffeehouse and lounge with seating for live music performances.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during live jazz performances.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evening performances bring steady crowds.",
-"Visitors often arrive before shows begin.",
-"Music-focused listening atmosphere during performances."
+"Live music performances increase noise levels."
 ]
 },
 
@@ -2687,27 +2665,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Lounge-style bar and restaurant with bar seating, dining tables, and a lively nightlife atmosphere. Evenings and weekends typically bring the most activity.",
+"Lounge-style bar and restaurant with bar seating and table areas for groups.",
 
 environment: {
-parking: "Street parking available along surrounding streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the lounge"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with music and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Weekend evenings bring the largest crowds.",
-"Music and nightlife events are common.",
-"Groups often gather for drinks and socializing."
+"Music and nightlife events increase activity."
 ]
 },
 
