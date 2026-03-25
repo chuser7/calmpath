@@ -6058,24 +6058,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level restaurant with bar seating and dining tables. Generally lighter during weekday hours and busier during evening service and weekends.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street parking in Mt. Adams.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during peak dinner and bar hours.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bar-forward layout influences traffic patterns.",
-"Activity increases noticeably after dinner hours.",
-"Weekend evenings bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -6089,24 +6085,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar and restaurant with indoor seating and patio space. Typically steady during the day and busier during evening hours and weekends.",
+"Neighborhood bar and restaurant with table seating and patio space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Patio and street access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven neighborhood spot.",
-"Activity builds gradually through the evening.",
-"Weekend nights bring the most noticeable crowd levels."
-]
+insights: []
 },
 
 {
@@ -6120,23 +6112,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small bar and restaurant with indoor seating and a patio overlooking the city. Typically calmer earlier in the day and busier during evening hours and weekends.",
+"Small bar and restaurant with indoor seating and outdoor patio space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy evenings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Patio access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Patio and city views drive visitor traffic.",
-"Outdoor seating draws many first-time visitors.",
-"Evening hours bring the most activity."
+"Outdoor seating is used frequently."
 ]
 },
 
@@ -6151,24 +6141,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with indoor seating and a outdoor patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
+"Bar with indoor seating and a patio area in a nightlife-focused setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; increases late at night.",
-exits: "Street access available."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Nightlife-oriented traffic pattern.",
-"Activity increases after dinner hours.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -6182,23 +6168,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small counter-service pizza spot with limited seating. Typically busiest during late-night hours and weekend evenings.",
+"Pizza spot with counter ordering and limited seating in a compact space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate; varies depending on crowd size.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Quick-stop oriented layout.",
-"Late-night hours bring the most activity.",
-"Traffic remains steady rather than event-driven."
+"Late-night visits are common."
 ]
 },
 
@@ -6213,23 +6197,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small bar with indoor seating and a secluded outdoor patio. Typically calm earlier in the evening and busier during live music nights and weekends.",
+"Small bar with indoor seating and an outdoor patio area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during live music.",
-exits: "Patio and street access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Patio-centered layout shapes the experience.",
-"Live music strongly influences activity.",
-"Weekend evenings bring the most visitors."
+"Live music is hosted regularly."
 ]
 },
 
@@ -6244,24 +6226,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and traditional bar layout. Generally steady during the day and busier during evening hours.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy evenings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven with consistent traffic.",
-"Activity builds gradually through the evening.",
-"Weekends bring the fullest seating."
-]
+insights: []
 },
 
 {
@@ -6275,26 +6253,22 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with a small interior and close seating arrangement. Typically quieter earlier in the evening and busier later at night.",
+"Bar with a compact interior and close seating arrangement.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; higher during weekend nights.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Night-focused bar traffic.",
-"Activity increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
-   
+
 {
 name: "The View at Mt. Adams",
 city: "Cincinnati",
@@ -6306,23 +6280,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with large windows and outdoor seating overlooking the city. Typically lighter earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and outdoor patio space overlooking the city.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak evenings",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Patio and street access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"View-driven destination spot.",
-"Window and patio seating attract most visitors.",
-"Evenings bring the most consistent traffic."
+"Outdoor seating is used frequently."
 ]
 },
 
@@ -6337,24 +6309,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with indoor seating and an entertainment-focused layout. Typically quiet during the day and busier during evening hours and weekends.",
+"Bar with indoor seating in a nightlife-focused layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High; especially during late-night hours.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Music and nightlife oriented environment.",
-"Activity increases significantly after dinner hours.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
