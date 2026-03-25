@@ -5467,7 +5467,7 @@ insights: []
 },
 
 {
-name: "Hangry Joe's Hot Chicken & Wings",
+name: "Hangry Joe's Hot Chicken & Wings - Clifton",
 city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
@@ -5477,24 +5477,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+"Fast-casual restaurant with counter ordering and limited seating for quick visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as quick-service with short visit times.",
-"Lunch and late-night hours bring the most traffic.",
-"Activity tends to be consistent rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -5508,23 +5504,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Compact café-style space with counter ordering and small seating areas. Typically busiest during dessert hours and late evenings.",
+"Compact café with counter ordering and small seating areas for short visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as dessert-focused with short visits.",
-"First-timers notice increased activity after dinner hours.",
-"Weekend evenings bring the most foot traffic."
+"Late-evening visits are common."
 ]
 },
 
@@ -5539,24 +5533,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Dining-focused restaurant with table seating and a bar area. Typically calmer during weekday afternoons and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Occasional waits during dinner rush",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-oriented.",
-"First-timers note traffic increases steadily after 5 pm.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -5570,28 +5560,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level restaurant with a traditional dining layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant with table seating in a traditional dining layout.",
 
 environment: {
-parking: "Street parking along Vine Street.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout the day.",
-"First-timers note activity increases during evening service.",
-"Weekends bring slightly higher table occupancy."
-]
+insights: []
 },
 
 {
-name: "HangOverEasy",
+name: "HangOverEasy - Clifton",
 city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
@@ -5601,23 +5587,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with bar seating and a compact dining room. Typically busiest during breakfast, brunch, and weekend mornings.",
+"Breakfast and brunch restaurant with table seating and a compact dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during brunch rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with high brunch traffic.",
-"First-timers notice weekend mornings bring the most activity.",
-"Afternoons are generally calmer."
+"Morning visits bring steady traffic."
 ]
 },
 
@@ -5632,23 +5616,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small counter-service restaurant with limited seating. Typically busiest during lunch and early evening hours.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented.",
-"Lunch hours bring the most consistent traffic.",
-"Activity remains steady throughout the afternoon."
+"Visits are typically quick."
 ]
 },
 
@@ -5663,23 +5645,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and late evenings.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service with shorter visits.",
-"Lunch and late-night hours bring the most traffic.",
-"Activity remains consistent throughout the day."
+"Visits are typically quick."
 ]
 },
 
@@ -5694,24 +5674,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a mix of counter ordering and dining tables. Typically calmer mid-afternoon and busier during lunch and dinner periods.",
+"Restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as lunch and dinner focused.",
-"First-timers note activity increases around midday.",
-"Evening hours bring moderate traffic."
-]
+insights: []
 },
 
 {
@@ -5725,24 +5701,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual restaurant and bakery with counter ordering and dining tables. Typically steady during lunch hours and early evenings.",
+"Restaurant and bakery with counter ordering and table seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as consistent throughout the day.",
-"First-timers note lunch brings the most activity.",
-"Evening hours remain steady but less crowded."
-]
+insights: []
 },
 
 {
@@ -5756,24 +5728,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with bar seating and a compact dining area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady traffic.",
-"First-timers note evenings bring fuller tables.",
-"Weekend nights show the highest activity."
-]
+insights: []
 },
    
 {
