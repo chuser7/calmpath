@@ -5784,24 +5784,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Dining-focused restaurant with a traditional table layout. Typically calm during weekday afternoons and busier during dinner service.",
+"Restaurant with table seating in a traditional dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers note dinner brings the most activity.",
-"Weekends show slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -5815,23 +5811,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with counter service and limited seating. Typically busiest during lunch and early evening hours.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as lunch-driven with quick visits.",
-"First-timers notice midday traffic peaks.",
-"Activity remains steady during the afternoon."
+"Visits are typically quick."
 ]
 },
 
@@ -5846,24 +5840,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with casual seating and counter service. Typically calmer earlier in the day and busier during evening hours.",
+"Restaurant and bar with counter service and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during evening rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice activity increases after dinner time.",
-"Weekends bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -5877,23 +5867,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Counter-service restaurant with limited seating. Typically busiest during lunch hours and late evenings.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service with short visits.",
-"Lunch hours bring the most consistent activity.",
-"Late-night traffic increases slightly."
+"Visits are typically quick."
 ]
 },
 
@@ -5908,24 +5896,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large pizza restaurant with dining tables and bar seating. Typically steady during lunch hours and busier during evenings and weekends.",
+"Pizza restaurant with table seating and a bar area in a large dining space.",
 
 environment: {
-parking: "Street parking and nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during dinner rush",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as high-traffic during evenings.",
-"First-timers note activity increases around dinner time.",
-"Weekend nights bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -5939,24 +5923,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with table seating and bar seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady neighborhood traffic.",
-"First-timers note evenings bring fuller tables.",
-"Weekend activity is slightly higher than weekdays."
-]
+insights: []
 },
 
 {
@@ -5970,24 +5950,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large riverfront restaurant with multiple dining rooms and patio seating. Generally calmer earlier in the day, with increased activity during dinner hours, weekends, and nearby events.",
+"Large restaurant with multiple dining rooms and indoor and outdoor seating.",
 
 environment: {
-parking: "Valet only.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except during peak dinner hours",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher when dining rooms are full.",
-exits: "Multiple exits and patio access."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Spacious layout with steady dining traffic.",
-"Activity increases around dinner hours.",
-"Weekend evenings bring the fullest seating."
-]
+insights: []
 },
 
 {
@@ -6001,24 +5977,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter service and limited seating. Typically busiest during morning and early afternoon hours.",
+"Small café with counter ordering and limited seating.",
 
 environment: {
-parking: "Street parking in Mt. Adams.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; generally quiet outside peak coffee hours.",
-exits: "Direct sidewalk access."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning-focused traffic pattern.",
-"Breakfast hours bring the most activity.",
-"Traffic decreases steadily through the afternoon."
-]
+insights: []
 },
 
 {
@@ -6032,24 +6004,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Compact restaurant with a structured dining room and bar seating. Generally calm earlier in the evening and busier during peak dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a compact dining space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as the dining room fills.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Intimate atmosphere due to smaller size.",
-"Dinner hours gradually increase activity.",
-"Weekends bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -6063,24 +6031,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small dining-focused restaurant with closely arranged tables. Typically quieter midweek and busier during dinner hours and weekends.",
+"Small restaurant with table seating in a compact dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher when dining room is full.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Compact dining layout.",
-"Reservations shape the evening pace.",
-"Weekend dinners bring the highest occupancy."
-]
+insights: []
 },
 
 {
