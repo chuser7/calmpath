@@ -4450,28 +4450,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Steakhouse with a structured dining room and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers notice reservations shape the pace of dinner hours.",
-"Weekend evenings bring fuller dining rooms."
+"Reservations are common."
 ]
 },
 
 {
-name: "Coffee Exchange",
+name: "The Coffee Exchange of Pleasant Ridge",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
@@ -4481,24 +4479,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop with counter ordering and indoor seating areas. Typically busiest during morning hours and early afternoons.",
+"Coffee shop with counter ordering and indoor seating for short visits or work.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with steady coffee traffic.",
-"First-timers notice breakfast hours bring the most activity.",
-"Afternoon hours tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -4512,24 +4506,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with lounge seating and a compact interior layout. Typically quieter earlier in the evening and busier later at night.",
+"Lounge-style bar with a compact interior and seating for small groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented with late evening activity.",
-"First-timers notice crowds increase later in the night.",
-"Weekend nights bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -4543,23 +4533,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Glenway Avenue. Typically steady throughout the day with consistent lunch and late-night traffic.",
+"Chili parlor with booth seating and a diner-style layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring consistent neighborhood traffic.",
-"Evenings attract families and small groups.",
-"Late-night visits are common after local events."
+"Late-night visits are common."
 ]
 },
 
@@ -4574,85 +4562,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Chinese restaurant with table seating and a casual dining room near the Glenway corridor. Typically steady during lunch and dinner hours with many takeout orders.",
+"Chinese restaurant with table seating in a casual dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings bring steady traffic."
-]
-},
-
-{
-name: "The Bold Faced Dairy Bar",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Small dessert and soft-serve shop with counter service near the Incline District. Typically quieter earlier in the day with increased activity during warm evenings.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
-},
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits are quick walk-up orders.",
-"Warm weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Somm Wine Bar",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Wine bar with indoor seating and a patio located along Price Avenue in East Price Hill. Typically calmer earlier in the evening with steady wine bar traffic later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups gather for drinks later in the night.",
-"Weekend evenings usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -4667,23 +4591,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with counter ordering and table seating along the Warsaw Avenue corridor. Typically steady during lunch hours with busier dinner periods.",
+"Mexican restaurant with counter ordering and table seating in a casual setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract families and neighborhood groups.",
-"Weekend evenings bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -4698,23 +4620,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant and tortilla shop with counter ordering and table seating along the Warsaw Avenue corridor. Typically busiest during lunch hours with steady dinner traffic.",
+"Mexican restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring the most activity.",
-"Takeout orders are common throughout the day.",
-"Weekend afternoons attract steady neighborhood traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -4729,23 +4649,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a large dining room and outdoor patio overlooking the city. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant with a large dining room and outdoor seating overlooking the city.",
 
 environment: {
-parking: "Dedicated lot next to the restaurant and additional street parking nearby.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as view-driven, with many visitors drawn to the patio.",
-"First-timers notice traffic increases around sunset and dinner hours.",
-"Weekend evenings bring fuller seating."
+"Outdoor seating is used frequently."
 ]
 },
 
