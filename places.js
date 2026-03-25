@@ -4950,58 +4950,52 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a casual dining layout near Mt. Lookout Square. Typically busiest during morning and late brunch hours, with quieter periods in the afternoon.",
+"Breakfast and brunch restaurant with table seating in a casual dining layout.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours tend to bring steady breakfast traffic.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons are usually calmer after the brunch rush."
-]
+insights: []
 },
 
 {
-name: "Taglio Pizza - Mt. Lookout",
+name: "Taglio Pizza - Columbia-Tusculum",
 city: "Cincinnati",
-neighborhood: "Mt. Lookout",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with increased activity during dinner and weekend evenings.",
+"Pizza restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring quick dine-in visits.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -5012,58 +5006,52 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Low",
 
 whatToExpect:
-"Local café with table seating and a relaxed neighborhood atmosphere near Mt. Lookout Square. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
+"Café with table seating in a relaxed neighborhood setting.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning visits often involve coffee and breakfast stops.",
-"Lunch periods tend to bring steady neighborhood traffic.",
-"Mid-afternoons usually feel quieter."
-]
+insights: []
 },
 
 {
-name: "Aladdin's Eatery - Mt. Lookout",
+name: "Aladdin's Eatery - Hyde Park",
 city: "Cincinnati",
-neighborhood: "Mt. Lookout",
+neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mediterranean restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with busier dinner periods and weekend activity.",
+"Mediterranean restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent foot traffic.",
-"Many visits involve quick dine-in meals or takeout orders.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -5074,65 +5062,30 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Low",
 
 whatToExpect:
-"Italian café and market with table seating and counter service near Mt. Lookout Square. Typically steady during lunch hours, with quieter periods in the afternoon and early evening.",
+"Italian café with counter ordering and table seating in a small dining space.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods tend to bring steady neighborhood visits.",
-"Many guests stop in for quick meals or specialty items.",
-"Afternoons usually feel calmer."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Mt. Lookout Creamy Whip",
-city: "Cincinnati",
-neighborhood: "Mt. Lookout",
-state: "OH",
-type: "full",
-
-parkingLevel: "Limited",
-noiseLevel: "Low",
-
-whatToExpect:
-"Walk-up ice cream stand with outdoor ordering and limited seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
-
-environment: {
-parking: "Limited street parking.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the building"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Evenings tend to attract families and groups.",
-"Warm weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Stanley's Pub",
 city: "Cincinnati",
-neighborhood: "Mt. Lookout",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
@@ -5140,24 +5093,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a large bar area and casual seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
+"Bar and grill with a large bar area and table seating in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"The bar area becomes more active later in the night.",
-"Weekend nights tend to bring the largest crowds."
-]
+insights: []
 },
 
 {
@@ -5171,24 +5120,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant with a structured dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Occasional waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers note activity builds after typical work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -5202,24 +5147,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic neighborhood restaurant with bar seating and table service. Typically steady during lunch hours and busier during dinner periods and weekends.",
+"Neighborhood restaurant with bar seating and table service in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak meal times",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as consistently busy during lunch and dinner.",
-"First-timers note activity increases around midday.",
-"Weekend evenings bring steady dining traffic."
-]
+insights: []
 },
 
 {
@@ -5233,24 +5174,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a compact dining layout. Typically calmer earlier in the day and busier during dinner service and weekends.",
+"Restaurant with table seating in a compact dining layout.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Occasional waits during dinner rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-oriented.",
-"First-timers notice activity increases after 5 pm.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
