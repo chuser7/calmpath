@@ -35,6 +35,35 @@ insights: [
 },
 
 {
+name: "Corner Dumpling House - Montgomery",
+city: "Cincinnati",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
+whatToExpect:
+"Casual restaurant with table seating and counter ordering in a clean, open dining space.",
+
+environment: {
+parking: "Large dedicated parking lot available.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Takeout orders are common.",
+]
+},
+
+{
 name: "The Davidson",
 city: "Cincinnati",
 neighborhood: "Downtown",
