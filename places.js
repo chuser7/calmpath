@@ -5201,28 +5201,24 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large bar with multiple floors and outdoor patio seating. Typically lighter earlier in the day and significantly busier during evening hours and weekends.",
+"Large bar with multiple floors and seating areas, including an outdoor patio.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High.",
-exits: "Patio and street-level access available."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented, especially on weekends.",
-"First-timers note activity increases significantly later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
-name: "The Vault Mt. Lookout",
+name: "The Vault - Mt. Lookout",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
@@ -5232,24 +5228,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a modern interior and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating and a central bar in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice activity builds steadily through dinner service.",
-"Weekends bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -5263,28 +5255,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and wine bar with indoor seating and patio space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Wine bar and restaurant with indoor seating and patio space.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers note patio seating draws visitors during warm weather.",
-"Weekends bring fuller dining rooms."
+"Outdoor seating is used frequently."
 ]
 },
 
 {
-name: "Ichiban",
+name: "Ichiban - Mt. Lookout",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
@@ -5294,24 +5284,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with a traditional dining layout and sushi bar seating. Typically steady during lunch hours and busier during dinner periods.",
+"Sushi restaurant with table seating and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner.",
-"First-timers note activity increases during evening service.",
-"Weekend evenings bring slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -5325,23 +5311,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+"Pizza restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service with steady dining traffic.",
-"First-timers notice lunch and dinner bring the most activity.",
-"Weekend evenings bring slightly higher traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -5356,24 +5340,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers notice activity builds after typical work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -5387,24 +5367,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+"Restaurant with table seating and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during dinner service.",
-"First-timers note evenings bring the most activity.",
-"Weekends bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -5418,27 +5394,23 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and limited seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and limited seating.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with short visits.",
-"First-timers note breakfast hours bring the most activity.",
-"Traffic decreases later in the afternoon."
-]
+insights: []
 },
-   
-   {
+
+{
 name: "Hummus Republic",
 city: "Cincinnati",
 neighborhood: "Clifton",
@@ -5449,23 +5421,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Counter-service restaurant with a straightforward ordering line and casual seating. Typically busiest during lunch hours and early evening periods.",
+"Counter-service restaurant with a simple ordering line and casual seating.",
 
 environment: {
-parking: "Street parking along nearby Clifton streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented with short visits.",
-"Lunch hours bring the most consistent activity.",
-"Evening traffic increases slightly but remains steady."
+"Visits are typically quick."
 ]
 },
 
@@ -5480,24 +5450,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with a casual dining layout and counter ordering. Typically calmer mid-afternoon and busier during lunch and early dinner periods.",
+"Small restaurant with counter ordering and a compact seating area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during midday hours.",
-"First-time visitors note traffic builds around lunch.",
-"Activity tapers slightly later in the evening."
-]
+insights: []
 },
 
 {
