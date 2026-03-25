@@ -6612,23 +6612,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual tavern with indoor and small outdoor seating. Calmer midday; busier on weekends.",
+"Tavern with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street + garages; tighter on weekends.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
 capacity: "Limited capacity",
-waits: "Possible during peak hours",
-location: "Inside venue"
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; louder late evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Neighborhood-style relaxed feel.",
-"Energy increases later in the evening."
-]
+insights: []
 },
 
 {
@@ -6642,23 +6639,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Spacious taco and tequila spot with indoor and outdoor seating. Livelier in evenings and on Taco Tuesdays.",
+"Restaurant with table seating and a bar area in an open layout.",
 
 environment: {
-parking: "Street + garages; tight at peak.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during busy times",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; louder evenings.",
-exits: "Street-level on Vine St."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Energy builds in the evenings.",
-"Music contributes to lively atmosphere."
-]
+insights: []
 },
 
 {
@@ -6672,23 +6666,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large brewery with expansive indoor and outdoor seating. Calmer daytime; lively evenings and weekends.",
+"Large brewery with indoor and outdoor seating in an open layout.",
 
 environment: {
-parking: "On-site lot + street; fills quickly.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible on busy nights",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate daytime; High evenings.",
-exits: "Large patio and multiple exits."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Open, social layout.",
-"Crowds increase on weekends."
-]
+insights: []
 },
 
 {
@@ -6702,23 +6693,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bright café focused on breakfast and lunch. Busier during brunch and weekday lunch rush.",
+"Bright café with table seating focused on breakfast and lunch service.",
 
 environment: {
-parking: "Street + downtown garages.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during brunch peak",
-location: "Inside restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during brunch.",
-exits: "Open layout; quick street exit."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bright and airy setting.",
-"Weekend brunch draws steady crowds."
-]
+insights: []
 },
 
 {
@@ -6732,25 +6720,22 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large riverfront restaurant with multi-level seating and patio space. Activity increases around games.",
+"Large restaurant and brewery with multiple seating areas and outdoor space.",
 
 environment: {
-parking: "Garages + street; limited during events.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible during peak events",
-location: "Inside multiple levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate daytime; High during events.",
-exits: "Multiple exits + patio access."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Crowds track with stadium schedules.",
-"Spacious layout accommodates groups."
-]
+insights: []
 },
-   
+
 {
 name: "O’Malley’s in the Alley",
 city: "Cincinnati",
@@ -6762,23 +6747,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Historic Irish pub below street level. Calmer weekdays; busier before games.",
+"Bar with a compact interior located on a lower level.",
 
 environment: {
-parking: "Street + garages; tight on game days.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; tighter layout",
-waits: "Possible pre-game",
-location: "Inside lower level"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Lower level"
 },
-noise: "Moderate; louder during pre-game.",
-exits: "Alley entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Classic old-school pub feel.",
-"Guests linger during slower hours."
-]
+insights: []
 },
 
 {
@@ -6792,22 +6774,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern restaurant with smaller dining room and reservation-driven flow.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "OTR street + garages; competitive at dinner.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during full dinner service",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases at full capacity.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Intimate and structured dining experience.",
-"Energy shifts as tables fill."
+"Reservations are common."
 ]
 },
 
@@ -6822,23 +6803,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Cozy Irish-style pub with lively bar atmosphere. Busier on weekends and game nights.",
+"Bar with a compact layout and bar seating in a social setting.",
 
 environment: {
-parking: "Street meters + garages; tight on game nights.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak evenings",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High evenings.",
-exits: "Street-level access."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Energetic pre-game gathering spot.",
-"Friendly, social environment."
-]
+insights: []
 },
 
 {
@@ -6852,23 +6830,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large multi-level brewery with rooftop space. Increasingly busy through evenings and weekends.",
+"Large brewery with multiple levels and open seating areas.",
 
 environment: {
-parking: "Street + garages; fills at peak times.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible during busy nights",
-location: "Multiple levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate daytime; High evenings.",
-exits: "Multiple exits including rooftop."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Open industrial layout.",
-"Energy builds gradually throughout the day."
-]
+insights: []
 },
 
 {
@@ -6882,23 +6857,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern taproom with structured layout and outdoor seating.",
+"Taproom with table seating and outdoor seating in a structured layout.",
 
 environment: {
-parking: "Street + garages; varies with events.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak times",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher evenings.",
-exits: "Outdoor seating; street-level exit."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Polished, organized flow.",
-"Predictable atmosphere even when busy."
-]
+insights: []
 },
 
 {
