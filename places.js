@@ -3946,7 +3946,7 @@ insights: []
 {
 name: "Rusty Bucket Restaurant and Tavern",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -3954,24 +3954,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and bar seating in a casual layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers notice evenings bring the most activity.",
-"Weekend evenings show slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -3985,24 +3981,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a compact dining room and bar seating in Hyde Park Square. Typically busiest during lunch hours and dinner periods.",
+"Restaurant and bar with a compact dining room and bar seating.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy periods",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers notice evenings bring fuller seating.",
-"Weekend dinners show higher traffic."
-]
+insights: []
 },
 
 {
@@ -4016,30 +4008,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and bar seating in a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady table service.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
 name: "The Pub – Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4047,30 +4035,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with a large dining room in the Rookwood Pavilion area. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with a large dining room and bar seating in an open layout.",
 
 environment: {
-parking: "Shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood Pavilion."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice dinner hours bring the most traffic.",
-"Weekend evenings bring fuller crowds."
-]
+insights: []
 },
 
 {
 name: "J. Alexander's Restaurant",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4078,24 +4062,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant with dining rooms and bar seating in the Rookwood development. Typically calmer earlier in the evening and busier during dinner hours.",
+"Large restaurant with multiple dining areas and bar seating in a structured layout.",
 
 environment: {
-parking: "Large Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Direct exterior access to the development."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during dinner service.",
-"First-timers notice evenings bring fuller seating.",
-"Weekend dinners show higher traffic."
-]
+insights: []
 },
 
 {
@@ -4109,30 +4089,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large restaurant and brewery with multiple dining areas and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Large restaurant and brewery with multiple dining areas and bar seating.",
 
 environment: {
-parking: "Large Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood development."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as family-focused earlier and bar-focused later.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
-name: "The Capital Grille",
+name: "The Capital Grille - Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4140,27 +4116,25 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Upscale restaurant with structured dining rooms and bar seating in the Rookwood area. Typically calmer earlier in the evening and busier during dinner hours.",
+"Upscale restaurant with multiple dining rooms and bar seating in a structured layout.",
 
 environment: {
-parking: "Shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Direct exterior access to Rookwood development."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as reservation-driven during dinner service.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
+"Reservations are common."
 ]
 },
-   
-   {
+
+{
 name: "Pleasant Ridge Chili",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
@@ -4171,23 +4145,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Montgomery Road. Typically steady throughout the day with consistent lunch and late-evening traffic.",
+"Chili parlor with booth seating and a casual diner-style layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent neighborhood traffic.",
-"Most visits involve quick dine-in meals or carryout.",
-"Evening hours stay steady with local regulars."
+"Visits are often quick for dine-in or carryout."
 ]
 },
 
@@ -4202,55 +4174,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and table seating along the Pleasant Ridge business district. Typically steady during dinner hours with increased activity later in the evening.",
+"Pizza restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Dinner hours bring steady dine-in traffic.",
-"Late evenings often attract small groups.",
-"Weekend nights usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "J&W Bar-B-Que",
-city: "Cincinnati",
-neighborhood: "Pleasant Ridge",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual barbecue restaurant with counter service and table seating along Montgomery Road. Typically steady during lunch hours with continued activity through dinner.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings tend to bring steady traffic."
-]
+insights: []
 },
 
 {
