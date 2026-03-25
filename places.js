@@ -6884,22 +6884,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Soccer-focused bar with open layout. Much busier during live matches.",
+"Bar with an open layout and table seating focused on live sports viewing.",
 
 environment: {
-parking: "Street + garages; limited during matches.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during live games",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during matches.",
-exits: "Direct street access."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Energy closely tied to match schedules.",
-"Communal atmosphere during games."
+"Live matches increase noise and crowd levels."
 ]
 },
 
@@ -6914,23 +6913,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large bar and restaurant with high energy during evenings and game days.",
+"Large restaurant and bar with multiple seating areas in an open layout.",
 
 environment: {
-parking: "Downtown street + garages; tight at peak.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during busy nights",
-location: "Inside main level"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate lunch; High evenings/game nights.",
-exits: "Large entrance + riverfront access."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Energy tracks with downtown events.",
-"Calmer earlier in the day."
-]
+insights: []
 },
 
 {
@@ -6944,30 +6940,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Compact, street-level restaurant with a traditional dining layout. Calmer earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "Street parking along Main + nearby public lots; may require short walk during peak times.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except during peak dinner",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate; increases when fully seated.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Cozy and intimate layout.",
-"Clear shift between early evening and weekend peak.",
-"Full but controlled on busy nights."
-]
+insights: []
 },
 
 {
 name: "Brothers Bar & Grill – Newport",
 city: "Newport",
-neighborhood: "",
+neighborhood: "Newport on the Levee",
 state: "KY",
 type: "full",
 
@@ -6975,86 +6967,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and restaurant with bar seating and multiple dining areas at Newport on the Levee. Typically calmer earlier in the day with busier evenings and weekend nightlife.",
+"Large sports bar with multiple seating areas and bar seating.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel calmer before evening crowds.",
-"Groups gather for drinks and sports viewing.",
-"Weekend nights usually bring the most activity."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "The Buzz Social",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Bar and social venue with games, lounge seating, and bar service near the Newport nightlife district. Typically quieter earlier in the evening with increased activity later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening hours often feel calmer.",
-"Groups gather for games and drinks later at night.",
-"Weekend nights usually bring the most visitors."
-]
-},
-
-{
-name: "The Local Post",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with a casual atmosphere and bar seating in the Newport nightlife area. Typically calmer earlier in the day with increased activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights tend to bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -7068,29 +6994,25 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Historic music venue with multiple performance rooms and bar service throughout the building. Typically quieter earlier in the evening with increased activity during concerts and weekend events.",
+"Music venue with multiple rooms and bar service throughout the space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Non-event evenings often feel calm.",
-"Concert nights bring larger crowds.",
-"Weekend shows usually create the most activity."
-]
+insights: []
 },
 
 {
-name: "Kung Brew Cafe",
-city: "Newport",
+name: "KungBrew Cafe",
+city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -7099,61 +7021,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and cafe with table seating and a relaxed neighborhood atmosphere along Monmouth Street. Typically busiest during morning and lunch hours with quieter evenings.",
+"Coffee shop with table seating in a relaxed layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning hours bring steady coffee traffic.",
-"Lunch visits often move quickly.",
-"Afternoons usually feel quieter."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Rotolo’s Pizzeria - Newport",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Pizza restaurant with counter ordering and table seating near the Levee district. Typically steady during lunch hours with increased activity during dinner and weekend evenings.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring steady dine-in traffic.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
 name: "Cold Stone Creamery - Newport",
 city: "Newport",
-neighborhood: "",
+neighborhood: "Newport on the Levee",
 state: "KY",
 type: "full",
 
@@ -7161,24 +7048,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Ice cream shop with counter service and limited seating near the Levee district. Typically steady during afternoon hours with busier evenings and weekend visits.",
+"Ice cream shop with counter service and limited seating.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter service.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
