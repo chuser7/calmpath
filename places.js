@@ -4201,24 +4201,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating and casual dining tables along Montgomery Road. Typically quieter earlier in the day with increased activity during evening hours.",
+"Bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -4232,54 +4228,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Buffet-style restaurant with multiple dining sections and table seating along Montgomery Road. Typically steady during lunch hours with busier dinner periods.",
+"Buffet-style restaurant with multiple seating sections and steady guest movement.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring consistent traffic.",
-"Families and groups are common during dinner hours.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Emanu Restaurant",
-city: "Cincinnati",
-neighborhood: "Pleasant Ridge",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual restaurant with table seating and a relaxed dining atmosphere in the Pleasant Ridge business district. Typically quieter earlier in the day with steady dinner traffic.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and couples.",
-"Weekend evenings tend to bring the most activity."
+"Families and groups are common."
 ]
 },
 
@@ -4294,24 +4257,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with counter ordering and table seating in a casual dining space. Typically steady during lunch hours and busier during dinner periods.",
+"Small restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
-parking: "Street parking along Montgomery Road.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and early dinner hours.",
-"First-timers note midday brings the most activity.",
-"Evening traffic remains moderate."
-]
+insights: []
 },
 
 {
@@ -4325,24 +4284,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Wine bar with indoor seating and a relaxed lounge-style layout. Typically calmer earlier in the evening and busier during weekend nights.",
+"Wine bar with indoor seating in a relaxed lounge-style layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady bar activity.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -4356,23 +4311,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and counter ordering in a small dining room. Typically busiest during brunch hours and early afternoons.",
+"Restaurant with counter ordering and table seating in a small dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during brunch",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as brunch-focused with strong midday traffic.",
-"First-timers note weekends bring the highest activity.",
-"Afternoon hours are generally calmer."
+"Brunch periods bring steady traffic."
 ]
 },
 
@@ -4387,28 +4340,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating for short visits.",
 
 environment: {
-parking: "Street parking along Montgomery Road.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers notice breakfast hours bring the most traffic.",
-"Activity decreases steadily later in the afternoon."
-]
+insights: []
 },
 
 {
-name: "Hello Honey",
+name: "Hello Honey - Pleasant Ridge",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
@@ -4418,23 +4367,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small dessert shop with counter ordering and limited seating. Typically busiest during afternoon and evening dessert hours.",
+"Dessert shop with counter service and limited seating for quick visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as dessert-focused with short visits.",
-"First-timers notice increased activity after dinner hours.",
-"Weekend evenings bring the most traffic."
+"Visits are typically short."
 ]
 },
 
@@ -4449,24 +4396,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Brewery and restaurant with bar seating and dining tables in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Brewery and restaurant with bar seating and table seating in an open layout.",
 
 environment: {
-parking: "Street parking and small nearby lots.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady bar traffic.",
-"First-timers notice activity increases after typical work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -4480,24 +4423,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with themed interior seating and lounge-style areas. Typically quieter earlier in the evening and busier later at night.",
+"Themed bar with lounge seating and a multi-room layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented with themed bar atmosphere.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the most consistent crowds."
-]
+insights: []
 },
 
 {
