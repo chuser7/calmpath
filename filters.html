@@ -277,69 +277,121 @@ ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.
 
 function openProfile(index) {
 
-const place = currentResults[index];
+  const place = currentResults[index];
 
-// 🔥 TRACK RESULT CLICK
-if (typeof gtag !== "undefined") {
-gtag('event', 'result_click', {
-venue_name: place.name || "",
-neighborhood: place.neighborhood || "",
-city: place.city || ""
-});
-}
+  // 🔥 TRACK RESULT CLICK
+  if (typeof gtag !== "undefined") {
+    gtag('event', 'result_click', {
+      venue_name: place.name || "",
+      neighborhood: place.neighborhood || "",
+      city: place.city || ""
+    });
+  }
 
-const container = document.getElementById("results");
+  const container = document.getElementById("results");
 
-const patternsHTML =
-place.insights && place.insights.length
-? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
-: "<p>No observed patterns yet.</p>";
+  const patternsHTML =
+    place.insights && place.insights.length
+      ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+      : "<p>No observed patterns yet.</p>";
 
-container.innerHTML = `
+  container.innerHTML = `
 
-<div class="back" onclick="renderResults()">← Back to results</div>
+    <div class="back" onclick="renderResults()">← Back to results</div>
 
-<div class="card">
+    <div class="card">
 
-<h2>${place.name}</h2>
+      <h2>${place.name}</h2>
 
-<div class="location">
-${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
-</div>
+      <div class="location">
+        ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
+      </div>
 
-<div class="snapshot-grid">
+      <div class="snapshot-grid">
 
-<div class="snapshot-item">
-<div class="snapshot-label">Parking</div>
-<div class="snapshot-value">${place.environment.parking}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Parking</div>
+          <div class="snapshot-value">${place.environment.parking}</div>
+        </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Noise</div>
-<div class="snapshot-value">${place.environment.noise}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Noise</div>
+          <div class="snapshot-value">${place.environment.noise}</div>
+        </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Restrooms</div>
-<div class="snapshot-value">${place.environment.restrooms.capacity}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Restrooms</div>
+          <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+        </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Exits</div>
-<div class="snapshot-value">${place.environment.exits}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Exits</div>
+          <div class="snapshot-value">${place.environment.exits}</div>
+        </div>
 
-</div>
+      </div>
 
-<h3>What to expect</h3>
-<p>${place.whatToExpect}</p>
+      <!-- ✅ VERIFICATION BLOCK -->
+      <div class="verification">
 
-<h3>Observed patterns</h3>
-${patternsHTML}
+        <p class="verification-question">Was this accurate?</p>
 
-</div>
-`;
+        <div class="verification-actions">
+          <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
+          <button class="verify-btn" data-action="down">👎 Not quite</button>
+        </div>
 
+        <div class="verification-confirmation hidden">
+          Thanks for confirming
+        </div>
+
+        <div class="verification-correction hidden">
+
+          <div class="correction-group" data-field="parking">
+            <p>Parking:</p>
+            <button data-value="Easy">Easy</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Difficult">Difficult</button>
+          </div>
+
+          <div class="correction-group" data-field="noise">
+            <p>Noise:</p>
+            <button data-value="Quiet">Quiet</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Loud">Loud</button>
+          </div>
+
+          <div class="correction-group" data-field="restrooms">
+            <p>Restrooms:</p>
+            <button data-value="Easy">Easy</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Limited">Limited</button>
+          </div>
+
+          <div class="correction-group" data-field="exits">
+            <p>Exits:</p>
+            <button data-value="Easy">Easy</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Tight">Tight</button>
+          </div>
+
+          <button class="submit-correction">Submit update</button>
+
+        </div>
+
+      </div>
+
+      <h3>What to expect</h3>
+      <p>${place.whatToExpect}</p>
+
+      <h3>Observed patterns</h3>
+      ${patternsHTML}
+
+    </div>
+  `;
+
+  // 🔥 THIS IS THE KEY LINE
+  attachVerificationHandlers(place);
 }
 
 /* =========================
