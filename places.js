@@ -7312,7 +7312,7 @@ insights: []
 },
 
 {
-name: "Juniper’s Gin Bar",
+name: "Juniper’s - Covington",
 city: "Covington",
 neighborhood: "",
 state: "KY",
@@ -7322,92 +7322,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Gin-focused cocktail bar with lounge seating and a relaxed bar atmosphere in the Covington nightlife district. Typically calmer earlier in the evening with steady cocktail traffic later at night.",
+"Cocktail bar with lounge seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups gather for cocktails later at night.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Pike Street Lounge",
-city: "Covington",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with bar seating and a casual lounge atmosphere along Pike Street. Typically quieter earlier in the day with more activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most visitors."
-]
-},
-
-{
-name: "The Madison Event Space Bar",
-city: "Covington",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Event venue with bar service and seating areas used for social gatherings and hosted events. Typically quieter outside scheduled events with increased activity during event nights.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside"
-},
-
-insights: [
-"Non-event days tend to feel quiet.",
-"Event nights bring larger crowds.",
-"Weekend events usually create the most activity."
-]
-},
-   
-   {
 name: "Frida 602",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -7415,30 +7349,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with table seating and a bar area along the MainStrasse corridor. Typically calmer earlier in the day with busier dinner service and weekend evenings.",
+"Mexican restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often move quickly with nearby workers.",
-"Dinner hours bring steady small groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Larry’s All American Cafe",
+name: "Larry’s - Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7446,30 +7376,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood diner with booth seating and a casual counter service atmosphere. Typically busiest during breakfast and lunch hours with quieter evenings.",
+"Diner with booth seating and counter service in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Lunch periods tend to move quickly.",
-"Afternoons usually feel calmer."
+"Morning visits are common."
 ]
 },
 
 {
 name: "The Standard Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -7477,30 +7405,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar located in a converted garage with indoor dining and patio seating. Typically calmer earlier in the evening with busier dinner service and weekend activity.",
+"Restaurant and bar with indoor seating and patio space in an open layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Happy hour periods often bring steady traffic.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Braxton Brewing Company",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7508,30 +7432,26 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Brewery taproom with large open seating areas and bar service near the Covington entertainment district. Typically calmer earlier in the day with increased activity during evenings and weekends.",
+"Brewery with open seating areas and bar service in a large space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Afternoons often feel quieter before evening crowds.",
-"Groups frequently gather for drinks after work.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
 name: "KungFood Chu’s AmerAsia",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7539,30 +7459,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Asian restaurant and craft beer bar with table seating and a casual dining layout. Typically steady during dinner hours with increased activity during weekends.",
+"Restaurant with table seating and a bar area in a casual dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring steady dine-in traffic.",
-"Weekend evenings usually see the most activity."
-]
+insights: []
 },
 
 {
 name: "Goodfellas Pizzeria - Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -7570,30 +7486,28 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and bar seating in the MainStrasse nightlife district. Typically steady during dinner hours with increased activity late at night.",
+"Pizza restaurant with counter ordering and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady dine-in visits.",
-"Late evenings attract nightlife crowds.",
-"Weekend nights usually bring the most activity."
+"Late-night visits are common."
 ]
 },
 
 {
 name: "Mac’s Pizza Pub - Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -7601,24 +7515,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood pizza pub with a bar area and casual table seating. Typically calmer earlier in the day with increased activity during evening hours and sports events.",
+"Pizza pub with bar seating and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the most visitors."
-]
+insights: []
 },
 
 {
