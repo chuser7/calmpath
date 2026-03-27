@@ -7532,68 +7532,6 @@ insights: []
 },
 
 {
-name: "El Rincon Mexican Restaurant",
-city: "Covington",
-neighborhood: "Mainstrasse",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual Mexican restaurant with booth seating and a relaxed dining room atmosphere. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch hours often move quickly.",
-"Evenings bring families and small groups.",
-"Weekend dinners tend to bring the most activity."
-]
-},
-
-{
-name: "Rich’s Proper Food & Drink",
-city: "Covington",
-neighborhood: "Mainstrasse",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with table seating and a relaxed dining layout in the Covington dining district. Typically calmer earlier in the evening with steady dinner reservations.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening reservations often feel calmer.",
-"Dinner hours attract couples and small groups.",
-"Weekend evenings tend to be the busiest."
-]
-},
-
-{
 name: "The Gruff",
 city: "Covington",
 neighborhood: "Roebling/Riverfront",
@@ -7604,30 +7542,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Multi-level restaurant and bar with indoor seating and a outdoor patio. Typically lighter earlier in the day and busier during dinner hours and weekends, especially in warmer weather.",
+"Multi-level restaurant and bar with indoor seating and outdoor space.",
 
 environment: {
-parking: "Street parking and nearby public lots; may require short walk during peak times.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main level"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher on weekend evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Seating level changes the overall experience.",
-"Outdoor traffic increases seasonally.",
-"Activity builds steadily into the evening."
-]
+insights: []
 },
 
 {
 name: "Blinkers Tavern",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "Roebling/Riverfront",
 state: "KY",
 type: "full",
 
@@ -7635,30 +7569,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Traditional dining restaurant with a structured table layout and bar area. Generally calm earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Street parking along Pike Street and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly even when busy.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Reservation-shaped dinner flow.",
-"Consistent pace rather than sharp crowd spikes.",
-"Weekends bring fuller seating but remain controlled."
-]
+insights: []
 },
 
 {
 name: "Carmelo’s Restaurant",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7666,30 +7596,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Intimate, street-level dining space with closely arranged tables. Typically quieter midweek and earlier in the evening, with busier dinner service on weekends.",
+"Restaurant with closely arranged table seating in a compact dining space.",
 
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as the dining room fills.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Compact and dining-focused layout.",
-"Smaller footprint fills quickly.",
-"Activity builds gradually through dinner hours."
-]
+insights: []
 },
 
 {
 name: "Coppin’s Restaurant & Bar",
 city: "Covington",
-neighborhood: "Roebling/Riverfront",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7697,24 +7623,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Hotel-based restaurant and bar with a structured, open dining room. Generally calm during weekday hours and busier during dinner and weekend periods.",
+"Restaurant and bar with a structured dining room in a hotel setting.",
 
 environment: {
-parking: "Hotel parking garage available on-site; easy access.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon",
-location: "Inside hotel main level"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate; typically steady rather than loud.",
-exits: "Lobby and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Influenced by hotel traffic patterns.",
-"Predictable flow throughout the day.",
-"Weekends bring moderate increases in activity."
-]
+insights: []
 },
 
 {
@@ -7728,23 +7650,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small, traditional diner with counter seating and a straightforward layout. Generally steady throughout the day, with more activity during breakfast and late-night hours.",
+"Small diner with counter seating and a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly due to smaller footprint.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Routine-driven, especially during breakfast.",
-"Activity spreads across the day rather than peaking sharply.",
-"Late-night hours maintain steady traffic."
+"Late-night visits are common."
 ]
 },
 
@@ -7759,24 +7679,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Compact lounge-style bar with a dark, enclosed interior and close seating. Typically quieter earlier in the evening and busier during weekend nights.",
+"Lounge-style bar with a compact interior and close seating.",
 
 environment: {
-parking: "Street parking in Mainstrasse Village; fills on weekends.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend evenings",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; higher during weekend nightlife hours.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Intimate and nightlife-oriented atmosphere.",
-"Activity increases noticeably after dinner hours.",
-"Weekend evenings bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -7790,24 +7706,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level Italian restaurant with compact, enclosed dining room. Quieter midweek and earlier evenings; fuller during weekend dinner service.",
+"Italian restaurant with a compact dining room and table seating.",
 
 environment: {
-parking: "Street parking along Main + nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; increases as dining room fills.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Smaller layout fills quickly.",
-"Energy shifts noticeably during peak hours.",
-"Intimate feel when fully seated."
-]
+insights: []
 },
 
 {
@@ -7821,24 +7733,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern restaurant with clean, open dining layout and bar seating. Generally calm during weekdays; busier during weekend dinners.",
+"Restaurant with table seating and a bar area in an open layout.",
 
 environment: {
-parking: "Street parking + nearby lots; varies by time.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; conversation-friendly earlier.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bright, organized layout.",
-"Steady pacing rather than high turnover.",
-"Predictable flow during most hours."
-]
+insights: []
 },
 
 {
