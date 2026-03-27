@@ -8213,7 +8213,7 @@ insights: []
 {
 name: "Doner House",
 city: "Newport",
-neighborhood: "",
+neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
@@ -8221,23 +8221,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small counter-service restaurant with limited indoor seating. Typically busiest during lunch hours, with lighter traffic mid-afternoon and later evening.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low; generally quick visits with light background activity.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Quick-stop oriented with shorter visit times.",
-"Lunch brings the most consistent flow.",
-"Activity remains steady rather than event-driven."
+"Visits are typically quick."
 ]
 },
 
@@ -8252,24 +8250,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small restaurant with a casual, enclosed dining layout. Generally calmer during weekday hours and busier during dinner and weekend periods.",
+"Small restaurant with table seating in a compact dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases during peak dinner hours.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Intimate due to smaller footprint.",
-"Activity builds gradually through the evening.",
-"Weekends bring fuller seating compared to weekdays."
-]
+insights: []
 },
 
 {
@@ -8283,24 +8277,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with bar-focused seating and a compact interior. Typically steady earlier in the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend evenings",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven with consistent regular patrons.",
-"Space fills quickly due to compact layout.",
-"Activity remains steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -8314,24 +8304,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large dining space with a mix of table seating and grill tables inside Newport on the Levee. Typically lighter earlier in the day and noticeably busier during dinner hours and weekends.",
+"Large restaurant with table seating and grill tables in an open layout.",
 
 environment: {
-parking: "Levee garage parking available on-site; easy access.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; increases during peak dinner hours due to table activity.",
-exits: "Located within the Levee with clear access to exterior walkways."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Group-oriented layout centered around shared tables.",
-"Noticeable increase in movement and conversation during dinner hours.",
-"Weekends bring the most significant crowd levels."
-]
+insights: []
 },
 
 {
@@ -8345,23 +8331,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small reservation-focused dining space with structured layout. Calm earlier; fuller during peak dinner.",
+"Small restaurant with table seating in a structured dining layout.",
 
 environment: {
-parking: "Street parking along Monmouth + nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservation pacing shapes flow.",
-"Steady energy even when full.",
-"Intimate layout."
+"Reservations are common."
 ]
 },
 
@@ -8376,30 +8360,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment-focused bar near riverfront. Quiet daytime; high-energy late nights.",
+"Large bar with open seating and entertainment areas.",
 
 environment: {
-parking: "Riverfront garages + lots; tight nightlife hours.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible late-night peaks",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during live music and late evenings.",
-exits: "Multiple access points + outdoor space."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Nightlife-centered activity.",
-"Clear shift after dark.",
-"Weekend evenings busiest."
-]
+insights: []
 },
 
 {
 name: "Bridgeview Box Park",
 city: "Newport",
-neighborhood: "",
+neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
@@ -8407,24 +8387,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Open-air container park with multiple vendors and outdoor seating. Lighter earlier; busier warm-weather evenings.",
+"Outdoor venue with multiple vendors and open seating areas.",
 
 environment: {
-parking: "Shared riverfront parking nearby.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Shared facilities; accessible",
-waits: "Possible peak evenings",
-location: "On-site shared restrooms"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; varies by event.",
-exits: "Fully outdoor layout."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Weather-dependent traffic.",
-"Casual vendor flow.",
-"Gradual evening build."
-]
+insights: []
 },
 
 {
@@ -8438,24 +8414,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small historic bar with compact interior. Steady daytime; moderate evening activity.",
+"Small bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Possible when full",
+capacity: "Single stall",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; increases as space fills.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Tight footprint shapes energy.",
-"Consistent local presence.",
-"Steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -8469,24 +8441,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Modern distillery with tasting room and tours across multiple levels. Calm weekdays; busier weekend tours and events.",
+"Distillery with tasting areas and seating across multiple levels.",
 
 environment: {
-parking: "Dedicated on-site parking lot available.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Uncommon except peak tours",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate depending on tours.",
-exits: "Multiple entrances + patio access."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Tour schedule shapes traffic.",
-"Structured, organized flow.",
-"Weekends bring stronger group activity."
-]
+insights: []
 },
 
 {
@@ -8500,24 +8468,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
-parking: "Street parking along Elm Street and nearby residential streets.",
+parking: "Lot in the back or street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as locally driven with consistent evening traffic.",
-"First-timers notice activity increases after typical dinner hours.",
-"Weekend nights bring the most consistent crowds."
-]
+insights: []
 },
    
 {
