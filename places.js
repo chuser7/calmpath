@@ -7750,7 +7750,7 @@ insights: []
 },
 
 {
-name: "Cock & Bull",
+name: "Cock & Bull Public House",
 city: "Covington",
 neighborhood: "MainStrasse",
 state: "KY",
@@ -7760,24 +7760,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day; busier evenings and weekends.",
+"Neighborhood pub with bar seating and table seating in a traditional layout.",
 
 environment: {
-parking: "Street parking + nearby lots; fills during peak hours.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during busy evenings",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during evening bar activity.",
-exits: "Street-level access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bar-driven layout influences feel.",
-"Steady local foot traffic.",
-"Clear daytime vs evening shift."
-]
+insights: []
 },
 
 {
@@ -7787,30 +7783,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern Mexican restaurant along Madison Avenue with colorful décor, table seating, and a bar area focused on handcrafted cocktails. Lunch and dinner hours typically bring steady crowds from nearby neighborhoods and downtown visitors.",
+"Mexican restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
-parking: "Street parking along surrounding Covington streets with additional nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk along Madison Avenue."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be the busiest.",
-"Visitors often stop in while exploring nearby Covington areas.",
-"Street parking may require a short walk during busy periods."
-]
+insights: []
 },
-   
+
 {
 name: "Doubt It Bar",
 city: "Covington",
@@ -7822,24 +7814,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Small bar with compact interior and close seating. Quieter earlier in the day; more active late at night, especially weekends.",
+"Small bar with a compact interior and close seating.",
 
 environment: {
-parking: "Street parking nearby; may require short walk.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Possible during peak nights",
+capacity: "Single stall",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate to High late evenings.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Tight footprint shapes atmosphere.",
-"Late-night energy most noticeable.",
-"Timing impacts comfort more than size."
-]
+insights: []
 },
 
 {
@@ -7853,30 +7841,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with contemporary layout and both dining and lounge seating. Calmer earlier; fuller on weekend evenings.",
+"Restaurant and bar with table seating and lounge areas in a modern layout.",
 
 environment: {
-parking: "Street parking along Main + nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekends.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Stylish, social atmosphere on weekends.",
-"Clear shift between early and peak hours.",
-"Layout supports both dining and bar visits."
-]
+insights: []
 },
-   
+
 {
 name: "Libby’s Southern Comfort",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7884,30 +7868,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant with bar seating and traditional dining layout. Calmer earlier; steady dinner and weekend activity.",
+"Restaurant with table seating and a bar area in a traditional dining layout.",
 
 environment: {
-parking: "Street parking + nearby lots; may require short walk during peak hours.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; increases during dinner service.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Activity builds gradually.",
-"Weekends noticeably busier than weekdays.",
-"Dining-focused rather than nightlife-driven."
-]
+insights: []
 },
 
 {
 name: "Agave & Rye",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -7915,24 +7895,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large, open restaurant with prominent bar area and bold interior. Lighter afternoons; energetic evenings and weekends.",
+"Large restaurant and bar with an open layout and prominent bar seating.",
 
 environment: {
-parking: "Street parking + nearby garages; fills faster weekends.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate to High evenings.",
-exits: "Street-level access."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Energy shifts after 6 pm.",
-"Bar-forward layout influences atmosphere.",
-"Weekend evenings most active."
-]
+insights: []
 },
 
 {
@@ -7946,23 +7922,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Smaller dining-focused restaurant with structured layout. Calm earlier; fuller during peak dinner hours.",
+"Restaurant with table seating in a compact and structured dining room.",
 
 environment: {
-parking: "Street parking + nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservation-driven pacing.",
-"Steady energy even when full.",
-"Measured midweek flow."
+"Reservations are common."
 ]
 },
 
@@ -7977,24 +7951,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large multi-level beer hall with communal seating. Calmer earlier; significantly busier evenings, weekends, and events.",
+"Large beer hall with communal seating across multiple levels.",
 
 environment: {
-parking: "Riverfront garages + lots; fills quickly on weekends.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible during peak events",
-location: "Inside multiple levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during live music and peak hours.",
-exits: "Large entrance + patio access."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Event-driven energy.",
-"Communal layout shapes experience.",
-"Weekends bring highest volume."
-]
+insights: []
 },
 
 {
@@ -8008,24 +7978,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Waterfront restaurant with multiple dining rooms and views of the Ohio River and Cincinnati skyline. Typically quieter earlier in the evening with steady dinner reservations and weekend dining.",
+"Restaurant with multiple dining rooms and table seating in a waterfront setting.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -8039,24 +8005,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and table dining along Monmouth Street. Typically steady during lunch hours with busier dinner service and weekend visits.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often bring consistent traffic.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
