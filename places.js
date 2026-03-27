@@ -8022,7 +8022,7 @@ insights: []
 },
 
 {
-name: "York Street Cafe",
+name: "Coaches Corner",
 city: "Newport",
 neighborhood: "",
 state: "KY",
@@ -8032,117 +8032,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with eclectic decor and table seating along the York Street corridor. Typically quieter earlier in the evening with steady dinner reservations and weekend activity.",
+"Bar and grill with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Upstairs"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "JerZee’s Pub",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evenings and sports events.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the largest crowds."
-]
-},
-
-{
-name: "Twelve Mile House",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with bar seating and a casual local atmosphere along the Newport corridor. Typically quieter earlier in the day with increased activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel relaxed.",
-"Evenings bring steady neighborhood bar traffic.",
-"Weekend nights tend to bring the most activity."
-]
-},
-
-{
-name: "Coach House Bar & Grill",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar and grill with bar seating and table dining along the Newport corridor. Typically quieter earlier in the day with more activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Evenings bring steady bar and dining traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -8156,24 +8059,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large, traditional dining restaurant with multiple seating areas inside Newport on the Levee. Generally calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining areas and table seating.",
 
 environment: {
-parking: "Levee garage parking directly adjacent; easy access.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during peak dinner service.",
-exits: "Direct access to Levee walkways and exterior exits."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Structured and reservation-driven, especially at dinner.",
-"Activity increases steadily after 5–6 pm.",
-"Weekends bring fuller dining rooms but remain organized."
-]
+insights: []
 },
 
 {
@@ -8187,24 +8086,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual diner-style restaurant with a straightforward counter and table layout. Typically steady during breakfast and lunch hours, with lighter traffic later in the day.",
+"Diner with counter seating and table seating in a simple layout.",
 
 environment: {
-parking: "Street parking nearby; may require short walk.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon except during peak breakfast hours",
-location: "Inside main dining area"
+capacity: "Limited capacity",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; generally conversation-friendly.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Routine-driven, especially during morning hours.",
-"Breakfast brings the most consistent activity.",
-"Pace remains steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -8218,24 +8113,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Traditional sit-down restaurant with a full dining room and bar seating. Generally calmer midweek and earlier in the day, with busier dinner hours and weekends.",
+"Mexican restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner service",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases during peak dinner service.",
-exits: "Street-level access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Family-oriented earlier in the evening.",
-"Activity builds gradually after 5 pm.",
-"Weekend nights bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -8249,24 +8140,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Golf-themed bar with open interior space and entertainment-focused seating. Typically lighter during weekday afternoons and busier in the evenings and on weekends.",
+"Entertainment-focused bar with open seating and activity areas.",
 
 environment: {
-parking: "Street parking nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; higher during peak evenings.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Activity centers around entertainment areas.",
-"Evenings bring the most noticeable increase in crowd energy.",
-"Weeknights tend to be calmer than weekends."
-]
+insights: []
 },
 
 {
@@ -8280,24 +8167,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small neighborhood bar with close seating and a traditional pub layout. Generally steady during the day and busier in the evenings, especially on weekends.",
+"Small neighborhood bar with a compact layout and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as the space fills.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Compact and locally driven atmosphere.",
-"Smaller footprint shapes the overall feel.",
-"Evenings bring the most noticeable change in activity."
-]
+insights: []
 },
 
 {
@@ -8311,24 +8194,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Outdoor bar and seating area with an open-air layout. Typically lighter earlier in the day and busier in the evenings, particularly during warm weather.",
+"Outdoor bar with open seating areas in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "On-site restroom facilities",
-waits: "Possible during peak evenings",
-location: "On-site outdoor facilities"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; varies based on crowd size and events.",
-exits: "Fully open outdoor layout."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Weather-dependent traffic patterns.",
-"Open layout creates a different feel than enclosed bars.",
-"Weekend evenings bring the most consistent activity."
-]
+insights: []
 },
 
 {
