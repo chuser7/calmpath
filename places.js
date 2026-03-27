@@ -7065,67 +7065,32 @@ insights: []
 },
 
 {
-name: "Menchie’s Frozen Yogurt - Newport",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Low",
-
-whatToExpect:
-"Frozen yogurt shop with self-serve stations and limited indoor seating near the Levee area. Typically steady during afternoons with increased activity during evening hours.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
-},
-noise: "Low",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often bring steady traffic.",
-"Most visits are short dessert stops.",
-"Weekend evenings tend to be busiest."
-]
-},
-   
-{
 name: "Villa Fiesta",
 city: "Covington",
 neighborhood: "Latonia",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant along Taylor Mill Road with booth and table seating in a relaxed neighborhood dining environment. Activity typically builds during dinner hours and weekend evenings.",
+"Mexican restaurant with booth seating and table dining in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dinner conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically the busiest.",
-"Families and small groups are common.",
-"Parking is usually easy directly outside the restaurant."
-]
+insights: []
 },
-   
+
 {
 name: "Del Gardo’s Cannoli",
 city: "Covington",
@@ -7137,24 +7102,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Italian dessert shop with counter service and limited indoor seating in the MainStrasse area. Typically steady during afternoon and evening hours with quick visits for dessert or takeaway.",
+"Dessert shop with counter service and limited seating in a compact space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits are quick counter-service stops.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -7168,23 +7129,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Steakhouse with table seating and a bar area located in the Covington dining district. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
+"Steakhouse with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early dinner reservations often feel calmer.",
-"Couples and small groups are common during dinner service.",
-"Weekend evenings usually bring the most activity."
+"Reservations are common."
 ]
 },
 
@@ -7199,24 +7158,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant and lounge located on the top floor of the Radisson hotel with panoramic views and table seating. Typically relaxed earlier in the evening with steady dinner reservations and weekend visitors.",
+"Restaurant with table seating in a structured dining room layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel quieter.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually see the most visitors."
-]
+insights: []
 },
 
 {
@@ -7230,23 +7185,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual burger restaurant with counter ordering and table seating along the Madison Avenue corridor. Typically steady during lunch hours with continued traffic during dinner periods.",
+"Casual restaurant with counter ordering and table seating in a simple layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring consistent traffic.",
-"Most visits involve quick dine-in meals or takeout.",
-"Weekend afternoons tend to be the busiest."
+"Visits are typically quick."
 ]
 },
 
@@ -7261,24 +7214,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Craft cocktail bar with lounge seating and a relaxed social atmosphere along the Covington nightlife corridor. Typically calmer earlier in the evening with more activity later at night.",
+"Bar with lounge seating and a compact layout for small groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups gather for cocktails later in the night.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -7292,30 +7241,26 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and social venue with a casual layout and bar seating in the Covington entertainment district. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
+"Bar with a casual layout and bar seating in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Evenings bring steady social groups.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Gypsy’s Smokehouse",
+name: "Gypsy’s Mainstrasse",
 city: "Covington",
-neighborhood: "",
+neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
@@ -7323,24 +7268,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Barbecue restaurant with table seating and a casual dining atmosphere along the Madison Avenue corridor. Typically steady during dinner hours with busier weekend activity.",
+"Barbecue restaurant with table seating in a casual dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner service brings small groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -7354,24 +7295,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bar located above street level with lounge seating and a relaxed nightlife atmosphere. Typically calmer earlier in the evening with increased activity later at night.",
+"Bar with lounge seating located above street level in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings tend to feel quieter.",
-"Groups often gather for drinks later at night.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
