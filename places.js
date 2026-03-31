@@ -8962,24 +8962,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+"Casual restaurant with counter ordering and table seating in a simple layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers note evenings bring the most activity.",
-"Weekend nights bring slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -8993,24 +8989,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and bar seating. Typically quieter during the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-oriented with bar traffic.",
-"First-timers notice activity increases after dinner hours.",
-"Weekend nights bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -9024,29 +9016,25 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with indoor seating and a backyard patio area. Typically quieter earlier in the day and busier during evening hours and weekends.",
+"Bar with indoor seating and a backyard patio area.",
 
 environment: {
-parking: "Street parking along Fairfield Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Back patio access available."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as evening-focused with bar activity.",
-"First-timers note later evening hours bring the most traffic.",
-"Weekends show the highest crowd levels."
-]
+insights: []
 },
 
 {
 name: "Rose Room",
-city: "Bellevue",
+city: "Dayton",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -9055,29 +9043,25 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with lounge-style seating and a compact interior layout. Typically calmer earlier in the evening and busier later at night.",
+"Lounge-style bar with a compact interior and close seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the highest crowds."
-]
+insights: []
 },
 
 {
 name: "Galactic Fried Chicken",
-city: "Bellevue",
+city: "Dayton",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -9086,54 +9070,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and evening takeout periods.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
-},
-
-insights: [
-"Often described as quick-service with shorter visits.",
-"First-timers notice lunch brings the most traffic.",
-"Evening takeout activity increases slightly."
-]
-},
-
-{
-name: "The Overlook at Fort Thomas",
-city: "Fort Thomas",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with indoor dining rooms and outdoor patio seating overlooking the river valley. Typically calmer earlier in the day and busier during dinner hours and weekends.",
-
-environment: {
-parking: "Dedicated parking lot available next to the restaurant.",
-restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
-},
-noise: "Moderate.",
-exits: "Patio and overlook access available."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as view-driven, especially during sunset hours.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring fuller seating."
+"Visits are typically quick."
 ]
 },
 
@@ -9148,29 +9099,27 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood deli with counter service and table seating along Fort Thomas Avenue. Typically busiest during breakfast and lunch hours with quieter periods later in the afternoon.",
+"Deli with counter service and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the deli"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Lunch visits move quickly with neighborhood diners.",
-"Afternoons usually feel calmer."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Kampuchea Kitchen",
-city: "Fort Thomas",
+name: "Graeter’s Ice Cream - Newport",
+city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -9179,59 +9128,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual Cambodian restaurant with table seating along the Fort Thomas Avenue dining corridor. Typically steady during dinner hours with quieter periods earlier in the day.",
+"Ice cream shop with counter service and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and couples.",
-"Weekend evenings tend to bring the most activity."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Graeter’s Ice Cream - Fort Thomas",
-city: "Fort Thomas",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Ice cream shop with counter service and limited indoor seating along Fort Thomas Avenue. Typically steady during afternoons with increased activity during evening hours and weekends.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
-},
-noise: "Low",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Warm weekend evenings usually bring the most activity."
-]
-},
-   
-{
-name: "Tickle Pickle Restaurant",
+name: "Tickle Pickle Restaurant - Ft. Thomas",
 city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
@@ -9241,24 +9157,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and table seating in a small dining space. Typically busiest during lunch hours and early evening periods.",
+"Casual restaurant with counter ordering and table seating in a small dining space.",
 
 environment: {
-parking: "Street parking along North Fort Thomas Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during lunch rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as lunch-focused with steady midday traffic.",
-"First-timers note activity increases around noon.",
-"Evening traffic remains steady but smaller than lunch."
-]
+insights: []
 },
 
 {
