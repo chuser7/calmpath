@@ -12082,63 +12082,55 @@ insights: []
 {
 name: "Cream + Sugar Coffeehouse",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Norwood",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks, pastries, and light breakfast options with casual seating.",
+"Coffee shop with counter service and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking available along nearby city streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings tend to be busiest.",
-"Visitors often stay for coffee or work.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
-name: "Luckman Coffee",
+name: "Luckman Coffee - Beechmont Ave",
 city: "Cincinnati",
 neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local coffee shop serving espresso drinks and pastries with casual seating and a relaxed café environment.",
+"Coffee shop with counter service and seating in a casual layout.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most activity.",
-"Visitors often stop in for quick coffee visits.",
-"Afternoons tend to be quieter."
-]
+insights: []
 },
 
 {
@@ -12148,152 +12140,132 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop serving espresso drinks and light café items with casual seating.",
+"Coffee shop with counter service and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stop in before work.",
-"Afternoons are typically quieter."
-]
+insights: []
 },
 
 {
 name: "Daylily",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Café and bakery offering coffee, pastries, and light breakfast items with casual seating and a relaxed atmosphere.",
+"Café and bakery with counter service and seating in a casual layout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with café conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings tend to be the busiest.",
-"Pastries and coffee are popular stops.",
-"Afternoons are generally calmer."
-]
+insights: []
 },
 
 {
 name: "Lola's Coffee + Bar",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and bar serving espresso drinks during the day and cocktails in the evening with casual seating.",
+"Coffee shop and bar with seating for daytime and evening use.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with coffee shop activity during the day and bar activity in the evening.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Evenings shift toward a bar atmosphere.",
-"Visitors often stay for social gatherings."
-]
+insights: []
 },
 
 {
 name: "Fable Cafe",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Westwood",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood café offering coffee, pastries, and casual seating in a relaxed environment.",
+"Café with counter service and casual seating in a small layout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady visitors.",
-"Visitors often stay for casual work.",
-"Afternoons are usually quieter."
-]
+insights: []
 },
 
 {
 name: "Bean & Barley",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks and brunch-style food with a casual dining atmosphere.",
+"Café with table seating and counter service in a casual dining layout.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and coffee activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekend brunch hours are typically busiest.",
-"Mornings bring steady coffee traffic.",
-"Groups often gather for brunch."
-]
+insights: []
 },
 
 {
@@ -12303,34 +12275,30 @@ neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Bakery and café located at Newport on the Levee offering pastries, breakfast items, and coffee with casual seating.",
+"Bakery and café with counter service and table seating in a shared complex.",
 
 environment: {
-parking: "Parking garages and surface lots available at Newport on the Levee.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the Levee complex"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate depending on activity in the surrounding Levee area.",
-exits: "Located inside the Levee complex with nearby exits to the riverfront and parking garages."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Mornings bring steady breakfast traffic.",
-"Visitors often stop in while exploring the Levee.",
-"Weekend mornings tend to be busier."
-]
-},   
-   
+insights: []
+},
+
 {
-name: "Ferrari's Little Italy",
-city: "Montgomery",
-neighborhood: "Montgomery",
+name: "Ferrari's Little Italy & Bakery",
+city: "Madeira",
+neighborhood: "Madeira",
 state: "OH",
 type: "full",
 
@@ -12338,30 +12306,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Italian restaurant with table seating and a traditional dining room in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
+"Italian restaurant with table seating and a bar area in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner visits often feel relaxed.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "S.W. Clyborne Co. Provision & Spirits",
-city: "Montgomery",
-neighborhood: "Montgomery",
+city: "Mason",
+neighborhood: "Mason",
 state: "OH",
 type: "full",
 
@@ -12369,24 +12333,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with multiple dining rooms and a social dining atmosphere in downtown Montgomery. Typically steady during dinner hours with increased evening activity.",
+"Restaurant and bar with multiple dining areas in a social layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel calmer.",
-"Dinner hours attract groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -12400,24 +12360,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with booth seating and table dining along Montgomery Road. Typically steady during lunch and dinner hours.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings usually bring steady traffic."
-]
+insights: []
 },
 
 {
@@ -12431,24 +12387,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast restaurant with table seating and a busy brunch atmosphere along Montgomery Road. Typically busiest during morning and late morning hours.",
+"Breakfast restaurant with table seating in a busy dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the entrance"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Near entrance"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel quieter."
-]
+insights: []
 },
 
 {
