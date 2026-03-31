@@ -11289,97 +11289,58 @@ insights: []
 },
 
 {
-name: "Coba Bar & Grill",
-city: "Independence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Neighborhood bar and grill with casual dining tables, bar seating, and TVs. Evenings often bring steady crowds gathering for drinks and food.",
-
-environment: {
-parking: "Parking lot directly outside the building.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
-},
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
-},
-
-insights: [
-"Evenings are typically the busiest time.",
-"Sports events can increase crowd noise.",
-"Parking is usually easy directly outside."
-]
-},
-
-{
 name: "Crewitts Creek Kitchen & Bar",
 city: "Independence",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local restaurant and bar along Madison Pike with casual table seating and a relaxed neighborhood atmosphere. Activity typically increases during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with conversation and occasional bar activity during busy periods.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be the busiest.",
-"Bar seating often fills later in the evening.",
-"Parking is typically easy directly outside."
-]
-},   
+insights: []
+},
 
 {
-name: "Peppers Mexican Grill",
+name: "Peppers Mexican Grill - Independence",
 city: "Independence",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth and table seating in a relaxed dining environment. Lunch and dinner hours typically bring steady traffic from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick and steady.",
-"Dinner hours bring families and small groups.",
-"Parking is generally easy in the plaza lot."
-]
-},   
+insights: []
+},
 
 {
 name: "Peecox Bar & Grill - Independence",
@@ -11388,29 +11349,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar with bar seating, tables, and TVs throughout the space. Evenings and weekends typically bring the most activity.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot directly outside the bar.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Sports events can increase noise levels.",
-"Most visits are casual and social."
-]
-},   
+insights: []
+},
 
 {
 name: "Log Cabin Inn",
@@ -11419,29 +11376,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Longstanding neighborhood restaurant and bar with rustic décor and casual dining spaces. Activity typically builds during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dinner conversation and bar activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest period.",
-"Regular local visitors are common.",
-"Parking is usually easy directly outside."
-]
-},  
+insights: []
+},
 
 {
 name: "Knuk-N-Futz",
@@ -11450,100 +11403,57 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Casual neighborhood bar and grill with bar seating, tables, and a relaxed social atmosphere. Evenings and weekends typically bring the most activity.",
-
-environment: {
-parking: "Parking lot directly outside the building.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
-},
-noise: "Moderate to High during busy evenings and live entertainment.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Evenings and weekends are typically busiest.",
-"Live music or events may increase noise levels.",
-"Most visitors stay for drinks and casual meals."
-]
-},
-   
-{
-name: "El Jinete Mexican Restaurant",
-city: "Independence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady activity.",
-
-environment: {
-parking: "Large parking lot surrounding the restaurant.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate with conversation and background music during busy periods.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Lunch hours are steady with nearby workers.",
-"Dinner hours bring families and groups.",
-"Parking is typically easy."
-]
-},
-   
-{
-name: "Woody's Bar & Grille",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
 parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
+"Bar and grill with table seating and bar seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter than evenings.",
-"The bar area stays active later in the day.",
-"Weekend nights tend to bring the most traffic."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-/* =========================
-BLUE ASH, OH
-========================= */
+insights: []
+},
+
+{
+name: "El Jinete Mexican Restaurant - Taylor Mill",
+city: "Taylor Mill",
+neighborhood: "unknown",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Mexican restaurant with booth seating and table seating in a large dining area.",
+
+environment: {
+parking: "Large dedicated parking lot available.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: []
+},
 
 {
 name: "Blue Ash Chili",
 city: "Blue Ash",
-neighborhood: "Blue Ash",
+neighborhood: "",
 state: "OH",
 type: "full",
 
@@ -11551,92 +11461,28 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Local chili parlor with booth seating and a casual diner-style layout along Kenwood Road. Typically steady throughout the day with consistent lunch and late evening visits.",
+"Diner-style restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent neighborhood traffic.",
-"Most visits involve quick dine-in meals or carryout.",
-"Evenings stay steady with families and regulars."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Catch-a-Fire Pizza - Blue Ash",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Pizza restaurant with table seating and counter ordering in the Blue Ash dining district. Typically steady during dinner hours with increased activity on weekends.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Brown Dog Café",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant with table seating and a casual dining atmosphere near Summit Park in Blue Ash. Typically calmer earlier in the evening with steady dinner reservations later.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Dinner service attracts couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Caruso's Ristorante & Bar",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
+name: "Caruso's Ristorante & Bar - Fairfield",
+city: "Fairfield",
+neighborhood: "Fairfield",
 state: "OH",
 type: "full",
 
@@ -11644,24 +11490,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Italian restaurant with table seating and a bar area along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening activity.",
+"Italian restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings tend to bring steady activity."
-]
+insights: []
 },
    
 {
