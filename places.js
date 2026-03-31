@@ -11756,7 +11756,7 @@ MONTGOMERY, OH
 ========================= */
 
 {
-name: "Stone Creek Dining Company",
+name: "Stone Creek Dining Company - Montgomery",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
@@ -11766,24 +11766,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale restaurant with multiple dining rooms and bar seating in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
+"Restaurant with multiple dining rooms and a bar area in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Dinner hours attract couples and groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -11793,28 +11789,24 @@ neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local coffee shop serving espresso drinks and pastries with casual seating and a relaxed café atmosphere along the Ohio River in New Richmond.",
+"Coffee shop with counter service and casual seating in a small layout.",
 
 environment: {
-parking: "Street parking available along nearby downtown streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most visitors.",
-"Many guests stop in while visiting the riverfront area.",
-"Afternoons are usually quieter."
-]
+insights: []
 },
 
 {
@@ -11824,28 +11816,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop in Covington serving espresso drinks, pastries, and light café items with casual seating.",
+"Coffee shop with counter ordering and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically busiest.",
-"Visitors often stop in for quick coffee runs.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
@@ -11855,59 +11843,51 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop serving espresso drinks and pastries with a small, casual seating area and relaxed atmosphere.",
+"Small coffee shop with counter service and limited seating.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with quiet coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most traffic.",
-"Most visits are short coffee stops.",
-"Afternoons tend to be quieter."
-]
+insights: []
 },
 
 {
 name: "The Roost Latonia",
 city: "Covington",
-neighborhood: "",
+neighborhood: "Latonia",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood café in the Latonia district serving coffee, breakfast items, and light meals with casual seating.",
+"Café with counter service and table seating in a casual layout.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stay for casual meetings.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
@@ -11917,28 +11897,24 @@ neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop in Norwood serving espresso drinks and pastries with a casual café seating area.",
+"Coffee shop with counter service and seating for guests.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically busiest.",
-"Visitors often stay to work or study.",
-"Afternoons tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -11948,28 +11924,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop along Monmouth Street in Newport serving espresso drinks and light café items with casual seating.",
+"Coffee shop with counter ordering and seating in a small layout.",
 
 environment: {
-parking: "Street parking available along nearby Newport streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stop in while walking Monmouth Street.",
-"Afternoons are typically quieter."
-]
+insights: []
 },
 
 {
@@ -11979,28 +11951,24 @@ neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffeehouse and cocktail bar serving espresso drinks during the day and cocktails in the evening with casual seating.",
+"Coffeehouse and bar with seating for daytime and evening use.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with coffee shop activity during the day and bar activity in the evening.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Evenings shift toward a bar atmosphere.",
-"Visitors often stay for meetings or socializing."
-]
+insights: []
 },
 
 {
@@ -12010,28 +11978,24 @@ neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Café inside the Cinergy entertainment complex offering coffee, snacks, and quick bites for visitors to the theater and entertainment venue.",
+"Café inside an entertainment complex with counter service and seating.",
 
 environment: {
-parking: "Large parking lot available at the entertainment complex.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the complex"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate depending on activity in surrounding entertainment areas.",
-exits: "Located inside the complex with exits leading to the main lobby and parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Most visits are quick.",
-"Visitors often stop in before or after movies.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
@@ -12041,28 +12005,24 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Specialty coffee roaster and café serving espresso drinks and pour-over coffee with seating for guests.",
+"Coffee shop with counter service and seating for guests in a compact layout.",
 
 environment: {
-parking: "Street parking available along nearby West End streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stay to work or study.",
-"Coffee enthusiasts visit for specialty drinks."
-]
+insights: []
 },
 
 {
@@ -12072,28 +12032,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Community café serving coffee and breakfast items with a relaxed and quiet atmosphere.",
+"Café with counter service and seating in a quiet setting.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low with quiet conversation and relaxed café activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most visitors.",
-"Visitors often stay for casual meetings.",
-"Afternoons tend to be calm."
-]
+insights: []
 },
 
 {
@@ -12103,28 +12059,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop serving espresso drinks, pastries, and light café items with casual seating and a relaxed atmosphere.",
+"Coffee shop with counter service and casual seating in a small layout.",
 
 environment: {
-parking: "Street parking available along surrounding Dayton streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most coffee traffic.",
-"Visitors often stop in for quick coffee runs.",
-"Afternoons are typically quieter."
-]
+insights: []
 },
 
 {
