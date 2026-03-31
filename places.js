@@ -9846,28 +9846,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Indian restaurant with a small dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and weekend visits.",
+"Indian restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often involve shorter dine-in stays.",
-"Takeout orders are common during evening hours.",
-"Weekend dinners usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "KJ's",
+name: "KJ's - Buttermilk",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -9877,24 +9875,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evening hours and weekends.",
+"Bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter compared to evenings.",
-"The bar area tends to stay active later in the day.",
-"Weekend nights usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -9908,24 +9902,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual pizza restaurant with bar seating and a relaxed dining area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
+"Pizza restaurant with table seating and bar seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits tend to be shorter and steady.",
-"Evening hours often bring families and small groups.",
-"Weekend dinners typically see the highest traffic."
-]
+insights: []
 },
 
 {
@@ -9939,24 +9929,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meal periods.",
+"Large buffet restaurant with multiple dining areas and self-serve stations.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours usually move quickly with steady traffic.",
-"Evening periods often bring families and larger groups.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -9970,30 +9956,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with a central bar area, TVs throughout the space, and casual seating. Typically quieter earlier in the day, with more activity during evening hours and televised games.",
+"Sports bar with a central bar and table seating throughout the space.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons usually feel calmer than evening periods.",
-"Game nights often increase activity and noise levels.",
-"Weekend evenings typically bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Poseidons Pizza",
-city: "Crescent Springs",
-neighborhood: "",
+name: "Poseidons Pizza - Florence",
+city: "Florence",
+neighborhood: "unknown",
 state: "KY",
 type: "full",
 
@@ -10001,29 +9983,23 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual pizza restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
+"Pizza restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits are often quick dine-in or takeout orders.",
-"Evening hours bring the most consistent dine-in traffic.",
-"Weekend dinners usually see the highest activity."
+"Takeout orders are common."
 ]
 },
-
-/* =========================
-Florence , KY
-========================= */
 
 {
 name: "Drake's - Florence",
@@ -10036,24 +10012,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large casual restaurant with a central bar, patio seating, and multiple dining sections. Typically calmer earlier in the day, with increased activity during dinner hours, sports events, and weekend evenings.",
+"Large restaurant with a central bar and multiple dining areas.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours often feel calmer than evening periods.",
-"The bar area tends to stay active during dinner service.",
-"Weekend evenings usually bring the largest crowds."
-]
+insights: []
 },
 
 {
@@ -10067,28 +10039,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Automotive-themed restaurant with a bar area and multiple dining sections. Typically relaxed earlier in the day, with busier dinner hours and steady weekend traffic.",
+"Restaurant with table seating and a bar area across multiple dining sections.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel calmer than evenings.",
-"Families and groups are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Blind Squirrel",
+name: "Blind Squirrel - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10098,24 +10066,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with a large bar area, TVs throughout the space, and multiple seating sections. Typically quieter earlier in the day, with increased activity during evening hours and televised games.",
+"Sports bar with a large bar area and table seating throughout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evening periods.",
-"Game nights tend to increase noise and crowd levels.",
-"Weekend nights usually bring the busiest traffic."
-]
+insights: []
 },
 
 {
@@ -10129,23 +10093,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small Thai restaurant with a compact dining room and relaxed seating layout. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
+"Small restaurant with table seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often involve shorter dine-in visits.",
-"Takeout orders are common during evening hours.",
-"Weekend dinners tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -10160,28 +10122,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual table seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
+"Bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon periods usually feel quieter than evenings.",
-"The bar area stays active during late hours.",
-"Weekend nights tend to bring the highest traffic."
-]
+insights: []
 },
 
 {
-name: "Maple Street Biscuit Company",
+name: "Maple Street Biscuit Company - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10191,24 +10149,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual breakfast and lunch restaurant with counter ordering and table seating. Typically busiest during morning and brunch hours, with quieter afternoons.",
+"Breakfast restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours usually bring the most activity.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons often feel quieter."
-]
+insights: []
 },
 
 {
