@@ -9510,23 +9510,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small ramen restaurant with a compact dining room and counter seating. Typically quieter earlier in the day, with moderate dinner activity and steady takeout traffic.",
+"Small restaurant with counter seating and table seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often move quickly with smaller groups.",
-"Takeout orders are common throughout the evening.",
-"Dinner hours usually bring the most consistent dine-in traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -9541,28 +9539,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier lunch and dinner periods.",
+"Casual restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often see steady but short visits.",
-"Takeout orders are common throughout the day.",
-"Evening dinner periods tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Oriental Wok",
+name: "Oriental Wok - Lakeside Park",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -9572,24 +9568,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large Chinese restaurant with multiple dining rooms and a bar area. Typically calm earlier in the day, with busier dinner hours and weekend evenings.",
+"Large restaurant with multiple dining areas and a bar in a structured layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunches often feel quieter than dinner service.",
-"Families and larger tables are common during evenings.",
-"Weekend dinner hours tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -9603,24 +9595,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically relaxed earlier in the day, with more energy during dinner hours and weekend evenings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often move quickly with smaller groups.",
-"Evenings tend to bring more social bar activity.",
-"Weekend dinners are usually the busiest periods."
-]
+insights: []
 },
 
 {
@@ -9634,29 +9622,27 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small Chinese restaurant with a simple dining room and counter service area. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
+"Small restaurant with counter service and a simple dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often involve quick dine-in visits.",
-"Takeout orders are common throughout the evening.",
-"Weekend dinners usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Soco's Mexican Restaurant & Bar",
-city: "Crescent Springs",
+city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -9665,29 +9651,25 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch periods tend to feel calmer.",
-"Evenings often bring groups and social dining.",
-"Weekend dinners typically have the highest traffic."
-]
+insights: []
 },
 
 {
-name: "BRU Burger Bar - Crescent Springs",
-city: "Crescent Springs",
+name: "BRU Burger Bar - Fort Mitchell",
+city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -9696,27 +9678,23 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Modern burger restaurant with bar seating and multiple dining areas. Typically relaxed earlier in the day, with busier dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter than dinner hours.",
-"Bar seating tends to stay active in the evenings.",
-"Weekend dinners usually bring the most consistent crowds."
-]
+insights: []
 },
-   
-   {
+
+{
 name: "Cincy Seafood",
 city: "Crescent Springs",
 neighborhood: "",
@@ -9727,28 +9705,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual seafood restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier activity during dinner hours and weekend evenings.",
+"Casual restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly with smaller groups.",
-"Takeout orders are common throughout the evening.",
-"Weekend dinners usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Sandwich Block Deli",
+name: "The Block Deli",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -9758,28 +9734,26 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Local deli with a compact dining room and counter ordering. Typically busiest during lunch hours, with quieter periods during mid-afternoon and early evening.",
+"Deli with counter ordering and a compact seating area.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours usually bring the most consistent foot traffic.",
-"Many visits are quick dine-in or takeout orders.",
-"Mid-afternoon periods tend to feel quieter."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Bonefish Grill",
+name: "Bonefish Grill - Buttermilk Pike",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -9789,24 +9763,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Chain seafood restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day, with busier dinner hours and weekend evenings.",
+"Restaurant with multiple dining areas and a bar in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter than dinner hours.",
-"Evening service tends to bring larger tables and reservations.",
-"Weekend dinners are typically the busiest periods."
-]
+insights: []
 },
 
 {
@@ -9820,23 +9790,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Thai and sushi restaurant with a compact dining room and relaxed seating layout. Typically quieter during weekday afternoons, with steady dinner traffic and weekend activity.",
+"Restaurant with table seating in a compact and relaxed layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoon hours usually feel calmer than dinner periods.",
-"Takeout orders are common during evening hours.",
-"Weekend dinners often bring the highest activity."
+"Takeout orders are common."
 ]
 },
 
@@ -9851,24 +9819,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Hibachi and sushi restaurant with grill tables and traditional dining seating. Typically relaxed earlier in the day, with more activity during dinner hours and weekends.",
+"Restaurant with grill tables and table seating in an open layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Hibachi tables often fill during dinner hours.",
-"Lunch service usually feels calmer than evenings.",
-"Weekend dinners tend to bring the busiest crowds."
-]
+insights: []
 },
 
 {
