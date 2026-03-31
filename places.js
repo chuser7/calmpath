@@ -11517,55 +11517,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Japanese steakhouse with hibachi tables and sushi bar seating in the Blue Ash dining district. Typically steady during dinner hours with increased weekend activity.",
+"Japanese restaurant with grill tables and a sushi bar in a large dining space.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the entrance"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Near entrance"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Dinner hours often bring groups and families.",
-"Hibachi seating can increase overall noise levels.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Shooters Sports Grill - Blue Ash",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables along the Blue Ash restaurant corridor. Typically quieter earlier in the day with increased activity during evening games.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -11579,85 +11544,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Dessert shop with counter service and limited seating in the Blue Ash retail corridor. Typically steady during afternoons with increased activity during evenings.",
+"Dessert shop with counter service and limited seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Warm weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Pasta Bravo",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Italian restaurant with table seating and casual dining along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening traffic.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and couples.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Senate - Blue Ash",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with table seating and a casual dining layout near Summit Park. Typically steady during dinner hours with increased evening activity.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the entrance"
-},
-noise: "Moderate",
-exits: "Easy step outside to park area"
-},
-
-insights: [
-"Dinner hours bring steady dine-in traffic.",
-"Groups often gather for drinks later in the evening.",
-"Weekend evenings usually bring the most activity."
+"Visits are typically quick."
 ]
 },
 
@@ -11672,28 +11573,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a bright dining room in the Blue Ash business district. Typically busiest during morning and late morning hours.",
+"Breakfast restaurant with table seating in a bright, open dining space.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
-]
+insights: []
 },
 
 {
-name: "Sammy's Gourmet Burgers & Beers",
+name: "Sammy's Craft Burgers & Beers",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -11703,28 +11600,24 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Burger restaurant with bar seating and casual dining tables in the Blue Ash restaurant corridor. Typically steady during dinner hours with increased evening activity.",
+"Restaurant with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract families and groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Slatt's Pub",
+name: "Slatt's Pub & Grill",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -11734,24 +11627,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood pub with bar seating and table dining in the Blue Ash business district. Typically quieter earlier in the day with increased activity during evening hours.",
+"Neighborhood pub with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -11765,28 +11654,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Japanese restaurant with table seating and sushi bar service along Kenwood Road. Typically steady during dinner hours with quieter periods earlier in the day.",
+"Japanese restaurant with table seating and a sushi bar in a calm dining space.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Firehouse Grill",
+name: "Firehouse Grill & Private Event Rooms",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -11796,26 +11681,22 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"American grill with table seating and bar service in the Blue Ash dining district. Typically steady during dinner hours with moderate evening activity.",
+"Restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring steady activity."
-]
+insights: []
 },
-   
+
 {
 name: "The Park Pour",
 city: "Blue Ash",
@@ -11827,28 +11708,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and social venue with bar seating and outdoor gathering space near Summit Park. Typically calmer earlier in the evening with increased activity later at night.",
+"Bar with indoor seating and outdoor gathering space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to park area"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel relaxed.",
-"Groups gather for drinks after nearby events.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Tahona Kitchen + Bar",
+name: "Tahona Taqueria + Tequila Bar",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -11858,24 +11735,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with bar seating and table dining in the Blue Ash restaurant district. Typically steady during dinner hours with increased weekend activity.",
+"Mexican restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 /* =========================
