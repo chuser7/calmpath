@@ -8686,23 +8686,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Historic candy and ice cream shop with counter service and limited seating along Fairfield Avenue. Typically steady during afternoon hours with increased activity during evenings and weekends.",
+"Dessert shop with counter service and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Weekend evenings usually bring the most activity."
+"Visits are typically quick."
 ]
 },
 
@@ -8717,29 +8715,27 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers note breakfast hours bring the most traffic.",
-"Activity decreases through the afternoon."
+"Morning visits are common."
 ]
 },
 
 {
-name: "Cancun Mexican Bar & Grill - Bellevue",
-city: "Bellevue",
+name: "Cancun Mexican Bar & Grill - Newport",
+city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -8748,24 +8744,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a bar area in a street-level dining space. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused.",
-"First-timers notice traffic increases after typical work hours.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -8779,24 +8771,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with dining tables and bar seating in the Bellevue entertainment district. Typically calmer earlier in the day and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-oriented with steady dinner traffic.",
-"First-timers notice activity increases after 5 pm.",
-"Weekend evenings bring higher activity."
-]
+insights: []
 },
 
 {
@@ -8810,24 +8798,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a modern interior and table seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating in a modern dining space.",
 
 environment: {
-parking: "Street parking around Fairfield Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening activity.",
-"First-timers notice traffic increases after work hours.",
-"Weekend nights bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -8841,28 +8825,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Compact restaurant with a traditional dining room layout. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner service",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady table service.",
-"First-timers note activity increases during dinner hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
-name: "Pompilio's",
+name: "Pompilios - Newport",
 city: "Newport",
 neighborhood: "",
 state: "KY",
@@ -8872,29 +8852,25 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant with multiple dining rooms and a traditional table layout. Typically steady during lunch hours and busier during dinner periods and weekends.",
+"Large restaurant with multiple dining rooms and table seating.",
 
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers note evenings bring fuller dining rooms.",
-"Weekend evenings show the highest traffic."
-]
+insights: []
 },
 
 {
 name: "Wayfarer Tavern",
-city: "Bellevue",
+city: "Dayton",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -8903,24 +8879,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with indoor seating and patio space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and patio space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio seating available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers note weekends bring the most activity.",
-"Earlier dinners tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -8934,24 +8906,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large riverside restaurant with indoor dining rooms and outdoor deck seating overlooking the Ohio River. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining areas and outdoor seating.",
 
 environment: {
-parking: "Private lot available next to the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner service",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Deck and riverfront access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as view-driven, especially during sunset hours.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -8965,23 +8933,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small counter-service shop with limited seating. Typically busiest during midday hours and early evenings.",
+"Small shop with counter service and limited seating for quick visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "No public restroom",
-waits: "N/A",
-location: "Not available"
+capacity: "unknown",
+waits: "unknown",
+location: "unknown"
 },
-noise: "Low.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented with short visits.",
-"First-timers notice lunch hours bring the most traffic.",
-"Activity remains steady through the afternoon."
+"Visits are typically quick."
 ]
 },
 
