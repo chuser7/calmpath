@@ -10166,7 +10166,7 @@ insights: []
 },
 
 {
-name: "KPOT Korean BBQ & Hot Pot",
+name: "KPOT Korean BBQ & Hot Pot - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10176,28 +10176,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Interactive Korean BBQ and hot pot restaurant with grill tables throughout the dining room. Typically calmer earlier in the day, with busy dinner service and weekend gatherings.",
+"Restaurant with grill tables and table seating across a large dining area.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often feel quieter than dinner periods.",
-"Groups commonly gather for longer meals in the evening.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Churchill's Bourbon & Brew Bar & Grille",
+name: "Churchill's Bourbon & Brew Bar & Grille - Turfway Park",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10207,28 +10203,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and grill with a large bar area and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evenings and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours often feel quieter.",
-"The bar area becomes more active during evenings.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Twin Peaks",
+name: "Twin Peaks - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10238,57 +10230,22 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with a central bar, TVs throughout the space, and multiple dining sections. Typically calmer earlier in the day, with more activity during evening hours and sports events.",
+"Sports bar with a central bar and table seating throughout the space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Game days usually increase noise and crowd levels.",
-"Weekend nights tend to be the busiest."
-]
+insights: []
 },
    
-{
-name: "Symphony Mediterranean Grill",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Mediterranean restaurant with a small dining room and counter service area. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch periods usually involve shorter visits.",
-"Takeout orders are common in the evening.",
-"Weekend dinners tend to bring the most activity."
-]
-},
-
 {
 name: "Chin Fusion Restaurant & Sushi",
 city: "Florence",
@@ -10300,24 +10257,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Asian fusion restaurant with sushi bar seating and multiple dining tables. Typically quieter earlier in the day, with steady dinner traffic and weekend activity.",
+"Restaurant with table seating and a sushi bar in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"Sushi bar seating tends to stay active during dinner.",
-"Weekend evenings usually bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -10331,28 +10284,24 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend gatherings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch hours often feel calmer.",
-"Evening dining periods tend to bring groups.",
-"Weekend dinners usually see the most activity."
-]
+insights: []
 },
 
 {
-name: "Spear Ridge Cafe",
+name: "Spear Ridge Cafe - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10362,28 +10311,24 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with table seating and a relaxed neighborhood feel. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
+"Small café with table seating in a simple layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours usually bring the most consistent traffic.",
-"Lunch periods tend to move quickly.",
-"Mid-afternoon periods often feel quieter."
-]
+insights: []
 },
 
 {
-name: "Kopan",
+name: "Kopan - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10393,28 +10338,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Korean restaurant with table seating and grill-style dining options. Typically quieter earlier in the day, with more activity during dinner hours and weekend evenings.",
+"Restaurant with table seating and grill-style dining in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often feel calmer than evenings.",
-"Groups commonly gather for dinner service.",
-"Weekend dinners tend to bring the highest traffic."
-]
+insights: []
 },
 
 {
-name: "Cheddar's Scratch Kitchen",
+name: "Cheddar's Scratch Kitchen - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10424,24 +10365,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large casual chain restaurant with multiple dining rooms and a bar area. Typically calmer earlier in the day, with busier dinner periods and weekend family dining.",
+"Large restaurant with multiple dining areas and a bar in a structured layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch periods often feel more relaxed.",
-"Families and larger tables are common during dinner hours.",
-"Weekend evenings usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -10455,24 +10392,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual bar and grill with a bar-focused layout and surrounding tables. Typically quieter earlier in the day, with increased activity during evening hours and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours often feel calmer than evenings.",
-"The bar area tends to stay active later in the day.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -10486,24 +10419,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant and brewery with multiple dining sections and a bar area. Typically calmer earlier in the day, with busier dinner hours and weekend dining.",
+"Large restaurant with multiple dining areas and a bar in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter than evenings.",
-"Groups and families are common during dinner hours.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -10517,24 +10446,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner periods and weekend gatherings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often feel calmer than evenings.",
-"Groups and social dining are common during dinner.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
