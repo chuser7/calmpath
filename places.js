@@ -12728,57 +12728,30 @@ insights: []
 },
 
 {
-name: "Don Rigo Taqueria",
-city: "Cincinnati",
-neighborhood: "",
-state: "OH",
-type: "full",
-whatToExpect:
-"Casual Mexican restaurant with table seating and counter ordering areas. Typically steady during lunch hours with continued dinner traffic and weekend visits.",
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-environment: {
-parking: "Shared shopping center parking lot.",
-restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-insights: [
-"Lunch hours often bring quick dine-in visits.",
-"Evenings bring families and small groups.",
-"Weekend dinners usually see the highest activity."
-]
-},
-
-{
 name: "Embers Restaurant",
 city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Upscale steakhouse with multiple dining rooms and bar seating. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
+
 parkingLevel: "Easy",
 noiseLevel: "Low",
+
+whatToExpect:
+"Steakhouse with multiple dining rooms and table seating in a structured layout.",
+
 environment: {
-parking: "Dedicated parking lot available.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early dinner reservations often feel quieter.",
-"Evenings bring couples and small groups.",
-"Weekend nights tend to be the busiest."
-]
+
+insights: []
 },
 
 {
@@ -12787,79 +12760,79 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Breakfast and brunch restaurant with table seating and an open dining room layout. Typically busiest during morning and late morning hours with quieter afternoons.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Breakfast restaurant with table seating in an open dining layout.",
+
 environment: {
-parking: "Shared shopping center parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during peak brunch",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Morning breakfast hours bring the most traffic.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons tend to feel quieter."
-]
+
+insights: []
 },
 
 {
 name: "Fratelli's Pizzeria",
-city: "Cincinnati",
-neighborhood: "Kenwood",
+city: "West Chester Township",
+neighborhood: "West Chester",
 state: "OH",
 type: "full",
-whatToExpect:
-"Neighborhood pizza restaurant with casual table seating and counter ordering. Typically steady during lunch and dinner hours with consistent takeout traffic.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Pizza restaurant with counter ordering and table seating in a casual layout.",
+
 environment: {
-parking: "Shared shopping center parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Lunch hours often involve quick visits.",
-"Evenings bring families and small groups.",
-"Weekend dinners typically see the most activity."
-]
+
+insights: []
 },
 
 {
-name: "Hoppin' Vines",
+name: "Hoppin' Vines - Kenwood",
 city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Wine bar and restaurant with bar seating and entertainment areas including duckpin bowling. Typically relaxed earlier in the day with busier evenings and weekend gatherings.",
+
 parkingLevel: "Easy",
 noiseLevel: "High",
+
+whatToExpect:
+"Restaurant and bar with seating areas and activity space in a social layout.",
+
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Groups often gather for drinks and games.",
-"Evenings tend to be the busiest period.",
-"Weekend nights usually bring the most activity."
-]
+
+insights: []
 },
 
 {
@@ -12868,52 +12841,52 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood bar with a relaxed atmosphere and a mix of bar seating and small tables. Typically quieter earlier in the day with increased activity during evening hours.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood bar with bar seating and small tables in a compact layout.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Afternoons often feel calmer.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most visitors."
-]
+
+insights: []
 },
 
 {
 name: "The Hannaford",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood restaurant and bar with a casual dining room and bar seating along the MainStrasse corridor. Typically steady during dinner hours with weekend activity.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Restaurant and bar with table seating and a bar area in a casual layout.",
+
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early dinners tend to feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend nights usually see the most activity."
-]
+
+insights: []
 },
 
 {
@@ -12922,79 +12895,25 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Bar with a compact interior and outdoor seating areas.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Patio and street-level access available."
-},
-insights: [
-"Often described as bar-focused with evening activity.",
-"Traffic increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-{
-name: "The Mercer OTR",
-city: "Cincinnati",
-neighborhood: "Over-the-Rhine",
-state: "OH",
-type: "full",
-whatToExpect:
-"Upscale restaurant with a large open dining room and bar seating in the Over-the-Rhine dining district. Typically steady during dinner hours with busy weekend reservations.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Street parking and nearby public garages.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Early dinners often feel calmer.",
-"Dinner service attracts couples and groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Through the Garden",
-city: "Cincinnati",
-neighborhood: "Over-the-Rhine",
-state: "OH",
-type: "full",
-whatToExpect:
-"Wine bar and small plates restaurant with a cozy interior and intimate seating layout. Typically calmer earlier in the evening with steady late evening traffic.",
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-environment: {
-parking: "Street parking and nearby garages.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rarely long waits",
-location: "Inside the venue"
-},
-noise: "Low to Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Early evening visits often feel relaxed.",
-"Couples and small groups are common.",
-"Weekend nights tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -13003,25 +12922,25 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Brewery with a large open taproom, bar seating, and casual table seating. Often hosts events and live music with increased activity during evenings and weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Brewery with open seating and a large taproom layout.",
+
 environment: {
-parking: "Street parking and nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy events",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Afternoons can feel quieter outside events.",
-"Evenings bring groups and social gatherings.",
-"Weekend nights and events bring the largest crowds."
-]
+
+insights: []
 },
 
 {
@@ -13030,106 +12949,52 @@ city: "Covington",
 neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
-whatToExpect:
-"German-style beer bar with bar seating, communal tables, and a lively social atmosphere in the MainStrasse district.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Bar with communal seating and bar seating in a social layout.",
+
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy nights",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Evenings bring steady bar traffic.",
-"Groups often gather for drinks and food.",
-"Weekend nights usually bring the highest activity."
-]
+
+insights: []
 },
-   
+
 {
 name: "Hotel Covington Lobby Bar",
 city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Hotel bar located inside the Hotel Covington lobby with lounge seating and a polished social atmosphere. Typically calmer earlier in the day with increased activity during evening cocktail hours.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
-environment: {
-parking: "Valet and nearby street parking.",
-restrooms: {
-capacity: "Hotel restrooms available",
-waits: "Rarely long waits",
-location: "Inside the hotel"
-},
-noise: "Low to Moderate",
-exits: "Hotel lobby entrance to the street"
-},
-insights: [
-"Afternoons tend to feel quieter.",
-"Evenings bring hotel guests and local visitors.",
-"Weekend nights often bring the most activity."
-]
-},
 
-{
-name: "La Torta Loca - Price Hill",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
 whatToExpect:
-"Casual Mexican restaurant known for tortas, tacos, and quick counter service. The dining room is compact with simple table seating and steady takeout activity throughout the day.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Small lot and street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Lunch visits are often quick dine-in or takeout stops.",
-"Evenings bring steady neighborhood traffic.",
-"Weekend afternoons tend to be the busiest."
-]
-},
+"Hotel bar with lounge seating in an open lobby layout.",
 
-{
-name: "Las Delicias Bakery",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
-whatToExpect:
-"Neighborhood Latin bakery with counter service and limited seating. Known for pastries, breads, and quick takeaway visits.",
-parkingLevel: "Moderate",
-noiseLevel: "Low",
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside bakery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Morning visits often bring the most activity.",
-"Many visits involve quick bakery purchases.",
-"Afternoons typically feel calmer."
-]
+
+insights: []
 },
 
 {
