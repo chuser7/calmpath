@@ -10766,7 +10766,7 @@ insights: []
 },
 
 {
-name: "Red Robin Gourmet Burgers and Brews",
+name: "Red Robin Gourmet Burgers and Brews - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10776,28 +10776,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Family-friendly burger restaurant with booth seating and a bar area. Typically calmer earlier in the day, with busier dinner hours and weekend family dining.",
+"Restaurant with booth seating and a bar area in a casual dining layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter.",
-"Families are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "The Honey Baked Ham Company",
+name: "The Honey Baked Ham Company - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10807,23 +10803,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small deli and retail shop with counter ordering and limited seating. Typically busiest during lunch hours and holiday seasons, with quieter afternoons.",
+"Small deli with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring steady traffic.",
-"Many visits involve quick pickup orders.",
-"Mid-afternoons usually feel quieter."
+"Visits are typically quick."
 ]
 },
 
@@ -10838,28 +10832,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar and restaurant with a central bar area and table seating throughout the dining room. Typically quieter earlier in the day, with increased activity during evening hours and televised games.",
+"Sports bar with a central bar and table seating throughout the space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights tend to bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Fillmore's Dairy Hut",
+name: "Fillmore's Dairy Hut - Burlington Pike",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10869,24 +10859,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Walk-up ice cream and dessert stand with outdoor seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
+"Walk-up dessert stand with outdoor seating nearby.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the building"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often see steady but quick visits.",
-"Evenings bring more families and groups.",
-"Warm weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -10900,24 +10886,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evenings and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"The bar area becomes more active later in the day.",
-"Weekend nights tend to bring the most traffic."
-]
+insights: []
 },
 
 {
@@ -10931,24 +10913,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and grill with a bourbon-focused bar and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evening hours and weekend nights.",
+"Bar and grill with a central bar and surrounding table seating.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"The bar area tends to stay active later in the day.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -10962,24 +10940,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meals.",
+"Large buffet restaurant with multiple dining areas and self-serve stations.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often see steady traffic.",
-"Families and groups are common during dinner service.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -10993,23 +10967,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual barbecue restaurant with table seating and a relaxed dining room. Typically steady during lunch hours, with busier dinner periods and weekend traffic.",
+"Barbecue restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent traffic.",
-"Takeout orders are common during dinner periods.",
-"Weekend evenings tend to be the busiest."
+"Takeout orders are common."
 ]
 },
 
@@ -11024,26 +10996,22 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai restaurant with a sushi bar and table seating throughout the dining room. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
+"Restaurant with table seating and a sushi bar in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often feel calmer than dinner hours.",
-"Evening visits often involve small groups and couples.",
-"Weekend dinners typically bring the most activity."
-]
+insights: []
 },
-   
+
 {
 name: "3 Ladies Thai Cuisine",
 city: "Florence",
@@ -11055,28 +11023,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Thai restaurant with a compact dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
+"Small restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Mad Mike's Burgers & Fries",
+name: "Mad Mike's Burgers & Fries - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -11086,54 +11052,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual burger restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours with steady traffic throughout the day.",
+"Burger restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent crowds.",
-"Takeout orders are common throughout the day.",
-"Weekend afternoons usually stay busy."
-]
-},
-
-{
-name: "Kabobske's Gyros & Grill",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Mediterranean restaurant with counter ordering and a small dining area. Typically quieter earlier in the day with steady lunch and dinner visits.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch hours often bring the most consistent traffic.",
-"Many visits are quick dine-in or takeout orders.",
-"Evenings tend to remain steady but not crowded."
+"Takeout orders are common."
 ]
 },
 
