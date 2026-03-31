@@ -8495,24 +8495,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with dining tables and bar seating in a street-level space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and bar seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout dinner hours.",
-"First-timers note activity increases after work hours.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -8526,24 +8522,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Distillery tasting room with bar seating and small table areas. Typically calmer earlier in the day and busier during evening hours and weekends.",
+"Distillery with bar seating and small table areas in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as tour and tasting-driven, especially during evenings.",
-"First-timers notice activity increases during event nights.",
-"Weekend evenings bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -8557,23 +8549,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers note breakfast hours bring the most activity.",
-"Traffic decreases steadily through the afternoon."
+"Morning visits are common."
 ]
 },
 
@@ -8588,24 +8578,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+"Bar with a compact interior and outdoor seating areas.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Patio and street-level access available."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as bar-focused with evening activity.",
-"First-timers notice traffic increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -8619,24 +8605,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Riverfront club and bar with indoor seating and outdoor areas overlooking the water. Typically lighter earlier in the day and busier during evenings, weekends, and seasonal events.",
+"Riverfront club with indoor seating and outdoor areas.",
 
 environment: {
-parking: "Dedicated parking lot available near the club.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Outdoor deck and riverfront access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as riverfront-focused with seasonal activity.",
-"First-timers notice traffic increases during warm weather.",
-"Weekend evenings bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -8650,24 +8632,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and wine bar with a dining room, bar seating, and patio areas. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant and wine bar with table seating and patio space.",
 
 environment: {
-parking: "Street parking along Fairfield Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Front sidewalk seating and rear patio available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers note weekends bring the most activity.",
-"Earlier weekday dinners tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -8681,117 +8659,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Seafood restaurant with table seating and a bar area along the Fairfield Avenue corridor. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
+"Seafood restaurant with table seating and a bar area in a structured layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend nights usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Enson Harbor",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Seafood and sushi restaurant with table seating and a bar area along Fairfield Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
-},
-
-{
-name: "Nomad",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood restaurant and bar with table seating and a relaxed dining atmosphere along Fairfield Avenue. Typically calmer earlier in the evening with steady dinner traffic later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel relaxed.",
-"Dinner hours attract couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Virgil’s Cafe",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Locally owned cafe with table seating and a casual neighborhood atmosphere along Fairfield Avenue. Typically busiest during breakfast and lunch hours with quieter evenings.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Lunch visits move quickly with neighborhood diners.",
-"Afternoons usually feel quieter."
-]
+insights: []
 },
 
 {
