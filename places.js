@@ -12998,142 +12998,111 @@ insights: []
 },
 
 {
-name: "La Torta Loca - Covington",
-city: "Covington",
-neighborhood: "",
-state: "KY",
-type: "full",
-whatToExpect:
-"Casual Mexican restaurant with counter ordering and table seating. Known for tortas and traditional street-style dishes with steady lunch and dinner traffic.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rarely long waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common throughout the evening.",
-"Weekend afternoons tend to see the most activity."
-]
-},
-
-{
 name: "Liberty's Bar & Bottle - Covington",
 city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Wine bar and bottle shop with bar seating and a relaxed social atmosphere. Guests can enjoy wine by the glass or purchase bottles to take home.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Wine bar with bar seating and small table seating in a relaxed layout.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early evenings tend to feel relaxed.",
-"Small groups often gather for drinks.",
-"Weekend evenings bring the most activity."
-]
+
+insights: []
 },
 
 {
-name: "Legends Bar",
+name: "Legends Bar & Grill",
 city: "Covington",
 neighborhood: "Latonia",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar in the Latonia area of Covington with bar seating, TVs, and a casual social atmosphere. Evenings and weekends typically bring the most activity as locals gather for drinks and sports.",
+"Neighborhood bar with bar seating and TVs in a casual layout.",
 
 environment: {
-parking: "Street parking available along surrounding neighborhood streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation, music, and sports on TV.",
-exits: "Main entrance opens directly to the sidewalk along the street."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Sports events often increase crowd activity.",
-"Most visitors are local regulars from the surrounding neighborhood."
-]
-},   
+insights: []
+},
 
 {
-name: "Logo's Sports Bar & Grill",
+name: "Logo's Sports Bar & Grill - Blue Ash",
 city: "Cincinnati",
-neighborhood: "White Oak",
+neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
-whatToExpect:
-"Neighborhood sports bar with TVs throughout the space, bar seating, and casual dining tables. Known for game-day gatherings and a lively evening crowd.",
+
 parkingLevel: "Easy",
 noiseLevel: "High",
+
+whatToExpect:
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
+
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy games",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Game nights often increase noise levels.",
-"Evenings bring the most consistent bar traffic.",
-"Weekend nights usually draw the largest crowds."
-]
+
+insights: []
 },
 
 {
-name: "Molly Malone's",
+name: "Molly Malone's - Covington",
 city: "Covington",
 neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
-whatToExpect:
-"Irish pub with a large bar area, dining tables, and occasional live music. Typically steady throughout the evening with increased activity on weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Irish pub with bar seating and table seating in a social layout.",
+
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Evenings bring steady pub traffic.",
-"Live music nights increase overall noise.",
-"Weekend nights are usually the busiest."
-]
+
+insights: []
 },
 
 {
@@ -13142,25 +13111,25 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Wine and bourbon bar offering tasting flights and small plates in a relaxed lounge setting. Typically calmer earlier in the evening with steady weekend traffic.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Wine and bourbon bar with lounge seating and small tables.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early evenings often feel relaxed.",
-"Couples and small groups are common.",
-"Weekend nights bring the most activity."
-]
+
+insights: []
 },
 
 {
@@ -13170,59 +13139,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Small market-style restaurant and bar with counter service and casual seating near the Roebling Bridge corridor. Typically steady during lunch hours with moderate evening activity.",
+"Market-style restaurant with counter service and casual seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Afternoons tend to feel calmer.",
-"Evenings bring small groups stopping for drinks or quick meals."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "King Pigeon",
-city: "Cincinnati",
-neighborhood: "OTR",
-state: "OH",
-type: "full",
-
-parkingLevel: "street",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Bar and restaurant with indoor seating and a casual social atmosphere along the Vine Street corridor in OTR. Typically calmer earlier in the evening with increased activity later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evenings often feel relaxed.",
-"Later hours bring groups gathering for drinks.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -13232,84 +13166,80 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "low",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Bakery and café with counter service and limited indoor seating. Typically busiest during morning and midday hours.",
+"Bakery with counter service and limited seating for short visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the bakery"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady coffee and pastry traffic.",
-"Lunch visits often move quickly.",
-"Afternoons usually feel quieter."
-]
+insights: []
 },
-   
+
 {
-name: "The Cheesecake Factory",
+name: "The Cheesecake Factory - Kenwood",
 city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Large chain restaurant located at Kenwood Towne Centre with an extensive menu, multiple dining sections, and a busy bar area.",
+
 parkingLevel: "Easy",
 noiseLevel: "High",
+
+whatToExpect:
+"Large restaurant with multiple dining areas and a bar in a busy layout.",
+
 environment: {
-parking: "Large Kenwood Towne Centre parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Possible waits during peak hours",
-location: "Inside near the dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Located inside mall with exterior mall exits"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
-insights: [
-"Dinner hours often bring long wait times.",
-"Families and large groups are common.",
-"Weekend evenings tend to be the busiest."
-]
+
+insights: []
 },
 
 {
-name: "The Coffee Exchange",
+name: "The Coffee Exchange - Pleasant Ridge",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
-whatToExpect:
-"Neighborhood coffee shop with counter ordering and cozy seating areas. Known for a relaxed atmosphere and steady morning traffic.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Low",
+
+whatToExpect:
+"Coffee shop with counter service and seating in a compact layout.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Morning hours bring steady coffee traffic.",
-"Many visits involve quick takeout orders.",
-"Afternoons usually feel calmer."
-]
+
+insights: []
 },
-   
+
 {
 name: "Artemis Mediterranean Bistro",
 city: "Montgomery",
@@ -13321,29 +13251,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Mediterranean restaurant with table seating and a relaxed dining room along Montgomery Road. Typically calmer earlier in the evening with steady dinner traffic.",
+"Mediterranean restaurant with table seating in a structured dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Early dinner visits often feel relaxed.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-   /* =========================
-WEST CHESTER TOWNSHIP, OH
-========================= */
+insights: []
+},
 
 {
 name: "Matt the Miller's Tavern",
@@ -13352,60 +13274,52 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Large tavern-style restaurant with bar seating, booths, and multiple dining areas. Activity typically builds during dinner hours and weekend evenings.",
+"Tavern-style restaurant with bar seating and multiple dining areas.",
 
 environment: {
-parking: "Large parking lot surrounding the shopping center.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Front entrance leads directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours draw steady crowds.",
-"Bar area becomes livelier later in the evening.",
-"Early weekday dinners are usually calmer."
-]
+insights: []
 },
 
 {
 name: "Strato Artisanal European Delights",
-city: "West Chester Township",
-neighborhood: "West Chester",
+city: "Liberty Township",
+neighborhood: "Liberty Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"European-style café at Liberty Center offering coffee, pastries, macarons, chocolates, and light café items with casual seating in a bright shopping-center environment.",
+"Café with counter service and casual seating in a shopping center setting.",
 
 environment: {
-parking: "Large parking lots and garages available throughout Liberty Center.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café or nearby Liberty Center facilities"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical café conversation and nearby shopping activity.",
-exits: "Located along the Liberty Center shopping walkway with multiple exits leading to surrounding parking areas."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Mornings and early afternoons bring the most coffee traffic.",
-"Visitors often stop in while shopping at Liberty Center.",
-"Most visits are short coffee or pastry stops."
-]
-},   
+insights: []
+},
 
 {
 name: "The Cone",
@@ -13414,28 +13328,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Iconic roadside ice cream stand shaped like a giant soft-serve cone. Most visitors order at walk-up windows and enjoy treats at outdoor tables or nearby seating areas. Activity increases significantly on warm evenings and summer weekends.",
+"Walk-up ice cream stand with outdoor seating and open space for visitors.",
 
 environment: {
-parking: "Large parking lot directly surrounding the stand.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy summer evenings",
-location: "Inside the building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Open outdoor layout with easy movement between the ordering windows, seating area, and parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Warm weather evenings bring the largest crowds.",
-"Families and groups often visit after dinner.",
-"Lines move quickly even during busy periods."
-]
+insights: []
 },
    
 {
