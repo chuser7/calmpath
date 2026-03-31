@@ -10473,28 +10473,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Hibachi-style Japanese restaurant with grill tables and traditional seating. Typically calmer earlier in the day, with busier dinner service and weekend gatherings.",
+"Restaurant with grill tables and table seating in a large dining space.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch service usually feels calmer than evenings.",
-"Hibachi tables tend to fill during dinner hours.",
-"Weekend dinners often bring the largest crowds."
-]
+insights: []
 },
-   
+
 {
-name: "Acapulco Mexican & Grill",
+name: "Acapulco Mexican & Grill - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10504,24 +10500,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a relaxed dining layout. Typically quieter earlier in the day, with busier dinner hours and weekend visits.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Evenings tend to bring more groups and families.",
-"Weekend dinners usually see the most activity."
-]
+insights: []
 },
 
 {
@@ -10535,23 +10527,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small Japanese restaurant with counter ordering and limited seating. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits are often quick dine-in stops.",
-"Takeout orders are common throughout the evening.",
-"Weekend dinners bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -10566,55 +10556,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Japanese restaurant with sushi bar seating and table dining. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
+"Restaurant with table seating and a sushi bar in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter than dinner hours.",
-"Sushi bar seating tends to stay active during evenings.",
-"Weekend dinners usually bring the highest traffic."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "The Premier - Florence",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Bar and grill with a bar-centered layout and casual dining tables. Typically calmer earlier in the day, with more activity during evening hours and weekend nights.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoon hours often feel quieter.",
-"The bar area becomes more active during evenings.",
-"Weekend nights usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -10628,28 +10583,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large Tex-Mex restaurant with colorful dining rooms and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend dining.",
+"Large restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel calmer.",
-"Families and groups are common during dinner service.",
-"Weekend evenings usually bring the highest activity."
-]
+insights: []
 },
 
 {
-name: "City Barbeque",
+name: "City Barbeque - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10659,23 +10610,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual barbecue restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours, with quieter mid-afternoons.",
+"Fast-casual restaurant with counter ordering and table seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring the most consistent traffic.",
-"Takeout orders are common throughout the day.",
-"Evening hours tend to bring steady dine-in activity."
+"Takeout orders are common."
 ]
 },
 
@@ -10690,23 +10639,21 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Sandwich shop with counter ordering and a small dining area. Typically busiest during lunch hours, with quieter afternoons.",
+"Sandwich shop with counter ordering and a small seating area.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours usually bring the most activity.",
-"Visits are often quick dine-in or takeout stops.",
-"Mid-afternoons tend to feel quieter."
+"Visits are typically quick."
 ]
 },
 
@@ -10721,28 +10668,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual pizza restaurant with a relaxed dining room and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
+"Pizza restaurant with counter ordering and table seating in a casual tighter layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick and steady.",
-"Evenings bring families and small groups.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Breakers Grill",
+name: "Breakers Grill - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -10752,24 +10695,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar with pool tables, TVs, and casual seating. Typically calmer earlier in the day, with more activity during evenings and weekend nights.",
+"Sports bar with table seating, bar seating, and activity areas.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events and pool tables keep activity steady at night.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
@@ -10783,26 +10722,22 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Local bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with increased activity during evening hours and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon periods often feel quieter.",
-"The bar area stays active during evening hours.",
-"Weekend nights tend to bring the most traffic."
-]
+insights: []
 },
-   
+
 {
 name: "Dave & Buster's - Florence",
 city: "Florence",
@@ -10814,24 +10749,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment venue with arcade games, a sports bar, and restaurant seating areas. Typically calmer earlier in the day, with increased activity during evenings and weekends.",
+"Large venue with dining areas, bar seating, and arcade space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Arcade areas tend to stay active throughout the day.",
-"Weekend evenings usually bring the largest crowds."
-]
+insights: []
 },
 
 {
