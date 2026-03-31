@@ -12405,8 +12405,8 @@ insights: []
 
 {
 name: "Dingle House Irish Pub",
-city: "Montgomery",
-neighborhood: "Montgomery",
+city: "West Chester Township",
+neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
@@ -12414,24 +12414,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Irish pub with bar seating and table dining in the Montgomery dining district. Typically quieter earlier in the day with increased evening activity.",
+"Irish pub with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the pub"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -12445,28 +12441,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Bakery and cafe with counter service and limited table seating along Montgomery Road. Typically busiest during morning and lunch hours.",
+"Bakery with counter service and limited seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the bakery"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning visits often bring steady bakery traffic.",
-"Lunch visits move quickly.",
-"Afternoons usually feel calmer."
-]
+insights: []
 },
 
 {
-name: "Montgomery Inn",
+name: "Montgomery Inn - Montgomery",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
@@ -12476,26 +12468,22 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Barbecue restaurant with table seating and multiple dining rooms along Montgomery Road. Typically steady throughout the day with consistent dinner traffic.",
+"Large restaurant with multiple dining areas and table seating.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring steady activity."
-]
+insights: []
 },
-   
+
 {
 name: "Bones' Burgers",
 city: "Montgomery",
@@ -12507,28 +12495,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Burger restaurant with casual table seating in the Montgomery restaurant corridor. Typically steady during lunch and dinner hours.",
+"Burger restaurant with table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often bring consistent traffic.",
-"Dinner hours attract families and small groups.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Toast & Berry",
+name: "Toast & Berry - Montgomery",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
@@ -12538,24 +12522,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a bright dining room near downtown Montgomery. Typically busiest during morning and brunch hours.",
+"Breakfast restaurant with table seating in a bright dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
-]
+insights: []
 },
 
 {
@@ -12569,24 +12549,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Latin-inspired restaurant with bar seating and multiple dining spaces in the Montgomery dining district. Typically steady during dinner hours with increased weekend activity.",
+"Restaurant and bar with multiple seating areas in a social layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel relaxed.",
-"Dinner hours bring couples and groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -12600,24 +12576,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a social dining atmosphere along Montgomery Road. Typically steady during dinner hours with increased evening activity.",
+"Restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract groups and families.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -12631,24 +12603,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Burger restaurant with bar seating and table dining in the Montgomery dining corridor. Typically steady during dinner hours with moderate evening activity.",
+"Burger restaurant with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -12657,25 +12625,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Sushi and Asian restaurant near Kenwood Towne Centre with a casual dining room and booth seating. Typically steady during lunch and busier during dinner hours and weekends.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Sushi restaurant with table seating and booth seating in a casual layout.",
+
 environment: {
-parking: "Large shared shopping center parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Lunch visits often move quickly due to nearby offices and shopping.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to see the most activity."
-]
+
+insights: []
 },
 
 {
@@ -12684,25 +12652,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Café-style restaurant located inside Nordstrom at Kenwood Towne Centre with table seating and a bright open layout. Typically busiest during lunch hours and weekend shopping periods.",
+
 parkingLevel: "Easy",
 noiseLevel: "Low",
+
+whatToExpect:
+"Café inside a retail space with table seating in an open layout.",
+
 environment: {
-parking: "Large Kenwood Towne Centre parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Mall restrooms available nearby",
-waits: "Rarely long waits",
-location: "Inside the store area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Located inside Nordstrom with direct mall exits"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Multiple exits available."
 },
-insights: [
-"Lunch hours often bring shoppers and nearby workers.",
-"Visits are usually shorter compared to full restaurants.",
-"Weekend afternoons tend to bring the most activity."
-]
+
+insights: []
 },
 
 {
@@ -12711,25 +12679,25 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood bar with a compact interior and bar seating. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Neighborhood bar with a compact interior and bar seating.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Known as a long-standing local bar with a friendly crowd.",
-"Evenings bring the most consistent traffic.",
-"Weekend nights usually bring the highest activity."
-]
+
+insights: []
 },
 
 {
@@ -12738,25 +12706,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Casual pizza restaurant with table seating and an open kitchen layout. Typically steady throughout dinner hours with families and groups visiting evenings and weekends.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Pizza restaurant with table seating and an open dining layout.",
+
 environment: {
-parking: "Shared shopping center parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during peak dinner",
-location: "Inside near the dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Families and groups commonly visit during dinner.",
-"Takeout and dine-in traffic remain steady throughout the evening.",
-"Weekend dinners bring the most activity."
-]
+
+insights: []
 },
 
 {
