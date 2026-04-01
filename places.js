@@ -1577,6 +1577,8 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Difficult",
 noiseLevel: "High",
 
