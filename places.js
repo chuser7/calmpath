@@ -1516,6 +1516,8 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Difficult",
 noiseLevel: "High",
 
