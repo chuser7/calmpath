@@ -15506,6 +15506,8 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+verified: true,
+
 parkingLevel: "easy",
 noiseLevel: "moderate_high",
 
