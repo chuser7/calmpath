@@ -23,6 +23,48 @@ body {
   padding: 16px;
 }
 
+/* Header */
+
+.place-header {
+  margin-bottom: 8px;
+}
+
+.place-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.place-location {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Verified badge */
+
+.verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: #f1f5f3;
+  color: #2f6f4f;
+  border: 1px solid #d6e4dc;
+  cursor: default;
+}
+
+.verified-badge .check {
+  font-size: 12px;
+}
+
+/* Existing styles */
+
 h1 {
   font-size: 1.8rem;
   margin-bottom: 4px;
@@ -277,6 +319,26 @@ See parking, noise, restrooms, and layout. No reviews, no ratings. Just what to 
 <script src="places.js"></script>
 
 <script>
+// Add this helper function
+function renderPlaceHeader(place) {
+  const isVerified = place.verified === true;
+
+  return `
+    <div class="place-header">
+      <div class="place-name">
+        ${place.name}
+        ${isVerified ? `
+          <span class="verified-badge" title="Confirmed by CalmPath users">
+            <span class="check">✔</span>
+            Verified
+          </span>
+        ` : ``}
+      </div>
+      <div class="place-location">${place.location}</div>
+    </div>
+  `;
+}
+
 function goToFilters() {
   window.location.href = "filters.html";
 }
