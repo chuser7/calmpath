@@ -3178,6 +3178,8 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
