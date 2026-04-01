@@ -6666,6 +6666,8 @@ neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "High",
 
