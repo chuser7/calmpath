@@ -15863,9 +15863,10 @@ function renderPlace(place) {
         <div class="place-name">
           ${place.name}
           ${isVerified ? `
-            <span class="verified-badge" title="Confirmed by CalmPath users">
+            <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
               <span class="check">✔</span>
               Verified
+              <span class="verified-tooltip">Confirmed by CalmPath users</span>
             </span>
           ` : ``}
         </div>
@@ -15959,7 +15960,33 @@ function renderPlace(place) {
     </div>
   `;
 
-attachVerificationHandlers(place);
+  attachVerificationHandlers(place);
+}
+
+function toggleVerifiedTooltip(event) {
+  event.stopPropagation();
+
+  const badge = event.currentTarget;
+  const tooltip = badge.querySelector(".verified-tooltip");
+
+  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+    if (t !== tooltip) t.classList.remove("show");
+  });
+
+  tooltip.classList.add("show");
+
+  setTimeout(() => {
+    tooltip.classList.remove("show");
+  }, 2000);
+}
+
+if (!window._verifiedTooltipListenerAdded) {
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+      t.classList.remove("show");
+    });
+  });
+  window._verifiedTooltipListenerAdded = true;
 }
 
 function attachVerificationHandlers(place) {
