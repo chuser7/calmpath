@@ -15633,15 +15633,26 @@ function showRandomPlace() {
       ? `<ul>${randomPlace.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
       : "<p>No observed patterns yet.</p>";
 
+  const isVerified = randomPlace.verified === true;
+
   resultDiv.innerHTML = `
     <div class="card">
 
       <div class="label">Featured CalmPath Profile</div>
 
-      <h2>${randomPlace.name}</h2>
-
-      <div style="font-size:0.9rem;color:#666;margin-bottom:12px;">
-        <p>${randomPlace.neighborhood ? randomPlace.neighborhood + " • " : ""}${randomPlace.city}, ${randomPlace.state}</p>
+      <div class="place-header">
+        <div class="place-name">
+          ${randomPlace.name}
+          ${isVerified ? `
+            <span class="verified-badge" title="Confirmed by CalmPath users">
+              <span class="check">✔</span>
+              Verified
+            </span>
+          ` : ``}
+        </div>
+        <div class="place-location">
+          ${randomPlace.neighborhood ? randomPlace.neighborhood + " • " : ""}${randomPlace.city}, ${randomPlace.state}
+        </div>
       </div>
 
       <div class="snapshot">
@@ -15825,15 +15836,26 @@ function renderPlace(place) {
       ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
       : "<p>No observed patterns yet.</p>";
 
+  const isVerified = place.verified === true;
+
   resultDiv.innerHTML = `
     <div class="card">
 
       <div class="label">CalmPath Profile</div>
 
-      <h2>${place.name}</h2>
-
-      <div class="location">
-        <p>${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}</p>
+      <div class="place-header">
+        <div class="place-name">
+          ${place.name}
+          ${isVerified ? `
+            <span class="verified-badge" title="Confirmed by CalmPath users">
+              <span class="check">✔</span>
+              Verified
+            </span>
+          ` : ``}
+        </div>
+        <div class="place-location">
+          ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
+        </div>
       </div>
 
       <div class="snapshot">
