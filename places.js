@@ -8507,6 +8507,8 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+verified: true,  
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
 
@@ -8533,6 +8535,8 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+verified: true,
 
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
