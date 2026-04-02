@@ -13747,28 +13747,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Brewery taproom with indoor seating, bar service, and a social atmosphere. Activity typically increases during evenings and weekends.",
+"Brewery taproom with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Large shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Front entrance leads directly to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends are the busiest.",
-"Groups often gather for drinks and social visits.",
-"Afternoons tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -13778,28 +13774,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Sushi restaurant with casual table seating and a relaxed dining environment. Typically steady during lunch and dinner hours.",
+"Sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady activity.",
-"Typically smaller groups and couples."
-]
+insights: []
 },
 
 {
@@ -13809,59 +13801,51 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment venue with golf bays, restaurant service, and multiple levels of seating. Activity and noise levels increase significantly during evenings and weekends.",
+"Large entertainment venue with multiple levels, golf bays, and dining areas.",
 
 environment: {
-parking: "Large dedicated parking lot surrounding the venue.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy periods",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Multiple exits throughout the venue leading to the parking lot"
-},
-
-insights: [
-"Evenings and weekends are the busiest times.",
-"Large groups and events are common.",
-"Weekday afternoons tend to be calmer."
-]
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-   {
+insights: []
+},
+
+{
 name: "Knotty Pine on the Bayou",
 city: "Cold Spring",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Cajun-inspired restaurant and bar with a rustic interior and casual dining space. Activity typically builds during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with conversation and occasional bar activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically the busiest.",
-"Weekend evenings bring the most activity.",
-"Parking is usually easy directly outside."
-]
+insights: []
 },
 
 {
@@ -13871,28 +13855,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and grill with table seating, bar seating, and multiple TVs throughout the space. Activity increases during evenings, weekends, and major sporting events.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy game nights",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days tend to be the busiest.",
-"Evenings draw steady crowds.",
-"Large groups are common."
-]
+insights: []
 },
 
 {
@@ -13902,28 +13882,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar and grill with TVs, bar seating, and casual dining tables. Evenings typically bring steady crowds gathering for drinks and food.",
+"Sports bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sports events.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Sports events increase crowd activity.",
-"Groups often gather for games."
-]
+insights: []
 },
 
 {
@@ -13933,182 +13909,164 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and booth seating. Lunch and dinner hours usually bring steady traffic from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding shopping plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring families and groups.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
 name: "Skyline Tavern",
-city: "Cold Spring",
+city: "Highland Heights",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with casual seating and a relaxed social atmosphere. Evenings usually bring the most activity as locals gather for drinks and conversation.",
+"Neighborhood bar with bar seating and small tables in a compact layout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the street."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically busiest.",
-"Local regulars are common.",
-"Weeknights tend to be calmer."
-]
+insights: []
 },
 
 {
-name: "Wing Snob",
-city: "Cold Spring",
+name: "Wing Snob - Highland Heights",
+city: "Highland Heights",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Wings-focused restaurant with counter ordering and casual seating. Activity typically increases during lunch and dinner hours with steady takeout traffic.",
+"Wings restaurant with counter ordering and a small seating area.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch hours move quickly.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Nittha Siam Kitchen",
-city: "Alexandria",
+city: "Highland Heights",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai restaurant with a calm dining space and casual table seating. Activity typically builds during dinner service with a relaxed overall atmosphere.",
+"Thai restaurant with table seating in a calm dining layout.",
 
 environment: {
-parking: "Dedicated parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical restaurant conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Smaller groups and couples are common.",
-"Generally quieter than nearby bars."
-]
+insights: []
 },
 
 {
-name: "Maki Asian Bowls",
-city: "Alexandria",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
-
-whatToExpect:
-"Fast-casual Asian restaurant specializing in sushi bowls and rice bowls with counter ordering and casual seating.",
-
-environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate with steady lunch and dinner activity.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Lunch visits are typically quick.",
-"Takeout orders are common.",
-"Evenings bring steady traffic."
-]
-},
-
-{
-name: "City Barbeque",
+name: "Maki Asian Bowls - Cold Spring",
 city: "Cold Spring",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Counter-service barbecue restaurant with indoor seating and a casual dining atmosphere. Activity usually builds during lunch and dinner hours.",
+"Fast-casual restaurant with counter ordering and table seating.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and takeout activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours move quickly.",
-"Takeout orders are common.",
-"Dinner hours bring steady crowds."
+"Takeout orders are common."
+]
+},
+
+{
+name: "City Barbeque - Highland Heights",
+city: "Highland Heights",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Barbecue restaurant with counter ordering and table seating in a casual layout.",
+
+environment: {
+parking: "Shared lot with nearby businesses.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Takeout orders are common."
 ]
 },
 
@@ -14119,58 +14077,52 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady traffic.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and groups are common.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
-name: "Chan's Asian Wok",
-city: "Alexandria",
+name: "Chan's Asian Wok - Cold Spring",
+city: "Cold Spring",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Asian restaurant offering Chinese and Asian-inspired dishes with counter service and casual seating. Activity typically builds during lunch and dinner hours with steady takeout traffic.",
+"Asian restaurant with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -14181,27 +14133,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local barbecue restaurant with casual seating and counter ordering. Lunch and dinner hours typically bring steady crowds from surrounding neighborhoods.",
+"Barbecue restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and dining activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Takeout orders are common.",
-"Parking is usually easy directly outside."
+"Takeout orders are common."
 ]
 },
 
