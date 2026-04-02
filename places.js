@@ -13972,9 +13972,9 @@ whatToExpect:
 "Neighborhood bar with bar seating and small tables in a compact layout.",
 
 environment: {
-parking: "Street parking nearby.",
+parking: "Multiple lots nearby.",
 restrooms: {
-capacity: "Multiple stalls",
+capacity: "Two restrooms",
 waits: "Rare",
 location: "Inside main area"
 },
@@ -14191,6 +14191,8 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "High",
 
@@ -14244,6 +14246,8 @@ city: "Alexandria",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+verified: true,
 
 parkingLevel: "Easy",
 noiseLevel: "High",
@@ -14356,6 +14360,8 @@ city: "Alexandria",
 neighborhood: "",
 state: "KY",
 type: "full",
+
+verified: true,   
 
 parkingLevel: "Easy",
 noiseLevel: "High",
