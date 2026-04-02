@@ -13369,28 +13369,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Casual barbecue restaurant with large dining rooms, TVs, and bar seating. Often lively during dinner hours and sports events.",
+"Barbecue restaurant with large dining areas, TVs, and bar seating in a casual layout.",
 
 environment: {
-parking: "Large dedicated parking lot around the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during peak dinner times",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Multiple doors leading directly to the parking lot"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Dinner service is typically busiest.",
-"Sports games can increase noise levels.",
-"Afternoons are generally quieter."
-]
+insights: []
 },
 
 {
@@ -13400,28 +13396,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Colorful Latin restaurant and cantina with table seating and a lively atmosphere. Dinner hours and weekend evenings usually bring the most activity.",
+"Latin restaurant with table seating and a bar area in a lively layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Front entrance opens directly to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner and weekend nights are busiest.",
-"Groups and celebrations are common.",
-"Earlier visits tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -13431,28 +13423,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Vietnamese restaurant with casual table seating and a relaxed dining environment. Often steady during lunch and dinner but generally calm.",
+"Restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours bring steady traffic.",
-"Dinner visits are typically relaxed.",
-"Smaller groups and quick meals are common."
-]
+insights: []
 },
 
 {
@@ -13462,28 +13450,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large brewery taproom with indoor and outdoor seating, long tables, and an active social atmosphere. Activity builds in the evenings and on weekends.",
+"Brewery with open seating, long tables, and a large taproom layout.",
 
 environment: {
-parking: "Large parking lot surrounding the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the taproom"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Multiple exits leading directly to the parking lot and patio"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Evenings and weekends are busiest.",
-"Large groups are common.",
-"Daytime visits are usually more relaxed."
-]
+insights: []
 },
 
 {
@@ -13493,28 +13477,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale steakhouse with multiple dining rooms, bar seating, and a polished atmosphere. Typically busiest during dinner service and weekend evenings.",
+"Steakhouse with multiple dining rooms and bar seating in a structured layout.",
 
 environment: {
-parking: "Large dedicated parking lot around the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Main entrance opens directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Bar lounge can become livelier later in the evening.",
-"Early reservations tend to feel calmer."
-]
+insights: []
 },
 
 {
@@ -13524,28 +13504,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican grill with colorful décor and table seating. Activity usually increases during dinner hours and weekend evenings.",
+"Mexican restaurant with table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Front entrance opens directly to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Families and small groups are common.",
-"Afternoon visits are typically quieter."
-]
+insights: []
 },
 
 {
@@ -13555,28 +13531,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Small wine bar with intimate seating and a relaxed atmosphere focused on wine tastings and conversation.",
+"Wine bar with small table seating in a compact and relaxed layout.",
 
 environment: {
-parking: "Parking available in the surrounding lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the wine bar"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings bring a steady crowd.",
-"Typically quieter than larger nearby restaurants.",
-"Often visited by couples and small groups."
-]
+insights: []
 },
 
 {
@@ -13586,59 +13558,51 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Irish-style pub with bar seating, TVs, and a lively neighborhood atmosphere. Activity often increases during evenings and weekend nights.",
+"Irish pub with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Parking lot located directly outside.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the pub"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy exit directly to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically busiest.",
-"Sports events can increase noise levels.",
-"Afternoons tend to be calmer."
-]
+insights: []
 },
 
 {
-name: "Yummy Bowl",
+name: "Yummy Bowl - West Chester",
 city: "West Chester Township",
 neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Mongolian-style grill restaurant where guests build their own bowls before cooking. Dining room activity increases during dinner hours.",
+"Restaurant with table seating and a self-serve grill area in a casual layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding shopping center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Front entrance opens directly to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Guests move through the grill line during peak times.",
-"Lunch visits are usually quicker."
-]
+insights: []
 },
 
 {
@@ -13648,28 +13612,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large Tex-Mex restaurant with colorful decor, bar seating, and multiple dining areas. Typically busiest during dinner hours and weekend evenings.",
+"Large restaurant with multiple dining areas and a bar in a casual layout.",
 
 environment: {
-parking: "Large parking lot surrounding the restaurant in the shopping plaza.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during peak dinner hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Front entrance opens directly to the plaza parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours and weekends bring the largest crowds.",
-"Families and groups are common.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
@@ -13679,59 +13639,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai restaurant with casual table seating and a relaxed dining environment. Often steady during lunch and dinner but generally calm.",
+"Thai restaurant with table seating in a calm dining layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to the parking lot"
-},
-
-insights: [
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic.",
-"Usually quieter than nearby chain restaurants."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "WNB Factory",
-city: "West Chester Township",
-neighborhood: "West Chester",
-state: "OH",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Wings and burger restaurant focused on quick meals and casual dining. Activity typically builds during lunch and dinner hours.",
-
-environment: {
-parking: "Shared parking lot in the surrounding shopping plaza.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Front entrance opens directly to the parking lot"
-},
-
-insights: [
-"Lunch hours bring steady traffic.",
-"Takeout orders are common.",
-"Most visits are short."
-]
+insights: []
 },
 
 {
@@ -13741,28 +13666,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Indian restaurant with a calm dining environment and traditional menu offerings. Activity typically builds during dinner service.",
+"Indian restaurant with table seating in a calm dining layout.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance leads directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Often quieter earlier in the day.",
-"Small groups and couples are common."
-]
+insights: []
 },
 
 {
@@ -13772,28 +13693,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai and sushi restaurant with table seating and a relaxed dining environment. Typically steady during lunch and dinner.",
+"Thai and sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding shopping area.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are typically quick.",
-"Dinner hours bring steady activity.",
-"Generally calmer than larger nearby restaurants."
-]
+insights: []
 },
 
 {
@@ -13803,28 +13720,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and ice cream spot with casual seating and a relaxed community feel. Often steady during mornings and early evenings.",
+"Coffee shop and ice cream spot with counter service and casual seating.",
 
 environment: {
-parking: "Easy parking in the nearby lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are busiest for coffee.",
-"Evenings bring dessert and ice cream visitors.",
-"Often used as a casual meeting spot."
-]
+insights: []
 },
 
 {
