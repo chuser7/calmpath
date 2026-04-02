@@ -14162,28 +14162,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating, tables, and TVs throughout the space. Evenings often bring steady crowds gathering for drinks, food, and sports.",
+"Inside of Alexandria Brewing Company. Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase crowd activity.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -14193,28 +14189,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual grill and bar with table seating and a relaxed neighborhood dining environment. Activity typically builds during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and bar activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Weekend evenings are typically busier.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
@@ -14224,28 +14216,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a casual atmosphere, bar seating, and TVs. Evenings often bring steady crowds gathering for drinks and socializing.",
+"Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Dedicated parking lot outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically busiest.",
-"Weekend nights draw larger crowds.",
-"Most visitors are local regulars."
-]
+insights: []
 },
 
 {
@@ -14255,27 +14243,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local pizzeria with counter ordering and casual seating. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout orders.",
+"Pizzeria with counter ordering and a small seating area.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -14286,28 +14272,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Local bar with a casual neighborhood atmosphere, bar seating, and televisions. Evenings typically bring the most activity.",
+"Neighborhood bar with bar seating and TVs in a compact layout.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are usually the busiest.",
-"Sports events increase activity.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -14317,27 +14299,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low",
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
-"Small café-style shop focused on smoothies, teas, and light health-focused options. Visits are typically quick with a relaxed atmosphere.",
+"Small café with counter service and limited seating.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low with quiet conversation and short visits.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Most visits are short.",
-"Mornings and afternoons bring steady traffic.",
-"Takeout drinks are common."
+"Visits are typically quick."
 ]
 },
 
@@ -14348,90 +14328,78 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Local brewery taproom with bar seating, tables, and a social atmosphere centered around craft beer. Evenings and weekends typically bring the largest crowds.",
+"Brewery with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Parking lot located directly outside the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and music.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends are busiest.",
-"Groups often gather for drinks.",
-"Local events occasionally increase crowds."
-]
+insights: []
 },
 
 {
-name: "El Rio Bravo Mexican Restaurant",
+name: "El Rio Bravo Mexican Restaurant - Alexandria",
 city: "Alexandria",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a colorful dining room. Lunch and dinner hours bring steady traffic from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring families and groups.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
-name: "Veracruz Mexican Grill",
+name: "Veracruz Mexican Grill - Alexandria",
 city: "Alexandria",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth and table seating in a relaxed dining space. Lunch and dinner hours typically bring steady activity from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and small groups are common.",
-"Parking is generally easy."
-]
+insights: []
 },
 
 {
@@ -14441,28 +14409,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local coffee shop with casual seating and a relaxed café atmosphere. Mornings typically bring steady traffic for coffee and quick visits.",
+"Coffee shop with counter service and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with quiet conversation and coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically the busiest.",
-"Visitors often stay briefly for coffee.",
-"Afternoons tend to be quieter."
-]
+insights: []
 },
 
 {
@@ -14472,28 +14436,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating, tables, and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and sports.",
+"Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase activity levels.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -14503,59 +14463,51 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant and bar in the Silver Grove area with table seating and a relaxed neighborhood atmosphere.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and bar activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Local visitors are common.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
 name: "Camp Springs Tavern",
-city: "Camp Springs",
+city: "Melbourne",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic neighborhood tavern known for casual dining and a relaxed bar atmosphere. Evenings and weekends often bring steady crowds.",
+"Neighborhood tavern with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the tavern"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and live entertainment.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Live music or events occasionally increase crowds.",
-"Visitors often come from surrounding rural areas."
-]
+insights: []
 },
 
 {
@@ -14565,27 +14517,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local pizza restaurant with casual seating and counter ordering. Activity typically increases during dinner hours with a mix of dine-in and takeout customers.",
+"Pizza restaurant with counter ordering and a small seating area.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Dinner hours bring the most traffic.",
-"Visits are usually short."
+"Takeout orders are common."
 ]
 },
 
@@ -14596,28 +14546,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with casual seating, bar service, and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and food.",
+"Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase activity levels.",
-"Local regulars are common."
-]
+insights: []
 },   
 
 {
