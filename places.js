@@ -14980,33 +14980,31 @@ insights: []
 },
 
 {
-name: "1st Wok Chinese Restaurant",
+name: "1st Wok Chinese Restaurant - Erlanger",
 city: "Erlanger",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Chinese restaurant offering counter service with a small dining area and steady takeout traffic. Lunch and dinner hours typically bring the most activity.",
+"Chinese restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with quiet dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -15017,121 +15015,80 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Café-style restaurant serving coffee, breakfast, and casual meals with a relaxed dining space. Mornings and early afternoons typically bring the most visitors.",
+"Café with counter service and table seating in a relaxed layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation and dining activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay for coffee or breakfast.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
-name: "Greek To Me",
+name: "Greek To Me - Erlanger",
 city: "Erlanger",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mediterranean restaurant with counter ordering and table seating. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout orders.",
+"Mediterranean restaurant with counter ordering and table seating.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Takeout orders are common.",
-"Most visits are relatively quick."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "JB Barbecue LLC",
-city: "Erlanger",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Local barbecue restaurant with casual seating and counter ordering. Lunch and dinner hours typically bring steady crowds from surrounding neighborhoods.",
-
-environment: {
-parking: "Parking lot located outside the building.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Lunch hours are often busiest.",
-"Takeout orders are common.",
-"Parking is usually easy."
-]
-},
-
-{
-name: "Camporosso",
+name: "Camporosso - Ft Mitchell",
 city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Wood-fired pizza restaurant with a large dining room, bar seating, and patio space. Dinner hours and weekends typically bring steady crowds.",
+"Pizza restaurant with table seating and a bar area in a large dining space.",
 
 environment: {
-parking: "Dedicated parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Groups and families are common.",
-"Weekend evenings bring the most activity."
-]
+insights: []
 },
 
 {
@@ -15141,28 +15098,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Historic restaurant known for traditional comfort food and classic dining rooms. Lunch and dinner hours typically bring steady crowds.",
+"Restaurant with multiple dining rooms and table seating in a traditional layout.",
 
 environment: {
-parking: "Large dedicated parking lot surrounding the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy dinner periods",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be the busiest.",
-"Families and long-time local visitors are common.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
 {
@@ -15172,28 +15125,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar and grill with bar seating, dining tables, and multiple TVs throughout the space. Evenings and sporting events bring the most activity.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days are typically the busiest.",
-"Evenings bring steady crowds.",
-"Groups often gather to watch sports."
-]
+insights: []
 },
 
 {
@@ -15203,28 +15152,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar with casual seating and a relaxed dining atmosphere. Lunch and dinner hours bring steady activity.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Local regulars are common.",
-"Parking is generally easy."
-]
+insights: []
 },
 
 {
@@ -15234,92 +15179,80 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Longstanding barbecue restaurant with casual table seating and a relaxed neighborhood atmosphere. Lunch and dinner hours typically bring steady crowds.",
+"Barbecue restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Local visitors are common.",
-"Takeout orders are frequent."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Braxton Barrel House",
+name: "Braxton Barrel House - Ft Mitchell",
 city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-verified: true,
-
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Brewery restaurant with bar seating, dining tables, and a casual social atmosphere centered around craft beer and pub-style food.",
+"Brewery restaurant with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Shared parking lot surrounding the shopping area.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and weekends.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends bring the most activity.",
-"Groups often gather for drinks and food.",
-"Happy hour periods are popular."
-]
+insights: []
 },
 
 {
-name: "Mi Tierra",
-city: "Fort Mitchell",
+name: "Mi Tierra - Ft Wright",
+city: "Fort Wright",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and booth seating. Lunch and dinner hours bring steady crowds.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and groups are common.",
-"Parking is generally easy."
-]
+insights: []
 },
 
 {
@@ -15329,28 +15262,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and restaurant known for wings, outdoor seating, and multiple TVs. Evenings and sporting events bring steady crowds.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy game nights",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during sporting events and busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
-"Groups often gather to watch sports."
-]
+insights: []
 },
 
 {
@@ -15360,28 +15289,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Historic steakhouse and barbecue restaurant with multiple dining rooms and a classic supper club atmosphere. Dinner service typically brings steady crowds.",
+"Restaurant with multiple dining rooms and table seating in a traditional layout.",
 
 environment: {
-parking: "Valet or Large dedicated parking lot surrounding the building.",
+parking: "Valet and Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy dinner periods",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Special occasion dinners are common.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
    
