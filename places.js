@@ -35,6 +35,35 @@ insights: [
 },
 
 {
+name: "University Eatz & Arcade",
+city: "Cincinnati",
+neighborhood: "Norwood",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Restaurant and arcade with table seating, bar seating, and gaming areas throughout the space.",
+
+environment: {
+parking: "Shared lot with nearby businesses.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
+},
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Noise increases near arcade areas."
+]
+},
+   
+{
 name: "Corner Dumpling House - Montgomery",
 city: "Cincinnati",
 neighborhood: "Montgomery",
