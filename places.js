@@ -15566,13 +15566,7 @@ function renderPlace(place) {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  if (typeof gtag !== "undefined" && place) {
-    gtag('event', 'profile_view', {
-      venue_name: place.name || "",
-      neighborhood: place.neighborhood || "",
-      city: place.city || ""
-    });
-  }
+  if (!place) return;
 
   const patternsHTML =
     place.insights && place.insights.length
@@ -15607,22 +15601,22 @@ function renderPlace(place) {
 
           <div class="snapshot-item">
             <div class="snapshot-label">Parking</div>
-            <div class="snapshot-value">${place.environment.parking}</div>
+            <div class="snapshot-value">${place.environment?.parking || ""}</div>
           </div>
 
           <div class="snapshot-item">
             <div class="snapshot-label">Noise</div>
-            <div class="snapshot-value">${place.environment.noise}</div>
+            <div class="snapshot-value">${place.environment?.noise || ""}</div>
           </div>
 
           <div class="snapshot-item">
             <div class="snapshot-label">Restrooms</div>
-            <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+            <div class="snapshot-value">${place.environment?.restrooms?.capacity || ""}</div>
           </div>
 
           <div class="snapshot-item">
             <div class="snapshot-label">Exits</div>
-            <div class="snapshot-value">${place.environment.exits}</div>
+            <div class="snapshot-value">${place.environment?.exits || ""}</div>
           </div>
 
         </div>
@@ -15686,6 +15680,16 @@ function renderPlace(place) {
 
     </div>
   `;
+
+  // ✅ Fire AFTER render completes (accurate tracking)
+  if (typeof gtag !== "undefined") {
+    gtag('event', 'profile_view', {
+      venue_name: place.name || "",
+      neighborhood: place.neighborhood || "",
+      city: place.city || "",
+      source: "search"
+    });
+  }
 
   attachVerificationHandlers(place);
 }
