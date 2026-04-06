@@ -4796,11 +4796,13 @@ insights: [
 },
 
 {
-name: "Veracruz Mexican Grill",
+name: "Veracruz Mexican Grill - Price Hill",
 city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
+
+verified: true,   
 
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
