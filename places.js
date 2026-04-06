@@ -4715,6 +4715,8 @@ neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
