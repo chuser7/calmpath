@@ -12228,6 +12228,8 @@ neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
