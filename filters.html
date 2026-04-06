@@ -5,357 +5,274 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Explore | CalmPath</title>
 
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2E1R2DVVXQ"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-2E1R2DVVXQ');
-</script>
-
 <style>
 body {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-background: #f6f7f9;
-color: #111;
-margin: 0;
-padding: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f6f7f9;
+  color: #111;
+  margin: 0;
+  padding: 16px;
 }
 
 h1 {
-font-size: 1.5rem;
-margin-bottom: 12px;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
 }
 
 .back {
-font-size: 0.9rem;
-color: #555;
-margin-bottom: 12px;
-cursor: pointer;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .filter-group {
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .filter-label {
-font-size: 0.85rem;
-font-weight: 600;
-margin-bottom: 8px;
-}
-
-.filter-options {
-display: flex;
-flex-wrap: wrap;
-gap: 8px;
-}
-
-.filter-btn {
-background: white;
-border: 1px solid #ddd;
-border-radius: 999px;
-padding: 8px 12px;
-font-size: 0.8rem;
-cursor: pointer;
-}
-
-.filter-btn.active {
-background: #111;
-color: white;
-border-color: #111;
-}
-
-.results-count {
-font-size: 0.8rem;
-color: #666;
-margin: 12px 0;
-}
-
-.card {
-background: #f6f7f9;
-border-radius: 12px;
-padding: 16px;
-margin-top: 12px;
-border: 1px solid #e3e6eb;
-cursor: pointer;
-}
-
-.snapshot-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 10px;
-margin-top: 10px;
-}
-
-.snapshot-item {
-background: white;
-border-radius: 10px;
-padding: 12px;
-border: 1px solid #e6e6e6;
-}
-
-.snapshot-label {
-font-size: 0.7rem;
-font-weight: 600;
-color: #555;
-margin-bottom: 4px;
-}
-
-.snapshot-value {
-font-size: 0.8rem;
-}
-
-.location {
-font-size: 0.85rem;
-color: #666;
-margin-bottom: 8px;
-}
-
- /* Verification */
-
-.verification {
-  margin-top: 16px;
-  padding-top: 12px;
-  border-top: 1px solid #eee;
-}
-
-.verification-question {
+  font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
-.verification-actions button {
-  margin-right: 8px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-btn {
   background: white;
-  font-size: 0.85rem;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
   cursor: pointer;
 }
 
-.verification-actions button:active {
-  transform: scale(0.97);
-}
-
-.verification-confirmation {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.verification-correction {
-  margin-top: 12px;
-}
-
-.correction-group {
-  margin-bottom: 10px;
-}
-
-.correction-group button {
-  margin-right: 6px;
-  margin-top: 4px;
-  padding: 6px 10px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  background: white;
-  cursor: pointer;
-}
-
-.correction-group button.selected {
-  background: #000;
-  color: #fff;
-}
-
-.submit-correction {
-  margin-top: 10px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  background: black;
+.filter-btn.active {
+  background: #111;
   color: white;
+  border-color: #111;
+}
+
+.results-count {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 12px 0;
+}
+
+.card {
+  background: #f6f7f9;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 12px;
+  border: 1px solid #e3e6eb;
   cursor: pointer;
 }
 
-.hidden {
-  display: none;
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.snapshot-item {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+}
+
+.snapshot-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.snapshot-value {
+  font-size: 0.8rem;
+}
+
+.location {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* VERIFIED BADGE */
+
+.verified-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background-color: #f3f6f4;
+  color: #3f6f5a;
+  border: 1px solid #dde7e1;
+  margin-left: 6px;
+}
+
+.verified-tooltip {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: #fff;
+  font-size: 11px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+  z-index: 20;
+}
+
+.verified-tooltip.show {
+  opacity: 1;
 }
 </style>
 </head>
 
 <body>
 
-<div class="back" onclick="goHome()">← Back to Home</div>
+<div class="back" onclick="goHome()">← Back to home</div>
 
-<h1>Find a Place</h1>
+<h1>Find a place</h1>
 
-<!-- LOCATION -->
 <div class="filter-group">
-<div class="filter-label">Location</div>
-<div class="filter-options" id="locationFilters"></div>
+  <div class="filter-label">Location</div>
+  <div class="filter-options" id="locationFilters"></div>
 </div>
 
-<!-- PARKING -->
 <div class="filter-group">
-<div class="filter-label">Parking</div>
-<div class="filter-options">
-<button class="filter-btn" onclick="toggleFilter('parking','easy',this)">Easy</button>
-<button class="filter-btn" onclick="toggleFilter('parking','moderate',this)">Moderate</button>
-</div>
+  <div class="filter-label">Parking</div>
+  <div class="filter-options">
+    <button class="filter-btn" onclick="toggleFilter('parking','easy',this)">Easy</button>
+    <button class="filter-btn" onclick="toggleFilter('parking','moderate',this)">Moderate</button>
+    <button class="filter-btn" onclick="toggleFilter('parking','hard',this)">Hard</button>
+  </div>
 </div>
 
-<!-- NOISE -->
 <div class="filter-group">
-<div class="filter-label">Noise</div>
-<div class="filter-options">
-<button class="filter-btn" onclick="toggleFilter('noise','moderate',this)">Moderate</button>
-<button class="filter-btn" onclick="toggleFilter('noise','high',this)">High</button>
-</div>
+  <div class="filter-label">Noise</div>
+  <div class="filter-options">
+    <button class="filter-btn" onclick="toggleFilter('noise','quiet',this)">Quiet</button>
+    <button class="filter-btn" onclick="toggleFilter('noise','moderate',this)">Moderate</button>
+    <button class="filter-btn" onclick="toggleFilter('noise','high',this)">High</button>
+  </div>
 </div>
 
 <div class="results-count" id="resultsCount"></div>
-
 <div id="results"></div>
 
 <script src="places.js"></script>
 
 <script>
 
-/* =========================
-   STATE
-========================= */
-
-let activeFilters = {
-parking: [],
-noise: [],
-location: []
-};
-
+/* STATE */
+let activeFilters = { parking: [], noise: [], location: [] };
 let currentResults = [];
 
-/* =========================
-   HELPERS
-========================= */
-
+/* HELPERS */
 function getLocationValue(place) {
-return (place.neighborhood && place.neighborhood.trim() !== "")
-? place.neighborhood
-: place.city;
+  return (place.neighborhood && place.neighborhood.trim() !== "")
+    ? place.neighborhood
+    : place.city;
 }
 
-/* =========================
-   FILTER TOGGLE + TRACKING
-========================= */
-
+/* FILTER */
 function toggleFilter(type, value, el) {
+  value = value.toLowerCase();
 
-value = value.toLowerCase();
+  const index = activeFilters[type].indexOf(value);
 
-const index = activeFilters[type].indexOf(value);
+  if (index > -1) {
+    activeFilters[type].splice(index, 1);
+    el.classList.remove("active");
+  } else {
+    activeFilters[type].push(value);
+    el.classList.add("active");
+  }
 
-if (index > -1) {
-activeFilters[type].splice(index, 1);
-el.classList.remove("active");
-} else {
-activeFilters[type].push(value);
-el.classList.add("active");
+  renderResults();
 }
 
-// 🔥 TRACK FILTER CLICK
-if (typeof gtag !== "undefined") {
-gtag('event', 'filter_click', {
-filter_type: type,
-filter_value: value
-});
-}
-
-renderResults();
-}
-
-/* =========================
-   MATCH LOGIC
-========================= */
-
+/* MATCH */
 function matchesFilter(place) {
+  const parkingValue = (place.parkingLevel || "").toLowerCase();
+  const noiseValue = (place.noiseLevel || "").toLowerCase();
+  const locationValue = getLocationValue(place).toLowerCase();
 
-const parkingValue = (place.parkingLevel || "").toLowerCase();
-const noiseValue = (place.noiseLevel || "").toLowerCase();
-const locationValue = getLocationValue(place).toLowerCase();
-
-const parkingMatch =
-activeFilters.parking.length === 0 ||
-activeFilters.parking.some(f => parkingValue.includes(f));
-
-const noiseMatch =
-activeFilters.noise.length === 0 ||
-activeFilters.noise.some(f => noiseValue.includes(f));
-
-const locationMatch =
-activeFilters.location.length === 0 ||
-activeFilters.location.some(f => locationValue.includes(f));
-
-return parkingMatch && noiseMatch && locationMatch;
+  return (
+    (activeFilters.parking.length === 0 || activeFilters.parking.some(f => parkingValue.includes(f))) &&
+    (activeFilters.noise.length === 0 || activeFilters.noise.some(f => noiseValue.includes(f))) &&
+    (activeFilters.location.length === 0 || activeFilters.location.some(f => locationValue.includes(f)))
+  );
 }
 
-/* =========================
-   RENDER RESULTS
-========================= */
-
+/* RENDER RESULTS */
 function renderResults() {
 
-const container = document.getElementById("results");
+  const container = document.getElementById("results");
 
-currentResults = places.filter(matchesFilter);
+  currentResults = places.filter(matchesFilter);
 
-document.getElementById("resultsCount").innerText =
-currentResults.length + " places";
+  document.getElementById("resultsCount").innerText =
+    currentResults.length + " places";
 
-container.innerHTML = currentResults.map((place, index) => `
+  container.innerHTML = currentResults.map((place, index) => {
 
-<div class="card" onclick="openProfile(${index})">
+    const isVerified = place.verified === true;
 
-<h2>${place.name}</h2>
+    return `
+      <div class="card" onclick="openProfile(${index})">
 
-<div class="location">
-${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
-</div>
+        <h2>
+          ${place.name}
+          ${isVerified ? `
+            <span class="verified-badge" onclick="event.stopPropagation(); toggleVerifiedTooltip(event)">
+              ✔ Verified
+              <span class="verified-tooltip">Confirmed by CalmPath users</span>
+            </span>
+          ` : ``}
+        </h2>
 
-<div class="snapshot-grid">
+        <div class="location">
+          ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
+        </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Parking</div>
-<div class="snapshot-value">${place.environment.parking}</div>
-</div>
+        <div class="snapshot-grid">
+          <div class="snapshot-item">
+            <div class="snapshot-label">Parking</div>
+            <div class="snapshot-value">${place.environment.parking}</div>
+          </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Noise</div>
-<div class="snapshot-value">${place.environment.noise}</div>
-</div>
+          <div class="snapshot-item">
+            <div class="snapshot-label">Noise</div>
+            <div class="snapshot-value">${place.environment.noise}</div>
+          </div>
+        </div>
 
-</div>
-
-</div>
-
-`).join("");
-
+      </div>
+    `;
+  }).join("");
 }
 
-/* =========================
-   OPEN PROFILE + TRACKING
-========================= */
-
+/* OPEN PROFILE */
 function openProfile(index) {
 
   const place = currentResults[index];
-
-  // 🔥 TRACK RESULT CLICK
-  if (typeof gtag !== "undefined") {
-    gtag('event', 'result_click', {
-      venue_name: place.name || "",
-      neighborhood: place.neighborhood || "",
-      city: place.city || ""
-    });
-  }
+  const isVerified = place.verified === true;
 
   const container = document.getElementById("results");
 
@@ -365,12 +282,19 @@ function openProfile(index) {
       : "<p>No observed patterns yet.</p>";
 
   container.innerHTML = `
-
     <div class="back" onclick="renderResults()">← Back to results</div>
 
     <div class="card">
 
-      <h2>${place.name}</h2>
+      <h2>
+        ${place.name}
+        ${isVerified ? `
+          <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
+            ✔ Verified
+            <span class="verified-tooltip">Confirmed by CalmPath users</span>
+          </span>
+        ` : ``}
+      </h2>
 
       <div class="location">
         ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
@@ -400,56 +324,6 @@ function openProfile(index) {
 
       </div>
 
-      <!-- ✅ VERIFICATION BLOCK -->
-      <div class="verification">
-
-        <p class="verification-question">Was this accurate?</p>
-
-        <div class="verification-actions">
-          <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
-          <button class="verify-btn" data-action="down">👎 Not quite</button>
-        </div>
-
-        <div class="verification-confirmation hidden">
-          Thanks for confirming
-        </div>
-
-        <div class="verification-correction hidden">
-
-          <div class="correction-group" data-field="parking">
-            <p>Parking:</p>
-            <button data-value="Easy">Easy</button>
-            <button data-value="Moderate">Moderate</button>
-            <button data-value="Difficult">Difficult</button>
-          </div>
-
-          <div class="correction-group" data-field="noise">
-            <p>Noise:</p>
-            <button data-value="Quiet">Quiet</button>
-            <button data-value="Moderate">Moderate</button>
-            <button data-value="Loud">Loud</button>
-          </div>
-
-          <div class="correction-group" data-field="restrooms">
-            <p>Restrooms:</p>
-            <button data-value="Easy">Easy</button>
-            <button data-value="Moderate">Moderate</button>
-            <button data-value="Limited">Limited</button>
-          </div>
-
-          <div class="correction-group" data-field="exits">
-            <p>Exits:</p>
-            <button data-value="Easy">Easy</button>
-            <button data-value="Moderate">Moderate</button>
-            <button data-value="Tight">Tight</button>
-          </div>
-
-          <button class="submit-correction">Submit update</button>
-
-        </div>
-
-      </div>
-
       <h3>What to expect</h3>
       <p>${place.whatToExpect}</p>
 
@@ -458,50 +332,51 @@ function openProfile(index) {
 
     </div>
   `;
-
-  // 🔥 THIS IS THE KEY LINE
-  attachVerificationHandlers(place);
 }
 
-/* =========================
-   BUILD LOCATION FILTERS
-========================= */
+/* TOOLTIP */
+function toggleVerifiedTooltip(event) {
+  event.stopPropagation();
 
-function buildLocationFilters() {
+  const tooltip = event.currentTarget.querySelector(".verified-tooltip");
 
-const container = document.getElementById("locationFilters");
+  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+    if (t !== tooltip) t.classList.remove("show");
+  });
 
-const locationCount = {};
+  tooltip.classList.add("show");
 
-places.forEach(place => {
-const loc = getLocationValue(place);
-locationCount[loc] = (locationCount[loc] || 0) + 1;
+  setTimeout(() => {
+    tooltip.classList.remove("show");
+  }, 2000);
+}
+
+/* CLOSE TOOLTIP */
+document.addEventListener("click", () => {
+  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+    t.classList.remove("show");
+  });
 });
 
-const sorted = Object.entries(locationCount)
-.sort((a, b) => b[1] - a[1])
-.map(entry => entry[0]);
+/* LOCATION FILTERS */
+function buildLocationFilters() {
+  const container = document.getElementById("locationFilters");
 
-container.innerHTML = sorted.slice(0, 12).map(loc => `
-<button class="filter-btn" onclick="toggleFilter('location','${loc.toLowerCase()}',this)">
-${loc}
-</button>
-`).join("");
+  const locations = [...new Set(places.map(getLocationValue))];
 
+  container.innerHTML = locations.slice(0, 12).map(loc => `
+    <button class="filter-btn" onclick="toggleFilter('location','${loc.toLowerCase()}',this)">
+      ${loc}
+    </button>
+  `).join("");
 }
 
-/* =========================
-   NAV
-========================= */
-
+/* NAV */
 function goHome() {
-window.location.href = "index.html";
+  window.location.href = "index.html";
 }
 
-/* =========================
-   INIT
-========================= */
-
+/* INIT */
 buildLocationFilters();
 renderResults();
 
