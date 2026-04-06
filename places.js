@@ -2194,6 +2194,8 @@ neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Moderate",
 noiseLevel: "Low",
 
