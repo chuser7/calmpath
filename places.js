@@ -35,6 +35,33 @@ insights: [
 },
 
 {
+name: "Zingaro Italian Restaurant",
+city: "Cincinnati",
+neighborhood: "Madisonville",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Low",
+
+whatToExpect:
+"Italian restaurant with table seating in a structured dining layout.",
+
+environment: {
+parking: "Parking lot nearby.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: []
+},
+
+{
 name: "University Eatz & Arcade",
 city: "Cincinnati",
 neighborhood: "Norwood",
