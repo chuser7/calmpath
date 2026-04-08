@@ -23,6 +23,12 @@ body {
   padding: 16px;
 }
 
+/* NEW: container for consistent width */
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 /* Header */
 
 .place-header {
@@ -50,18 +56,14 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-
   font-size: 12px;
   font-weight: 600;
   line-height: 1;
-
   padding: 2px 8px;
   border-radius: 999px;
-
   background-color: #f3f6f4;
   color: #3f6f5a;
   border: 1px solid #dde7e1;
-
   cursor: pointer;
 }
 
@@ -76,19 +78,14 @@ body {
   top: calc(100% + 6px);
   left: 50%;
   transform: translateX(-50%);
-
   background: #111;
   color: #fff;
-
   font-size: 11px;
   padding: 6px 8px;
   border-radius: 6px;
-
   white-space: nowrap;
-
   opacity: 0;
   pointer-events: none;
-
   transition: opacity 0.15s ease, transform 0.15s ease;
   z-index: 20;
 }
@@ -109,22 +106,11 @@ body {
   border-color: transparent transparent #111 transparent;
 }
 
-/* Existing styles */
+/* Text */
 
 h1 {
   font-size: 1.8rem;
   margin-bottom: 4px;
-}
-
-h2 {
-  font-size: 1.3rem;
-  margin: 8px 0;
-}
-
-h3 {
-  font-size: 1rem;
-  margin-top: 20px;
-  margin-bottom: 8px;
 }
 
 p {
@@ -132,81 +118,20 @@ p {
   margin: 6px 0;
 }
 
-.location {
-  font-size: 0.9rem;
-  color: #666;
-  margin-top: -4px;
-  margin-bottom: 12px;
-}
-
-input {
-  width: 100%;
-  padding: 12px;
-  font-size: 1rem;
-  margin: 16px 0 8px 0;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-}
-
-.card {
-  background: #f6f7f9;
-  border-radius: 12px;
-  padding: 20px;
-  margin-top: 20px;
-  border: 1px solid #e3e6eb;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-}
-
-.label {
-  font-size: 0.75rem;
-  color: #666;
-  margin-bottom: 6px;
-}
-
-.snapshot {
-  margin: 12px 0 8px 0;
-}
-
-.snapshot-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.snapshot-item {
-  background: white;
-  border-radius: 10px;
-  padding: 14px;
-  border: 1px solid #e6e6e6;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
-}
-
-.snapshot-item:active {
-  transform: scale(0.98);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-}
-
-.snapshot-label {
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: #555;
-  margin-bottom: 4px;
-}
-
-.snapshot-value {
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-ul {
-  padding-left: 18px;
-}
-
 /* Search */
 
 .search-container {
   position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  margin: 16px 0 8px 0;
+  border-radius: 12px; /* updated */
+  border: 1px solid #ddd;
+  box-sizing: border-box;
 }
 
 #suggestions {
@@ -262,70 +187,32 @@ ul {
   transform: scale(0.97);
 }
 
-/* Verification */
+/* Cards */
 
-.verification {
-  margin-top: 16px;
-  padding-top: 12px;
-  border-top: 1px solid #eee;
+.card {
+  background: #f6f7f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #e3e6eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
 }
 
-.verification p {
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.verification-actions button {
-  margin-right: 8px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  background: white;
-  font-size: 0.85rem;
-  cursor: pointer;
-}
-
-.verification-actions button:active {
-  transform: scale(0.97);
-}
-
-.verification-confirmation {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.verification-correction {
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
   margin-top: 12px;
 }
 
-.correction-group {
-  margin-bottom: 10px;
-}
-
-.correction-group button {
-  margin-right: 6px;
-  margin-top: 4px;
-  padding: 6px 10px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+.snapshot-item {
   background: white;
-  cursor: pointer;
+  border-radius: 10px;
+  padding: 14px;
+  border: 1px solid #e6e6e6;
 }
 
-.correction-group button.selected {
-  background: #000;
-  color: #fff;
-}
-
-.submit-correction {
-  margin-top: 10px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  background: black;
-  color: white;
-  cursor: pointer;
-}
+/* Hidden */
 
 .hidden {
   display: none;
@@ -335,13 +222,15 @@ ul {
 
 <body>
 
+<div class="container">
+
 <h1>CalmPath</h1>
 
 <p>
 <strong>Know what you're walking into before you go.</strong><br>
 Parking, noise, restrooms, and layout at a glance.
 No reviews. No ratings. Just what to expect.
-<p>
+</p>
 
 <p style="margin-top:10px;font-weight:600;">
 550+ restaurants, bars, & cafes across Cincinnati & Northern Kentucky
@@ -363,10 +252,11 @@ No reviews. No ratings. Just what to expect.
 
 <div id="result"></div>
 
+</div>
+
 <script src="places.js"></script>
 
 <script>
-// Add this helper function
 function renderPlaceHeader(place) {
   const isVerified = place.verified === true;
 
