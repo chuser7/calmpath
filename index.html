@@ -23,12 +23,6 @@ body {
   padding: 16px;
 }
 
-/* ✅ NEW: container (only addition) */
-.container {
-  max-width: 640px;
-  margin: 0 auto;
-}
-
 /* Header */
 
 .place-header {
@@ -341,8 +335,6 @@ ul {
 
 <body>
 
-<div class="container">
-
 <h1>CalmPath</h1>
 
 <p>
@@ -369,13 +361,12 @@ No reviews. No ratings. Just what to expect.
   <button class="explore-btn" onclick="goToFilters()">Browse Spots</button>
 </div>
 
-</div>
-
 <div id="result"></div>
 
 <script src="places.js"></script>
 
 <script>
+// Add this helper function
 function renderPlaceHeader(place) {
   const isVerified = place.verified === true;
 
