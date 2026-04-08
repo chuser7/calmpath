@@ -141,6 +141,7 @@ p {
 
 input {
   width: 100%;
+  box-sizing: border-box; /* ✅ FIX ADDED */
   padding: 12px;
   font-size: 1rem;
   margin: 16px 0 8px 0;
@@ -366,7 +367,6 @@ No reviews. No ratings. Just what to expect.
 <script src="places.js"></script>
 
 <script>
-// Add this helper function
 function renderPlaceHeader(place) {
   const isVerified = place.verified === true;
 
