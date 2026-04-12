@@ -15909,17 +15909,17 @@ document.addEventListener("DOMContentLoaded", function () {
     return newArray;
   }
 
-  const shuffledPlaces = shuffleArray(examplePlaces);
-  let exampleIndex = 0;
+const shuffledPlaces = shuffleArray(examplePlaces);
+let exampleIndex = 0;
 
-  function rotatePlaceholder() {
-    searchInput.placeholder = `Try "${shuffledPlaces[exampleIndex]}"`;
-    exampleIndex = (exampleIndex + 1) % shuffledPlaces.length;
-  }
+function rotatePlaceholder() {
+  searchInput.placeholder = `Going to ${shuffledPlaces[exampleIndex]}?`;
+  exampleIndex = (exampleIndex + 1) % shuffledPlaces.length;
+}
 
-  rotatePlaceholder();
-  setInterval(rotatePlaceholder, 2500);
+rotatePlaceholder();
+setInterval(rotatePlaceholder, 2500);
 
-  showRandomPlace();
+showRandomPlace();
 
 });
