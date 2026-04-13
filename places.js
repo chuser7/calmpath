@@ -10061,7 +10061,7 @@ insights: []
 {
 name: "Poseidons Pizza - Florence",
 city: "Florence",
-neighborhood: "unknown",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -11514,7 +11514,7 @@ insights: []
 {
 name: "El Jinete Mexican Restaurant - Taylor Mill",
 city: "Taylor Mill",
-neighborhood: "unknown",
+neighborhood: "",
 state: "KY",
 type: "full",
 
