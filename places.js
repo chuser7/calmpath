@@ -33,6 +33,34 @@ insights: [
 "Crowds increase significantly on game days."
 ]
 },
+
+{
+name: "Ari & Mia's Small Town Cafe",
+city: "Miamitown",
+neighborhood: "",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect: "A small café with indoor seating and a community-focused atmosphere. Known for breakfast classics, sandwiches, and locally roasted coffee.",
+
+environment: {
+parking: "Street parking nearby; limited during peak hours.",
+restrooms: {
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance only."
+},
+
+insights: [
+"Outdoor seating is available.",
+]
+},
    
 {
 name: "Sugar n' Spice - Brunch",
