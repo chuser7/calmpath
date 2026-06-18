@@ -33,7 +33,35 @@ insights: [
 "Crowds increase significantly on game days."
 ]
 },
+   
+{
+name: "Sugar n' Spice - Brunch",
+city: "Cincinnati",
+neighborhood: "Paddock Hills",
+state: "OH",
+type: "full",
 
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect: "A medium-sized diner with booth and table seating. Known for its classic diner atmosphere and wispy thin pancakes.",
+
+environment: {
+parking: "Large dedicated parking lot available.",
+restrooms: {
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance only."
+},
+
+insights: [
+"Restrooms are located off the dining addition."
+]
+},
+   
 {
 name: "Zingaro Italian Restaurant",
 city: "Cincinnati",
